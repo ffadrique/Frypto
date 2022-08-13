@@ -1,0 +1,11 @@
+shasum [OPTION] [FILE]...
+
+shasum [OPTION] -c [FILE]
+
+  -a   : Algorithm: 1 (default), 256, 384, 512
+  -c   : Check SHA sums against given list in FILE
+  -h   : Display help and exit
+  -v  1.0 : Display version and exit
+
+Copyright © 2020, Fran Martinez Fadrique <Fran.Martinez.Fadrique@gmail.com>
+Version: 1.0

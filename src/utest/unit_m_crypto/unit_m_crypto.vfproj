@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{5CD147EF-22D7-492C-B46A-AE3E21504052}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" ArrayShapeCheck="true" UninitializedVariablesCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" BoundsCheck="true" ArrayShapeCheck="true" UninitializedVariablesCheck="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+		<Filter Name="3DES">
+		<File RelativePath="..\data\3des\CBCMMTKey1d.txt"/>
+		<File RelativePath="..\data\3des\CBCMMTKey1e.txt"/>
+		<File RelativePath="..\data\3des\CBCMMTKey2d.txt"/>
+		<File RelativePath="..\data\3des\CBCMMTKey2e.txt"/>
+		<File RelativePath="..\data\3des\CBCMMTKey3d.txt"/>
+		<File RelativePath="..\data\3des\CBCMMTKey3e.txt"/>
+		<File RelativePath="..\data\3des\CFB64MMTKey1d.txt"/>
+		<File RelativePath="..\data\3des\CFB64MMTKey1e.txt"/>
+		<File RelativePath="..\data\3des\CFB64MMTKey2d.txt"/>
+		<File RelativePath="..\data\3des\CFB64MMTKey2e.txt"/>
+		<File RelativePath="..\data\3des\CFB64MMTKey3d.txt"/>
+		<File RelativePath="..\data\3des\CFB64MMTKey3e.txt"/>
+		<File RelativePath="..\data\3des\ECBMMTKey1d.txt"/>
+		<File RelativePath="..\data\3des\ECBMMTKey1e.txt"/>
+		<File RelativePath="..\data\3des\ECBMMTKey2d.txt"/>
+		<File RelativePath="..\data\3des\ECBMMTKey2e.txt"/>
+		<File RelativePath="..\data\3des\ECBMMTKey3d.txt"/>
+		<File RelativePath="..\data\3des\ECBMMTKey3e.txt"/>
+		<File RelativePath="..\data\3des\ECBPerKeyd.txt"/>
+		<File RelativePath="..\data\3des\ECBPerKeye.txt"/>
+		<File RelativePath="..\data\3des\ECBSubTabd.txt"/>
+		<File RelativePath="..\data\3des\ECBSubTabe.txt"/>
+		<File RelativePath="..\data\3des\ECBVarKeyd.txt"/>
+		<File RelativePath="..\data\3des\ECBVarKeye.txt"/>
+		<File RelativePath="..\data\3des\ECBVarTxtd.txt"/>
+		<File RelativePath="..\data\3des\ECBVarTxte.txt"/>
+		<File RelativePath="..\data\3des\OFBMMTKey1d.txt"/>
+		<File RelativePath="..\data\3des\OFBMMTKey1e.txt"/>
+		<File RelativePath="..\data\3des\OFBMMTKey2d.txt"/>
+		<File RelativePath="..\data\3des\OFBMMTKey2e.txt"/>
+		<File RelativePath="..\data\3des\OFBMMTKey3d.txt"/>
+		<File RelativePath="..\data\3des\OFBMMTKey3e.txt"/></Filter>
+		<Filter Name="AES">
+		<File RelativePath="..\data\aes\CBCGFSbox256e.txt"/>
+		<File RelativePath="..\data\aes\CBCKeySbox256d.txt"/>
+		<File RelativePath="..\data\aes\CBCKeySbox256e.txt"/>
+		<File RelativePath="..\data\aes\CBCMMT256d.txt"/>
+		<File RelativePath="..\data\aes\CBCMMT256e.txt"/>
+		<File RelativePath="..\data\aes\CBCVarKey256d.txt"/>
+		<File RelativePath="..\data\aes\CBCVarKey256e.txt"/>
+		<File RelativePath="..\data\aes\CBCVarTxt256d.txt"/>
+		<File RelativePath="..\data\aes\CBCVarTxt256e.txt"/>
+		<File RelativePath="..\data\aes\CFB128GFSbox256d.txt"/>
+		<File RelativePath="..\data\aes\CFB128GFSbox256e.txt"/>
+		<File RelativePath="..\data\aes\CFB128KeySbox256d.txt"/>
+		<File RelativePath="..\data\aes\CFB128KeySbox256e.txt"/>
+		<File RelativePath="..\data\aes\CFB128MMT256d.txt"/>
+		<File RelativePath="..\data\aes\CFB128MMT256e.txt"/>
+		<File RelativePath="..\data\aes\CFB128VarKey256d.txt"/>
+		<File RelativePath="..\data\aes\CFB128VarKey256e.txt"/>
+		<File RelativePath="..\data\aes\CFB128VarTxt256d.txt"/>
+		<File RelativePath="..\data\aes\CFB128VarTxt256e.txt"/>
+		<File RelativePath="..\data\aes\ECBGFSbox256d.txt"/>
+		<File RelativePath="..\data\aes\ECBGFSbox256e.txt"/>
+		<File RelativePath="..\data\aes\ECBKeySbox256d.txt"/>
+		<File RelativePath="..\data\aes\ECBKeySbox256e.txt"/>
+		<File RelativePath="..\data\aes\ECBMMT256d.txt"/>
+		<File RelativePath="..\data\aes\ECBMMT256e.txt"/>
+		<File RelativePath="..\data\aes\ECBVarKey256d.txt"/>
+		<File RelativePath="..\data\aes\ECBVarKey256e.txt"/>
+		<File RelativePath="..\data\aes\ECBVarTxt256d.txt"/>
+		<File RelativePath="..\data\aes\ECBVarTxt256e.txt"/>
+		<File RelativePath="..\data\aes\OFBGFSbox256d.txt"/>
+		<File RelativePath="..\data\aes\OFBGFSbox256e.txt"/>
+		<File RelativePath="..\data\aes\OFBKeySbox256d.txt"/>
+		<File RelativePath="..\data\aes\OFBKeySbox256e.txt"/>
+		<File RelativePath="..\data\aes\OFBMMT256d.txt"/>
+		<File RelativePath="..\data\aes\OFBMMT256e.txt"/>
+		<File RelativePath="..\data\aes\OFBVarKey256d.txt"/>
+		<File RelativePath="..\data\aes\OFBVarKey256e.txt"/>
+		<File RelativePath="..\data\aes\OFBVarTxt256d.txt"/>
+		<File RelativePath="..\data\aes\OFBVarTxt256e.txt"/></Filter>
+		<Filter Name="Blowfish">
+		<File RelativePath="..\data\blowfish\CBCGFSbox256d.txt"/>
+		<File RelativePath="..\data\blowfish\CBCGFSbox256e.txt"/>
+		<File RelativePath="..\data\blowfish\CBCKeySbox256d.txt"/>
+		<File RelativePath="..\data\blowfish\CBCKeySbox256e.txt"/>
+		<File RelativePath="..\data\blowfish\CBCMMT256d.txt"/>
+		<File RelativePath="..\data\blowfish\CBCMMT256e.txt"/>
+		<File RelativePath="..\data\blowfish\CBCVarKey256d.txt"/>
+		<File RelativePath="..\data\blowfish\CBCVarKey256e.txt"/>
+		<File RelativePath="..\data\blowfish\CBCVarTxt256d.txt"/>
+		<File RelativePath="..\data\blowfish\CBCVarTxt256e.txt"/>
+		<File RelativePath="..\data\blowfish\ECBGFSbox256d.txt"/>
+		<File RelativePath="..\data\blowfish\ECBGFSbox256e.txt"/>
+		<File RelativePath="..\data\blowfish\ECBKeySbox256d.txt"/>
+		<File RelativePath="..\data\blowfish\ECBKeySbox256e.txt"/>
+		<File RelativePath="..\data\blowfish\ECBMMT256d.txt"/>
+		<File RelativePath="..\data\blowfish\ECBMMT256e.txt"/>
+		<File RelativePath="..\data\blowfish\ECBVarKey256d.txt"/>
+		<File RelativePath="..\data\blowfish\ECBVarKey256e.txt"/>
+		<File RelativePath="..\data\blowfish\ECBVarTxt256d.txt"/>
+		<File RelativePath="..\data\blowfish\ECBVarTxt256e.txt"/></Filter>
+		<File RelativePath=".\finals2000a.out"/>
+		<File RelativePath=".\finals2000a.out.encrypted"/>
+		<File RelativePath="..\data\finals2000a.xml"/>
+		<File RelativePath="..\data\finals2000a.xml.encrypted"/>
+		<File RelativePath="..\m_crypto.jxml"/></Filter>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\unit_m_crypto.f90"/>
+		<File RelativePath="..\unit_m_crypto_tests.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

@@ -1,0 +1,24 @@
+$(OBJDIR)/m_aes.o: $(OBJDIR)/m_block_cipher.o
+$(OBJDIR)/m_ascii_encoder.o: ../../fommons/src/$(OBJDIR)/m_object.o
+$(OBJDIR)/m_base32.o: $(OBJDIR)/m_ascii_encoder.o
+$(OBJDIR)/m_base64.o: $(OBJDIR)/m_ascii_encoder.o
+$(OBJDIR)/m_block_cipher.o: ../../fommons/src/$(OBJDIR)/m_object.o
+$(OBJDIR)/m_blowfish.o: $(OBJDIR)/m_block_cipher.o
+$(OBJDIR)/m_crc32.o: ../../fommons/src/$(OBJDIR)/m_object.o ../../fommons/src/$(OBJDIR)/m_util_convert.o
+$(OBJDIR)/m_crypto_base.o: ../../fommons/src/$(OBJDIR)/m_object.o $(OBJDIR)/m_crypto_padding.o $(OBJDIR)/m_block_cipher.o $(OBJDIR)/m_aes.o $(OBJDIR)/m_triple_des.o $(OBJDIR)/m_blowfish.o
+$(OBJDIR)/m_crypto.o: ../../fommons/src/$(OBJDIR)/m_object.o ../../fommons/src/$(OBJDIR)/m_file_handler.o ../../fommons/src/$(OBJDIR)/m_messages.o ../../fommons/src/$(OBJDIR)/m_util_convert.o $(OBJDIR)/m_crypto_base.o $(OBJDIR)/m_crypto_padding.o
+$(OBJDIR)/m_crypto_padding.o: ../../fommons/src/$(OBJDIR)/m_object.o
+$(OBJDIR)/m_des.o: ../../fommons/src/$(OBJDIR)/m_util_convert.o $(OBJDIR)/m_block_cipher.o
+$(OBJDIR)/m_hash32.o: ../../fommons/src/$(OBJDIR)/m_util_convert.o $(OBJDIR)/m_hash.o
+$(OBJDIR)/m_hash64.o: ../../fommons/src/$(OBJDIR)/m_util_convert.o $(OBJDIR)/m_hash.o
+$(OBJDIR)/m_hash.o: ../../fommons/src/$(OBJDIR)/m_object.o ../../fommons/src/$(OBJDIR)/m_util_convert.o
+$(OBJDIR)/m_md5.o: ../../fommons/src/$(OBJDIR)/m_util_convert.o ../../fommons/src/$(OBJDIR)/m_object.o
+$(OBJDIR)/m_sha1.o: $(OBJDIR)/m_hash32.o
+$(OBJDIR)/m_sha256.o: $(OBJDIR)/m_hash32.o
+$(OBJDIR)/m_sha384.o: $(OBJDIR)/m_hash64.o
+$(OBJDIR)/m_sha512.o: $(OBJDIR)/m_hash64.o
+$(OBJDIR)/m_shasum.o: ../../fommons/src/$(OBJDIR)/m_object.o ../../fommons/src/$(OBJDIR)/m_util_convert.o ../../fommons/src/$(OBJDIR)/m_file_handler.o ../../fommons/src/$(OBJDIR)/m_messages.o $(OBJDIR)/m_hash.o $(OBJDIR)/m_sha1.o $(OBJDIR)/m_sha256.o $(OBJDIR)/m_sha384.o $(OBJDIR)/m_sha512.o
+$(OBJDIR)/m_triple_des.o: $(OBJDIR)/m_block_cipher.o $(OBJDIR)/m_des.o
+$(OBJDIR)/m_uuencode.o: $(OBJDIR)/m_ascii_encoder.o
+$(OBJDIR)/m_uuid.o: ../../fommons/src/$(OBJDIR)/m_util_convert.o ../../fommons/src/$(OBJDIR)/m_object.o ../../fommons/src/$(OBJDIR)/m_iso8601_date_time.o $(OBJDIR)/m_sha1.o $(OBJDIR)/m_md5.o
+

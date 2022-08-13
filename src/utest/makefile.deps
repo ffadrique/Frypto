@@ -1,0 +1,3 @@
+$(OBJDIR)/unit_m_aes_tests.o: $(OBJDIR)/unit_m_aes_c.o
+$(OBJDIR)/unit_m_blowfish_tests.o: $(OBJDIR)/unit_m_blowfish_c.o
+
