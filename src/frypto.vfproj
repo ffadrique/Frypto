@@ -2,76 +2,89 @@
 <VisualStudioProject ProjectType="typeStaticLibrary" ProjectCreator="Intel Fortran" Keyword="Static Library" Version="11.0" ProjectIdGuid="{CB98DE4E-28F8-4983-91B9-D5C179E97364}">
 	<Platforms>
 		<Platform Name="Win32"/>
-		<Platform Name="x64"/></Platforms>
+		<Platform Name="x64"/>
+	</Platforms>
 	<Configurations>
-		<Configuration Name="Debug|Win32" ConfigurationType="typeStaticLibrary">
-				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" StandardWarnings="standardWarningsF18" WarnUnusedVariables="true" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
-				<Tool Name="VFLibrarianTool"/>
-				<Tool Name="VFResourceCompilerTool"/>
-				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
-				<Tool Name="VFCustomBuildTool"/>
-				<Tool Name="VFPreLinkEventTool"/>
-				<Tool Name="VFPreBuildEventTool"/>
-				<Tool Name="VFPostBuildEventTool"/></Configuration>
-		<Configuration Name="Debug|x64" ConfigurationType="typeStaticLibrary">
-				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" DisableSpecificDiagnostics="5462" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
-				<Tool Name="VFLibrarianTool"/>
-				<Tool Name="VFResourceCompilerTool"/>
-				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
-				<Tool Name="VFCustomBuildTool"/>
-				<Tool Name="VFPreLinkEventTool"/>
-				<Tool Name="VFPreBuildEventTool"/>
-				<Tool Name="VFPostBuildEventTool"/></Configuration>
-		<Configuration Name="Release|Win32" ConfigurationType="typeStaticLibrary">
-				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
-				<Tool Name="VFLibrarianTool"/>
-				<Tool Name="VFResourceCompilerTool"/>
-				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
-				<Tool Name="VFCustomBuildTool"/>
-				<Tool Name="VFPreLinkEventTool"/>
-				<Tool Name="VFPreBuildEventTool"/>
-				<Tool Name="VFPostBuildEventTool"/></Configuration>
-		<Configuration Name="Release|x64" ConfigurationType="typeStaticLibrary">
-				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
-				<Tool Name="VFLibrarianTool"/>
-				<Tool Name="VFResourceCompilerTool"/>
-				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
-				<Tool Name="VFCustomBuildTool"/>
-				<Tool Name="VFPreLinkEventTool"/>
-				<Tool Name="VFPreBuildEventTool"/>
-				<Tool Name="VFPostBuildEventTool"/></Configuration></Configurations>
+		<Configuration Name="Debug|Win32" UseCompiler="ifortCompiler" ConfigurationType="typeStaticLibrary">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" StandardWarnings="standardWarningsF18" WarnUnusedVariables="true" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLibrarianTool"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+		</Configuration>
+		<Configuration Name="Debug|x64" UseCompiler="ifxCompiler" ConfigurationType="typeStaticLibrary">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" DisableSpecificDiagnostics="5462" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLibrarianTool"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+		</Configuration>
+		<Configuration Name="Release|Win32" UseCompiler="ifortCompiler" ConfigurationType="typeStaticLibrary">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLibrarianTool"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+		</Configuration>
+		<Configuration Name="Release|x64" UseCompiler="ifortCompiler" ConfigurationType="typeStaticLibrary">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLibrarianTool"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+		</Configuration>
+	</Configurations>
 	<Files>
 		<Filter Name="Header Files" Filter="fi;fd"/>
 		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
-		<File RelativePath="..\..\LICENSE.md"/>
-		<File RelativePath="makefile"/>
-		<File RelativePath="makefile.deps"/>
-		<File RelativePath="..\..\README.md"/></Filter>
+			<File RelativePath="..\..\LICENSE.md"/>
+			<File RelativePath="makefile"/>
+			<File RelativePath="makefile.deps"/>
+			<File RelativePath="..\..\README.md"/>
+		</Filter>
 		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
-		<Filter Name="block cipher">
-		<File RelativePath=".\m_aes.f90"/>
-		<File RelativePath=".\m_ascii_encoder.f90"/>
-		<File RelativePath=".\m_block_cipher.f90"/>
-		<File RelativePath=".\m_blowfish.f90"/>
-		<File RelativePath=".\m_crypto.f90"/>
-		<File RelativePath=".\m_crypto_base.f90"/>
-		<File RelativePath=".\m_crypto_padding.f90"/>
-		<File RelativePath=".\m_des.f90"/>
-		<File RelativePath=".\m_triple_des.f90"/></Filter>
-		<Filter Name="hash">
-		<File RelativePath=".\m_base32.f90"/>
-		<File RelativePath=".\m_base64.f90"/>
-		<File RelativePath=".\m_crc32.f90"/>
-		<File RelativePath=".\m_hash.f90"/>
-		<File RelativePath=".\m_hash32.f90"/>
-		<File RelativePath=".\m_hash64.f90"/>
-		<File RelativePath=".\m_md5.f90"/>
-		<File RelativePath=".\m_sha1.f90"/>
-		<File RelativePath=".\m_sha256.f90"/>
-		<File RelativePath=".\m_sha384.f90"/>
-		<File RelativePath=".\m_sha512.f90"/>
-		<File RelativePath=".\m_shasum.f90"/>
-		<File RelativePath=".\m_uuencode.f90"/></Filter>
-		<Filter Name="uuid">
-		<File RelativePath=".\m_uuid.f90"/></Filter></Filter></Files>
-	<Globals/></VisualStudioProject>
+			<Filter Name="block cipher">
+				<File RelativePath=".\m_aes.f90"/>
+				<File RelativePath=".\m_ascii_encoder.f90"/>
+				<File RelativePath=".\m_block_cipher.f90"/>
+				<File RelativePath=".\m_blowfish.f90"/>
+				<File RelativePath=".\m_crypto.f90"/>
+				<File RelativePath=".\m_crypto_base.f90"/>
+				<File RelativePath=".\m_crypto_padding.f90"/>
+				<File RelativePath=".\m_des.f90"/>
+				<File RelativePath=".\m_triple_des.f90"/>
+			</Filter>
+			<Filter Name="hash">
+				<File RelativePath=".\m_base32.f90"/>
+				<File RelativePath=".\m_base64.f90"/>
+				<File RelativePath=".\m_crc32.f90"/>
+				<File RelativePath=".\m_hash.f90"/>
+				<File RelativePath=".\m_hash32.f90"/>
+				<File RelativePath=".\m_hash64.f90"/>
+				<File RelativePath=".\m_md5.f90"/>
+				<File RelativePath=".\m_sha1.f90"/>
+				<File RelativePath=".\m_sha256.f90"/>
+				<File RelativePath=".\m_sha384.f90"/>
+				<File RelativePath=".\m_sha512.f90"/>
+				<File RelativePath=".\m_shasum.f90"/>
+				<File RelativePath=".\m_uuencode.f90"/>
+			</Filter>
+			<Filter Name="uuid">
+				<File RelativePath=".\m_uuid.f90"/>
+			</Filter>
+		</Filter>
+	</Files>
+	<Globals/>
+</VisualStudioProject>

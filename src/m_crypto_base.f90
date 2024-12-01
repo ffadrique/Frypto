@@ -460,9 +460,12 @@ elemental subroutine crypto_base_assign( this, other )
   class(t_crypto_base), intent(in) :: other
 
 ! Assign elements
-  if( allocated(this%cipher) ) deallocate(this%cipher)
   if( allocated(other%cipher) ) then
-    allocate( this%cipher, source=other%cipher )
+    if( allocated(this%cipher) ) then
+      this%cipher = other%cipher
+    else  
+      allocate( this%cipher, source=other%cipher )
+    end if
   end if
   this%algorithm = other%algorithm
   this%mode = other%mode
