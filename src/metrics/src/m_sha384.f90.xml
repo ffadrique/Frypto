@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_sha384.f90">
+    <context>
+        <time>2025-03-09T18:24:38</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Frypto</project>
+        <name>m_sha384.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_sha384" type="module">
+            <main>
+                <lines>
+                    <source percent="38.98">46</source>
+                    <comments percent="39.83">47</comments>
+                    <empty percent="21.19">25</empty>
+                    <total>118</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="sha384_default" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="36.36">4</source>
+                            <comments percent="27.27">3</comments>
+                            <empty percent="36.36">4</empty>
+                            <total>11</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="sha384_finalise" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="38.89">14</source>
+                            <comments percent="36.11">13</comments>
+                            <empty percent="25.00">9</empty>
+                            <total>36</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="sha384_get_hash_size" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="sha384_initialise" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="sha384_update" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="67.09">53</source>
+                            <comments percent="16.46">13</comments>
+                            <empty percent="16.46">13</empty>
+                            <total>79</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>6</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="46.64">125</source>
+                    <comments percent="30.60">82</comments>
+                    <empty percent="22.76">61</empty>
+                    <total>268</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>6</maximum>
+                    <average>2.20</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.40</average>
+                </nesting>
+                <methods>5</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="46.64">125</source>
+            <comments percent="30.60">82</comments>
+            <empty percent="22.76">61</empty>
+            <total>268</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>6</maximum>
+            <average>2.20</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>2</maximum>
+            <average>1.40</average>
+        </nesting>
+        <methods>5</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_sha384</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2022, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Reference : FIPS 180-2, Secure Hash Standard</line>
+        <line t="C" i="9" b="0" n="0">!             http://csrc.nist.gov/publications/fips/fips180-2/fips180-2.pdf</line>
+        <line t="C" i="10" b="0" n="0">! Synopsis  : Cryptographic Secure Hash Algorithm (SHA-512)</line>
+        <line t="C" i="11" b="0" n="0">!</line>
+        <line t="C" i="12" b="0" n="0">! License   : This file is part of Frypto.</line>
+        <line t="C" i="13" b="0" n="0">!</line>
+        <line t="C" i="14" b="0" n="0">!             Frypto is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="15" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="16" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="17" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="18" b="0" n="0">!</line>
+        <line t="C" i="19" b="0" n="0">!             Frypto is distributed in the hope that it will be useful,</line>
+        <line t="C" i="20" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="21" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="22" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="23" b="0" n="0">!</line>
+        <line t="C" i="24" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="25" b="0" n="0">!             License along with Frypto.  </line>
+        <line t="C" i="26" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="27" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="28" b="0" n="0"></line>
+        <line t="C" i="29" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="30" b="0" n="0"></line>
+        <line t="X" i="31" b="0" n="0">  use m_hash64</line>
+        <line t="X" i="32" b="0" n="0"></line>
+        <line t="C" i="33" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="34" b="0" n="0"></line>
+        <line t="X" i="35" b="0" n="0">  implicit none</line>
+        <line t="X" i="36" b="0" n="0"></line>
+        <line t="C" i="37" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="38" b="0" n="0"></line>
+        <line t="X" i="39" b="0" n="0">  private</line>
+        <line t="X" i="40" b="0" n="0">  public t_sha384</line>
+        <line t="X" i="41" b="0" n="0">  public sha384</line>
+        <line t="X" i="42" b="0" n="0"></line>
+        <line t="C" i="43" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="44" b="0" n="0"></line>
+        <line t="C" i="45" b="0" n="0">!- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="46" b="0" n="0"></line>
+        <line t="C" i="47" b="0" n="0">! Initial hash value</line>
+        <line t="X" i="48" b="0" n="0">  integer(kind=8), dimension(8), parameter :: H0 = &amp;</line>
+        <line t="X" i="49" b="0" n="0">   [ int(z'CBBB9D5DC1059ED8',8), int(z'629A292A367CD507',8), int(z'9159015A3070DD17',8), int(z'152FECD8F70E5939',8), &amp;</line>
+        <line t="X" i="50" b="0" n="0">     int(z'67332667FFC00B31',8), int(z'8EB44A8768581511',8), int(z'DB0C2E0D64F98FA7',8), int(z'47B5481DBEFA4FA4',8) ]</line>
+        <line t="X" i="51" b="0" n="0"></line>
+        <line t="C" i="52" b="0" n="0">! SHA-384 processing constants</line>
+        <line t="X" i="53" b="0" n="0">  integer(kind=8), parameter, dimension(80) :: K = &amp;</line>
+        <line t="X" i="54" b="0" n="0">   [ int(z'428A2F98D728AE22',8), int(z'7137449123EF65CD',8), int(z'B5C0FBCFEC4D3B2F',8), int(z'E9B5DBA58189DBBC',8), &amp;</line>
+        <line t="X" i="55" b="0" n="0">     int(z'3956C25BF348B538',8), int(z'59F111F1B605D019',8), int(z'923F82A4AF194F9B',8), int(z'AB1C5ED5DA6D8118',8), &amp;</line>
+        <line t="X" i="56" b="0" n="0">     int(z'D807AA98A3030242',8), int(z'12835B0145706FBE',8), int(z'243185BE4EE4B28C',8), int(z'550C7DC3D5FFB4E2',8), &amp;</line>
+        <line t="X" i="57" b="0" n="0">     int(z'72BE5D74F27B896F',8), int(z'80DEB1FE3B1696B1',8), int(z'9BDC06A725C71235',8), int(z'C19BF174CF692694',8), &amp;</line>
+        <line t="X" i="58" b="0" n="0">     int(z'E49B69C19EF14AD2',8), int(z'EFBE4786384F25E3',8), int(z'0FC19DC68B8CD5B5',8), int(z'240CA1CC77AC9C65',8), &amp;</line>
+        <line t="X" i="59" b="0" n="0">     int(z'2DE92C6F592B0275',8), int(z'4A7484AA6EA6E483',8), int(z'5CB0A9DCBD41FBD4',8), int(z'76F988DA831153B5',8), &amp;</line>
+        <line t="X" i="60" b="0" n="0">     int(z'983E5152EE66DFAB',8), int(z'A831C66D2DB43210',8), int(z'B00327C898FB213F',8), int(z'BF597FC7BEEF0EE4',8), &amp;</line>
+        <line t="X" i="61" b="0" n="0">     int(z'C6E00BF33DA88FC2',8), int(z'D5A79147930AA725',8), int(z'06CA6351E003826F',8), int(z'142929670A0E6E70',8), &amp;</line>
+        <line t="X" i="62" b="0" n="0">     int(z'27B70A8546D22FFC',8), int(z'2E1B21385C26C926',8), int(z'4D2C6DFC5AC42AED',8), int(z'53380D139D95B3DF',8), &amp;</line>
+        <line t="X" i="63" b="0" n="0">     int(z'650A73548BAF63DE',8), int(z'766A0ABB3C77B2A8',8), int(z'81C2C92E47EDAEE6',8), int(z'92722C851482353B',8), &amp;</line>
+        <line t="X" i="64" b="0" n="0">     int(z'A2BFE8A14CF10364',8), int(z'A81A664BBC423001',8), int(z'C24B8B70D0F89791',8), int(z'C76C51A30654BE30',8), &amp;</line>
+        <line t="X" i="65" b="0" n="0">     int(z'D192E819D6EF5218',8), int(z'D69906245565A910',8), int(z'F40E35855771202A',8), int(z'106AA07032BBD1B8',8), &amp;</line>
+        <line t="X" i="66" b="0" n="0">     int(z'19A4C116B8D2D0C8',8), int(z'1E376C085141AB53',8), int(z'2748774CDF8EEB99',8), int(z'34B0BCB5E19B48A8',8), &amp;</line>
+        <line t="X" i="67" b="0" n="0">     int(z'391C0CB3C5C95A63',8), int(z'4ED8AA4AE3418ACB',8), int(z'5B9CCA4F7763E373',8), int(z'682E6FF3D6B2B8A3',8), &amp;</line>
+        <line t="X" i="68" b="0" n="0">     int(z'748F82EE5DEFB2FC',8), int(z'78A5636F43172F60',8), int(z'84C87814A1F0AB72',8), int(z'8CC702081A6439EC',8), &amp;</line>
+        <line t="X" i="69" b="0" n="0">     int(z'90BEFFFA23631E28',8), int(z'A4506CEBDE82BDE9',8), int(z'BEF9A3F7B2C67915',8), int(z'C67178F2E372532B',8), &amp;</line>
+        <line t="X" i="70" b="0" n="0">     int(z'CA273ECEEA26619C',8), int(z'D186B8C721C0C207',8), int(z'EADA7DD6CDE0EB1E',8), int(z'F57D4F7FEE6ED178',8), &amp;</line>
+        <line t="X" i="71" b="0" n="0">     int(z'06F067AA72176FBA',8), int(z'0A637DC5A2C898A6',8), int(z'113F9804BEF90DAE',8), int(z'1B710B35131C471B',8), &amp;</line>
+        <line t="X" i="72" b="0" n="0">     int(z'28DB77F523047D84',8), int(z'32CAAB7B40C72493',8), int(z'3C9EBE0A15C9BEBC',8), int(z'431D67C49C100D4C',8), &amp;</line>
+        <line t="X" i="73" b="0" n="0">     int(z'4CC5D4BECB3E42B6',8), int(z'597F299CFC657E2A',8), int(z'5FCB6FAB3AD6FAEC',8), int(z'6C44198C4A475817',8) ]</line>
+        <line t="X" i="74" b="0" n="0"></line>
+        <line t="C" i="75" b="0" n="0">! Size of the message block (1024 bits = 128 bytes)</line>
+        <line t="X" i="76" b="0" n="0">  integer, parameter :: size_of_M = 128</line>
+        <line t="X" i="77" b="0" n="0"></line>
+        <line t="C" i="78" b="0" n="0">! Size of the message schedule</line>
+        <line t="X" i="79" b="0" n="0">  integer, parameter :: size_of_W = 80</line>
+        <line t="X" i="80" b="0" n="0"></line>
+        <line t="C" i="81" b="0" n="0">! Size of the hash (in 64-bit words)</line>
+        <line t="X" i="82" b="0" n="0">  integer, parameter :: size_of_H = 6</line>
+        <line t="X" i="83" b="0" n="0"></line>
+        <line t="C" i="84" b="0" n="0">! Hashing algorithm for SHA-348</line>
+        <line t="T" i="85" b="0" n="0">  type, extends(t_hash64) :: t_sha384</line>
+        <line t="X" i="86" b="0" n="0">    private</line>
+        <line t="X" i="87" b="0" n="0"></line>
+        <line t="X" i="88" b="0" n="0">    contains</line>
+        <line t="X" i="89" b="0" n="0"></line>
+        <line t="C" i="90" b="0" n="0">!     Hashing initialisation</line>
+        <line t="C" i="91" b="0" n="0">!     Initialises the hashing base message-digest operation</line>
+        <line t="X" i="92" b="0" n="0">      procedure, nopass :: initialise =&gt; sha384_initialise</line>
+        <line t="X" i="93" b="0" n="0"></line>
+        <line t="C" i="94" b="0" n="0">!     Hashing update operation</line>
+        <line t="C" i="95" b="0" n="0">!     Continues the message-digest operation, processing</line>
+        <line t="C" i="96" b="0" n="0">!     another message block, and updating the context</line>
+        <line t="X" i="97" b="0" n="0">      procedure :: update =&gt; sha384_update</line>
+        <line t="X" i="98" b="0" n="0"></line>
+        <line t="C" i="99" b="0" n="0">!     Hashing finalisation</line>
+        <line t="C" i="100" b="0" n="0">!     Finalises the hashing process and returns the resulting hash</line>
+        <line t="C" i="101" b="0" n="0">!     Overrides the generic finalisation in t_hash64 to truncate the digest</line>
+        <line t="X" i="102" b="0" n="0">      procedure :: finalise =&gt; sha384_finalise</line>
+        <line t="X" i="103" b="0" n="0"></line>
+        <line t="C" i="104" b="0" n="0">!     Get hash size</line>
+        <line t="X" i="105" b="0" n="0">      procedure, nopass :: get_hash_size =&gt; sha384_get_hash_size</line>
+        <line t="X" i="106" b="0" n="0"></line>
+        <line t="T" i="107" b="0" n="0">  end type t_sha384</line>
+        <line t="T" i="108" b="0" n="0"></line>
+        <line t="C" i="109" b="0" n="0">! Constructor interface</line>
+        <line t="X" i="110" b="0" n="0">  interface sha384</line>
+        <line t="X" i="111" b="0" n="0">    module procedure sha384_default</line>
+        <line t="X" i="112" b="0" n="0">  end interface sha384</line>
+        <line t="X" i="113" b="0" n="0"></line>
+        <line t="C" i="114" b="0" n="0">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="115" b="0" n="0"></line>
+        <line t="X" i="116" b="0" n="0">contains</line>
+        <line t="X" i="117" b="0" n="0"></line>
+        <line t="C" i="118" b="0" n="0">! Default constructor</line>
+        <line k="sha384_default" t="F" i="119" b="1" n="1">pure function sha384_default() result(res)</line>
+        <line t="F" i="120" b="1" n="1"></line>
+        <line t="C" i="121" b="1" n="1">! Constructed structure</line>
+        <line t="X" i="122" b="1" n="1">  type(t_sha384) :: res</line>
+        <line t="X" i="123" b="1" n="1"></line>
+        <line t="C" i="124" b="1" n="1">! Initialise</line>
+        <line t="X" i="125" b="1" n="1">  res = t_sha384()</line>
+        <line t="X" i="126" b="1" n="1"></line>
+        <line t="EF" i="127" b="1" n="1">end function sha384_default</line>
+        <line t="EF" i="128" b="1" n="1"></line>
+        <line t="EF" i="129" b="1" n="1"></line>
+        <line t="C" i="130" b="1" n="1">! Initialisation</line>
+        <line k="sha384_initialise" t="S" i="131" b="1" n="1">pure subroutine sha384_initialise( H )</line>
+        <line t="S" i="132" b="1" n="1"></line>
+        <line t="C" i="133" b="1" n="1">! Initial value for hash buffer</line>
+        <line t="X" i="134" b="1" n="1">  class(*), allocatable, dimension(:), intent(inout) :: H</line>
+        <line t="X" i="135" b="1" n="1"></line>
+        <line t="C" i="136" b="1" n="1">! Return initial hash</line>
+        <line t="X" i="137" b="1" n="1">  allocate( H, source=H0 )</line>
+        <line t="X" i="138" b="1" n="1"></line>
+        <line t="ES" i="139" b="1" n="1">end subroutine sha384_initialise</line>
+        <line t="ES" i="140" b="1" n="1"></line>
+        <line t="ES" i="141" b="1" n="1"></line>
+        <line t="C" i="142" b="1" n="1">! Message disgst update</line>
+        <line k="sha384_update" t="S" i="143" b="1" n="1">pure subroutine sha384_update( this, M, H )</line>
+        <line t="S" i="144" b="1" n="1"></line>
+        <line t="C" i="145" b="1" n="1">! Calling object</line>
+        <line t="X" i="146" b="1" n="1">  class(t_sha384), intent(in) :: this</line>
+        <line t="X" i="147" b="1" n="1"></line>
+        <line t="C" i="148" b="1" n="1">! The message schedule</line>
+        <line t="X" i="149" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: M</line>
+        <line t="X" i="150" b="1" n="1"></line>
+        <line t="C" i="151" b="1" n="1">! Hash buffer</line>
+        <line t="X" i="152" b="1" n="1">  class(*), dimension(:), intent(inout) :: H</line>
+        <line t="X" i="153" b="1" n="1"></line>
+        <line t="C" i="154" b="1" n="1">! Local variables</line>
+        <line t="X" i="155" b="1" n="1">  integer :: i, j</line>
+        <line t="X" i="156" b="1" n="1">  integer(kind=8), dimension(size_of_W) :: w</line>
+        <line t="X" i="157" b="1" n="1">  integer(kind=8) :: t1, t2, s0, s1</line>
+        <line t="X" i="158" b="1" n="1">  integer(kind=8) :: a, b, c, d, e, f, g, n</line>
+        <line t="X" i="159" b="1" n="1"></line>
+        <line t="C" i="160" b="1" n="1">! Initalise local variables</line>
+        <line t="X" i="161" b="1" n="1">  w = 0_8</line>
+        <line t="X" i="162" b="1" n="1"></line>
+        <line t="C" i="163" b="1" n="1">! Prepare the message schedule (1-16)</line>
+        <line t="C" i="164" b="1" n="1">! The transfer operations set for every double-word W four bytes from the message block</line>
+        <line t="C" i="165" b="1" n="1">! The message block is assigned left to right whereas W is assined right to left</line>
+        <line t="X" i="166" b="2" n="2">  do i = 1, 16</line>
+        <line t="X" i="167" b="2" n="2">    j = 8 * ( i - 1 ) + 1</line>
+        <line t="X" i="168" b="2" n="2">    w(i) = transfer( M(j+7:j:-1), w(i) )</line>
+        <line t="X" i="169" b="2" n="1">  end do</line>
+        <line t="X" i="170" b="2" n="1"></line>
+        <line t="C" i="171" b="2" n="1">! Prepare the message schedule (17-64)</line>
+        <line t="X" i="172" b="3" n="2">  do i = 17, size(w)</line>
+        <line t="X" i="173" b="3" n="2">    w(i) = this%low_s1(w(i-2)) + w(i-7) + this%low_s0(w(i-15)) + w(i-16)</line>
+        <line t="X" i="174" b="3" n="1">  end do</line>
+        <line t="X" i="175" b="3" n="1"></line>
+        <line t="C" i="176" b="3" n="1">! Initialise the intermediate variables</line>
+        <line t="X" i="177" b="3" n="2">  select type( H )</line>
+        <line t="X" i="178" b="4" n="2">    type is(integer(kind=8))</line>
+        <line t="X" i="179" b="4" n="2">      a = H(1)</line>
+        <line t="X" i="180" b="4" n="2">      b = H(2)</line>
+        <line t="X" i="181" b="4" n="2">      c = H(3)</line>
+        <line t="X" i="182" b="4" n="2">      d = H(4)</line>
+        <line t="X" i="183" b="4" n="2">      e = H(5)</line>
+        <line t="X" i="184" b="4" n="2">      f = H(6)</line>
+        <line t="X" i="185" b="4" n="2">      g = H(7)</line>
+        <line t="X" i="186" b="4" n="2">      n = H(8)</line>
+        <line t="X" i="187" b="4" n="1">  end select</line>
+        <line t="X" i="188" b="4" n="1"></line>
+        <line t="C" i="189" b="4" n="1">! Cycle on the intermediate variables</line>
+        <line t="X" i="190" b="5" n="2">  do i = 1, size(w)</line>
+        <line t="X" i="191" b="5" n="2">    s0 = this%high_s0(a)</line>
+        <line t="X" i="192" b="5" n="2">    s1 = this%high_s1(e)</line>
+        <line t="X" i="193" b="5" n="2">    t1 = n + s1 + this%choose(e,f,g) + K(i) + w(i)</line>
+        <line t="X" i="194" b="5" n="2">    t2 = s0 + this%majority(a,b,c)</line>
+        <line t="X" i="195" b="5" n="2">    n = g</line>
+        <line t="X" i="196" b="5" n="2">    g = f</line>
+        <line t="X" i="197" b="5" n="2">    f = e</line>
+        <line t="X" i="198" b="5" n="2">    e = d + t1</line>
+        <line t="X" i="199" b="5" n="2">    d = c</line>
+        <line t="X" i="200" b="5" n="2">    c = b</line>
+        <line t="X" i="201" b="5" n="2">    b = a</line>
+        <line t="X" i="202" b="5" n="2">    a = t1 + t2</line>
+        <line t="X" i="203" b="5" n="1">  end do</line>
+        <line t="X" i="204" b="5" n="1"></line>
+        <line t="C" i="205" b="5" n="1">! Update the intermediate hash</line>
+        <line t="X" i="206" b="5" n="2">  select type( H )</line>
+        <line t="X" i="207" b="6" n="2">    type is(integer(kind=8))</line>
+        <line t="X" i="208" b="6" n="2">      H(1) = a + H(1)</line>
+        <line t="X" i="209" b="6" n="2">      H(2) = b + H(2)</line>
+        <line t="X" i="210" b="6" n="2">      H(3) = c + H(3)</line>
+        <line t="X" i="211" b="6" n="2">      H(4) = d + H(4)</line>
+        <line t="X" i="212" b="6" n="2">      H(5) = e + H(5)</line>
+        <line t="X" i="213" b="6" n="2">      H(6) = f + H(6)</line>
+        <line t="X" i="214" b="6" n="2">      H(7) = g + H(7)</line>
+        <line t="X" i="215" b="6" n="2">      H(8) = n + H(8)</line>
+        <line t="X" i="216" b="6" n="1">  end select</line>
+        <line t="X" i="217" b="6" n="1"></line>
+        <line t="ES" i="218" b="6" n="1">end subroutine sha384_update</line>
+        <line t="ES" i="219" b="1" n="1"></line>
+        <line t="ES" i="220" b="1" n="1"></line>
+        <line t="C" i="221" b="1" n="1">! Finalise the message disgest</line>
+        <line t="C" i="222" b="1" n="1">! Overrides the generic finalisation in t_hash64 to truncate the digest</line>
+        <line k="sha384_finalise" t="F" i="223" b="1" n="1">pure function sha384_finalise( this, H ) result(res)</line>
+        <line t="F" i="224" b="1" n="1"></line>
+        <line t="C" i="225" b="1" n="1">! The hash structure</line>
+        <line t="X" i="226" b="1" n="1">  class(t_sha384), intent(in) :: this</line>
+        <line t="X" i="227" b="1" n="1"></line>
+        <line t="C" i="228" b="1" n="1">! Hash buffer</line>
+        <line t="X" i="229" b="1" n="1">  class(*), dimension(:), intent(in) :: H</line>
+        <line t="X" i="230" b="1" n="1"></line>
+        <line t="C" i="231" b="1" n="1">! Resulting hash</line>
+        <line t="X" i="232" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: res</line>
+        <line t="X" i="233" b="1" n="1"></line>
+        <line t="C" i="234" b="1" n="1">! Local varaibles</line>
+        <line t="X" i="235" b="1" n="1">  integer(kind=8), dimension(size(H)) :: local8</line>
+        <line t="X" i="236" b="1" n="1"></line>
+        <line t="C" i="237" b="1" n="1">! Allocate resulting hash (initial allocation)</line>
+        <line t="X" i="238" b="1" n="1">  allocate( res(this%get_hash_size()) )</line>
+        <line t="X" i="239" b="1" n="1"></line>
+        <line t="C" i="240" b="1" n="1">! Reoroder the bytes</line>
+        <line t="C" i="241" b="1" n="1">! The solution is in 8 64-bit integers left to write with</line>
+        <line t="C" i="242" b="1" n="1">! their bytes order right to left.</line>
+        <line t="C" i="243" b="1" n="1">! First step: arrange al qwords right to left by qword</line>
+        <line t="C" i="244" b="1" n="1">! Second step: revert all bytes left to right</line>
+        <line t="C" i="245" b="1" n="1">! Third step: truncate to the expected size of the hash</line>
+        <line t="X" i="246" b="1" n="2">  select type( H )</line>
+        <line t="X" i="247" b="2" n="2">    type is(integer(kind=8))</line>
+        <line t="X" i="248" b="2" n="2">    local8 = H(size(H):1:-1)</line>
+        <line t="X" i="249" b="2" n="1">  end select</line>
+        <line t="X" i="250" b="2" n="1">  res = transfer( local8, res )</line>
+        <line t="X" i="251" b="2" n="1">  res = res(size(res):1:-1)</line>
+        <line t="X" i="252" b="2" n="1">  res = res(:this%get_hash_size())</line>
+        <line t="X" i="253" b="2" n="1"></line>
+        <line t="EF" i="254" b="2" n="1">end function sha384_finalise</line>
+        <line t="EF" i="255" b="1" n="1"></line>
+        <line t="EF" i="256" b="1" n="1"></line>
+        <line t="C" i="257" b="1" n="1">! Get the hash size (bytes) for this algorithm</line>
+        <line k="sha384_get_hash_size" t="F" i="258" b="1" n="1">pure function sha384_get_hash_size() result(res)</line>
+        <line t="F" i="259" b="1" n="1"></line>
+        <line t="C" i="260" b="1" n="1">! Hash size</line>
+        <line t="X" i="261" b="1" n="1">  integer :: res</line>
+        <line t="X" i="262" b="1" n="1"></line>
+        <line t="C" i="263" b="1" n="1">! Return the size of the hash (in bytes)</line>
+        <line t="X" i="264" b="1" n="1">  res = 8 * size_of_H</line>
+        <line t="X" i="265" b="1" n="1"></line>
+        <line t="EF" i="266" b="1" n="1">end function sha384_get_hash_size</line>
+        <line t="EF" i="267" b="1" n="1"></line>
+        <line t="M" i="268" b="1" n="1">end module m_sha384</line>
+        <line t="M" i="269" b="1" n="1"></line>
+    </code>
+</fmx>

@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_crypto_base.f90">
+    <context>
+        <time>2025-03-09T18:24:38</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Frypto</project>
+        <name>m_crypto_base.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_crypto_base" type="module">
+            <main>
+                <lines>
+                    <source percent="36.80">46</source>
+                    <comments percent="36.80">46</comments>
+                    <empty percent="26.40">33</empty>
+                    <total>125</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="crypto_base" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="54.05">40</source>
+                            <comments percent="21.62">16</comments>
+                            <empty percent="24.32">18</empty>
+                            <total>74</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>11</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="crypto_base_assign" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="64.71">22</source>
+                            <comments percent="11.76">4</comments>
+                            <empty percent="23.53">8</empty>
+                            <total>34</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>8</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>4</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="crypto_base_block_size" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="crypto_base_decrypt" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="57.39">66</source>
+                            <comments percent="16.52">19</comments>
+                            <empty percent="26.09">30</empty>
+                            <total>115</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>13</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="crypto_base_encrypt" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="54.05">60</source>
+                            <comments percent="17.12">19</comments>
+                            <empty percent="28.83">32</empty>
+                            <total>111</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>12</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>4</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="crypto_reset" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="50.00">243</source>
+                    <comments percent="22.84">111</comments>
+                    <empty percent="27.16">132</empty>
+                    <total>486</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>13</maximum>
+                    <average>7.67</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>4</maximum>
+                    <average>2.50</average>
+                </nesting>
+                <methods>6</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="50.00">243</source>
+            <comments percent="22.84">111</comments>
+            <empty percent="27.16">132</empty>
+            <total>486</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>13</maximum>
+            <average>7.67</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>4</maximum>
+            <average>2.50</average>
+        </nesting>
+        <methods>6</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_crypto_base</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2022, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Synopsis  : Encryption/decryption base implementation (for buffer)</line>
+        <line t="C" i="9" b="0" n="0">!             Implements the encryption modes ECB/CBC/PCBC/CFB/OFB</line>
+        <line t="C" i="10" b="0" n="0">!             http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation</line>
+        <line t="C" i="11" b="0" n="0">!</line>
+        <line t="C" i="12" b="0" n="0">! License   : This file is part of Frypto.</line>
+        <line t="C" i="13" b="0" n="0">!</line>
+        <line t="C" i="14" b="0" n="0">!             Frypto is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="15" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="16" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="17" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="18" b="0" n="0">!</line>
+        <line t="C" i="19" b="0" n="0">!             Frypto is distributed in the hope that it will be useful,</line>
+        <line t="C" i="20" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="21" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="22" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="23" b="0" n="0">!</line>
+        <line t="C" i="24" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="25" b="0" n="0">!             License along with Frypto.  </line>
+        <line t="C" i="26" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="27" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="28" b="0" n="0"></line>
+        <line t="C" i="29" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="30" b="0" n="0"></line>
+        <line t="X" i="31" b="0" n="0">  use m_object</line>
+        <line t="X" i="32" b="0" n="0"></line>
+        <line t="X" i="33" b="0" n="0">  use m_crypto_padding</line>
+        <line t="X" i="34" b="0" n="0"></line>
+        <line t="X" i="35" b="0" n="0">  use m_block_cipher</line>
+        <line t="X" i="36" b="0" n="0">  use m_aes</line>
+        <line t="X" i="37" b="0" n="0">  use m_triple_des</line>
+        <line t="X" i="38" b="0" n="0">  use m_blowfish</line>
+        <line t="X" i="39" b="0" n="0"></line>
+        <line t="C" i="40" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="41" b="0" n="0"></line>
+        <line t="X" i="42" b="0" n="0">  implicit none</line>
+        <line t="X" i="43" b="0" n="0"></line>
+        <line t="C" i="44" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="45" b="0" n="0"></line>
+        <line t="X" i="46" b="0" n="0">  private</line>
+        <line t="X" i="47" b="0" n="0">  public t_crypto_base</line>
+        <line t="X" i="48" b="0" n="0">  public crypto_base</line>
+        <line t="X" i="49" b="0" n="0"></line>
+        <line t="X" i="50" b="0" n="0">  public crypto_base_aes256</line>
+        <line t="X" i="51" b="0" n="0">  public crypto_base_triple_des</line>
+        <line t="X" i="52" b="0" n="0">  public crypto_base_blowfish</line>
+        <line t="X" i="53" b="0" n="0">  </line>
+        <line t="X" i="54" b="0" n="0">  public crypto_base_mode_ecb</line>
+        <line t="X" i="55" b="0" n="0">  public crypto_base_mode_cbc</line>
+        <line t="X" i="56" b="0" n="0">  public crypto_base_mode_pcbc</line>
+        <line t="X" i="57" b="0" n="0">  public crypto_base_mode_cfb</line>
+        <line t="X" i="58" b="0" n="0">  public crypto_base_mode_ofb</line>
+        <line t="X" i="59" b="0" n="0"></line>
+        <line t="C" i="60" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="61" b="0" n="0"></line>
+        <line t="C" i="62" b="0" n="0">!- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="63" b="0" n="0"></line>
+        <line t="C" i="64" b="0" n="0">! Encryption algorithm enumeration</line>
+        <line t="X" i="65" b="0" n="0">  integer, parameter :: crypto_base_aes256     = 1</line>
+        <line t="X" i="66" b="0" n="0">  integer, parameter :: crypto_base_triple_des = 2</line>
+        <line t="X" i="67" b="0" n="0">  integer, parameter :: crypto_base_blowfish   = 3</line>
+        <line t="X" i="68" b="0" n="0"></line>
+        <line t="C" i="69" b="0" n="0">! Encryption mode eunmeration</line>
+        <line t="X" i="70" b="0" n="0">  integer, parameter :: crypto_base_mode_ecb  = 0</line>
+        <line t="X" i="71" b="0" n="0">  integer, parameter :: crypto_base_mode_cbc  = 1</line>
+        <line t="X" i="72" b="0" n="0">  integer, parameter :: crypto_base_mode_pcbc = 2</line>
+        <line t="X" i="73" b="0" n="0">  integer, parameter :: crypto_base_mode_cfb  = 3</line>
+        <line t="X" i="74" b="0" n="0">  integer, parameter :: crypto_base_mode_ofb  = 4</line>
+        <line t="X" i="75" b="0" n="0"></line>
+        <line t="C" i="76" b="0" n="0">! Number of block to read into buffer at once</line>
+        <line t="X" i="77" b="0" n="0">  integer, parameter :: crypto_base_blocks_from_buffer = 10</line>
+        <line t="X" i="78" b="0" n="0"></line>
+        <line t="C" i="79" b="0" n="0">! The encryption type</line>
+        <line t="T" i="80" b="0" n="0">  type, extends(t_object) :: t_crypto_base</line>
+        <line t="X" i="81" b="0" n="0">    private</line>
+        <line t="X" i="82" b="0" n="0"></line>
+        <line t="C" i="83" b="0" n="0">!     The cipher algorithm</line>
+        <line t="X" i="84" b="0" n="0">      class(t_block_cipher), allocatable :: cipher</line>
+        <line t="X" i="85" b="0" n="0">    </line>
+        <line t="C" i="86" b="0" n="0">!     Selected algorithm</line>
+        <line t="X" i="87" b="0" n="0">      integer :: algorithm = crypto_base_aes256</line>
+        <line t="X" i="88" b="0" n="0"></line>
+        <line t="C" i="89" b="0" n="0">!     Encryption mode</line>
+        <line t="X" i="90" b="0" n="0">      integer :: mode = crypto_base_mode_ecb</line>
+        <line t="X" i="91" b="0" n="0"></line>
+        <line t="C" i="92" b="0" n="0">!     Encryption padding scheme (from enumeration)</line>
+        <line t="X" i="93" b="0" n="0">      integer :: padding = crypto_padding_pkcs7</line>
+        <line t="X" i="94" b="0" n="0"></line>
+        <line t="C" i="95" b="0" n="0">!     Encryption initial vector (for chained encryption modes)</line>
+        <line t="X" i="96" b="0" n="0">      integer(kind=1), dimension(:), allocatable :: inivec</line>
+        <line t="X" i="97" b="0" n="0"></line>
+        <line t="C" i="98" b="0" n="0">!     Current value of the initial vector (for chained encryption modes)</line>
+        <line t="X" i="99" b="0" n="0">      integer(kind=1), dimension(:), allocatable :: xblock</line>
+        <line t="X" i="100" b="0" n="0"></line>
+        <line t="X" i="101" b="0" n="0">    contains</line>
+        <line t="X" i="102" b="0" n="0"></line>
+        <line t="C" i="103" b="0" n="0">!     Cipher block size</line>
+        <line t="X" i="104" b="0" n="0">      procedure :: block_size =&gt; crypto_base_block_size</line>
+        <line t="X" i="105" b="0" n="0">      </line>
+        <line t="C" i="106" b="0" n="0">!     Encryption interface</line>
+        <line t="X" i="107" b="0" n="0">      procedure :: encrypt =&gt; crypto_base_encrypt</line>
+        <line t="X" i="108" b="0" n="0"></line>
+        <line t="C" i="109" b="0" n="0">!     Decryption interface</line>
+        <line t="X" i="110" b="0" n="0">      procedure :: decrypt =&gt; crypto_base_decrypt</line>
+        <line t="X" i="111" b="0" n="0"></line>
+        <line t="C" i="112" b="0" n="0">!     Reset the initial vector</line>
+        <line t="X" i="113" b="0" n="0">      procedure :: reset =&gt; crypto_reset</line>
+        <line t="X" i="114" b="0" n="0">      </line>
+        <line t="C" i="115" b="0" n="0">!     Assignment</line>
+        <line t="X" i="116" b="0" n="0">      generic :: assignment(=) =&gt; crypto_base_assign</line>
+        <line t="X" i="117" b="0" n="0">      procedure, private :: crypto_base_assign</line>
+        <line t="X" i="118" b="0" n="0"></line>
+        <line t="T" i="119" b="0" n="0">  end type t_crypto_base</line>
+        <line t="T" i="120" b="0" n="0"></line>
+        <line t="C" i="121" b="0" n="0">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="122" b="0" n="0"></line>
+        <line t="X" i="123" b="0" n="0">contains</line>
+        <line t="X" i="124" b="0" n="0"></line>
+        <line t="C" i="125" b="0" n="0">! Constuctor from key</line>
+        <line k="crypto_base" t="F" i="126" b="1" n="1">pure function crypto_base( algorithm, key, mode, padding, inivec ) result(res)</line>
+        <line t="F" i="127" b="1" n="1"></line>
+        <line t="C" i="128" b="1" n="1">! The algorithm</line>
+        <line t="X" i="129" b="1" n="1">  integer, intent(in) :: algorithm</line>
+        <line t="X" i="130" b="1" n="1"></line>
+        <line t="C" i="131" b="1" n="1">! The initialisation key</line>
+        <line t="X" i="132" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: key</line>
+        <line t="X" i="133" b="1" n="1"></line>
+        <line t="C" i="134" b="1" n="1">! The encryption mode</line>
+        <line t="X" i="135" b="1" n="1">  integer, optional, intent(in) :: mode</line>
+        <line t="X" i="136" b="1" n="1"></line>
+        <line t="C" i="137" b="1" n="1">! The encryption padding scheme</line>
+        <line t="X" i="138" b="1" n="1">  integer, optional, intent(in) :: padding</line>
+        <line t="X" i="139" b="1" n="1"></line>
+        <line t="C" i="140" b="1" n="1">! The initial vector (when applicable for mode)</line>
+        <line t="X" i="141" b="1" n="1">  integer(kind=1), optional, dimension(:), intent(in) :: inivec</line>
+        <line t="X" i="142" b="1" n="1"></line>
+        <line t="C" i="143" b="1" n="1">! The crypto context</line>
+        <line t="X" i="144" b="1" n="1">  type(t_crypto_base) :: res</line>
+        <line t="X" i="145" b="1" n="1"></line>
+        <line t="C" i="146" b="1" n="1">! Local variables</line>
+        <line t="X" i="147" b="1" n="1">  integer :: block_size</line>
+        <line t="X" i="148" b="1" n="1">  integer :: idx</line>
+        <line t="X" i="149" b="1" n="1"></line>
+        <line t="C" i="150" b="1" n="1">! Initialise algorithm context</line>
+        <line t="X" i="151" b="1" n="1">  res%algorithm = algorithm</line>
+        <line t="X" i="152" b="1" n="2">  select case( algorithm )</line>
+        <line t="X" i="153" b="1" n="2"></line>
+        <line t="C" i="154" b="1" n="2">!   Advanced Encryption Standard (AES)</line>
+        <line t="X" i="155" b="2" n="2">    case( crypto_base_aes256 )</line>
+        <line t="X" i="156" b="2" n="2">      allocate( res%cipher, source=aes( key ) )</line>
+        <line t="X" i="157" b="2" n="2"></line>
+        <line t="C" i="158" b="2" n="2">!   Triple Data Encryption Standard (3-DES)</line>
+        <line t="X" i="159" b="3" n="2">    case( crypto_base_triple_des )</line>
+        <line t="X" i="160" b="3" n="2">      allocate( res%cipher, source=triple_des( key ) )</line>
+        <line t="X" i="161" b="3" n="2"></line>
+        <line t="C" i="162" b="3" n="2">!   Blowfish</line>
+        <line t="X" i="163" b="4" n="2">    case( crypto_base_blowfish )</line>
+        <line t="X" i="164" b="4" n="2">      allocate( res%cipher, source=blowfish( key ) )</line>
+        <line t="X" i="165" b="4" n="2"></line>
+        <line t="C" i="166" b="4" n="2">!   Default is Advanced Encryption Standard (AES)</line>
+        <line t="X" i="167" b="5" n="2">    case default</line>
+        <line t="X" i="168" b="5" n="2">      allocate( res%cipher, source=aes( key ) )</line>
+        <line t="X" i="169" b="5" n="2"></line>
+        <line t="X" i="170" b="5" n="1">  end select</line>
+        <line t="X" i="171" b="5" n="1"></line>
+        <line t="C" i="172" b="5" n="1">! Initialise encryption mode</line>
+        <line t="X" i="173" b="6" n="2">  if( present(mode) ) then</line>
+        <line t="X" i="174" b="6" n="2">    res%mode = mode</line>
+        <line t="X" i="175" b="7" n="2">  else</line>
+        <line t="X" i="176" b="7" n="2">    res%mode = crypto_base_mode_ecb</line>
+        <line t="X" i="177" b="7" n="1">  end if</line>
+        <line t="X" i="178" b="7" n="1"></line>
+        <line t="C" i="179" b="7" n="1">! Initialise padding</line>
+        <line t="X" i="180" b="8" n="2">  if( present(padding) ) then</line>
+        <line t="X" i="181" b="8" n="2">    res%padding = padding</line>
+        <line t="X" i="182" b="9" n="2">  else</line>
+        <line t="X" i="183" b="9" n="2">    res%padding = crypto_padding_pkcs7</line>
+        <line t="X" i="184" b="9" n="1">  end if</line>
+        <line t="X" i="185" b="9" n="1"></line>
+        <line t="C" i="186" b="9" n="1">! Initialise the initial vector</line>
+        <line t="X" i="187" b="9" n="1">  block_size = res%cipher%block_size()</line>
+        <line t="X" i="188" b="9" n="1">  allocate( res%inivec(block_size), res%xblock(block_size) )</line>
+        <line t="X" i="189" b="10" n="2">  if( present(inivec) ) then</line>
+        <line t="X" i="190" b="10" n="2">    idx = min( block_size, size(inivec) )</line>
+        <line t="X" i="191" b="10" n="2">    res%inivec(:idx) = inivec(:idx)</line>
+        <line t="X" i="192" b="10" n="2">    res%xblock(:idx) = inivec(:idx)</line>
+        <line t="X" i="193" b="11" n="2">  else</line>
+        <line t="X" i="194" b="11" n="2">    res%inivec = 0_1</line>
+        <line t="X" i="195" b="11" n="1">  end if</line>
+        <line t="X" i="196" b="11" n="1"></line>
+        <line t="EF" i="197" b="11" n="1">end function crypto_base</line>
+        <line t="EF" i="198" b="1" n="1"></line>
+        <line t="EF" i="199" b="1" n="1"></line>
+        <line t="C" i="200" b="1" n="1">! Cipher block size</line>
+        <line k="crypto_base_block_size" t="F" i="201" b="1" n="1">pure function crypto_base_block_size( this ) result(res)</line>
+        <line t="F" i="202" b="1" n="1"></line>
+        <line t="C" i="203" b="1" n="1">! The crypto context</line>
+        <line t="X" i="204" b="1" n="1">  class(t_crypto_base), intent(in) :: this</line>
+        <line t="X" i="205" b="1" n="1"></line>
+        <line t="C" i="206" b="1" n="1">! Cipher block size</line>
+        <line t="X" i="207" b="1" n="1">  integer :: res</line>
+        <line t="X" i="208" b="1" n="1">   </line>
+        <line t="C" i="209" b="1" n="1">! Return the cipher block size</line>
+        <line t="X" i="210" b="1" n="1">  res = this%cipher%block_size()</line>
+        <line t="X" i="211" b="1" n="1">   </line>
+        <line t="EF" i="212" b="1" n="1">end function crypto_base_block_size</line>
+        <line t="EF" i="213" b="1" n="1"></line>
+        <line t="EF" i="214" b="1" n="1"></line>
+        <line t="C" i="215" b="1" n="1">! Encryption</line>
+        <line k="crypto_base_encrypt" t="S" i="216" b="1" n="1">pure subroutine crypto_base_encrypt( this, text, cipher )</line>
+        <line t="S" i="217" b="1" n="1"></line>
+        <line t="C" i="218" b="1" n="1">! The crypto context</line>
+        <line t="X" i="219" b="1" n="1">  class(t_crypto_base), intent(inout) :: this</line>
+        <line t="X" i="220" b="1" n="1"></line>
+        <line t="C" i="221" b="1" n="1">! The plain text to encrypt</line>
+        <line t="X" i="222" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: text</line>
+        <line t="X" i="223" b="1" n="1"></line>
+        <line t="C" i="224" b="1" n="1">! The encrypted text</line>
+        <line t="X" i="225" b="1" n="1">  integer(kind=1), dimension(:), allocatable, intent(out) :: cipher</line>
+        <line t="X" i="226" b="1" n="1"></line>
+        <line t="C" i="227" b="1" n="1">! The block from the plain text to be encrypted</line>
+        <line t="X" i="228" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: block</line>
+        <line t="X" i="229" b="1" n="1"></line>
+        <line t="C" i="230" b="1" n="1">! The encrypted block at the end of each step of the mode</line>
+        <line t="X" i="231" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: cblock</line>
+        <line t="X" i="232" b="1" n="1"></line>
+        <line t="C" i="233" b="1" n="1">! Local variables</line>
+        <line t="X" i="234" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: pad</line>
+        <line t="X" i="235" b="1" n="1">  integer :: bs</line>
+        <line t="X" i="236" b="1" n="1">  integer :: iblock, nblocks, textlen, cipherlen</line>
+        <line t="X" i="237" b="1" n="1">  integer :: ib0, ib1</line>
+        <line t="X" i="238" b="1" n="1">  type(t_crypto_padding) :: padding</line>
+        <line t="X" i="239" b="1" n="1">  </line>
+        <line t="C" i="240" b="1" n="1">! Blocking scheme</line>
+        <line t="X" i="241" b="1" n="1">  bs = this%cipher%block_size()</line>
+        <line t="X" i="242" b="1" n="1">  allocate( block(bs), cblock(bs) )</line>
+        <line t="X" i="243" b="1" n="1">  textlen = size(text)</line>
+        <line t="X" i="244" b="1" n="1">  nblocks = textlen / bs</line>
+        <line t="X" i="245" b="1" n="1"></line>
+        <line t="C" i="246" b="1" n="1">! Padding scheme</line>
+        <line t="X" i="247" b="2" n="2">  if( nblocks * bs &lt; textlen ) then</line>
+        <line t="X" i="248" b="2" n="2">    padding = crypto_padding()</line>
+        <line t="X" i="249" b="2" n="2">    nblocks = nblocks + 1</line>
+        <line t="X" i="250" b="2" n="2">    call padding%text( text, this%padding, bs, pad )</line>
+        <line t="X" i="251" b="2" n="1">  end if</line>
+        <line t="X" i="252" b="2" n="1"></line>
+        <line t="C" i="253" b="2" n="1">! Allocate encrypted buffer</line>
+        <line t="X" i="254" b="2" n="1">  cipherlen = nblocks * bs</line>
+        <line t="X" i="255" b="2" n="1">  allocate( cipher(cipherlen) )</line>
+        <line t="X" i="256" b="2" n="1"></line>
+        <line t="C" i="257" b="2" n="1">! Loop on all blocks</line>
+        <line t="X" i="258" b="3" n="2">  do iblock = 1, nblocks</line>
+        <line t="X" i="259" b="3" n="2"></line>
+        <line t="C" i="260" b="3" n="2">!   Compute block start index</line>
+        <line t="X" i="261" b="3" n="2">    ib0 = ( iblock - 1 ) * bs + 1</line>
+        <line t="X" i="262" b="3" n="2"></line>
+        <line t="C" i="263" b="3" n="2">!   Detect last block</line>
+        <line t="X" i="264" b="4" n="3">    if( iblock /= nblocks ) then</line>
+        <line t="X" i="265" b="4" n="3"></line>
+        <line t="C" i="266" b="4" n="3">!     Extract block from input buffer</line>
+        <line t="X" i="267" b="4" n="3">      ib1 = ib0 + bs - 1</line>
+        <line t="X" i="268" b="4" n="3">      block = text(ib0:ib1)</line>
+        <line t="X" i="269" b="4" n="3"></line>
+        <line t="X" i="270" b="5" n="3">    else</line>
+        <line t="X" i="271" b="5" n="3"></line>
+        <line t="C" i="272" b="5" n="3">!     Check if padding required</line>
+        <line t="X" i="273" b="6" n="4">      if( allocated(pad) ) then</line>
+        <line t="X" i="274" b="6" n="4"></line>
+        <line t="C" i="275" b="6" n="4">!       Last block with padding</line>
+        <line t="X" i="276" b="6" n="4">        ib1 = textlen</line>
+        <line t="X" i="277" b="6" n="4">        block(1:ib1-ib0+1) = text(ib0:ib1)</line>
+        <line t="X" i="278" b="6" n="4">        block(ib1-ib0+2:) = pad</line>
+        <line t="X" i="279" b="6" n="4"></line>
+        <line t="X" i="280" b="7" n="4">      else</line>
+        <line t="X" i="281" b="7" n="4"></line>
+        <line t="C" i="282" b="7" n="4">!       No padding in last block</line>
+        <line t="X" i="283" b="7" n="4">        ib1 = ib0 + bs - 1</line>
+        <line t="X" i="284" b="7" n="4">        block = text(ib0:ib1)</line>
+        <line t="X" i="285" b="7" n="4"></line>
+        <line t="X" i="286" b="7" n="3">      end if</line>
+        <line t="X" i="287" b="7" n="3"></line>
+        <line t="X" i="288" b="7" n="2">    end if</line>
+        <line t="X" i="289" b="7" n="2"></line>
+        <line t="C" i="290" b="7" n="2">!   Select the mode</line>
+        <line t="X" i="291" b="7" n="3">    select case( this%mode )</line>
+        <line t="X" i="292" b="7" n="3"></line>
+        <line t="X" i="293" b="8" n="3">      case( crypto_base_mode_ecb )</line>
+        <line t="X" i="294" b="8" n="3">        call this%cipher%encrypt( block, cblock )</line>
+        <line t="X" i="295" b="8" n="3"></line>
+        <line t="X" i="296" b="9" n="3">      case( crypto_base_mode_cbc )</line>
+        <line t="X" i="297" b="9" n="3">        this%xblock = ieor( this%xblock, block )</line>
+        <line t="X" i="298" b="9" n="3">        call this%cipher%encrypt( this%xblock, cblock )</line>
+        <line t="X" i="299" b="9" n="3">        this%xblock = cblock</line>
+        <line t="X" i="300" b="9" n="3"></line>
+        <line t="X" i="301" b="10" n="3">      case( crypto_base_mode_pcbc )</line>
+        <line t="X" i="302" b="10" n="3">        this%xblock = ieor( this%xblock, block )</line>
+        <line t="X" i="303" b="10" n="3">        call this%cipher%encrypt( this%xblock, cblock )</line>
+        <line t="X" i="304" b="10" n="3">        this%xblock = ieor( cblock, block )</line>
+        <line t="X" i="305" b="10" n="3"></line>
+        <line t="X" i="306" b="11" n="3">      case( crypto_base_mode_cfb )</line>
+        <line t="X" i="307" b="11" n="3">        call this%cipher%encrypt( this%xblock, cblock )</line>
+        <line t="X" i="308" b="11" n="3">        cblock = ieor( cblock, block )</line>
+        <line t="X" i="309" b="11" n="3">        this%xblock = cblock</line>
+        <line t="X" i="310" b="11" n="3"></line>
+        <line t="X" i="311" b="12" n="3">      case( crypto_base_mode_ofb )</line>
+        <line t="X" i="312" b="12" n="3">        call this%cipher%encrypt( this%xblock, cblock )</line>
+        <line t="X" i="313" b="12" n="3">        this%xblock = cblock</line>
+        <line t="X" i="314" b="12" n="3">        cblock = ieor( cblock, block )</line>
+        <line t="X" i="315" b="12" n="3"></line>
+        <line t="X" i="316" b="12" n="2">    end select</line>
+        <line t="X" i="317" b="12" n="2"></line>
+        <line t="C" i="318" b="12" n="2">!   Store in encrypted buffer</line>
+        <line t="X" i="319" b="12" n="2">    cipher(ib0:ib0+bs-1) = cblock</line>
+        <line t="X" i="320" b="12" n="2"></line>
+        <line t="X" i="321" b="12" n="1">  end do</line>
+        <line t="X" i="322" b="12" n="1"></line>
+        <line t="ES" i="323" b="12" n="1">end subroutine crypto_base_encrypt</line>
+        <line t="ES" i="324" b="1" n="1"></line>
+        <line t="ES" i="325" b="1" n="1"></line>
+        <line t="C" i="326" b="1" n="1">! Decryption</line>
+        <line k="crypto_base_decrypt" t="S" i="327" b="1" n="1">pure subroutine crypto_base_decrypt( this, cipher, text, no_padding )</line>
+        <line t="S" i="328" b="1" n="1"></line>
+        <line t="C" i="329" b="1" n="1">! The crypto context</line>
+        <line t="X" i="330" b="1" n="1">  class(t_crypto_base), intent(inout) :: this</line>
+        <line t="X" i="331" b="1" n="1"></line>
+        <line t="C" i="332" b="1" n="1">! The encrypted text</line>
+        <line t="X" i="333" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: cipher</line>
+        <line t="X" i="334" b="1" n="1"></line>
+        <line t="C" i="335" b="1" n="1">! The plain decrypted text</line>
+        <line t="X" i="336" b="1" n="1">  integer(kind=1), dimension(:), allocatable, intent(out) :: text</line>
+        <line t="X" i="337" b="1" n="1"></line>
+        <line t="C" i="338" b="1" n="1">! Do not consider padding in the last block</line>
+        <line t="X" i="339" b="1" n="1">  logical, optional, intent(in) :: no_padding</line>
+        <line t="X" i="340" b="1" n="1">  </line>
+        <line t="C" i="341" b="1" n="1">! The block from the plain text to be decrypted</line>
+        <line t="X" i="342" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: cblock</line>
+        <line t="X" i="343" b="1" n="1"></line>
+        <line t="C" i="344" b="1" n="1">! The decrypted block at the end of each step of the mode</line>
+        <line t="X" i="345" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: block</line>
+        <line t="X" i="346" b="1" n="1"></line>
+        <line t="C" i="347" b="1" n="1">! Local variables</line>
+        <line t="X" i="348" b="1" n="1">  integer :: bs</line>
+        <line t="X" i="349" b="1" n="1">  integer :: iblock, nblocks, textlen, cipherlen</line>
+        <line t="X" i="350" b="1" n="1">  integer :: ib0, ib1</line>
+        <line t="X" i="351" b="1" n="1">  integer(kind=1), allocatable, dimension(:) :: local, trail</line>
+        <line t="X" i="352" b="1" n="1">  integer :: ntrail</line>
+        <line t="X" i="353" b="1" n="1">  logical :: remove_padding</line>
+        <line t="X" i="354" b="1" n="1">  type(t_crypto_padding) :: padding</line>
+        <line t="X" i="355" b="1" n="1">  </line>
+        <line t="C" i="356" b="1" n="1">! Blocking scheme</line>
+        <line t="X" i="357" b="1" n="1">  bs = this%cipher%block_size()</line>
+        <line t="X" i="358" b="1" n="1">  allocate( block(bs), cblock(bs) )</line>
+        <line t="X" i="359" b="1" n="1">  cipherlen = size(cipher)</line>
+        <line t="X" i="360" b="1" n="1">  nblocks = cipherlen / bs</line>
+        <line t="X" i="361" b="1" n="1"></line>
+        <line t="C" i="362" b="1" n="1">! Allocate decrypted buffer</line>
+        <line t="X" i="363" b="1" n="1">  textlen = nblocks * bs</line>
+        <line t="X" i="364" b="1" n="1">  allocate( local(textlen) )</line>
+        <line t="X" i="365" b="1" n="1"></line>
+        <line t="C" i="366" b="1" n="1">! Loop on all blocks</line>
+        <line t="X" i="367" b="2" n="2">  do iblock = 1, nblocks</line>
+        <line t="X" i="368" b="2" n="2"></line>
+        <line t="C" i="369" b="2" n="2">!   Extract block from input buffer</line>
+        <line t="X" i="370" b="2" n="2">    ib0 = ( iblock - 1 ) * bs + 1</line>
+        <line t="X" i="371" b="2" n="2">    ib1 = ib0 + bs - 1</line>
+        <line t="X" i="372" b="2" n="2">    cblock = cipher(ib0:ib1)</line>
+        <line t="X" i="373" b="2" n="2"></line>
+        <line t="C" i="374" b="2" n="2">!   Select the mode</line>
+        <line t="X" i="375" b="2" n="3">    select case( this%mode )</line>
+        <line t="X" i="376" b="2" n="3"></line>
+        <line t="X" i="377" b="3" n="3">      case( crypto_base_mode_ecb )</line>
+        <line t="X" i="378" b="3" n="3">        call this%cipher%decrypt( cblock, block )</line>
+        <line t="X" i="379" b="3" n="3"></line>
+        <line t="X" i="380" b="4" n="3">      case( crypto_base_mode_cbc )</line>
+        <line t="X" i="381" b="4" n="3">        call this%cipher%decrypt( cblock, block )</line>
+        <line t="X" i="382" b="4" n="3">        block = ieor( this%xblock, block )</line>
+        <line t="X" i="383" b="4" n="3">        this%xblock = cblock</line>
+        <line t="X" i="384" b="4" n="3"></line>
+        <line t="X" i="385" b="5" n="3">      case( crypto_base_mode_pcbc )</line>
+        <line t="X" i="386" b="5" n="3">        call this%cipher%decrypt( cblock, block )</line>
+        <line t="X" i="387" b="5" n="3">        block = ieor( this%xblock, block )</line>
+        <line t="X" i="388" b="5" n="3">        this%xblock = ieor( cblock, block )</line>
+        <line t="X" i="389" b="5" n="3"></line>
+        <line t="X" i="390" b="6" n="3">      case( crypto_base_mode_cfb )</line>
+        <line t="X" i="391" b="6" n="3">        call this%cipher%encrypt( this%xblock, block )</line>
+        <line t="X" i="392" b="6" n="3">        block = ieor( cblock, block )</line>
+        <line t="X" i="393" b="6" n="3">        this%xblock = cblock</line>
+        <line t="X" i="394" b="6" n="3"></line>
+        <line t="X" i="395" b="7" n="3">      case( crypto_base_mode_ofb )</line>
+        <line t="X" i="396" b="7" n="3">        call this%cipher%encrypt( this%xblock, block )</line>
+        <line t="X" i="397" b="7" n="3">        this%xblock = block</line>
+        <line t="X" i="398" b="7" n="3">        block = ieor( cblock, block )</line>
+        <line t="X" i="399" b="7" n="3"></line>
+        <line t="X" i="400" b="7" n="2">    end select</line>
+        <line t="X" i="401" b="7" n="2"></line>
+        <line t="C" i="402" b="7" n="2">!   Store in decrypted buffer</line>
+        <line t="X" i="403" b="7" n="2">    local(ib0:ib0+bs-1) = block</line>
+        <line t="X" i="404" b="7" n="2"></line>
+        <line t="X" i="405" b="7" n="1">  end do</line>
+        <line t="X" i="406" b="7" n="1"></line>
+        <line t="C" i="407" b="7" n="1">! Process trailing padding</line>
+        <line t="X" i="408" b="8" n="2">  if( present(no_padding) ) then</line>
+        <line t="X" i="409" b="8" n="2">    remove_padding = .not. no_padding</line>
+        <line t="X" i="410" b="9" n="2">  else</line>
+        <line t="X" i="411" b="9" n="2">    remove_padding = .true.</line>
+        <line t="X" i="412" b="9" n="1">  end if</line>
+        <line t="X" i="413" b="9" n="1">  </line>
+        <line t="C" i="414" b="9" n="1">! Check last block for padding</line>
+        <line t="X" i="415" b="10" n="2">  if( remove_padding ) then</line>
+        <line t="X" i="416" b="10" n="2">    padding = crypto_padding()</line>
+        <line t="X" i="417" b="10" n="2">    call padding%remove( block, trail )</line>
+        <line t="X" i="418" b="10" n="2">    ntrail = size(trail)</line>
+        <line t="X" i="419" b="11" n="2">  else</line>
+        <line t="X" i="420" b="11" n="2">    ntrail = 0</line>
+        <line t="X" i="421" b="11" n="1">  end if</line>
+        <line t="X" i="422" b="11" n="1">  </line>
+        <line t="C" i="423" b="11" n="1">! Process trailing padding</line>
+        <line t="X" i="424" b="12" n="2">  if( ntrail &gt; 0 .and. ntrail &lt; bs ) then</line>
+        <line t="X" i="425" b="12" n="2"></line>
+        <line t="C" i="426" b="12" n="2">!   Padding</line>
+        <line t="X" i="427" b="12" n="2">    textlen = bs * ( nblocks - 1 ) + ntrail</line>
+        <line t="X" i="428" b="12" n="2">    ib1 = bs * ( nblocks - 1 )</line>
+        <line t="X" i="429" b="12" n="2">    allocate( text(textlen), source=[ local(:ib1), trail ] )</line>
+        <line t="X" i="430" b="12" n="2"></line>
+        <line t="X" i="431" b="13" n="2">  else</line>
+        <line t="X" i="432" b="13" n="2">  </line>
+        <line t="C" i="433" b="13" n="2">!   No padding</line>
+        <line t="X" i="434" b="13" n="2">    allocate( text(textlen), source=local )</line>
+        <line t="X" i="435" b="13" n="2">    </line>
+        <line t="X" i="436" b="13" n="1">  end if</line>
+        <line t="X" i="437" b="13" n="1">  </line>
+        <line t="ES" i="438" b="13" n="1">end subroutine crypto_base_decrypt</line>
+        <line t="ES" i="439" b="1" n="1"></line>
+        <line t="ES" i="440" b="1" n="1"></line>
+        <line t="C" i="441" b="1" n="1">! Reset the initial vector</line>
+        <line k="crypto_reset" t="S" i="442" b="1" n="1">elemental subroutine crypto_reset( this )</line>
+        <line t="S" i="443" b="1" n="1"></line>
+        <line t="C" i="444" b="1" n="1">! The crypto context</line>
+        <line t="X" i="445" b="1" n="1">  class(t_crypto_base), intent(inout) :: this</line>
+        <line t="X" i="446" b="1" n="1"></line>
+        <line t="C" i="447" b="1" n="1">! Reset initial vector</line>
+        <line t="X" i="448" b="1" n="1">  this%xblock = this%inivec</line>
+        <line t="X" i="449" b="1" n="1">  </line>
+        <line t="ES" i="450" b="1" n="1">end subroutine crypto_reset</line>
+        <line t="ES" i="451" b="1" n="1"></line>
+        <line t="ES" i="452" b="1" n="1"></line>
+        <line t="C" i="453" b="1" n="1">! Assignment</line>
+        <line k="crypto_base_assign" t="S" i="454" b="1" n="1">elemental subroutine crypto_base_assign( this, other )</line>
+        <line t="S" i="455" b="1" n="1"></line>
+        <line t="C" i="456" b="1" n="1">! The crypto context</line>
+        <line t="X" i="457" b="1" n="1">  class(t_crypto_base), intent(inout) :: this</line>
+        <line t="X" i="458" b="1" n="1"></line>
+        <line t="C" i="459" b="1" n="1">! The other context</line>
+        <line t="X" i="460" b="1" n="1">  class(t_crypto_base), intent(in) :: other</line>
+        <line t="X" i="461" b="1" n="1"></line>
+        <line t="C" i="462" b="1" n="1">! Assign elements</line>
+        <line t="X" i="463" b="2" n="2">  if( allocated(other%cipher) ) then</line>
+        <line t="X" i="464" b="3" n="3">    if( allocated(this%cipher) ) then</line>
+        <line t="X" i="465" b="3" n="3">      this%cipher = other%cipher</line>
+        <line t="X" i="466" b="4" n="3">    else  </line>
+        <line t="X" i="467" b="4" n="3">      allocate( this%cipher, source=other%cipher )</line>
+        <line t="X" i="468" b="4" n="2">    end if</line>
+        <line t="X" i="469" b="4" n="1">  end if</line>
+        <line t="X" i="470" b="4" n="1">  this%algorithm = other%algorithm</line>
+        <line t="X" i="471" b="4" n="1">  this%mode = other%mode</line>
+        <line t="X" i="472" b="4" n="1">  this%padding = other%padding</line>
+        <line t="X" i="473" b="4" n="1"></line>
+        <line t="X" i="474" b="5" n="2">  if( allocated(this%inivec) ) deallocate(this%inivec)</line>
+        <line t="X" i="475" b="6" n="3">  if( allocated(other%inivec) ) then</line>
+        <line t="X" i="476" b="6" n="3">    allocate( this%inivec, source=other%inivec )</line>
+        <line t="X" i="477" b="6" n="2">  end if</line>
+        <line t="X" i="478" b="6" n="2"></line>
+        <line t="X" i="479" b="7" n="3">  if( allocated(this%xblock) ) deallocate(this%xblock)</line>
+        <line t="X" i="480" b="8" n="4">  if( allocated(other%xblock) ) then</line>
+        <line t="X" i="481" b="8" n="4">    allocate( this%xblock, source=other%xblock )</line>
+        <line t="X" i="482" b="8" n="3">  end if</line>
+        <line t="X" i="483" b="8" n="3"></line>
+        <line t="ES" i="484" b="8" n="3">end subroutine crypto_base_assign</line>
+        <line t="ES" i="485" b="1" n="3"></line>
+        <line t="M" i="486" b="1" n="3">end module m_crypto_base</line>
+        <line t="M" i="487" b="1" n="3"></line>
+    </code>
+</fmx>

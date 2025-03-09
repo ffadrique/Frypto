@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_des.f90">
+    <context>
+        <time>2025-03-09T18:24:38</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Frypto</project>
+        <name>m_des.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="pure" type="module">
+            <main>
+                <lines>
+                    <source percent="46.67">7</source>
+                    <comments percent="13.33">2</comments>
+                    <empty percent="40.00">6</empty>
+                    <total>15</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="des" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="35.29">6</source>
+                            <comments percent="29.41">5</comments>
+                            <empty percent="35.29">6</empty>
+                            <total>17</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="des_block_size" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="des_create_sub_keys" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="41.18">14</source>
+                            <comments percent="26.47">9</comments>
+                            <empty percent="32.35">11</empty>
+                            <total>34</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="des_crypt" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="51.92">54</source>
+                            <comments percent="22.12">23</comments>
+                            <empty percent="25.96">27</empty>
+                            <total>104</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>9</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="des_decrypt" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">9</source>
+                            <comments percent="29.63">8</comments>
+                            <empty percent="37.04">10</empty>
+                            <total>27</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="des_encrypt" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="32.14">9</source>
+                            <comments percent="28.57">8</comments>
+                            <empty percent="39.29">11</empty>
+                            <total>28</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="des_key_size" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="des_permutate" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">6</source>
+                            <comments percent="27.78">5</comments>
+                            <empty percent="38.89">7</empty>
+                            <total>18</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="42.32">113</source>
+                    <comments percent="24.72">66</comments>
+                    <empty percent="32.96">88</empty>
+                    <total>267</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>9</maximum>
+                    <average>2.13</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>1.38</average>
+                </nesting>
+                <methods>8</methods>
+            </statistics>
+        </unit>
+        <unit name="(m_des)" type="module">
+            <main>
+                <lines>
+                    <source percent="60.00">3</source>
+                    <comments percent="0.00">0</comments>
+                    <empty percent="40.00">2</empty>
+                    <total>5</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods />
+            <statistics>
+                <lines>
+                    <source percent="60.00">3</source>
+                    <comments percent="0.00">0</comments>
+                    <empty percent="40.00">2</empty>
+                    <total>5</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="42.65">116</source>
+            <comments percent="24.26">66</comments>
+            <empty percent="33.09">90</empty>
+            <total>272</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>9</maximum>
+            <average>1.06</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>3</maximum>
+            <average>1.00</average>
+        </nesting>
+        <methods>8</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_des</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2022, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Synopsis  : Data Encryption Standard (DES) implementation</line>
+        <line t="C" i="9" b="0" n="0">! Reference : National Insitute of Standards and Technology (NIST)</line>
+        <line t="C" i="10" b="0" n="0">!             Federal Information Processing Standards Publication (FIPS) 46</line>
+        <line t="C" i="11" b="0" n="0">!             https://csrc.nist.gov/publications/detail/fips/46/3/archive/1999-10-25</line>
+        <line t="C" i="12" b="0" n="0">!</line>
+        <line t="C" i="13" b="0" n="0">! License   : This file is part of Frypto.</line>
+        <line t="C" i="14" b="0" n="0">!</line>
+        <line t="C" i="15" b="0" n="0">!             Frypto is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="16" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="17" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="18" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="19" b="0" n="0">!</line>
+        <line t="C" i="20" b="0" n="0">!             Frypto is distributed in the hope that it will be useful,</line>
+        <line t="C" i="21" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="22" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="23" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="24" b="0" n="0">!</line>
+        <line t="C" i="25" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="26" b="0" n="0">!             License along with Frypto.  </line>
+        <line t="C" i="27" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="28" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="29" b="0" n="0"></line>
+        <line t="C" i="30" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="31" b="0" n="0"></line>
+        <line t="X" i="32" b="0" n="0">  use m_util_convert</line>
+        <line t="X" i="33" b="0" n="0">  use m_block_cipher</line>
+        <line t="X" i="34" b="0" n="0"></line>
+        <line t="C" i="35" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="36" b="0" n="0"></line>
+        <line t="X" i="37" b="0" n="0">  implicit none</line>
+        <line t="X" i="38" b="0" n="0"></line>
+        <line t="C" i="39" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="40" b="0" n="0"></line>
+        <line t="X" i="41" b="0" n="0">  private</line>
+        <line t="X" i="42" b="0" n="0">  public t_des</line>
+        <line t="X" i="43" b="0" n="0">  public des</line>
+        <line t="X" i="44" b="0" n="0"></line>
+        <line t="X" i="45" b="0" n="0">  public des_block_size</line>
+        <line t="X" i="46" b="0" n="0">  public des_key_Size</line>
+        <line t="X" i="47" b="0" n="0"></line>
+        <line t="C" i="48" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="49" b="0" n="0"></line>
+        <line t="C" i="50" b="0" n="0">!- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="51" b="0" n="0"></line>
+        <line t="C" i="52" b="0" n="0">! Numeric constants</line>
+        <line t="X" i="53" b="0" n="0">  integer(kind=1), parameter :: z00 = int(z'00',1)</line>
+        <line t="X" i="54" b="0" n="0">  integer(kind=1), parameter :: z01 = int(z'01',1)</line>
+        <line t="X" i="55" b="0" n="0"></line>
+        <line t="C" i="56" b="0" n="0">! Encryption/decryption</line>
+        <line t="X" i="57" b="0" n="0">  integer(kind=1), parameter :: des_do_encrypt = z00</line>
+        <line t="X" i="58" b="0" n="0">  integer(kind=1), parameter :: des_do_decrypt = z01</line>
+        <line t="X" i="59" b="0" n="0"></line>
+        <line t="C" i="60" b="0" n="0">! DES type</line>
+        <line t="T" i="61" b="0" n="0">  type, extends(t_block_cipher) :: t_des</line>
+        <line t="X" i="62" b="0" n="0">    private</line>
+        <line t="X" i="63" b="0" n="0"></line>
+        <line t="C" i="64" b="0" n="0">!     Encryption key</line>
+        <line t="X" i="65" b="0" n="0">      integer(kind=1), dimension(8) :: key = z00</line>
+        <line t="X" i="66" b="0" n="0"></line>
+        <line t="C" i="67" b="0" n="0">!     Working area</line>
+        <line t="X" i="68" b="0" n="0">      integer(kind=1), dimension(48,16) :: Kn = z00</line>
+        <line t="X" i="69" b="0" n="0"></line>
+        <line t="X" i="70" b="0" n="0">    contains</line>
+        <line t="X" i="71" b="0" n="0"></line>
+        <line t="C" i="72" b="0" n="0">!     Block size</line>
+        <line t="X" i="73" b="0" n="0">      procedure, nopass :: block_size =&gt; des_block_size</line>
+        <line t="X" i="74" b="0" n="0">      </line>
+        <line t="C" i="75" b="0" n="0">!     Key size</line>
+        <line t="X" i="76" b="0" n="0">      procedure, nopass :: key_size =&gt; des_key_size</line>
+        <line t="X" i="77" b="0" n="0"></line>
+        <line t="C" i="78" b="0" n="0">!     Encryption interface</line>
+        <line t="X" i="79" b="0" n="0">      procedure :: encrypt =&gt; des_encrypt</line>
+        <line t="X" i="80" b="0" n="0"></line>
+        <line t="C" i="81" b="0" n="0">!     Decryption interface</line>
+        <line t="X" i="82" b="0" n="0">      procedure :: decrypt =&gt; des_decrypt</line>
+        <line t="X" i="83" b="0" n="0"></line>
+        <line t="C" i="84" b="0" n="0">!     DES encryption (from 64 bits buffer)</line>
+        <line t="X" i="85" b="0" n="0">      procedure, private :: des_crypt</line>
+        <line t="X" i="86" b="0" n="0"></line>
+        <line t="C" i="87" b="0" n="0">!     Transform the secret key, so that it is ready for data processing</line>
+        <line t="C" i="88" b="0" n="0">!     Create the 16 subkeys, K[1] - K[16]</line>
+        <line t="X" i="89" b="0" n="0">      procedure, private :: des_create_sub_keys</line>
+        <line t="X" i="90" b="0" n="0"></line>
+        <line t="T" i="91" b="0" n="0">  end type t_des</line>
+        <line t="T" i="92" b="0" n="0"></line>
+        <line t="C" i="93" b="0" n="0">! The DES block size in bytes</line>
+        <line t="X" i="94" b="0" n="0">  integer, parameter :: des_block_size_in_bytes = 8</line>
+        <line t="X" i="95" b="0" n="0"></line>
+        <line t="C" i="96" b="0" n="0">! The DES key size in bytes</line>
+        <line t="X" i="97" b="0" n="0">  integer, parameter :: des_key_size_in_bytes = 8</line>
+        <line t="X" i="98" b="0" n="0"></line>
+        <line t="C" i="99" b="0" n="0">! Permutation and translation tables for DES</line>
+        <line t="X" i="100" b="0" n="0">  integer(kind=1), dimension(56), parameter :: des_pc1 = [ &amp;</line>
+        <line t="X" i="101" b="0" n="0">       56_1, 48_1, 40_1, 32_1, 24_1, 16_1,  8_1,  0_1, 57_1, 49_1, 41_1, 33_1, 25_1, 17_1, &amp;</line>
+        <line t="X" i="102" b="0" n="0">        9_1,  1_1, 58_1, 50_1, 42_1, 34_1, 26_1, 18_1, 10_1,  2_1, 59_1, 51_1, 43_1, 35_1, &amp;</line>
+        <line t="X" i="103" b="0" n="0">       62_1, 54_1, 46_1, 38_1, 30_1, 22_1, 14_1,  6_1, 61_1, 53_1, 45_1, 37_1, 29_1, 21_1, &amp;</line>
+        <line t="X" i="104" b="0" n="0">       13_1,  5_1, 60_1, 52_1, 44_1, 36_1, 28_1, 20_1, 12_1,  4_1, 27_1, 19_1, 11_1,  3_1 ] + 1_1</line>
+        <line t="X" i="105" b="0" n="0"></line>
+        <line t="C" i="106" b="0" n="0">! Number left rotations of pc1</line>
+        <line t="X" i="107" b="0" n="0">  integer(kind=1), dimension(16), parameter :: des_left_rotations = [ &amp;</line>
+        <line t="X" i="108" b="0" n="0">        1_1, 1_1, 2_1, 2_1, 2_1, 2_1, 2_1, 2_1, 1_1, 2_1, 2_1, 2_1, 2_1, 2_1, 2_1, 1_1 ]</line>
+        <line t="X" i="109" b="0" n="0"></line>
+        <line t="C" i="110" b="0" n="0">! Permuted choice key (table 2)</line>
+        <line t="X" i="111" b="0" n="0">  integer(kind=1), dimension(48), parameter :: des_pc2 = [ &amp;</line>
+        <line t="X" i="112" b="0" n="0">       13_1, 16_1, 10_1, 23_1,  0_1,  4_1,  2_1, 27_1, 14_1,  5_1, 20_1,  9_1, &amp;</line>
+        <line t="X" i="113" b="0" n="0">       22_1, 18_1, 11_1,  3_1, 25_1,  7_1, 15_1,  6_1, 26_1, 19_1, 12_1,  1_1, &amp;</line>
+        <line t="X" i="114" b="0" n="0">       40_1, 51_1, 30_1, 36_1, 46_1, 54_1, 29_1, 39_1, 50_1, 44_1, 32_1, 47_1, &amp;</line>
+        <line t="X" i="115" b="0" n="0">       43_1, 48_1, 38_1, 55_1, 33_1, 52_1, 45_1, 41_1, 49_1, 35_1, 28_1, 31_1 ] + 1_1</line>
+        <line t="X" i="116" b="0" n="0"></line>
+        <line t="C" i="117" b="0" n="0">! Initial permutation IP</line>
+        <line t="X" i="118" b="0" n="0">  integer(kind=1), dimension(64), parameter :: des_ip = [ &amp;</line>
+        <line t="X" i="119" b="0" n="0">       57_1, 49_1, 41_1, 33_1, 25_1, 17_1, 9_1,  1_1, 59_1, 51_1, 43_1, 35_1, 27_1, 19_1, 11_1, 3_1, &amp;</line>
+        <line t="X" i="120" b="0" n="0">       61_1, 53_1, 45_1, 37_1, 29_1, 21_1, 13_1, 5_1, 63_1, 55_1, 47_1, 39_1, 31_1, 23_1, 15_1, 7_1, &amp;</line>
+        <line t="X" i="121" b="0" n="0">       56_1, 48_1, 40_1, 32_1, 24_1, 16_1, 8_1,  0_1, 58_1, 50_1, 42_1, 34_1, 26_1, 18_1, 10_1, 2_1, &amp;</line>
+        <line t="X" i="122" b="0" n="0">       60_1, 52_1, 44_1, 36_1, 28_1, 20_1, 12_1, 4_1, 62_1, 54_1, 46_1, 38_1, 30_1, 22_1, 14_1, 6_1 ] + 1_1</line>
+        <line t="X" i="123" b="0" n="0"></line>
+        <line t="C" i="124" b="0" n="0">! Expansion table for turning 32 bit blocks into 48 bits</line>
+        <line t="X" i="125" b="0" n="0">  integer(kind=1), dimension(48), parameter :: des_expansion_table = [ &amp;</line>
+        <line t="X" i="126" b="0" n="0">       31_1,  0_1,  1_1,  2_1,  3_1,  4_1,  3_1,  4_1,  5_1,  6_1,  7_1,  8_1, &amp;</line>
+        <line t="X" i="127" b="0" n="0">        7_1,  8_1,  9_1, 10_1, 11_1, 12_1, 11_1, 12_1, 13_1, 14_1, 15_1, 16_1, &amp;</line>
+        <line t="X" i="128" b="0" n="0">       15_1, 16_1, 17_1, 18_1, 19_1, 20_1, 19_1, 20_1, 21_1, 22_1, 23_1, 24_1, &amp;</line>
+        <line t="X" i="129" b="0" n="0">       23_1, 24_1, 25_1, 26_1, 27_1, 28_1, 27_1, 28_1, 29_1, 30_1, 31_1,  0_1 ] + 1_1</line>
+        <line t="X" i="130" b="0" n="0"></line>
+        <line t="C" i="131" b="0" n="0">! The (in)famous S-boxes</line>
+        <line t="X" i="132" b="0" n="0">  integer(kind=1), dimension(64,8), parameter :: des_sbox = reshape( &amp;</line>
+        <line t="C" i="133" b="0" n="0">! S1</line>
+        <line t="X" i="134" b="0" n="0">    [ 14_1,  4_1, 13_1,  1_1,  2_1, 15_1, 11_1,  8_1,  3_1, 10_1,  6_1, 12_1,  5_1,  9_1,  0_1,  7_1, &amp;</line>
+        <line t="X" i="135" b="0" n="0">       0_1, 15_1,  7_1,  4_1, 14_1,  2_1, 13_1,  1_1, 10_1,  6_1, 12_1, 11_1,  9_1,  5_1,  3_1,  8_1, &amp;</line>
+        <line t="X" i="136" b="0" n="0">       4_1,  1_1, 14_1,  8_1, 13_1,  6_1,  2_1, 11_1, 15_1, 12_1,  9_1,  7_1,  3_1, 10_1,  5_1,  0_1, &amp;</line>
+        <line t="X" i="137" b="0" n="0">      15_1, 12_1,  8_1,  2_1,  4_1,  9_1,  1_1,  7_1,  5_1, 11_1,  3_1, 14_1, 10_1,  0_1,  6_1, 13_1, &amp;</line>
+        <line t="C" i="138" b="0" n="0">! S2</line>
+        <line t="X" i="139" b="0" n="0">       15_1,  1_1,  8_1, 14_1,  6_1, 11_1,  3_1,  4_1,  9_1,  7_1,  2_1, 13_1, 12_1,  0_1,  5_1, 10_1, &amp;</line>
+        <line t="X" i="140" b="0" n="0">        3_1, 13_1,  4_1,  7_1, 15_1,  2_1,  8_1, 14_1, 12_1,  0_1,  1_1, 10_1,  6_1,  9_1, 11_1,  5_1, &amp;</line>
+        <line t="X" i="141" b="0" n="0">        0_1, 14_1,  7_1, 11_1, 10_1,  4_1, 13_1,  1_1,  5_1,  8_1, 12_1,  6_1,  9_1,  3_1,  2_1, 15_1, &amp;</line>
+        <line t="X" i="142" b="0" n="0">       13_1,  8_1, 10_1,  1_1,  3_1, 15_1,  4_1,  2_1, 11_1,  6_1,  7_1, 12_1,  0_1,  5_1, 14_1,  9_1, &amp;</line>
+        <line t="C" i="143" b="0" n="0">! S3</line>
+        <line t="X" i="144" b="0" n="0">       10_1,  0_1,  9_1, 14_1,  6_1,  3_1, 15_1,  5_1,  1_1, 13_1, 12_1,  7_1, 11_1,  4_1,  2_1,  8_1, &amp;</line>
+        <line t="X" i="145" b="0" n="0">       13_1,  7_1,  0_1,  9_1,  3_1,  4_1,  6_1, 10_1,  2_1,  8_1,  5_1, 14_1, 12_1, 11_1, 15_1,  1_1, &amp;</line>
+        <line t="X" i="146" b="0" n="0">       13_1,  6_1,  4_1,  9_1,  8_1, 15_1,  3_1,  0_1, 11_1,  1_1,  2_1, 12_1,  5_1, 10_1, 14_1,  7_1, &amp;</line>
+        <line t="X" i="147" b="0" n="0">        1_1, 10_1, 13_1,  0_1,  6_1,  9_1,  8_1,  7_1,  4_1, 15_1, 14_1,  3_1, 11_1,  5_1,  2_1, 12_1, &amp;</line>
+        <line t="C" i="148" b="0" n="0">! S4</line>
+        <line t="X" i="149" b="0" n="0">        7_1, 13_1, 14_1,  3_1,  0_1,  6_1,  9_1, 10_1,  1_1,  2_1,  8_1,  5_1, 11_1, 12_1,  4_1, 15_1, &amp;</line>
+        <line t="X" i="150" b="0" n="0">       13_1,  8_1, 11_1,  5_1,  6_1, 15_1,  0_1,  3_1,  4_1,  7_1,  2_1, 12_1,  1_1, 10_1, 14_1,  9_1, &amp;</line>
+        <line t="X" i="151" b="0" n="0">       10_1,  6_1,  9_1,  0_1, 12_1, 11_1,  7_1, 13_1, 15_1,  1_1,  3_1, 14_1,  5_1,  2_1,  8_1,  4_1, &amp;</line>
+        <line t="X" i="152" b="0" n="0">        3_1, 15_1,  0_1,  6_1, 10_1,  1_1, 13_1,  8_1,  9_1,  4_1,  5_1, 11_1, 12_1,  7_1,  2_1, 14_1, &amp;</line>
+        <line t="C" i="153" b="0" n="0">! S5</line>
+        <line t="X" i="154" b="0" n="0">        2_1, 12_1,  4_1,  1_1,  7_1, 10_1, 11_1,  6_1,  8_1,  5_1,  3_1, 15_1, 13_1,  0_1, 14_1,  9_1, &amp;</line>
+        <line t="X" i="155" b="0" n="0">       14_1, 11_1,  2_1, 12_1,  4_1,  7_1, 13_1,  1_1,  5_1,  0_1, 15_1, 10_1,  3_1,  9_1,  8_1,  6_1, &amp;</line>
+        <line t="X" i="156" b="0" n="0">        4_1,  2_1,  1_1, 11_1, 10_1, 13_1,  7_1,  8_1, 15_1,  9_1, 12_1,  5_1,  6_1,  3_1,  0_1, 14_1, &amp;</line>
+        <line t="X" i="157" b="0" n="0">       11_1,  8_1, 12_1,  7_1,  1_1, 14_1,  2_1, 13_1,  6_1, 15_1,  0_1,  9_1, 10_1,  4_1,  5_1,  3_1, &amp;</line>
+        <line t="C" i="158" b="0" n="0">! S6</line>
+        <line t="X" i="159" b="0" n="0">       12_1,  1_1, 10_1, 15_1,  9_1,  2_1,  6_1,  8_1,  0_1, 13_1,  3_1,  4_1, 14_1,  7_1,  5_1, 11_1, &amp;</line>
+        <line t="X" i="160" b="0" n="0">       10_1, 15_1,  4_1,  2_1,  7_1, 12_1,  9_1,  5_1,  6_1,  1_1, 13_1, 14_1,  0_1, 11_1,  3_1,  8_1, &amp;</line>
+        <line t="X" i="161" b="0" n="0">        9_1, 14_1, 15_1,  5_1,  2_1,  8_1, 12_1,  3_1,  7_1,  0_1,  4_1, 10_1,  1_1, 13_1, 11_1,  6_1, &amp;</line>
+        <line t="X" i="162" b="0" n="0">        4_1,  3_1,  2_1, 12_1,  9_1,  5_1, 15_1, 10_1, 11_1, 14_1,  1_1,  7_1,  6_1,  0_1,  8_1, 13_1, &amp;</line>
+        <line t="C" i="163" b="0" n="0">! S7</line>
+        <line t="X" i="164" b="0" n="0">        4_1, 11_1,  2_1, 14_1, 15_1,  0_1,  8_1, 13_1,  3_1, 12_1,  9_1,  7_1,  5_1, 10_1,  6_1,  1_1, &amp;</line>
+        <line t="X" i="165" b="0" n="0">       13_1,  0_1, 11_1,  7_1,  4_1,  9_1,  1_1, 10_1, 14_1,  3_1,  5_1, 12_1,  2_1, 15_1,  8_1,  6_1, &amp;</line>
+        <line t="X" i="166" b="0" n="0">        1_1,  4_1, 11_1, 13_1, 12_1,  3_1,  7_1, 14_1, 10_1, 15_1,  6_1,  8_1,  0_1,  5_1,  9_1,  2_1, &amp;</line>
+        <line t="X" i="167" b="0" n="0">        6_1, 11_1, 13_1,  8_1,  1_1,  4_1, 10_1,  7_1,  9_1,  5_1,  0_1, 15_1, 14_1,  2_1,  3_1, 12_1, &amp;</line>
+        <line t="C" i="168" b="0" n="0">! S8</line>
+        <line t="X" i="169" b="0" n="0">       13_1,  2_1,  8_1,  4_1,  6_1, 15_1, 11_1,  1_1, 10_1,  9_1,  3_1, 14_1,  5_1,  0_1, 12_1,  7_1, &amp;</line>
+        <line t="X" i="170" b="0" n="0">        1_1, 15_1, 13_1,  8_1, 10_1,  3_1,  7_1,  4_1, 12_1,  5_1,  6_1, 11_1,  0_1, 14_1,  9_1,  2_1, &amp;</line>
+        <line t="X" i="171" b="0" n="0">        7_1, 11_1,  4_1,  1_1,  9_1, 12_1, 14_1,  2_1,  0_1,  6_1, 10_1, 13_1, 15_1,  3_1,  5_1,  8_1, &amp;</line>
+        <line t="X" i="172" b="0" n="0">        2_1,  1_1, 14_1,  7_1,  4_1, 10_1,  8_1, 13_1, 15_1, 12_1,  9_1,  0_1,  3_1,  5_1,  6_1, 11_1 ], &amp;</line>
+        <line t="X" i="173" b="0" n="0"></line>
+        <line t="X" i="174" b="0" n="0">    [ 64, 8 ] )</line>
+        <line t="X" i="175" b="0" n="0"></line>
+        <line t="C" i="176" b="0" n="0">! 32-bit permutation function P used on the output of the S-boxes</line>
+        <line t="X" i="177" b="0" n="0">  integer(kind=1), dimension(32), parameter :: des_p = [ &amp;</line>
+        <line t="X" i="178" b="0" n="0">       15_1,  6_1, 19_1, 20_1, 28_1, 11_1, 27_1, 16_1,  0_1, 14_1, 22_1, 25_1, &amp;</line>
+        <line t="X" i="179" b="0" n="0">        4_1, 17_1, 30_1,  9_1,  1_1,  7_1, 23_1, 13_1, 31_1, 26_1,  2_1,  8_1, &amp;</line>
+        <line t="X" i="180" b="0" n="0">       18_1, 12_1, 29_1,  5_1, 21_1, 10_1,  3_1, 24_1 ] + 1_1</line>
+        <line t="X" i="181" b="0" n="0"></line>
+        <line t="C" i="182" b="0" n="0">! Final permutation IP^-1</line>
+        <line t="X" i="183" b="0" n="0">  integer(kind=1), dimension(64), parameter :: des_fp = [ &amp;</line>
+        <line t="X" i="184" b="0" n="0">       39_1,  7_1, 47_1, 15_1, 55_1, 23_1, 63_1, 31_1, 38_1,  6_1, 46_1, 14_1, 54_1, 22_1, 62_1, 30_1, &amp;</line>
+        <line t="X" i="185" b="0" n="0">       37_1,  5_1, 45_1, 13_1, 53_1, 21_1, 61_1, 29_1, 36_1,  4_1, 44_1, 12_1, 52_1, 20_1, 60_1, 28_1, &amp;</line>
+        <line t="X" i="186" b="0" n="0">       35_1,  3_1, 43_1, 11_1, 51_1, 19_1, 59_1, 27_1, 34_1,  2_1, 42_1, 10_1, 50_1, 18_1, 58_1, 26_1, &amp;</line>
+        <line t="X" i="187" b="0" n="0">       33_1,  1_1, 41_1,  9_1, 49_1, 17_1, 57_1, 25_1, 32_1,  0_1, 40_1,  8_1, 48_1, 16_1, 56_1, 24_1 ] + 1_1</line>
+        <line t="X" i="188" b="0" n="0"></line>
+        <line t="X" i="189" b="0" n="0">       </line>
+        <line t="C" i="190" b="0" n="0">! Unit test interface for privte parts</line>
+        <line t="X" i="191" b="0" n="0">  interface </line>
+        <line t="X" i="192" b="0" n="0"></line>
+        <line t="M" i="193" b="0" n="0">    module pure subroutine unit_test_private_des_crypt( this, blist, ctype, cipher )</line>
+        <line t="X" i="194" b="0" n="0">      class(t_des), intent(inout) :: this</line>
+        <line t="X" i="195" b="0" n="0">      integer(kind=1), dimension(:), intent(in) :: blist</line>
+        <line t="X" i="196" b="0" n="0">      integer(kind=1), intent(in) :: ctype</line>
+        <line t="X" i="197" b="0" n="0">      integer(kind=1), dimension(size(blist)), intent(out) :: cipher</line>
+        <line t="X" i="198" b="0" n="0">    end subroutine unit_test_private_des_crypt</line>
+        <line t="X" i="199" b="0" n="0">  </line>
+        <line t="M" i="200" b="0" n="0">    module pure function unit_test_private_des_permutate( table, block ) result(res)</line>
+        <line t="X" i="201" b="0" n="0">      integer(kind=1), dimension(:), intent(in) :: table</line>
+        <line t="X" i="202" b="0" n="0">      integer(kind=1), dimension(:), intent(in) :: block</line>
+        <line t="X" i="203" b="0" n="0">      integer(kind=1), dimension(size(table)) :: res</line>
+        <line t="X" i="204" b="0" n="0">    end function unit_test_private_des_permutate</line>
+        <line t="X" i="205" b="0" n="0"></line>
+        <line t="M" i="206" b="0" n="0">    module pure subroutine unit_test_private_des_create_sub_keys( this )</line>
+        <line t="X" i="207" b="0" n="0">      class(t_des), intent(inout) :: this</line>
+        <line t="X" i="208" b="0" n="0">    end subroutine unit_test_private_des_create_sub_keys</line>
+        <line t="X" i="209" b="0" n="0"></line>
+        <line t="X" i="210" b="0" n="0">  end interface</line>
+        <line t="X" i="211" b="0" n="0">    </line>
+        <line t="X" i="212" b="0" n="0">  public unit_test_private_des_crypt, unit_test_private_des_permutate, unit_test_private_des_create_sub_keys</line>
+        <line t="X" i="213" b="0" n="0">  </line>
+        <line t="C" i="214" b="0" n="0">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="215" b="0" n="0"></line>
+        <line t="X" i="216" b="0" n="0">contains</line>
+        <line t="X" i="217" b="0" n="0"></line>
+        <line t="C" i="218" b="0" n="0">! Constuctor from key</line>
+        <line k="des" t="F" i="219" b="1" n="1">pure function des( key ) result(res)</line>
+        <line t="F" i="220" b="1" n="1"></line>
+        <line t="C" i="221" b="1" n="1">! The initialisation key</line>
+        <line t="X" i="222" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: key</line>
+        <line t="X" i="223" b="1" n="1"></line>
+        <line t="C" i="224" b="1" n="1">! The DES context</line>
+        <line t="X" i="225" b="1" n="1">  type(t_des) :: res</line>
+        <line t="X" i="226" b="1" n="1"></line>
+        <line t="C" i="227" b="1" n="1">! Initialise</line>
+        <line t="X" i="228" b="1" n="1">  res%key = key</line>
+        <line t="X" i="229" b="1" n="1"></line>
+        <line t="C" i="230" b="1" n="1">! Initialise sub-keys</line>
+        <line t="X" i="231" b="1" n="1">  call res%des_create_sub_keys()</line>
+        <line t="X" i="232" b="1" n="1"></line>
+        <line t="EF" i="233" b="1" n="1">end function des</line>
+        <line t="EF" i="234" b="1" n="1"></line>
+        <line t="EF" i="235" b="1" n="1"></line>
+        <line t="C" i="236" b="1" n="1">! DES block size</line>
+        <line k="des_block_size" t="F" i="237" b="1" n="1">pure function des_block_size() result(res)</line>
+        <line t="F" i="238" b="1" n="1"></line>
+        <line t="C" i="239" b="1" n="1">! DES block size</line>
+        <line t="X" i="240" b="1" n="1">  integer :: res</line>
+        <line t="X" i="241" b="1" n="1">   </line>
+        <line t="C" i="242" b="1" n="1">! Return the DES block size</line>
+        <line t="X" i="243" b="1" n="1">  res = des_block_size_in_bytes</line>
+        <line t="X" i="244" b="1" n="1">   </line>
+        <line t="EF" i="245" b="1" n="1">end function des_block_size</line>
+        <line t="EF" i="246" b="1" n="1"></line>
+        <line t="EF" i="247" b="1" n="1"></line>
+        <line t="C" i="248" b="1" n="1">! DES key size</line>
+        <line k="des_key_size" t="F" i="249" b="1" n="1">pure function des_key_size() result(res)</line>
+        <line t="F" i="250" b="1" n="1"></line>
+        <line t="C" i="251" b="1" n="1">! DES key size</line>
+        <line t="X" i="252" b="1" n="1">  integer :: res</line>
+        <line t="X" i="253" b="1" n="1">   </line>
+        <line t="C" i="254" b="1" n="1">! Return the DES key size</line>
+        <line t="X" i="255" b="1" n="1">  res = des_key_size_in_bytes</line>
+        <line t="X" i="256" b="1" n="1">   </line>
+        <line t="EF" i="257" b="1" n="1">end function des_key_size</line>
+        <line t="EF" i="258" b="1" n="1"></line>
+        <line t="EF" i="259" b="1" n="1"></line>
+        <line t="C" i="260" b="1" n="1">! DES encryption (from 8 bytes buffer)</line>
+        <line k="des_encrypt" t="S" i="261" b="1" n="1">pure subroutine des_encrypt( this, text, cipher )</line>
+        <line t="S" i="262" b="1" n="1"></line>
+        <line t="C" i="263" b="1" n="1">! The DES context</line>
+        <line t="X" i="264" b="1" n="1">  class(t_des), intent(in) :: this</line>
+        <line t="X" i="265" b="1" n="1"></line>
+        <line t="C" i="266" b="1" n="1">! The plain text to encrypt</line>
+        <line t="X" i="267" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: text</line>
+        <line t="X" i="268" b="1" n="1"></line>
+        <line t="C" i="269" b="1" n="1">! The encrypted text</line>
+        <line t="X" i="270" b="1" n="1">  integer(kind=1), dimension(size(text)), intent(out) :: cipher</line>
+        <line t="X" i="271" b="1" n="1"></line>
+        <line t="C" i="272" b="1" n="1">! Local variables</line>
+        <line t="X" i="273" b="1" n="1">  integer(kind=1), dimension(size(text)*8) :: cblist, blist</line>
+        <line t="X" i="274" b="1" n="1"></line>
+        <line t="X" i="275" b="1" n="1"></line>
+        <line t="C" i="276" b="1" n="1">! Generate the list of bits from the input buffer</line>
+        <line t="X" i="277" b="1" n="1">  blist = bytes_to_bits_list( text )</line>
+        <line t="X" i="278" b="1" n="1"></line>
+        <line t="C" i="279" b="1" n="1">! Encrypt</line>
+        <line t="X" i="280" b="1" n="1">  call this%des_crypt( blist, des_do_encrypt, cblist )</line>
+        <line t="X" i="281" b="1" n="1"></line>
+        <line t="C" i="282" b="1" n="1">! Convert the list of bits to the output buffer</line>
+        <line t="X" i="283" b="1" n="1">  cipher = bits_list_to_bytes( cblist )</line>
+        <line t="X" i="284" b="1" n="1"></line>
+        <line t="ES" i="285" b="1" n="1">end subroutine des_encrypt</line>
+        <line t="ES" i="286" b="1" n="1"></line>
+        <line t="ES" i="287" b="1" n="1"></line>
+        <line t="C" i="288" b="1" n="1">! DES decryption (from 8 bytes buffer)</line>
+        <line k="des_decrypt" t="S" i="289" b="1" n="1">pure subroutine des_decrypt( this, cipher, text )</line>
+        <line t="S" i="290" b="1" n="1"></line>
+        <line t="C" i="291" b="1" n="1">! The DES context</line>
+        <line t="X" i="292" b="1" n="1">  class(t_des), intent(in) :: this</line>
+        <line t="X" i="293" b="1" n="1"></line>
+        <line t="C" i="294" b="1" n="1">! The encrypted text</line>
+        <line t="X" i="295" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: cipher</line>
+        <line t="X" i="296" b="1" n="1"></line>
+        <line t="C" i="297" b="1" n="1">! The plain decrypted text</line>
+        <line t="X" i="298" b="1" n="1">  integer(kind=1), dimension(size(cipher)), intent(out) :: text</line>
+        <line t="X" i="299" b="1" n="1"></line>
+        <line t="C" i="300" b="1" n="1">! Local variables</line>
+        <line t="X" i="301" b="1" n="1">  integer(kind=1), dimension(size(cipher)*8) :: cblist, blist</line>
+        <line t="X" i="302" b="1" n="1"></line>
+        <line t="C" i="303" b="1" n="1">! Generate the list of bits from the input buffer</line>
+        <line t="X" i="304" b="1" n="1">  cblist = bytes_to_bits_list( cipher )</line>
+        <line t="X" i="305" b="1" n="1"></line>
+        <line t="C" i="306" b="1" n="1">! Decrypt</line>
+        <line t="X" i="307" b="1" n="1">  call this%des_crypt( cblist, des_do_decrypt, blist )</line>
+        <line t="X" i="308" b="1" n="1"></line>
+        <line t="C" i="309" b="1" n="1">! Convert the list of bits to the output buffer</line>
+        <line t="X" i="310" b="1" n="1">  text = bits_list_to_bytes( blist )</line>
+        <line t="X" i="311" b="1" n="1"></line>
+        <line t="ES" i="312" b="1" n="1">end subroutine des_decrypt</line>
+        <line t="ES" i="313" b="1" n="1"></line>
+        <line t="ES" i="314" b="1" n="1"></line>
+        <line t="C" i="315" b="1" n="1">! DES encryption (from 64 bits buffer)</line>
+        <line k="des_crypt" t="S" i="316" b="1" n="1">pure subroutine des_crypt( this, blist, ctype, cipher )</line>
+        <line t="S" i="317" b="1" n="1"></line>
+        <line t="C" i="318" b="1" n="1">! The DES context</line>
+        <line t="X" i="319" b="1" n="1">  class(t_des), intent(in) :: this</line>
+        <line t="X" i="320" b="1" n="1"></line>
+        <line t="C" i="321" b="1" n="1">! The plain text to encrypt</line>
+        <line t="X" i="322" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: blist</line>
+        <line t="X" i="323" b="1" n="1"></line>
+        <line t="C" i="324" b="1" n="1">! The encryption/decryption flag</line>
+        <line t="X" i="325" b="1" n="1">  integer(kind=1), intent(in) :: ctype</line>
+        <line t="X" i="326" b="1" n="1"></line>
+        <line t="C" i="327" b="1" n="1">! The encrypted text</line>
+        <line t="X" i="328" b="1" n="1">  integer(kind=1), dimension(size(blist)), intent(out) :: cipher</line>
+        <line t="X" i="329" b="1" n="1"></line>
+        <line t="C" i="330" b="1" n="1">! Local variables</line>
+        <line t="X" i="331" b="1" n="1">  integer(kind=1), dimension(size(des_ip)) :: block</line>
+        <line t="X" i="332" b="1" n="1">  integer(kind=1), dimension(32) :: L, R</line>
+        <line t="X" i="333" b="1" n="1">  integer(kind=1), dimension(48) :: RR</line>
+        <line t="X" i="334" b="1" n="1">  integer :: i, j</line>
+        <line t="X" i="335" b="1" n="1">  integer :: it, dit, pos</line>
+        <line t="X" i="336" b="1" n="1">  integer(kind=1), dimension(32) :: tmpR</line>
+        <line t="X" i="337" b="1" n="1">  integer(kind=1), dimension(6,8) :: B</line>
+        <line t="X" i="338" b="1" n="1">  integer(kind=1), dimension(32) :: Bn</line>
+        <line t="X" i="339" b="1" n="1">  integer(kind=1) :: m, n, v</line>
+        <line t="X" i="340" b="1" n="1"></line>
+        <line t="C" i="341" b="1" n="1">! Generate permutation</line>
+        <line t="X" i="342" b="1" n="1">  block = des_permutate( des_ip, blist )</line>
+        <line t="X" i="343" b="1" n="1"></line>
+        <line t="C" i="344" b="1" n="1">! Split into left and right sections</line>
+        <line t="X" i="345" b="1" n="1">  L = block(:32)</line>
+        <line t="X" i="346" b="1" n="1">  R = block(33:)</line>
+        <line t="X" i="347" b="1" n="1"></line>
+        <line t="C" i="348" b="1" n="1">! Encryption starts from Kn[1] through to Kn[16]</line>
+        <line t="X" i="349" b="2" n="2">  if( ctype == des_do_encrypt ) then</line>
+        <line t="X" i="350" b="2" n="2">    it = 1</line>
+        <line t="X" i="351" b="2" n="2">    dit = 1</line>
+        <line t="X" i="352" b="3" n="2">  else</line>
+        <line t="X" i="353" b="3" n="2">    it = 16</line>
+        <line t="X" i="354" b="3" n="2">    dit = -1</line>
+        <line t="X" i="355" b="3" n="1">  end if</line>
+        <line t="X" i="356" b="3" n="1"></line>
+        <line t="C" i="357" b="3" n="1">! Main loop</line>
+        <line t="X" i="358" b="4" n="2">  do i = 1, 16</line>
+        <line t="X" i="359" b="4" n="2"></line>
+        <line t="C" i="360" b="4" n="2">!   Make a copy of R[i-1], this will later become L[i]</line>
+        <line t="X" i="361" b="4" n="2">    tmpR = R</line>
+        <line t="X" i="362" b="4" n="2"></line>
+        <line t="C" i="363" b="4" n="2">!   Permutate R[i-1] to start creating R[i]</line>
+        <line t="X" i="364" b="4" n="2">    RR(:32) = R</line>
+        <line t="X" i="365" b="4" n="2">    RR(33:) = z00</line>
+        <line t="X" i="366" b="4" n="2">    RR = des_permutate( des_expansion_table, RR )</line>
+        <line t="X" i="367" b="4" n="2"></line>
+        <line t="C" i="368" b="4" n="2">!   Exclusive or R[i-1] with K[i], create B[1] to B[8] whilst here</line>
+        <line t="X" i="369" b="5" n="3">    where( RR /= this%Kn(:,it) )</line>
+        <line t="X" i="370" b="5" n="3">      RR = z01</line>
+        <line t="X" i="371" b="6" n="3">    elsewhere</line>
+        <line t="X" i="372" b="6" n="3">      RR = z00</line>
+        <line t="X" i="373" b="6" n="2">    end where</line>
+        <line t="X" i="374" b="6" n="2">    B = reshape( RR, [ 6, 8 ] )</line>
+        <line t="X" i="375" b="6" n="2"></line>
+        <line t="C" i="376" b="6" n="2">!   Permutate B[1] to B[8] using the S-Boxes</line>
+        <line t="X" i="377" b="6" n="2">    pos = 1</line>
+        <line t="X" i="378" b="7" n="3">    do j = 1, 8</line>
+        <line t="X" i="379" b="7" n="3"></line>
+        <line t="C" i="380" b="7" n="3">!     Work out the offsets</line>
+        <line t="X" i="381" b="7" n="3">      m = ishft( B(1,j), 1 ) + B(6,j)</line>
+        <line t="X" i="382" b="7" n="3">      n = ishft( B(2,j), 3 ) + ishft( B(3,j), 2 ) + ishft( B(4,j), 1 ) + B(5,j)</line>
+        <line t="X" i="383" b="7" n="3"></line>
+        <line t="C" i="384" b="7" n="3">!     Find the permutation value</line>
+        <line t="X" i="385" b="7" n="3">      v = des_sbox( ishft(m,4) + n + 1, j )</line>
+        <line t="X" i="386" b="7" n="3"></line>
+        <line t="C" i="387" b="7" n="3">!     Turn value into bits, add it to result: Bn</line>
+        <line t="X" i="388" b="7" n="3">      Bn(pos:pos+3) = ishft( iand( v, [ 8_1, 4_1, 2_1, 1_1 ] ), [ -3, -2, -1, 0 ] )</line>
+        <line t="X" i="389" b="7" n="3"></line>
+        <line t="C" i="390" b="7" n="3">!     Iterate position in Bn</line>
+        <line t="X" i="391" b="7" n="3">      pos = pos + 4</line>
+        <line t="X" i="392" b="7" n="3"></line>
+        <line t="X" i="393" b="7" n="2">    end do</line>
+        <line t="X" i="394" b="7" n="2"></line>
+        <line t="C" i="395" b="7" n="2">!   Permutate the concatination of B[1] to B[8] (Bn)</line>
+        <line t="X" i="396" b="7" n="2">    R = des_permutate( des_p, Bn )</line>
+        <line t="X" i="397" b="7" n="2"></line>
+        <line t="C" i="398" b="7" n="2">!   Exclusive or with L[i-1]</line>
+        <line t="X" i="399" b="8" n="3">    where( R /= L )</line>
+        <line t="X" i="400" b="8" n="3">      R = z01</line>
+        <line t="X" i="401" b="9" n="3">    elsewhere</line>
+        <line t="X" i="402" b="9" n="3">      R = z00</line>
+        <line t="X" i="403" b="9" n="2">    end where</line>
+        <line t="X" i="404" b="9" n="2"></line>
+        <line t="C" i="405" b="9" n="2">!   L[i] becomes R[i-1]</line>
+        <line t="X" i="406" b="9" n="2">    L = tmpR</line>
+        <line t="X" i="407" b="9" n="2"></line>
+        <line t="C" i="408" b="9" n="2">!   Iterate</line>
+        <line t="X" i="409" b="9" n="2">    it = it + dit</line>
+        <line t="X" i="410" b="9" n="2"></line>
+        <line t="X" i="411" b="9" n="1">  end do</line>
+        <line t="X" i="412" b="9" n="1"></line>
+        <line t="C" i="413" b="9" n="1">! Final permutation of R[16]L[16]</line>
+        <line t="X" i="414" b="9" n="1">  cipher = des_permutate( des_fp, [ R, L ] )</line>
+        <line t="X" i="415" b="9" n="1"></line>
+        <line t="ES" i="416" b="9" n="1">end subroutine des_crypt</line>
+        <line t="ES" i="417" b="1" n="1"></line>
+        <line t="ES" i="418" b="1" n="1"></line>
+        <line t="C" i="419" b="1" n="1">! Permutate this block with the specified table</line>
+        <line k="des_permutate" t="F" i="420" b="1" n="1">pure function des_permutate( table, block ) result(res)</line>
+        <line t="F" i="421" b="1" n="1"></line>
+        <line t="C" i="422" b="1" n="1">! The table to generate the permutation</line>
+        <line t="X" i="423" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: table</line>
+        <line t="X" i="424" b="1" n="1"></line>
+        <line t="C" i="425" b="1" n="1">! The block to permutate</line>
+        <line t="X" i="426" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: block</line>
+        <line t="X" i="427" b="1" n="1"></line>
+        <line t="C" i="428" b="1" n="1">! The permutated block</line>
+        <line t="X" i="429" b="1" n="1">  integer(kind=1), dimension(size(table)) :: res</line>
+        <line t="X" i="430" b="1" n="1"></line>
+        <line t="C" i="431" b="1" n="1">! Generate the result</line>
+        <line t="X" i="432" b="1" n="1">  res = block( [ table ] )</line>
+        <line t="X" i="433" b="1" n="1"></line>
+        <line t="EF" i="434" b="1" n="1">end function des_permutate</line>
+        <line t="EF" i="435" b="1" n="1"></line>
+        <line t="EF" i="436" b="1" n="1"></line>
+        <line t="C" i="437" b="1" n="1">! Transform the secret key, so that it is ready for data processing</line>
+        <line t="C" i="438" b="1" n="1">! Create the 16 subkeys, K[1] - K[16]</line>
+        <line k="des_create_sub_keys" t="S" i="439" b="1" n="1">pure subroutine des_create_sub_keys( this )</line>
+        <line t="S" i="440" b="1" n="1"></line>
+        <line t="C" i="441" b="1" n="1">! The DES context</line>
+        <line t="X" i="442" b="1" n="1">  class(t_des), intent(inout) :: this</line>
+        <line t="X" i="443" b="1" n="1"></line>
+        <line t="C" i="444" b="1" n="1">! Local variables</line>
+        <line t="X" i="445" b="1" n="1">  integer(kind=1), dimension(size(des_pc1)) :: key</line>
+        <line t="X" i="446" b="1" n="1">  integer(kind=1), dimension(size(des_pc1)/2) :: L, R</line>
+        <line t="X" i="447" b="1" n="1">  integer :: i</line>
+        <line t="X" i="448" b="1" n="1"></line>
+        <line t="C" i="449" b="1" n="1">! Generate the key permutation</line>
+        <line t="X" i="450" b="1" n="1">  key = des_permutate( des_pc1, bytes_to_bits_list( this%key ) )</line>
+        <line t="X" i="451" b="1" n="1"></line>
+        <line t="C" i="452" b="1" n="1">! Split into left and right sections</line>
+        <line t="X" i="453" b="1" n="1">  L = key(:28)</line>
+        <line t="X" i="454" b="1" n="1">  R = key(29:)</line>
+        <line t="X" i="455" b="1" n="1"></line>
+        <line t="C" i="456" b="1" n="1">! Create the 16 subkeys K[1] to K[16] from the given key</line>
+        <line t="X" i="457" b="2" n="2">  do i = 1, 16</line>
+        <line t="X" i="458" b="2" n="2"></line>
+        <line t="C" i="459" b="2" n="2">!   Perform circular left shifts</line>
+        <line t="X" i="460" b="2" n="2">    L = cshift( L, des_left_rotations(i) )</line>
+        <line t="X" i="461" b="2" n="2">    R = cshift( R, des_left_rotations(i) )</line>
+        <line t="X" i="462" b="2" n="2"></line>
+        <line t="C" i="463" b="2" n="2">!   Create one of the 16 subkeys through pc2 permutation</line>
+        <line t="X" i="464" b="2" n="2">    this%Kn(:,i) = des_permutate( des_pc2, [ L, R ] )</line>
+        <line t="X" i="465" b="2" n="2"></line>
+        <line t="X" i="466" b="2" n="1">  end do</line>
+        <line t="X" i="467" b="2" n="1"></line>
+        <line t="ES" i="468" b="2" n="1">end subroutine des_create_sub_keys</line>
+        <line t="ES" i="469" b="1" n="1"></line>
+        <line t="M" i="470" b="1" n="1">end module m_des</line>
+        <line t="M" i="471" b="1" n="1"></line>
+        <line t="M" i="472" b="1" n="1"></line>
+        <line t="C" i="473" b="1" n="1">! Unit test of private methods</line>
+        <line t="SM" i="474" b="1" n="1">submodule (m_des) unit_test_private_des</line>
+        <line t="SM" i="475" b="1" n="1"></line>
+        <line t="X" i="476" b="1" n="1">contains</line>
+        <line t="X" i="477" b="1" n="1"></line>
+        <line t="C" i="478" b="1" n="1">! Transform the secret key, so that it is ready for data processing</line>
+        <line t="C" i="479" b="1" n="1">! Create the 16 subkeys, K[1] - K[16]</line>
+        <line t="X" i="480" b="1" n="1">module procedure unit_test_private_des_create_sub_keys</line>
+        <line t="X" i="481" b="1" n="1">  call this%des_create_sub_keys()</line>
+        <line t="X" i="482" b="1" n="1">end procedure unit_test_private_des_create_sub_keys</line>
+        <line t="X" i="483" b="1" n="1"></line>
+        <line t="C" i="484" b="1" n="1">! Permutate this block with the specified table</line>
+        <line t="X" i="485" b="1" n="1">module procedure unit_test_private_des_permutate</line>
+        <line t="X" i="486" b="1" n="1">  res = des_permutate( table, block )</line>
+        <line t="X" i="487" b="1" n="1">end procedure unit_test_private_des_permutate</line>
+        <line t="X" i="488" b="1" n="1"></line>
+        <line t="C" i="489" b="1" n="1">! DES encryption (from 64 bits buffer)</line>
+        <line t="X" i="490" b="1" n="1">module procedure unit_test_private_des_crypt</line>
+        <line t="X" i="491" b="1" n="1">  call this%des_crypt( blist, ctype, cipher )</line>
+        <line t="X" i="492" b="1" n="1">end procedure unit_test_private_des_crypt</line>
+        <line t="X" i="493" b="1" n="1"></line>
+        <line t="SM" i="494" b="1" n="1">end submodule unit_test_private_des</line>
+        <line t="SM" i="495" b="1" n="1"></line>
+    </code>
+</fmx>

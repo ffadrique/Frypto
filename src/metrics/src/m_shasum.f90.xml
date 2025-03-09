@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_shasum.f90">
+    <context>
+        <time>2025-03-09T18:24:38</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Frypto</project>
+        <name>m_shasum.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_shasum" type="module">
+            <main>
+                <lines>
+                    <source percent="39.00">39</source>
+                    <comments percent="37.00">37</comments>
+                    <empty percent="24.00">24</empty>
+                    <total>100</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="shasum_default" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="41.67">5</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="33.33">4</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="shasum_encode_buffer" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">6</source>
+                            <comments percent="27.78">5</comments>
+                            <empty percent="38.89">7</empty>
+                            <total>18</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="shasum_encode_file" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="44.44">24</source>
+                            <comments percent="22.22">12</comments>
+                            <empty percent="33.33">18</empty>
+                            <total>54</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>5</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="shasum_encode_files" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="41.51">22</source>
+                            <comments percent="24.53">13</comments>
+                            <empty percent="33.96">18</empty>
+                            <total>53</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>4</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="shasum_encode_string" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">6</source>
+                            <comments percent="27.78">5</comments>
+                            <empty percent="38.89">7</empty>
+                            <total>18</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="shasum_encode_unit" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="31.82">7</source>
+                            <comments percent="31.82">7</comments>
+                            <empty percent="36.36">8</empty>
+                            <total>22</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="shasum_general" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="43.90">18</source>
+                            <comments percent="24.39">10</comments>
+                            <empty percent="31.71">13</empty>
+                            <total>41</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>6</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="shasum_get_hash_size" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="39.64">132</source>
+                    <comments percent="28.83">96</comments>
+                    <empty percent="31.53">105</empty>
+                    <total>333</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>6</maximum>
+                    <average>2.50</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>1.63</average>
+                </nesting>
+                <methods>8</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="39.64">132</source>
+            <comments percent="28.83">96</comments>
+            <empty percent="31.53">105</empty>
+            <total>333</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>6</maximum>
+            <average>2.50</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>3</maximum>
+            <average>1.63</average>
+        </nesting>
+        <methods>8</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_shasum</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2022, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Synopsis  : Interface for file hashing and hash checking</line>
+        <line t="C" i="9" b="0" n="0">!</line>
+        <line t="C" i="10" b="0" n="0">! License   : This file is part of Frypto.</line>
+        <line t="C" i="11" b="0" n="0">!</line>
+        <line t="C" i="12" b="0" n="0">!             Frypto is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="13" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="14" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="15" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="16" b="0" n="0">!</line>
+        <line t="C" i="17" b="0" n="0">!             Frypto is distributed in the hope that it will be useful,</line>
+        <line t="C" i="18" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="19" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="20" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="21" b="0" n="0">!</line>
+        <line t="C" i="22" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="23" b="0" n="0">!             License along with Frypto.  </line>
+        <line t="C" i="24" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="25" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="26" b="0" n="0"></line>
+        <line t="C" i="27" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="28" b="0" n="0"></line>
+        <line t="X" i="29" b="0" n="0">  use, intrinsic :: iso_fortran_env</line>
+        <line t="X" i="30" b="0" n="0"></line>
+        <line t="X" i="31" b="0" n="0">  use m_object</line>
+        <line t="X" i="32" b="0" n="0">  use m_util_convert</line>
+        <line t="X" i="33" b="0" n="0">  use m_file_handler</line>
+        <line t="X" i="34" b="0" n="0">  use m_messages</line>
+        <line t="X" i="35" b="0" n="0">  </line>
+        <line t="X" i="36" b="0" n="0">  use m_hash</line>
+        <line t="X" i="37" b="0" n="0">  use m_sha1</line>
+        <line t="X" i="38" b="0" n="0">  use m_sha256</line>
+        <line t="X" i="39" b="0" n="0">  use m_sha384</line>
+        <line t="X" i="40" b="0" n="0">  use m_sha512</line>
+        <line t="X" i="41" b="0" n="0"></line>
+        <line t="C" i="42" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="43" b="0" n="0"></line>
+        <line t="X" i="44" b="0" n="0">  implicit none</line>
+        <line t="X" i="45" b="0" n="0"></line>
+        <line t="C" i="46" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="47" b="0" n="0"></line>
+        <line t="X" i="48" b="0" n="0">  private</line>
+        <line t="X" i="49" b="0" n="0">  public t_shasum, shasum</line>
+        <line t="X" i="50" b="0" n="0">  public shasum_1, shasum_256, shasum_384, shasum_512</line>
+        <line t="X" i="51" b="0" n="0"></line>
+        <line t="C" i="52" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="53" b="0" n="0"></line>
+        <line t="C" i="54" b="0" n="0">  !- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="55" b="0" n="0"></line>
+        <line t="C" i="56" b="0" n="0">! Eumeration for algorithm selection</line>
+        <line t="X" i="57" b="0" n="0">  integer, parameter :: shasum_1   = 1</line>
+        <line t="X" i="58" b="0" n="0">  integer, parameter :: shasum_256 = 256</line>
+        <line t="X" i="59" b="0" n="0">  integer, parameter :: shasum_384 = 384</line>
+        <line t="X" i="60" b="0" n="0">  integer, parameter :: shasum_512 = 512</line>
+        <line t="X" i="61" b="0" n="0"></line>
+        <line t="C" i="62" b="0" n="0">! Hashing algorithm frontend</line>
+        <line t="T" i="63" b="0" n="0">  type, extends(t_object) :: t_shasum</line>
+        <line t="X" i="64" b="0" n="0">    private</line>
+        <line t="X" i="65" b="0" n="0"></line>
+        <line t="C" i="66" b="0" n="0">!     SHA algorithm version</line>
+        <line t="X" i="67" b="0" n="0">      integer :: version = shasum_1</line>
+        <line t="X" i="68" b="0" n="0"></line>
+        <line t="C" i="69" b="0" n="0">!     Hashing object</line>
+        <line t="X" i="70" b="0" n="0">      class(t_hash), allocatable :: ohash</line>
+        <line t="X" i="71" b="0" n="0"></line>
+        <line t="X" i="72" b="0" n="0">    contains</line>
+        <line t="X" i="73" b="0" n="0"></line>
+        <line t="C" i="74" b="0" n="0">!     Encode a character string or from open file</line>
+        <line t="X" i="75" b="0" n="0">      generic :: encode =&gt; shasum_encode_string, shasum_encode_buffer, shasum_encode_unit</line>
+        <line t="X" i="76" b="0" n="0">      procedure, private :: shasum_encode_string</line>
+        <line t="X" i="77" b="0" n="0">      procedure, private :: shasum_encode_buffer</line>
+        <line t="X" i="78" b="0" n="0">      procedure, private :: shasum_encode_unit</line>
+        <line t="X" i="79" b="0" n="0"></line>
+        <line t="C" i="80" b="0" n="0">!     Encode files</line>
+        <line t="X" i="81" b="0" n="0">      generic :: encode_file =&gt; shasum_encode_file, shasum_encode_files</line>
+        <line t="X" i="82" b="0" n="0">      procedure, private :: shasum_encode_file</line>
+        <line t="X" i="83" b="0" n="0">      procedure, private :: shasum_encode_files</line>
+        <line t="X" i="84" b="0" n="0"></line>
+        <line t="C" i="85" b="0" n="0">!     Get the size (bytes) of the hash</line>
+        <line t="X" i="86" b="0" n="0">      procedure :: get_hash_size =&gt; shasum_get_hash_size</line>
+        <line t="X" i="87" b="0" n="0"></line>
+        <line t="T" i="88" b="0" n="0">  end type t_shasum</line>
+        <line t="T" i="89" b="0" n="0"></line>
+        <line t="C" i="90" b="0" n="0">! Constructor interface</line>
+        <line t="X" i="91" b="0" n="0">  interface shasum</line>
+        <line t="X" i="92" b="0" n="0">    module procedure shasum_default</line>
+        <line t="X" i="93" b="0" n="0">    module procedure shasum_general</line>
+        <line t="X" i="94" b="0" n="0">  end interface shasum</line>
+        <line t="X" i="95" b="0" n="0"></line>
+        <line t="C" i="96" b="0" n="0">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="97" b="0" n="0"></line>
+        <line t="X" i="98" b="0" n="0">contains</line>
+        <line t="X" i="99" b="0" n="0"></line>
+        <line t="C" i="100" b="0" n="0">! Default constructor</line>
+        <line k="shasum_default" t="F" i="101" b="1" n="1">function shasum_default() result(res)</line>
+        <line t="F" i="102" b="1" n="1"></line>
+        <line t="C" i="103" b="1" n="1">! Constructed object</line>
+        <line t="X" i="104" b="1" n="1">  type(t_shasum) :: res</line>
+        <line t="X" i="105" b="1" n="1"></line>
+        <line t="C" i="106" b="1" n="1">! Default to SHA-1</line>
+        <line t="X" i="107" b="1" n="1">  res%version = shasum_1</line>
+        <line t="X" i="108" b="1" n="1">  allocate( res%ohash, source=sha1() )</line>
+        <line t="X" i="109" b="1" n="1"></line>
+        <line t="EF" i="110" b="1" n="1">end function shasum_default</line>
+        <line t="EF" i="111" b="1" n="1"></line>
+        <line t="EF" i="112" b="1" n="1"></line>
+        <line t="C" i="113" b="1" n="1">! Default constructor</line>
+        <line k="shasum_general" t="F" i="114" b="1" n="1">function shasum_general( version ) result(res)</line>
+        <line t="F" i="115" b="1" n="1"></line>
+        <line t="C" i="116" b="1" n="1">! The SHA algorithm version (from enumeration)</line>
+        <line t="X" i="117" b="1" n="1">  integer, intent(in) :: version</line>
+        <line t="X" i="118" b="1" n="1"></line>
+        <line t="C" i="119" b="1" n="1">! Constructed object</line>
+        <line t="X" i="120" b="1" n="1">  type(t_shasum) :: res</line>
+        <line t="X" i="121" b="1" n="1"></line>
+        <line t="C" i="122" b="1" n="1">! Store the sha version</line>
+        <line t="X" i="123" b="1" n="1">  res%version = shasum_1</line>
+        <line t="X" i="124" b="1" n="1"></line>
+        <line t="C" i="125" b="1" n="1">! Select the algorithm</line>
+        <line t="X" i="126" b="1" n="2">  select case( version )</line>
+        <line t="X" i="127" b="1" n="2"></line>
+        <line t="C" i="128" b="1" n="2">!   SHA-1</line>
+        <line t="X" i="129" b="2" n="2">    case( shasum_1 )</line>
+        <line t="X" i="130" b="2" n="2">      allocate( res%ohash, source=sha1() )</line>
+        <line t="X" i="131" b="2" n="2"></line>
+        <line t="C" i="132" b="2" n="2">!   SHA-256</line>
+        <line t="X" i="133" b="3" n="2">    case( shasum_256 )</line>
+        <line t="X" i="134" b="3" n="2">      allocate( res%ohash, source=sha256() )</line>
+        <line t="X" i="135" b="3" n="2"></line>
+        <line t="C" i="136" b="3" n="2">!   SHA-384</line>
+        <line t="X" i="137" b="4" n="2">    case( shasum_384 )</line>
+        <line t="X" i="138" b="4" n="2">      allocate( res%ohash, source=sha384() )</line>
+        <line t="X" i="139" b="4" n="2"></line>
+        <line t="C" i="140" b="4" n="2">!   SHA-512</line>
+        <line t="X" i="141" b="5" n="2">    case( shasum_512 )</line>
+        <line t="X" i="142" b="5" n="2">      allocate( res%ohash, source=sha512() )</line>
+        <line t="X" i="143" b="5" n="2"></line>
+        <line t="C" i="144" b="5" n="2">!   Default to SHA-1</line>
+        <line t="X" i="145" b="6" n="2">    case default</line>
+        <line t="X" i="146" b="6" n="2">      res%version = shasum_1</line>
+        <line t="X" i="147" b="6" n="2">      allocate( res%ohash, source=sha1() )</line>
+        <line t="X" i="148" b="6" n="2"></line>
+        <line t="X" i="149" b="6" n="1">  end select</line>
+        <line t="X" i="150" b="6" n="1"></line>
+        <line t="EF" i="151" b="6" n="1">end function shasum_general</line>
+        <line t="EF" i="152" b="1" n="1"></line>
+        <line t="EF" i="153" b="1" n="1"></line>
+        <line t="C" i="154" b="1" n="1">! Encode from input byte buffer</line>
+        <line k="shasum_encode_buffer" t="F" i="155" b="1" n="1">pure function shasum_encode_buffer( this, buffer ) result(res)</line>
+        <line t="F" i="156" b="1" n="1"></line>
+        <line t="C" i="157" b="1" n="1">! The hash structure</line>
+        <line t="X" i="158" b="1" n="1">  class(t_shasum), intent(in) :: this</line>
+        <line t="X" i="159" b="1" n="1"></line>
+        <line t="C" i="160" b="1" n="1">! The string to digest</line>
+        <line t="X" i="161" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: buffer</line>
+        <line t="X" i="162" b="1" n="1"></line>
+        <line t="C" i="163" b="1" n="1">! Resulting hash</line>
+        <line t="X" i="164" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: res</line>
+        <line t="X" i="165" b="1" n="1"></line>
+        <line t="C" i="166" b="1" n="1">! Encode the buffer with the selected algorithm</line>
+        <line t="X" i="167" b="1" n="1">  res = this%ohash%encode( buffer )</line>
+        <line t="X" i="168" b="1" n="1"></line>
+        <line t="EF" i="169" b="1" n="1">end function shasum_encode_buffer</line>
+        <line t="EF" i="170" b="1" n="1"></line>
+        <line t="EF" i="171" b="1" n="1"></line>
+        <line t="C" i="172" b="1" n="1">! Encode from input character string</line>
+        <line k="shasum_encode_string" t="F" i="173" b="1" n="1">pure function shasum_encode_string( this, s ) result(res)</line>
+        <line t="F" i="174" b="1" n="1"></line>
+        <line t="C" i="175" b="1" n="1">! The hash structure</line>
+        <line t="X" i="176" b="1" n="1">  class(t_shasum), intent(in) :: this</line>
+        <line t="X" i="177" b="1" n="1"></line>
+        <line t="C" i="178" b="1" n="1">! The string to digest</line>
+        <line t="X" i="179" b="1" n="1">  character(len=*), intent(in) :: s</line>
+        <line t="X" i="180" b="1" n="1"></line>
+        <line t="C" i="181" b="1" n="1">! Resulting hash</line>
+        <line t="X" i="182" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: res</line>
+        <line t="X" i="183" b="1" n="1"></line>
+        <line t="C" i="184" b="1" n="1">! Convert to buffer and process</line>
+        <line t="X" i="185" b="1" n="1">  res = this%encode( character_to_bytes(s) )</line>
+        <line t="X" i="186" b="1" n="1"></line>
+        <line t="EF" i="187" b="1" n="1">end function shasum_encode_string</line>
+        <line t="EF" i="188" b="1" n="1"></line>
+        <line t="EF" i="189" b="1" n="1"></line>
+        <line t="C" i="190" b="1" n="1">! Encode from file contents</line>
+        <line k="shasum_encode_unit" t="F" i="191" b="1" n="1">function shasum_encode_unit( this, unit, iostat ) result(res)</line>
+        <line t="F" i="192" b="1" n="1"></line>
+        <line t="C" i="193" b="1" n="1">! The hash structure</line>
+        <line t="X" i="194" b="1" n="1">  class(t_shasum), intent(in) :: this</line>
+        <line t="X" i="195" b="1" n="1"></line>
+        <line t="C" i="196" b="1" n="1">! The Fortran unit for the file to digest</line>
+        <line t="C" i="197" b="1" n="1">! File must have been opened with access=stream</line>
+        <line t="X" i="198" b="1" n="1">  integer, intent(in) :: unit</line>
+        <line t="X" i="199" b="1" n="1"></line>
+        <line t="C" i="200" b="1" n="1">! The read status</line>
+        <line t="X" i="201" b="1" n="1">  integer, intent(out) :: iostat</line>
+        <line t="X" i="202" b="1" n="1"></line>
+        <line t="C" i="203" b="1" n="1">! Resulting hash</line>
+        <line t="X" i="204" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: res</line>
+        <line t="X" i="205" b="1" n="1"></line>
+        <line t="C" i="206" b="1" n="1">! Encode the buffer with the selected algorithm</line>
+        <line t="X" i="207" b="1" n="1">  res = this%ohash%encode( unit, iostat )</line>
+        <line t="X" i="208" b="1" n="1"></line>
+        <line t="EF" i="209" b="1" n="1">end function shasum_encode_unit</line>
+        <line t="EF" i="210" b="1" n="1"></line>
+        <line t="EF" i="211" b="1" n="1"></line>
+        <line t="C" i="212" b="1" n="1">! Encode files</line>
+        <line k="shasum_encode_files" t="S" i="213" b="1" n="1">subroutine shasum_encode_files( this, paths, hashes, msg )</line>
+        <line t="S" i="214" b="1" n="1"></line>
+        <line t="C" i="215" b="1" n="1">! Calling object</line>
+        <line t="X" i="216" b="1" n="1">  class(t_shasum), intent(in) :: this</line>
+        <line t="X" i="217" b="1" n="1"></line>
+        <line t="C" i="218" b="1" n="1">! File full path</line>
+        <line t="X" i="219" b="1" n="1">  character(len=*), dimension(:), intent(in) :: paths</line>
+        <line t="X" i="220" b="1" n="1"></line>
+        <line t="C" i="221" b="1" n="1">! The resulting hash (in hex)</line>
+        <line t="X" i="222" b="1" n="1">  character(len=:), dimension(:), allocatable, intent(out) :: hashes</line>
+        <line t="X" i="223" b="1" n="1"></line>
+        <line t="C" i="224" b="1" n="1">! Processing error hndling</line>
+        <line t="X" i="225" b="1" n="1">  type(t_messages), intent(inout) :: msg</line>
+        <line t="X" i="226" b="1" n="1"></line>
+        <line t="C" i="227" b="1" n="1">! Local variables</line>
+        <line t="X" i="228" b="1" n="1">  integer :: ipath</line>
+        <line t="X" i="229" b="1" n="1">  type(t_messages) :: lmsg</line>
+        <line t="X" i="230" b="1" n="1">  character(len=:), allocatable :: hash</line>
+        <line t="X" i="231" b="1" n="1">  integer :: length</line>
+        <line t="X" i="232" b="1" n="1"></line>
+        <line t="C" i="233" b="1" n="1">! Do a first initialisation to get the length of the resulting hash strings</line>
+        <line t="X" i="234" b="1" n="1">  length = this%ohash%get_hash_size()</line>
+        <line t="X" i="235" b="1" n="1"></line>
+        <line t="C" i="236" b="1" n="1">! Initialise hashes array (in hex it is twice as long as the hash size)</line>
+        <line t="X" i="237" b="1" n="1">  allocate( character(len=2*length) :: hashes(size(paths)) )</line>
+        <line t="X" i="238" b="1" n="1"></line>
+        <line t="C" i="239" b="1" n="1">! Loop on the files</line>
+        <line t="X" i="240" b="2" n="2">  do ipath = 1, size(paths)</line>
+        <line t="X" i="241" b="2" n="2"></line>
+        <line t="C" i="242" b="2" n="2">!   Encode this file</line>
+        <line t="X" i="243" b="2" n="2">    call this%encode_file( paths(ipath), hash, lmsg )</line>
+        <line t="X" i="244" b="2" n="2"></line>
+        <line t="C" i="245" b="2" n="2">!   Check error in this file</line>
+        <line t="X" i="246" b="3" n="3">    if( .not. lmsg%on_error() ) then</line>
+        <line t="X" i="247" b="3" n="3"></line>
+        <line t="C" i="248" b="3" n="3">!     Assign hash</line>
+        <line t="X" i="249" b="3" n="3">      hashes(ipath) = hash</line>
+        <line t="X" i="250" b="3" n="3"></line>
+        <line t="X" i="251" b="4" n="3">    else</line>
+        <line t="X" i="252" b="4" n="3"></line>
+        <line t="C" i="253" b="4" n="3">!     Invalidate hash and report error</line>
+        <line t="X" i="254" b="4" n="3">      hashes(ipath) = repeat("*", 2 * this%ohash%get_hash_size() )</line>
+        <line t="X" i="255" b="4" n="3">      call msg%error( 'm_shassum', 'shasum_encode_files', 1, 'Failed on file "' // trim(paths(ipath)) // '"' )</line>
+        <line t="X" i="256" b="4" n="3">      call lmsg%reset_error()</line>
+        <line t="X" i="257" b="4" n="3"></line>
+        <line t="X" i="258" b="4" n="2">    end if</line>
+        <line t="X" i="259" b="4" n="2"></line>
+        <line t="X" i="260" b="4" n="1">  end do</line>
+        <line t="X" i="261" b="4" n="1"></line>
+        <line t="ES" i="262" b="4" n="1">end subroutine shasum_encode_files</line>
+        <line t="ES" i="263" b="1" n="1"></line>
+        <line t="ES" i="264" b="1" n="1"></line>
+        <line t="C" i="265" b="1" n="1">! Encode file</line>
+        <line k="shasum_encode_file" t="S" i="266" b="1" n="1">subroutine shasum_encode_file( this, path, hash, msg )</line>
+        <line t="S" i="267" b="1" n="1"></line>
+        <line t="C" i="268" b="1" n="1">! Calling object</line>
+        <line t="X" i="269" b="1" n="1">  class(t_shasum), intent(in) :: this</line>
+        <line t="X" i="270" b="1" n="1"></line>
+        <line t="C" i="271" b="1" n="1">! File full path</line>
+        <line t="X" i="272" b="1" n="1">  character(len=*), intent(in) :: path</line>
+        <line t="X" i="273" b="1" n="1"></line>
+        <line t="C" i="274" b="1" n="1">! The resulting hash (in hex)</line>
+        <line t="X" i="275" b="1" n="1">  character(len=:), allocatable, intent(out) :: hash</line>
+        <line t="X" i="276" b="1" n="1"></line>
+        <line t="C" i="277" b="1" n="1">! Processing error hndling</line>
+        <line t="X" i="278" b="1" n="1">  type(t_messages), intent(inout) :: msg</line>
+        <line t="X" i="279" b="1" n="1"></line>
+        <line t="C" i="280" b="1" n="1">! Local variables</line>
+        <line t="X" i="281" b="1" n="1">  type(t_file_handler) :: fhandler</line>
+        <line t="X" i="282" b="1" n="1">  integer :: iostat</line>
+        <line t="X" i="283" b="1" n="1">  integer(kind=1), allocatable, dimension(:) :: bhash</line>
+        <line t="X" i="284" b="1" n="1"></line>
+        <line t="C" i="285" b="1" n="1">! Open the input file</line>
+        <line t="X" i="286" b="1" n="1">  fhandler = file_handler( path )</line>
+        <line t="X" i="287" b="1" n="1">  call fhandler%open( stream=.true. )</line>
+        <line t="X" i="288" b="2" n="2">  if( fhandler%is_open() ) then</line>
+        <line t="X" i="289" b="2" n="2"></line>
+        <line t="C" i="290" b="2" n="2">!   Encode the file</line>
+        <line t="X" i="291" b="2" n="2">    allocate( bhash(this%ohash%get_hash_size()), source=0_1 )</line>
+        <line t="X" i="292" b="2" n="2">    bhash = this%encode( fhandler%get_unit(), iostat )</line>
+        <line t="X" i="293" b="3" n="3">    if( iostat == 0 ) then</line>
+        <line t="X" i="294" b="3" n="3"></line>
+        <line t="C" i="295" b="3" n="3">!     Get the hash</line>
+        <line t="X" i="296" b="3" n="3">      hash = bytes_to_hex( bhash, .true. )</line>
+        <line t="X" i="297" b="3" n="3"></line>
+        <line t="X" i="298" b="4" n="3">    else</line>
+        <line t="X" i="299" b="4" n="3"></line>
+        <line t="C" i="300" b="4" n="3">!     Report error</line>
+        <line t="X" i="301" b="4" n="3">      call msg%error( 'm_shasum', 'shasum_encode_file', 2, &amp;</line>
+        <line t="X" i="302" b="4" n="3">                      'Hash algorithm failed on "' // trim(path) // '" with iostat=' // character(iostat) )</line>
+        <line t="X" i="303" b="4" n="3"></line>
+        <line t="X" i="304" b="4" n="2">    end if</line>
+        <line t="X" i="305" b="4" n="2"></line>
+        <line t="C" i="306" b="4" n="2">!   Close the input file</line>
+        <line t="X" i="307" b="4" n="2">    call fhandler%close()</line>
+        <line t="X" i="308" b="4" n="2"></line>
+        <line t="X" i="309" b="5" n="2">  else</line>
+        <line t="X" i="310" b="5" n="2"></line>
+        <line t="C" i="311" b="5" n="2">!   Report error</line>
+        <line t="X" i="312" b="5" n="2">    call msg%error( 'm_shasum', 'shasum_encode_file', 1, 'Cannot open "' // trim(path) // '"' )</line>
+        <line t="X" i="313" b="5" n="2"></line>
+        <line t="X" i="314" b="5" n="1">  end if</line>
+        <line t="X" i="315" b="5" n="1"></line>
+        <line t="ES" i="316" b="5" n="1">end subroutine shasum_encode_file</line>
+        <line t="ES" i="317" b="1" n="1"></line>
+        <line t="ES" i="318" b="1" n="1"></line>
+        <line t="C" i="319" b="1" n="1">! Get the hash size (bytes) for this algorithm</line>
+        <line k="shasum_get_hash_size" t="F" i="320" b="1" n="1">pure function shasum_get_hash_size( this ) result(res)</line>
+        <line t="F" i="321" b="1" n="1"></line>
+        <line t="C" i="322" b="1" n="1">! Calling object</line>
+        <line t="X" i="323" b="1" n="1">  class(t_shasum), intent(in) :: this</line>
+        <line t="X" i="324" b="1" n="1"></line>
+        <line t="C" i="325" b="1" n="1">! Hash size</line>
+        <line t="X" i="326" b="1" n="1">  integer :: res</line>
+        <line t="X" i="327" b="1" n="1"></line>
+        <line t="C" i="328" b="1" n="1">! Return the size of the hash (in bytes)</line>
+        <line t="X" i="329" b="1" n="1">  res = this%ohash%get_hash_size()</line>
+        <line t="X" i="330" b="1" n="1"></line>
+        <line t="EF" i="331" b="1" n="1">end function shasum_get_hash_size</line>
+        <line t="EF" i="332" b="1" n="1"></line>
+        <line t="EF" i="333" b="1" n="1"></line>
+        <line t="M" i="334" b="1" n="1">end module m_shasum</line>
+        <line t="M" i="335" b="1" n="1"></line>
+    </code>
+</fmx>

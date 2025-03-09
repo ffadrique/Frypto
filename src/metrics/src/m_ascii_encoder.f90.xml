@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_ascii_encoder.f90">
+    <context>
+        <time>2025-03-09T18:24:38</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Frypto</project>
+        <name>m_ascii_encoder.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_ascii_encoder" type="module">
+            <main>
+                <lines>
+                    <source percent="7.61">7</source>
+                    <comments percent="57.61">53</comments>
+                    <empty percent="34.78">32</empty>
+                    <total>92</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="ascii_encoder_decode" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="39.13">18</source>
+                            <comments percent="26.09">12</comments>
+                            <empty percent="34.78">16</empty>
+                            <total>46</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="ascii_encoder_decode_core" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="46.58">34</source>
+                            <comments percent="23.29">17</comments>
+                            <empty percent="30.14">22</empty>
+                            <total>73</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>5</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="ascii_encoder_encode" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="36.59">15</source>
+                            <comments percent="26.83">11</comments>
+                            <empty percent="36.59">15</empty>
+                            <total>41</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="ascii_encoder_encode_core" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="43.53">37</source>
+                            <comments percent="24.71">21</comments>
+                            <empty percent="31.76">27</empty>
+                            <total>85</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>5</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="ascii_encoder_initialise" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="43.75">21</source>
+                            <comments percent="27.08">13</comments>
+                            <empty percent="29.17">14</empty>
+                            <total>48</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="34.29">132</source>
+                    <comments percent="32.99">127</comments>
+                    <empty percent="32.73">126</empty>
+                    <total>385</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>5</maximum>
+                    <average>3.40</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>2.40</average>
+                </nesting>
+                <methods>5</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="34.29">132</source>
+            <comments percent="32.99">127</comments>
+            <empty percent="32.73">126</empty>
+            <total>385</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>5</maximum>
+            <average>3.40</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>3</maximum>
+            <average>2.40</average>
+        </nesting>
+        <methods>5</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_ascii_encoder</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2022, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Synopsis  : Abstract class for acii encoding (uuencode, base64, base32)</line>
+        <line t="C" i="9" b="0" n="0">!             Provides logic for the processing of the input and relies on</line>
+        <line t="C" i="10" b="0" n="0">!             derived class to implement the encoding of the blocks according</line>
+        <line t="C" i="11" b="0" n="0">!             to the specific algotihm (i.e. uuendoce, base32, base64, ...)</line>
+        <line t="C" i="12" b="0" n="0">!</line>
+        <line t="C" i="13" b="0" n="0">! License   : This file is part of Frypto.</line>
+        <line t="C" i="14" b="0" n="0">!</line>
+        <line t="C" i="15" b="0" n="0">!             Frypto is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="16" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="17" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="18" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="19" b="0" n="0">!</line>
+        <line t="C" i="20" b="0" n="0">!             Frypto is distributed in the hope that it will be useful,</line>
+        <line t="C" i="21" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="22" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="23" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="24" b="0" n="0">!</line>
+        <line t="C" i="25" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="26" b="0" n="0">!             License along with Frypto.  </line>
+        <line t="C" i="27" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="28" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="29" b="0" n="0"></line>
+        <line t="C" i="30" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="31" b="0" n="0"></line>
+        <line t="X" i="32" b="0" n="0">  use m_object</line>
+        <line t="X" i="33" b="0" n="0"></line>
+        <line t="C" i="34" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="35" b="0" n="0"></line>
+        <line t="X" i="36" b="0" n="0">  implicit none</line>
+        <line t="X" i="37" b="0" n="0"></line>
+        <line t="C" i="38" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="39" b="0" n="0"></line>
+        <line t="X" i="40" b="0" n="0">  private</line>
+        <line t="X" i="41" b="0" n="0">  public t_ascii_encoder</line>
+        <line t="X" i="42" b="0" n="0"></line>
+        <line t="C" i="43" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="44" b="0" n="0"></line>
+        <line t="C" i="45" b="0" n="0">!- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="46" b="0" n="0"></line>
+        <line t="C" i="47" b="0" n="0">! ASCII encoder type</line>
+        <line t="T" i="48" b="0" n="0">  type, abstract, extends(t_object) :: t_ascii_encoder</line>
+        <line t="X" i="49" b="0" n="0">    private</line>
+        <line t="X" i="50" b="0" n="0"></line>
+        <line t="C" i="51" b="0" n="0">!     Decoded block size</line>
+        <line t="X" i="52" b="0" n="0">      integer :: blk = 0</line>
+        <line t="X" i="53" b="0" n="0"></line>
+        <line t="C" i="54" b="0" n="0">!     Coded block size</line>
+        <line t="X" i="55" b="0" n="0">      integer :: cblk = 0</line>
+        <line t="X" i="56" b="0" n="0"></line>
+        <line t="C" i="57" b="0" n="0">!     Padding character for codding proces</line>
+        <line t="X" i="58" b="0" n="0">      integer(kind=1) :: padding_byte = 0_1</line>
+        <line t="X" i="59" b="0" n="0"></line>
+        <line t="C" i="60" b="0" n="0">!     Padding character in the coded array</line>
+        <line t="X" i="61" b="0" n="0">      integer(kind=1) :: padding_cbyte = 0_1</line>
+        <line t="X" i="62" b="0" n="0"></line>
+        <line t="C" i="63" b="0" n="0">!     Map between traling bytes in the decoded and coded representations</line>
+        <line t="C" i="64" b="0" n="0">!     Coded characters as function of the decoded characters</line>
+        <line t="X" i="65" b="0" n="0">      integer, dimension(:), allocatable :: coded_trailing</line>
+        <line t="X" i="66" b="0" n="0"></line>
+        <line t="C" i="67" b="0" n="0">!     Map between traling bytes in the coded and decoded representations</line>
+        <line t="C" i="68" b="0" n="0">!     Decoded characters as function of the coded characters</line>
+        <line t="X" i="69" b="0" n="0">      integer, dimension(:), allocatable :: decoded_trailing</line>
+        <line t="X" i="70" b="0" n="0"></line>
+        <line t="C" i="71" b="0" n="0">!     Flag to generate the encoding with padding (for encoding only)</line>
+        <line t="X" i="72" b="0" n="0">      logical :: padding = .true.</line>
+        <line t="X" i="73" b="0" n="0"></line>
+        <line t="X" i="74" b="0" n="0">    contains</line>
+        <line t="X" i="75" b="0" n="0"></line>
+        <line t="C" i="76" b="0" n="0">!     Class initialisation</line>
+        <line t="X" i="77" b="0" n="0">      procedure :: initialise =&gt; ascii_encoder_initialise</line>
+        <line t="X" i="78" b="0" n="0"></line>
+        <line t="C" i="79" b="0" n="0">!     Encryption interface</line>
+        <line t="X" i="80" b="0" n="0">      procedure :: encode =&gt; ascii_encoder_encode</line>
+        <line t="X" i="81" b="0" n="0"></line>
+        <line t="C" i="82" b="0" n="0">!     Decryption interface</line>
+        <line t="X" i="83" b="0" n="0">      procedure :: decode =&gt; ascii_encoder_decode</line>
+        <line t="X" i="84" b="0" n="0"></line>
+        <line t="C" i="85" b="0" n="0">!     Encryption high level logic</line>
+        <line t="X" i="86" b="0" n="0">      procedure, private :: encode_core =&gt; ascii_encoder_encode_core</line>
+        <line t="X" i="87" b="0" n="0"></line>
+        <line t="C" i="88" b="0" n="0">!     Decryption high level logic</line>
+        <line t="X" i="89" b="0" n="0">      procedure, private :: decode_core =&gt; ascii_encoder_decode_core</line>
+        <line t="X" i="90" b="0" n="0"></line>
+        <line t="C" i="91" b="0" n="0">!     Block encoding interface</line>
+        <line t="X" i="92" b="0" n="0">      procedure(i_encoder), deferred, nopass :: encode_block</line>
+        <line t="X" i="93" b="0" n="0"></line>
+        <line t="C" i="94" b="0" n="0">!     Block decoding interface</line>
+        <line t="X" i="95" b="0" n="0">      procedure(i_decoder), deferred, nopass :: decode_block</line>
+        <line t="X" i="96" b="0" n="0"></line>
+        <line t="C" i="97" b="0" n="0">!     Length of the trailing part of the data interface</line>
+        <line t="X" i="98" b="0" n="0">      procedure(i_trailer), deferred, nopass :: trail_len</line>
+        <line t="X" i="99" b="0" n="0"></line>
+        <line t="T" i="100" b="0" n="0">  end type t_ascii_encoder</line>
+        <line t="T" i="101" b="0" n="0"></line>
+        <line t="C" i="102" b="0" n="0">! Encoder interfaces</line>
+        <line t="X" i="103" b="0" n="0">  interface</line>
+        <line t="X" i="104" b="1" n="1">    pure subroutine i_encoder( blk, cblk )</line>
+        <line t="X" i="105" b="1" n="1">      integer(kind=1), dimension(:), intent(in) :: blk</line>
+        <line t="X" i="106" b="1" n="1">      integer(kind=1), dimension(:), intent(out) :: cblk</line>
+        <line t="X" i="107" b="1" n="1">    end subroutine i_encoder</line>
+        <line t="X" i="108" b="1" n="1">  end interface</line>
+        <line t="X" i="109" b="1" n="1"></line>
+        <line t="C" i="110" b="1" n="1">! Decoder interfaces</line>
+        <line t="X" i="111" b="1" n="1">  interface</line>
+        <line t="X" i="112" b="1" n="1">    pure subroutine i_decoder( cblk, blk )</line>
+        <line t="X" i="113" b="1" n="1">      integer(kind=1), dimension(:), intent(in) :: cblk</line>
+        <line t="X" i="114" b="1" n="1">      integer(kind=1), dimension(:), intent(out) :: blk</line>
+        <line t="X" i="115" b="1" n="1">    end subroutine i_decoder</line>
+        <line t="X" i="116" b="1" n="1">  end interface</line>
+        <line t="X" i="117" b="1" n="1"></line>
+        <line t="C" i="118" b="1" n="1">! Stripper interface</line>
+        <line t="X" i="119" b="1" n="1">  interface</line>
+        <line t="X" i="120" b="1" n="1">    pure function i_trailer( text ) result(res)</line>
+        <line t="X" i="121" b="1" n="1">      integer(kind=1), dimension(:), intent(in) :: text</line>
+        <line t="X" i="122" b="1" n="1">      integer :: res</line>
+        <line t="X" i="123" b="1" n="1">    end function i_trailer</line>
+        <line t="X" i="124" b="1" n="1">  end interface</line>
+        <line t="X" i="125" b="1" n="1"></line>
+        <line t="C" i="126" b="1" n="1">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="127" b="1" n="1"></line>
+        <line t="X" i="128" b="1" n="1">contains</line>
+        <line t="X" i="129" b="1" n="1"></line>
+        <line t="C" i="130" b="1" n="1">! Main constructor</line>
+        <line k="ascii_encoder_initialise" t="S" i="131" b="1" n="1">pure subroutine ascii_encoder_initialise( this, &amp;</line>
+        <line t="X" i="132" b="1" n="1">                                          block_size, cblock_size, &amp;</line>
+        <line t="X" i="133" b="1" n="1">                                          padding_byte, padding_cbyte, &amp;</line>
+        <line t="X" i="134" b="1" n="1">                                          coded_trailing, decoded_trailing, &amp;</line>
+        <line t="X" i="135" b="1" n="1">                                          padding )</line>
+        <line t="X" i="136" b="1" n="1"></line>
+        <line t="C" i="137" b="1" n="1">! The encoder context</line>
+        <line t="X" i="138" b="1" n="1">  class(t_ascii_encoder), intent(inout) :: this</line>
+        <line t="X" i="139" b="1" n="1"></line>
+        <line t="C" i="140" b="1" n="1">! Decoded block size</line>
+        <line t="X" i="141" b="1" n="1">  integer, intent(in) :: block_size</line>
+        <line t="X" i="142" b="1" n="1"></line>
+        <line t="C" i="143" b="1" n="1">! Coded block size</line>
+        <line t="X" i="144" b="1" n="1">  integer, intent(in) :: cblock_size</line>
+        <line t="X" i="145" b="1" n="1"></line>
+        <line t="C" i="146" b="1" n="1">! Padding character for codding proces</line>
+        <line t="X" i="147" b="1" n="1">  integer(kind=1), intent(in) :: padding_byte</line>
+        <line t="X" i="148" b="1" n="1"></line>
+        <line t="C" i="149" b="1" n="1">! Padding character in the coded array</line>
+        <line t="X" i="150" b="1" n="1">  integer(kind=1), intent(in) :: padding_cbyte</line>
+        <line t="X" i="151" b="1" n="1"></line>
+        <line t="C" i="152" b="1" n="1">! Map between trailing bytes in the decoded and coded representations</line>
+        <line t="X" i="153" b="1" n="1">  integer, dimension(:), intent(in) :: coded_trailing</line>
+        <line t="X" i="154" b="1" n="1"></line>
+        <line t="C" i="155" b="1" n="1">! Map between trailing bytes in the coded and decoded representations</line>
+        <line t="X" i="156" b="1" n="1">  integer, dimension(:), intent(in):: decoded_trailing</line>
+        <line t="X" i="157" b="1" n="1"></line>
+        <line t="C" i="158" b="1" n="1">! Flag to generate encoding with padding</line>
+        <line t="X" i="159" b="1" n="1">  logical, intent(in) :: padding</line>
+        <line t="X" i="160" b="1" n="1"></line>
+        <line t="C" i="161" b="1" n="1">! Set block sizes</line>
+        <line t="X" i="162" b="1" n="1">  this%blk = block_size</line>
+        <line t="X" i="163" b="1" n="1">  this%cblk = cblock_size</line>
+        <line t="X" i="164" b="1" n="1"></line>
+        <line t="C" i="165" b="1" n="1">! Set padding bytes</line>
+        <line t="X" i="166" b="1" n="1">  this%padding_byte = padding_byte</line>
+        <line t="X" i="167" b="1" n="1">  this%padding_cbyte = padding_cbyte</line>
+        <line t="X" i="168" b="1" n="1"></line>
+        <line t="C" i="169" b="1" n="1">! Set the trailing maps</line>
+        <line t="X" i="170" b="1" n="1">  allocate( this%coded_trailing, source=coded_trailing )</line>
+        <line t="X" i="171" b="1" n="1">  allocate( this%decoded_trailing, source=decoded_trailing )</line>
+        <line t="X" i="172" b="1" n="1"></line>
+        <line t="C" i="173" b="1" n="1">! Set padding flag</line>
+        <line t="X" i="174" b="1" n="1">  this%padding = padding</line>
+        <line t="X" i="175" b="1" n="1"></line>
+        <line t="ES" i="176" b="1" n="1">end subroutine ascii_encoder_initialise</line>
+        <line t="ES" i="177" b="1" n="1"></line>
+        <line t="ES" i="178" b="1" n="1"></line>
+        <line t="C" i="179" b="1" n="1">! Encoding from byte buffer</line>
+        <line k="ascii_encoder_encode" t="S" i="180" b="1" n="1">pure subroutine ascii_encoder_encode( this, text, ctext )</line>
+        <line t="S" i="181" b="1" n="1"></line>
+        <line t="C" i="182" b="1" n="1">! The encoder context</line>
+        <line t="X" i="183" b="1" n="1">  class(t_ascii_encoder), intent(in) :: this</line>
+        <line t="X" i="184" b="1" n="1"></line>
+        <line t="C" i="185" b="1" n="1">! The plain text to encode</line>
+        <line t="X" i="186" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: text</line>
+        <line t="X" i="187" b="1" n="1"></line>
+        <line t="C" i="188" b="1" n="1">! The encoded text</line>
+        <line t="X" i="189" b="1" n="1">  integer(kind=1), dimension(:), allocatable, intent(out) :: ctext</line>
+        <line t="X" i="190" b="1" n="1"></line>
+        <line t="C" i="191" b="1" n="1">! Local variables</line>
+        <line t="X" i="192" b="1" n="1">  integer :: n, ipad</line>
+        <line t="X" i="193" b="1" n="1"></line>
+        <line t="C" i="194" b="1" n="1">! Calculate the base size of the output buffer</line>
+        <line t="X" i="195" b="1" n="1">  n = max( this%cblk, this%cblk * ( ( size(text) - 1 ) / this%blk + 1 ) )</line>
+        <line t="X" i="196" b="1" n="1"></line>
+        <line t="C" i="197" b="1" n="1">! Consider padding</line>
+        <line t="X" i="198" b="2" n="2">  if( .not. this%padding ) then</line>
+        <line t="X" i="199" b="2" n="2"></line>
+        <line t="C" i="200" b="2" n="2">!   Compute the number of characters in the last block</line>
+        <line t="X" i="201" b="2" n="2">    ipad = mod( size(text), this%blk )</line>
+        <line t="X" i="202" b="3" n="3">    if( ipad /= 0 ) then</line>
+        <line t="X" i="203" b="3" n="3"></line>
+        <line t="C" i="204" b="3" n="3">!     There are characters in the last block; remove the padding trailing characters</line>
+        <line t="X" i="205" b="3" n="3">      n = n - ( this%cblk - this%coded_trailing(ipad) )</line>
+        <line t="X" i="206" b="3" n="3"></line>
+        <line t="X" i="207" b="3" n="2">    end if</line>
+        <line t="X" i="208" b="3" n="2"></line>
+        <line t="X" i="209" b="3" n="1">  end if</line>
+        <line t="X" i="210" b="3" n="1"></line>
+        <line t="C" i="211" b="3" n="1">! Allocate the output buffer</line>
+        <line t="X" i="212" b="3" n="1">  allocate( ctext(n) )</line>
+        <line t="X" i="213" b="3" n="1"></line>
+        <line t="C" i="214" b="3" n="1">! Call the encoding subroutine</line>
+        <line t="X" i="215" b="3" n="1">  call this%encode_core( text, ctext )</line>
+        <line t="X" i="216" b="3" n="1"></line>
+        <line t="ES" i="217" b="3" n="1">end subroutine ascii_encoder_encode</line>
+        <line t="ES" i="218" b="1" n="1"></line>
+        <line t="ES" i="219" b="1" n="1"></line>
+        <line t="C" i="220" b="1" n="1">! Encoding from byte buffer (high level logic)</line>
+        <line k="ascii_encoder_encode_core" t="S" i="221" b="1" n="1">pure subroutine ascii_encoder_encode_core( this, text, ctext )</line>
+        <line t="S" i="222" b="1" n="1"></line>
+        <line t="C" i="223" b="1" n="1">! The encoder context</line>
+        <line t="X" i="224" b="1" n="1">  class(t_ascii_encoder), intent(in) :: this</line>
+        <line t="X" i="225" b="1" n="1"></line>
+        <line t="C" i="226" b="1" n="1">! The plain text to encode</line>
+        <line t="X" i="227" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: text</line>
+        <line t="X" i="228" b="1" n="1"></line>
+        <line t="C" i="229" b="1" n="1">! The encoded text</line>
+        <line t="X" i="230" b="1" n="1">  integer(kind=1), dimension(:), intent(out) :: ctext</line>
+        <line t="X" i="231" b="1" n="1"></line>
+        <line t="C" i="232" b="1" n="1">! Local variables</line>
+        <line t="X" i="233" b="1" n="1">  logical :: last</line>
+        <line t="X" i="234" b="1" n="1">  integer :: llast, nlast</line>
+        <line t="X" i="235" b="1" n="1">  integer :: iblk, nblk</line>
+        <line t="X" i="236" b="1" n="1">  integer :: offset, coffset</line>
+        <line t="X" i="237" b="1" n="1">  integer(kind=1), dimension(this%blk) :: buffer</line>
+        <line t="X" i="238" b="1" n="1">  integer(kind=1), dimension(this%cblk) :: cbuffer</line>
+        <line t="X" i="239" b="1" n="1"></line>
+        <line t="C" i="240" b="1" n="1">! Initialise</line>
+        <line t="X" i="241" b="1" n="1">  offset = 0</line>
+        <line t="X" i="242" b="1" n="1">  coffset = 0</line>
+        <line t="X" i="243" b="1" n="1"></line>
+        <line t="C" i="244" b="1" n="1">! Compute the number of blocks</line>
+        <line t="X" i="245" b="1" n="1">  nblk = size(text) / this%blk</line>
+        <line t="X" i="246" b="1" n="1"></line>
+        <line t="C" i="247" b="1" n="1">! Check if there one more block that is not complete (padding)</line>
+        <line t="X" i="248" b="1" n="1">  last = ( mod( size(text), this%blk ) /= 0 )</line>
+        <line t="X" i="249" b="1" n="1"></line>
+        <line t="C" i="250" b="1" n="1">! Loop on the input blocks</line>
+        <line t="X" i="251" b="2" n="2">  do iblk = 1, nblk</line>
+        <line t="X" i="252" b="2" n="2"></line>
+        <line t="C" i="253" b="2" n="2">!   Compute offsets</line>
+        <line t="X" i="254" b="2" n="2">    offset = this%blk * ( iblk - 1 ) + 1</line>
+        <line t="X" i="255" b="2" n="2">    coffset = this%cblk * ( iblk - 1 ) + 1</line>
+        <line t="X" i="256" b="2" n="2"></line>
+        <line t="C" i="257" b="2" n="2">!   Process this block</line>
+        <line t="X" i="258" b="2" n="2">    buffer = text(offset:offset+this%blk-1)</line>
+        <line t="X" i="259" b="2" n="2">    call this%encode_block( buffer, cbuffer )</line>
+        <line t="X" i="260" b="2" n="2">    ctext(coffset:coffset+this%cblk-1) = cbuffer</line>
+        <line t="X" i="261" b="2" n="2"></line>
+        <line t="X" i="262" b="2" n="1">  end do</line>
+        <line t="X" i="263" b="2" n="1"></line>
+        <line t="C" i="264" b="2" n="1">! Process the last incomplete block if present</line>
+        <line t="X" i="265" b="3" n="2">  if( last ) then</line>
+        <line t="X" i="266" b="3" n="2"></line>
+        <line t="C" i="267" b="3" n="2">!   Compute offsets for the last block</line>
+        <line t="X" i="268" b="3" n="2">    offset = this%blk * nblk + 1</line>
+        <line t="X" i="269" b="3" n="2">    coffset = this%cblk * nblk + 1</line>
+        <line t="X" i="270" b="3" n="2"></line>
+        <line t="C" i="271" b="3" n="2">!   Compute the length of the last block</line>
+        <line t="X" i="272" b="3" n="2">    llast = size(text(offset:))</line>
+        <line t="X" i="273" b="3" n="2"></line>
+        <line t="C" i="274" b="3" n="2">!   Pad buffer with zeros before encoding</line>
+        <line t="X" i="275" b="3" n="2">    buffer(1:llast) = text(offset:)</line>
+        <line t="X" i="276" b="3" n="2">    buffer(llast+1:this%blk) = this%padding_byte</line>
+        <line t="X" i="277" b="3" n="2"></line>
+        <line t="C" i="278" b="3" n="2">!   Encode the last block</line>
+        <line t="X" i="279" b="3" n="2">    call this%encode_block( buffer, cbuffer )</line>
+        <line t="X" i="280" b="3" n="2"></line>
+        <line t="C" i="281" b="3" n="2">!   Get the number of encoded characters in the last block</line>
+        <line t="X" i="282" b="3" n="2">    nlast = this%coded_trailing( llast )</line>
+        <line t="X" i="283" b="3" n="2"></line>
+        <line t="C" i="284" b="3" n="2">!   Check if padding is to be added</line>
+        <line t="X" i="285" b="4" n="3">    if( this%padding ) then</line>
+        <line t="X" i="286" b="4" n="3"></line>
+        <line t="C" i="287" b="4" n="3">!     Pad coded buffer</line>
+        <line t="X" i="288" b="4" n="3">      cbuffer(nlast+1:) = this%padding_cbyte</line>
+        <line t="X" i="289" b="4" n="3"></line>
+        <line t="C" i="290" b="4" n="3">!     Add encoded buffer with padding</line>
+        <line t="X" i="291" b="4" n="3">      ctext(coffset:) = cbuffer</line>
+        <line t="X" i="292" b="4" n="3"></line>
+        <line t="X" i="293" b="5" n="3">    else</line>
+        <line t="X" i="294" b="5" n="3"></line>
+        <line t="C" i="295" b="5" n="3">!     Add encoded buffer without padding</line>
+        <line t="X" i="296" b="5" n="3">      ctext(coffset:) = cbuffer(:nlast)</line>
+        <line t="X" i="297" b="5" n="3"></line>
+        <line t="X" i="298" b="5" n="2">    end if</line>
+        <line t="X" i="299" b="5" n="2"></line>
+        <line t="X" i="300" b="5" n="1">  end if</line>
+        <line t="X" i="301" b="5" n="1"></line>
+        <line t="ES" i="302" b="5" n="1">end subroutine ascii_encoder_encode_core</line>
+        <line t="ES" i="303" b="1" n="1"></line>
+        <line t="ES" i="304" b="1" n="1"></line>
+        <line t="C" i="305" b="1" n="1">! Decoding from byte buffer</line>
+        <line k="ascii_encoder_decode" t="S" i="306" b="1" n="1">pure subroutine ascii_encoder_decode( this, ctext, text )</line>
+        <line t="S" i="307" b="1" n="1"></line>
+        <line t="C" i="308" b="1" n="1">! The encoder context</line>
+        <line t="X" i="309" b="1" n="1">  class(t_ascii_encoder), intent(inout) :: this</line>
+        <line t="X" i="310" b="1" n="1"></line>
+        <line t="C" i="311" b="1" n="1">! The encoded text</line>
+        <line t="X" i="312" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: ctext</line>
+        <line t="X" i="313" b="1" n="1"></line>
+        <line t="C" i="314" b="1" n="1">! The plain decoded text</line>
+        <line t="X" i="315" b="1" n="1">  integer(kind=1), dimension(:), allocatable, intent(out) :: text</line>
+        <line t="X" i="316" b="1" n="1"></line>
+        <line t="C" i="317" b="1" n="1">! Local variables</line>
+        <line t="X" i="318" b="1" n="1">  integer :: length</line>
+        <line t="X" i="319" b="1" n="1">  integer :: n, ipad</line>
+        <line t="X" i="320" b="1" n="1"></line>
+        <line t="C" i="321" b="1" n="1">! Initialise</line>
+        <line t="X" i="322" b="1" n="1">  length = size(ctext)</line>
+        <line t="X" i="323" b="1" n="1"></line>
+        <line t="C" i="324" b="1" n="1">! Calculate the reference length of the output buffer assuming padding to block-size-byte</line>
+        <line t="X" i="325" b="1" n="1">  n = size(ctext) / this%cblk * this%blk</line>
+        <line t="X" i="326" b="1" n="1"></line>
+        <line t="C" i="327" b="1" n="1">! Check if padding is present, i.e. no alignment to block-size-byte means no padding</line>
+        <line t="X" i="328" b="1" n="1">  ipad = mod( length, this%cblk )</line>
+        <line t="X" i="329" b="2" n="2">  if( ipad /= 0 ) then</line>
+        <line t="X" i="330" b="2" n="2"></line>
+        <line t="C" i="331" b="2" n="2">!   Then increase the output buffer length by the extra bytes minus one</line>
+        <line t="X" i="332" b="2" n="2">    n = n + this%decoded_trailing( ipad )</line>
+        <line t="X" i="333" b="2" n="2"></line>
+        <line t="X" i="334" b="3" n="2">  else</line>
+        <line t="X" i="335" b="3" n="2"></line>
+        <line t="C" i="336" b="3" n="2">!   Remove the corresponding size from the output</line>
+        <line t="X" i="337" b="3" n="2">    ipad = this%trail_len(ctext)</line>
+        <line t="X" i="338" b="3" n="2">    n = n - ( this%blk - this%decoded_trailing( ipad ) )</line>
+        <line t="X" i="339" b="3" n="2"></line>
+        <line t="X" i="340" b="3" n="1">  end if</line>
+        <line t="X" i="341" b="3" n="1"></line>
+        <line t="C" i="342" b="3" n="1">! Allocate the output buffer</line>
+        <line t="X" i="343" b="3" n="1">  allocate( text(n) )</line>
+        <line t="X" i="344" b="3" n="1"></line>
+        <line t="C" i="345" b="3" n="1">! Call the recursive subroutine</line>
+        <line t="X" i="346" b="3" n="1">  call this%decode_core( ctext, text )</line>
+        <line t="X" i="347" b="3" n="1"></line>
+        <line t="ES" i="348" b="3" n="1">end subroutine ascii_encoder_decode</line>
+        <line t="ES" i="349" b="1" n="1"></line>
+        <line t="ES" i="350" b="1" n="1"></line>
+        <line t="C" i="351" b="1" n="1">! Decoding from byte buffer (high level logic)</line>
+        <line k="ascii_encoder_decode_core" t="S" i="352" b="1" n="1">pure subroutine ascii_encoder_decode_core( this, ctext, text )</line>
+        <line t="S" i="353" b="1" n="1"></line>
+        <line t="C" i="354" b="1" n="1">! The encoder context</line>
+        <line t="X" i="355" b="1" n="1">  class(t_ascii_encoder), intent(in) :: this</line>
+        <line t="X" i="356" b="1" n="1"></line>
+        <line t="C" i="357" b="1" n="1">! The encoded text</line>
+        <line t="X" i="358" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: ctext</line>
+        <line t="X" i="359" b="1" n="1"></line>
+        <line t="C" i="360" b="1" n="1">! The plain decoded text</line>
+        <line t="X" i="361" b="1" n="1">  integer(kind=1), dimension(:), intent(out) :: text</line>
+        <line t="X" i="362" b="1" n="1"></line>
+        <line t="C" i="363" b="1" n="1">! Local variables</line>
+        <line t="X" i="364" b="1" n="1">  logical :: last</line>
+        <line t="X" i="365" b="1" n="1">  integer :: llast, nlast</line>
+        <line t="X" i="366" b="1" n="1">  integer :: iblk, nblk</line>
+        <line t="X" i="367" b="1" n="1">  integer :: offset, coffset</line>
+        <line t="X" i="368" b="1" n="1">  integer(kind=1), dimension(this%blk) :: buffer</line>
+        <line t="X" i="369" b="1" n="1">  integer(kind=1), dimension(this%cblk) :: cbuffer</line>
+        <line t="X" i="370" b="1" n="1"></line>
+        <line t="C" i="371" b="1" n="1">! Compute the number of input blocks</line>
+        <line t="X" i="372" b="1" n="1">  nblk = size(ctext) / this%cblk</line>
+        <line t="X" i="373" b="1" n="1"></line>
+        <line t="C" i="374" b="1" n="1">! Check if there one more block that is not complete (no padding)</line>
+        <line t="X" i="375" b="1" n="1">  last = ( mod( size(ctext), this%cblk ) /= 0 )</line>
+        <line t="X" i="376" b="2" n="2">  if( last ) nblk = nblk + 1</line>
+        <line t="X" i="377" b="2" n="2"></line>
+        <line t="C" i="378" b="2" n="2">! Loop on the blocks (but last one)</line>
+        <line t="X" i="379" b="3" n="3">  do iblk = 1, nblk - 1</line>
+        <line t="X" i="380" b="3" n="3"></line>
+        <line t="C" i="381" b="3" n="3">!   Compute offsets</line>
+        <line t="X" i="382" b="3" n="3">    offset = this%blk * ( iblk - 1 ) + 1</line>
+        <line t="X" i="383" b="3" n="3">    coffset = this%cblk * ( iblk - 1 ) + 1</line>
+        <line t="X" i="384" b="3" n="3"></line>
+        <line t="C" i="385" b="3" n="3">!   Process this block</line>
+        <line t="X" i="386" b="3" n="3">    cbuffer = ctext(coffset:coffset+this%cblk-1)</line>
+        <line t="X" i="387" b="3" n="3">    call this%decode_block( cbuffer, buffer )</line>
+        <line t="X" i="388" b="3" n="3">    text(offset:offset+this%blk-1) = buffer</line>
+        <line t="X" i="389" b="3" n="3"></line>
+        <line t="X" i="390" b="3" n="2">  end do</line>
+        <line t="X" i="391" b="3" n="2"></line>
+        <line t="C" i="392" b="3" n="2">! Compute offsets for the last block</line>
+        <line t="X" i="393" b="3" n="2">  offset = this%blk * ( nblk - 1 ) + 1</line>
+        <line t="X" i="394" b="3" n="2">  coffset = this%cblk * ( nblk - 1 ) + 1</line>
+        <line t="X" i="395" b="3" n="2"></line>
+        <line t="C" i="396" b="3" n="2">! Process the last incomplete block if present</line>
+        <line t="X" i="397" b="4" n="3">  if( last ) then</line>
+        <line t="X" i="398" b="4" n="3"></line>
+        <line t="C" i="399" b="4" n="3">!   Compute the length of the last block</line>
+        <line t="X" i="400" b="4" n="3">    llast = size(ctext(coffset:))</line>
+        <line t="X" i="401" b="4" n="3"></line>
+        <line t="C" i="402" b="4" n="3">!   Pad the last block</line>
+        <line t="X" i="403" b="4" n="3">    cbuffer(:llast) = ctext(coffset:coffset+llast-1)</line>
+        <line t="X" i="404" b="4" n="3">    cbuffer(llast+1:) = this%padding_cbyte</line>
+        <line t="X" i="405" b="4" n="3"></line>
+        <line t="X" i="406" b="5" n="3">  else</line>
+        <line t="X" i="407" b="5" n="3"></line>
+        <line t="C" i="408" b="5" n="3">!   Compute the length of the last block</line>
+        <line t="X" i="409" b="5" n="3">    llast = this%trail_len(ctext(coffset:))</line>
+        <line t="X" i="410" b="5" n="3"></line>
+        <line t="C" i="411" b="5" n="3">!   The last block is already padded</line>
+        <line t="X" i="412" b="5" n="3">    cbuffer = ctext(coffset:)</line>
+        <line t="X" i="413" b="5" n="3"></line>
+        <line t="X" i="414" b="5" n="2">  end if</line>
+        <line t="X" i="415" b="5" n="2"></line>
+        <line t="C" i="416" b="5" n="2">! Decode the last block</line>
+        <line t="X" i="417" b="5" n="2">  call this%decode_block( cbuffer, buffer )</line>
+        <line t="X" i="418" b="5" n="2">  nlast = this%decoded_trailing( llast )</line>
+        <line t="X" i="419" b="5" n="2">  text(offset:) = buffer(:nlast)</line>
+        <line t="X" i="420" b="5" n="2"></line>
+        <line t="ES" i="421" b="5" n="2">end subroutine ascii_encoder_decode_core</line>
+        <line t="ES" i="422" b="1" n="2"></line>
+        <line t="M" i="423" b="1" n="2">end module m_ascii_encoder</line>
+    </code>
+</fmx>

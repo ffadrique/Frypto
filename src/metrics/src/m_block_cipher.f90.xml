@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_block_cipher.f90">
+    <context>
+        <time>2025-03-09T18:24:38</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Frypto</project>
+        <name>m_block_cipher.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_block_cipher" type="module">
+            <main>
+                <lines>
+                    <source percent="13.24">9</source>
+                    <comments percent="52.94">36</comments>
+                    <empty percent="33.82">23</empty>
+                    <total>68</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods />
+            <statistics>
+                <lines>
+                    <source percent="13.24">9</source>
+                    <comments percent="52.94">36</comments>
+                    <empty percent="33.82">23</empty>
+                    <total>68</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="13.24">9</source>
+            <comments percent="52.94">36</comments>
+            <empty percent="33.82">23</empty>
+            <total>68</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>1</maximum>
+            <average>1.00</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>1</maximum>
+            <average>1.00</average>
+        </nesting>
+        <methods>0</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_block_cipher</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">! -----------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2022, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Synopsys  : Abstract class interface for block ciphers (AES, DES, ...)</line>
+        <line t="C" i="9" b="0" n="0">!</line>
+        <line t="C" i="10" b="0" n="0">! License   : This file is part of Frypto.</line>
+        <line t="C" i="11" b="0" n="0">!</line>
+        <line t="C" i="12" b="0" n="0">!             Frypto is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="13" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="14" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="15" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="16" b="0" n="0">!</line>
+        <line t="C" i="17" b="0" n="0">!             Frypto is distributed in the hope that it will be useful,</line>
+        <line t="C" i="18" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="19" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="20" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="21" b="0" n="0">!</line>
+        <line t="C" i="22" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="23" b="0" n="0">!             License along with Frypto.  </line>
+        <line t="C" i="24" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="25" b="0" n="0">! -----------------------------------------------------------------------------</line>
+        <line t="C" i="26" b="0" n="0"></line>
+        <line t="C" i="27" b="0" n="0">! Dependencies ----------------------------------------------------------------</line>
+        <line t="C" i="28" b="0" n="0"></line>
+        <line t="X" i="29" b="0" n="0">  use m_object</line>
+        <line t="X" i="30" b="0" n="0"></line>
+        <line t="X" i="31" b="0" n="0">  implicit none</line>
+        <line t="X" i="32" b="0" n="0"></line>
+        <line t="C" i="33" b="0" n="0">! Public/Private declarations -------------------------------------------------</line>
+        <line t="C" i="34" b="0" n="0"></line>
+        <line t="X" i="35" b="0" n="0">  private</line>
+        <line t="X" i="36" b="0" n="0">  public t_block_cipher</line>
+        <line t="X" i="37" b="0" n="0"></line>
+        <line t="C" i="38" b="0" n="0">! Module declarations ---------------------------------------------------------</line>
+        <line t="C" i="39" b="0" n="0"></line>
+        <line t="C" i="40" b="0" n="0">! Abstract class interface for block ciphers (AES, DES, ...)</line>
+        <line t="T" i="41" b="0" n="0">  type, extends(t_object), abstract :: t_block_cipher</line>
+        <line t="X" i="42" b="0" n="0">    private</line>
+        <line t="X" i="43" b="0" n="0"></line>
+        <line t="X" i="44" b="0" n="0">    contains</line>
+        <line t="X" i="45" b="0" n="0"></line>
+        <line t="C" i="46" b="0" n="0">!     Block size</line>
+        <line t="X" i="47" b="0" n="0">      procedure(i_block_cipher_size), nopass, deferred :: block_size</line>
+        <line t="X" i="48" b="0" n="0">      </line>
+        <line t="C" i="49" b="0" n="0">!     Key size</line>
+        <line t="X" i="50" b="0" n="0">      procedure(i_block_cipher_size), nopass, deferred :: key_size</line>
+        <line t="X" i="51" b="0" n="0">      </line>
+        <line t="C" i="52" b="0" n="0">!     Encryption interfacce</line>
+        <line t="X" i="53" b="0" n="0">      procedure(i_block_cipher_encrypt), deferred :: encrypt</line>
+        <line t="X" i="54" b="0" n="0">    </line>
+        <line t="C" i="55" b="0" n="0">!     Decryption interfacce</line>
+        <line t="X" i="56" b="0" n="0">      procedure(i_block_cipher_decrypt), deferred :: decrypt</line>
+        <line t="X" i="57" b="0" n="0">    </line>
+        <line t="T" i="58" b="0" n="0">  end type t_block_cipher</line>
+        <line t="T" i="59" b="0" n="0"></line>
+        <line t="T" i="60" b="0" n="0">  </line>
+        <line t="C" i="61" b="0" n="0">! Deferred interfaces</line>
+        <line t="X" i="62" b="0" n="0">  interface</line>
+        <line t="X" i="63" b="0" n="0">  </line>
+        <line t="C" i="64" b="0" n="0">!   Interface for sizes</line>
+        <line t="C" i="65" b="1" n="1">    pure function i_block_cipher_size() result(res)</line>
+        <line t="X" i="66" b="1" n="1">      integer :: res</line>
+        <line t="X" i="67" b="1" n="1">    end function i_block_cipher_size</line>
+        <line t="X" i="68" b="1" n="1">  </line>
+        <line t="C" i="69" b="1" n="1">!   Interfae for encryption</line>
+        <line t="C" i="70" b="1" n="1">    pure subroutine i_block_cipher_encrypt( this, text, cipher )</line>
+        <line t="X" i="71" b="1" n="1">      import t_block_cipher</line>
+        <line t="X" i="72" b="1" n="1">      class(t_block_cipher), intent(in) :: this</line>
+        <line t="X" i="73" b="1" n="1">      integer(kind=1), dimension(:), intent(in) :: text</line>
+        <line t="X" i="74" b="1" n="1">      integer(kind=1), dimension(size(text)), intent(out) :: cipher</line>
+        <line t="X" i="75" b="1" n="1">    end subroutine i_block_cipher_encrypt</line>
+        <line t="X" i="76" b="1" n="1">    </line>
+        <line t="C" i="77" b="1" n="1">!   Interfae for decryption</line>
+        <line t="C" i="78" b="1" n="1">    pure subroutine i_block_cipher_decrypt( this, cipher, text )</line>
+        <line t="X" i="79" b="1" n="1">      import t_block_cipher</line>
+        <line t="X" i="80" b="1" n="1">      class(t_block_cipher), intent(in) :: this</line>
+        <line t="X" i="81" b="1" n="1">      integer(kind=1), dimension(:), intent(in) :: cipher</line>
+        <line t="X" i="82" b="1" n="1">      integer(kind=1), dimension(size(cipher)), intent(out) :: text</line>
+        <line t="X" i="83" b="1" n="1">    end subroutine i_block_cipher_decrypt</line>
+        <line t="X" i="84" b="1" n="1">    </line>
+        <line t="X" i="85" b="1" n="1">  end interface</line>
+        <line t="X" i="86" b="1" n="1">  </line>
+        <line t="C" i="87" b="1" n="1">! Implementation --------------------------------------------------------------</line>
+        <line t="C" i="88" b="1" n="1"></line>
+        <line t="X" i="89" b="1" n="1">contains</line>
+        <line t="M" i="90" b="1" n="1">end module m_block_cipher</line>
+        <line t="M" i="91" b="1" n="1"></line>
+    </code>
+</fmx>

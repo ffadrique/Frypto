@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmxdir xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="src">
+    <files>
+        <file name="m_aes.f90">
+            <statistics>
+                <lines>
+                    <source percent="49.46">229</source>
+                    <comments percent="18.36">85</comments>
+                    <empty percent="32.18">149</empty>
+                    <total>463</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>4</maximum>
+                    <average>1.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>1.00</average>
+                </nesting>
+                <methods>18</methods>
+            </statistics>
+        </file>
+        <file name="m_ascii_encoder.f90">
+            <statistics>
+                <lines>
+                    <source percent="34.29">132</source>
+                    <comments percent="32.99">127</comments>
+                    <empty percent="32.73">126</empty>
+                    <total>385</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>5</maximum>
+                    <average>3.40</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>2.40</average>
+                </nesting>
+                <methods>5</methods>
+            </statistics>
+        </file>
+        <file name="m_base32.f90">
+            <statistics>
+                <lines>
+                    <source percent="37.05">103</source>
+                    <comments percent="40.65">113</comments>
+                    <empty percent="22.30">62</empty>
+                    <total>278</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>1</maximum>
+                    <average>1.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>1</maximum>
+                    <average>1.00</average>
+                </nesting>
+                <methods>5</methods>
+            </statistics>
+        </file>
+        <file name="m_base64.f90">
+            <statistics>
+                <lines>
+                    <source percent="35.34">88</source>
+                    <comments percent="40.56">101</comments>
+                    <empty percent="24.10">60</empty>
+                    <total>249</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>1</maximum>
+                    <average>1.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>1</maximum>
+                    <average>1.00</average>
+                </nesting>
+                <methods>5</methods>
+            </statistics>
+        </file>
+        <file name="m_block_cipher.f90">
+            <statistics>
+                <lines>
+                    <source percent="13.24">9</source>
+                    <comments percent="52.94">36</comments>
+                    <empty percent="33.82">23</empty>
+                    <total>68</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>1</maximum>
+                    <average>1.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>1</maximum>
+                    <average>1.00</average>
+                </nesting>
+                <methods>0</methods>
+            </statistics>
+        </file>
+        <file name="m_blowfish.f90">
+            <statistics>
+                <lines>
+                    <source percent="49.50">149</source>
+                    <comments percent="20.93">63</comments>
+                    <empty percent="29.57">89</empty>
+                    <total>301</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>7</maximum>
+                    <average>1.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>4</maximum>
+                    <average>1.00</average>
+                </nesting>
+                <methods>8</methods>
+            </statistics>
+        </file>
+        <file name="m_crc32.f90">
+            <statistics>
+                <lines>
+                    <source percent="33.91">59</source>
+                    <comments percent="35.06">61</comments>
+                    <empty percent="31.03">54</empty>
+                    <total>174</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>5</maximum>
+                    <average>2.25</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>4</maximum>
+                    <average>2.00</average>
+                </nesting>
+                <methods>4</methods>
+            </statistics>
+        </file>
+        <file name="m_crypto.f90">
+            <statistics>
+                <lines>
+                    <source percent="45.01">194</source>
+                    <comments percent="26.45">114</comments>
+                    <empty percent="28.54">123</empty>
+                    <total>431</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>10</maximum>
+                    <average>6.20</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>6</maximum>
+                    <average>3.80</average>
+                </nesting>
+                <methods>5</methods>
+            </statistics>
+        </file>
+        <file name="m_crypto_base.f90">
+            <statistics>
+                <lines>
+                    <source percent="50.00">243</source>
+                    <comments percent="22.84">111</comments>
+                    <empty percent="27.16">132</empty>
+                    <total>486</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>13</maximum>
+                    <average>7.67</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>4</maximum>
+                    <average>2.50</average>
+                </nesting>
+                <methods>6</methods>
+            </statistics>
+        </file>
+        <file name="m_crypto_padding.f90">
+            <statistics>
+                <lines>
+                    <source percent="36.48">85</source>
+                    <comments percent="30.47">71</comments>
+                    <empty percent="33.05">77</empty>
+                    <total>233</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>8</maximum>
+                    <average>2.83</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>4</maximum>
+                    <average>1.83</average>
+                </nesting>
+                <methods>6</methods>
+            </statistics>
+        </file>
+        <file name="m_des.f90">
+            <statistics>
+                <lines>
+                    <source percent="42.65">116</source>
+                    <comments percent="24.26">66</comments>
+                    <empty percent="33.09">90</empty>
+                    <total>272</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>9</maximum>
+                    <average>1.06</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>1.00</average>
+                </nesting>
+                <methods>8</methods>
+            </statistics>
+        </file>
+        <file name="m_hash.f90">
+            <statistics>
+                <lines>
+                    <source percent="31.09">125</source>
+                    <comments percent="35.07">141</comments>
+                    <empty percent="33.83">136</empty>
+                    <total>402</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>6</maximum>
+                    <average>2.14</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>4</maximum>
+                    <average>1.71</average>
+                </nesting>
+                <methods>7</methods>
+            </statistics>
+        </file>
+        <file name="m_hash32.f90">
+            <statistics>
+                <lines>
+                    <source percent="31.78">102</source>
+                    <comments percent="33.96">109</comments>
+                    <empty percent="34.27">110</empty>
+                    <total>321</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.08</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.08</average>
+                </nesting>
+                <methods>12</methods>
+            </statistics>
+        </file>
+        <file name="m_hash64.f90">
+            <statistics>
+                <lines>
+                    <source percent="32.42">83</source>
+                    <comments percent="34.77">89</comments>
+                    <empty percent="32.81">84</empty>
+                    <total>256</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.11</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.11</average>
+                </nesting>
+                <methods>9</methods>
+            </statistics>
+        </file>
+        <file name="m_md5.f90">
+            <statistics>
+                <lines>
+                    <source percent="48.31">399</source>
+                    <comments percent="24.58">203</comments>
+                    <empty percent="27.12">224</empty>
+                    <total>826</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>6</maximum>
+                    <average>1.74</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>4</maximum>
+                    <average>1.47</average>
+                </nesting>
+                <methods>19</methods>
+            </statistics>
+        </file>
+        <file name="m_sha1.f90">
+            <statistics>
+                <lines>
+                    <source percent="46.36">102</source>
+                    <comments percent="29.55">65</comments>
+                    <empty percent="24.09">53</empty>
+                    <total>220</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>9</maximum>
+                    <average>3.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.25</average>
+                </nesting>
+                <methods>4</methods>
+            </statistics>
+        </file>
+        <file name="m_sha256.f90">
+            <statistics>
+                <lines>
+                    <source percent="47.53">106</source>
+                    <comments percent="29.60">66</comments>
+                    <empty percent="22.87">51</empty>
+                    <total>223</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>6</maximum>
+                    <average>2.25</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.25</average>
+                </nesting>
+                <methods>4</methods>
+            </statistics>
+        </file>
+        <file name="m_sha384.f90">
+            <statistics>
+                <lines>
+                    <source percent="46.64">125</source>
+                    <comments percent="30.60">82</comments>
+                    <empty percent="22.76">61</empty>
+                    <total>268</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>6</maximum>
+                    <average>2.20</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.40</average>
+                </nesting>
+                <methods>5</methods>
+            </statistics>
+        </file>
+        <file name="m_sha512.f90">
+            <statistics>
+                <lines>
+                    <source percent="48.91">112</source>
+                    <comments percent="28.82">66</comments>
+                    <empty percent="22.27">51</empty>
+                    <total>229</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>6</maximum>
+                    <average>2.25</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.25</average>
+                </nesting>
+                <methods>4</methods>
+            </statistics>
+        </file>
+        <file name="m_shasum.f90">
+            <statistics>
+                <lines>
+                    <source percent="39.64">132</source>
+                    <comments percent="28.83">96</comments>
+                    <empty percent="31.53">105</empty>
+                    <total>333</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>6</maximum>
+                    <average>2.50</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>1.63</average>
+                </nesting>
+                <methods>8</methods>
+            </statistics>
+        </file>
+        <file name="m_triple_des.f90">
+            <statistics>
+                <lines>
+                    <source percent="35.53">70</source>
+                    <comments percent="34.52">68</comments>
+                    <empty percent="29.95">59</empty>
+                    <total>197</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>2.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.60</average>
+                </nesting>
+                <methods>5</methods>
+            </statistics>
+        </file>
+        <file name="m_uuencode.f90">
+            <statistics>
+                <lines>
+                    <source percent="33.62">78</source>
+                    <comments percent="40.95">95</comments>
+                    <empty percent="25.43">59</empty>
+                    <total>232</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>1.80</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.40</average>
+                </nesting>
+                <methods>5</methods>
+            </statistics>
+        </file>
+        <file name="m_uuid.f90">
+            <statistics>
+                <lines>
+                    <source percent="41.42">338</source>
+                    <comments percent="30.02">245</comments>
+                    <empty percent="28.55">233</empty>
+                    <total>816</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>7</maximum>
+                    <average>2.09</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>1.41</average>
+                </nesting>
+                <methods>22</methods>
+            </statistics>
+        </file>
+    </files>
+    <context>
+        <time>2025-03-09T18:24:38</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Frypto</project>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <statistics>
+        <lines>
+            <source percent="41.49">3179</source>
+            <comments percent="29.66">2273</comments>
+            <empty percent="28.85">2211</empty>
+            <total>7663</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>13</maximum>
+            <average>2.29</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>6</maximum>
+            <average>1.53</average>
+        </nesting>
+        <modules>26</modules>
+    </statistics>
+</fmxdir>

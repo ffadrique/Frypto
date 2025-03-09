@@ -1,0 +1,1193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_aes.f90">
+    <context>
+        <time>2025-03-09T18:24:38</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Frypto</project>
+        <name>m_aes.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="pure" type="module">
+            <main>
+                <lines>
+                    <source percent="60.00">12</source>
+                    <comments percent="10.00">2</comments>
+                    <empty percent="30.00">6</empty>
+                    <total>20</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="aes" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="52.17">12</source>
+                            <comments percent="21.74">5</comments>
+                            <empty percent="26.09">6</empty>
+                            <total>23</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="aes_add_round_key" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="aes_add_round_key_cpy" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="36.84">7</source>
+                            <comments percent="26.32">5</comments>
+                            <empty percent="36.84">7</empty>
+                            <total>19</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="aes_block_size" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="aes_decrypt" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="56.00">28</source>
+                            <comments percent="20.00">10</comments>
+                            <empty percent="24.00">12</empty>
+                            <total>50</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>4</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="aes_encrypt" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="56.86">29</source>
+                            <comments percent="19.61">10</comments>
+                            <empty percent="23.53">12</empty>
+                            <total>51</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>4</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="aes_expand_decryption_key" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="55.26">21</source>
+                            <comments percent="13.16">5</comments>
+                            <empty percent="31.58">12</empty>
+                            <total>38</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="aes_expand_encryption_key" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="53.85">21</source>
+                            <comments percent="12.82">5</comments>
+                            <empty percent="33.33">13</empty>
+                            <total>39</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="aes_key_size" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="aes_mix_columns" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="52.94">18</source>
+                            <comments percent="11.76">4</comments>
+                            <empty percent="35.29">12</empty>
+                            <total>34</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="aes_mix_columns_inv" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="55.26">21</source>
+                            <comments percent="10.53">4</comments>
+                            <empty percent="34.21">13</empty>
+                            <total>38</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="aes_shift_rows" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="46.67">7</source>
+                            <comments percent="20.00">3</comments>
+                            <empty percent="33.33">5</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="aes_shift_rows_inv" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="46.67">7</source>
+                            <comments percent="20.00">3</comments>
+                            <empty percent="33.33">5</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="aes_sub_bytes" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="aes_sub_bytes_inv" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="F" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="FD" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="47.37">9</source>
+                            <comments percent="21.05">4</comments>
+                            <empty percent="31.58">6</empty>
+                            <total>19</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="rj_xtime" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="42.11">8</source>
+                            <comments percent="26.32">5</comments>
+                            <empty percent="31.58">6</empty>
+                            <total>19</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="49.34">226</source>
+                    <comments percent="18.56">85</comments>
+                    <empty percent="32.10">147</empty>
+                    <total>458</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>4</maximum>
+                    <average>1.89</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>1.61</average>
+                </nesting>
+                <methods>18</methods>
+            </statistics>
+        </unit>
+        <unit name="(m_aes)" type="module">
+            <main>
+                <lines>
+                    <source percent="60.00">3</source>
+                    <comments percent="0.00">0</comments>
+                    <empty percent="40.00">2</empty>
+                    <total>5</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods />
+            <statistics>
+                <lines>
+                    <source percent="60.00">3</source>
+                    <comments percent="0.00">0</comments>
+                    <empty percent="40.00">2</empty>
+                    <total>5</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="49.46">229</source>
+            <comments percent="18.36">85</comments>
+            <empty percent="32.18">149</empty>
+            <total>463</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>4</maximum>
+            <average>1.00</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>3</maximum>
+            <average>1.00</average>
+        </nesting>
+        <methods>18</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_aes</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2022, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Synopsis  : Advanced Encryption Standard (AES) implementation</line>
+        <line t="C" i="9" b="0" n="0">! Reference : National Insitute of Standards and Technology (NIST)</line>
+        <line t="C" i="10" b="0" n="0">!             Federal Information Processing Standards Publication (FIPS) 197</line>
+        <line t="C" i="11" b="0" n="0">!             https://csrc.nist.gov/publications/detail/fips/197/final</line>
+        <line t="C" i="12" b="0" n="0">!</line>
+        <line t="C" i="13" b="0" n="0">! License   : This file is part of Frypto.</line>
+        <line t="C" i="14" b="0" n="0">!</line>
+        <line t="C" i="15" b="0" n="0">!             Frypto is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="16" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="17" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="18" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="19" b="0" n="0">!</line>
+        <line t="C" i="20" b="0" n="0">!             Frypto is distributed in the hope that it will be useful,</line>
+        <line t="C" i="21" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="22" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="23" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="24" b="0" n="0">!</line>
+        <line t="C" i="25" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="26" b="0" n="0">!             License along with Frypto.  </line>
+        <line t="C" i="27" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="28" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="29" b="0" n="0"></line>
+        <line t="C" i="30" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="31" b="0" n="0"></line>
+        <line t="X" i="32" b="0" n="0">  use m_block_cipher</line>
+        <line t="X" i="33" b="0" n="0"></line>
+        <line t="C" i="34" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="35" b="0" n="0"></line>
+        <line t="X" i="36" b="0" n="0">  implicit none</line>
+        <line t="X" i="37" b="0" n="0"></line>
+        <line t="C" i="38" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="39" b="0" n="0"></line>
+        <line t="X" i="40" b="0" n="0">  private</line>
+        <line t="X" i="41" b="0" n="0">  public t_aes</line>
+        <line t="X" i="42" b="0" n="0">  public aes</line>
+        <line t="X" i="43" b="0" n="0"></line>
+        <line t="C" i="44" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="45" b="0" n="0"></line>
+        <line t="C" i="46" b="0" n="0">!- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="47" b="0" n="0"></line>
+        <line t="C" i="48" b="0" n="0">! Numeric constants</line>
+        <line t="X" i="49" b="0" n="0">  integer(kind=1), parameter :: z80 = int(z'80',1)</line>
+        <line t="X" i="50" b="0" n="0">  integer(kind=1), parameter :: z1b = int(z'1b',1)</line>
+        <line t="X" i="51" b="0" n="0">  integer(kind=1), parameter :: z8d = int(z'8d',1)</line>
+        <line t="X" i="52" b="0" n="0">  integer(kind=1), parameter :: z00 = int(z'00',1)</line>
+        <line t="X" i="53" b="0" n="0">  integer(kind=1), parameter :: z01 = int(z'01',1)</line>
+        <line t="X" i="54" b="0" n="0">  integer(kind=1), parameter :: zff = int(z'ff',1)</line>
+        <line t="X" i="55" b="0" n="0">  </line>
+        <line t="C" i="56" b="0" n="0">! AES type</line>
+        <line t="T" i="57" b="0" n="0">  type, extends(t_block_cipher) :: t_aes</line>
+        <line t="X" i="58" b="0" n="0">    private</line>
+        <line t="X" i="59" b="0" n="0"></line>
+        <line t="C" i="60" b="0" n="0">!     Encryption key</line>
+        <line t="X" i="61" b="0" n="0">      integer(kind=1), dimension(32) :: enckey = z00</line>
+        <line t="X" i="62" b="0" n="0"></line>
+        <line t="C" i="63" b="0" n="0">!     Decryption key</line>
+        <line t="X" i="64" b="0" n="0">      integer(kind=1), dimension(32) :: deckey = z00</line>
+        <line t="X" i="65" b="0" n="0"></line>
+        <line t="X" i="66" b="0" n="0">    contains</line>
+        <line t="X" i="67" b="0" n="0"></line>
+        <line t="C" i="68" b="0" n="0">!     Block size</line>
+        <line t="X" i="69" b="0" n="0">      procedure, nopass :: block_size =&gt; aes_block_size</line>
+        <line t="X" i="70" b="0" n="0">      </line>
+        <line t="C" i="71" b="0" n="0">!     Key size</line>
+        <line t="X" i="72" b="0" n="0">      procedure, nopass :: key_size =&gt; aes_key_size</line>
+        <line t="X" i="73" b="0" n="0">      </line>
+        <line t="C" i="74" b="0" n="0">!     Encryption interface</line>
+        <line t="X" i="75" b="0" n="0">      procedure :: encrypt =&gt; aes_encrypt</line>
+        <line t="X" i="76" b="0" n="0"></line>
+        <line t="C" i="77" b="0" n="0">!     Decryption interface</line>
+        <line t="X" i="78" b="0" n="0">      procedure :: decrypt =&gt; aes_decrypt</line>
+        <line t="X" i="79" b="0" n="0"></line>
+        <line t="T" i="80" b="0" n="0">  end type t_aes</line>
+        <line t="T" i="81" b="0" n="0"></line>
+        <line t="C" i="82" b="0" n="0">! The AES block size in bytes</line>
+        <line t="X" i="83" b="0" n="0">  integer, parameter :: aes_block_size_in_bytes = 16</line>
+        <line t="X" i="84" b="0" n="0"></line>
+        <line t="C" i="85" b="0" n="0">! The AES key size in bytes</line>
+        <line t="X" i="86" b="0" n="0">  integer, parameter :: aes_key_size_in_bytes = 32</line>
+        <line t="X" i="87" b="0" n="0"></line>
+        <line t="C" i="88" b="0" n="0">! The Rijndael look up tables</line>
+        <line t="X" i="89" b="0" n="0">  integer(kind=1), dimension(-128:127), parameter :: rj_sbox = &amp;</line>
+        <line t="X" i="90" b="0" n="0">   [ int(z'CD',1), int(z'0C',1), int(z'13',1), int(z'EC',1), int(z'5F',1), int(z'97',1), int(z'44',1), int(z'17',1), &amp;</line>
+        <line t="X" i="91" b="0" n="0">     int(z'C4',1), int(z'A7',1), int(z'7E',1), int(z'3D',1), int(z'64',1), int(z'5D',1), int(z'19',1), int(z'73',1), &amp;</line>
+        <line t="X" i="92" b="0" n="0">     int(z'60',1), int(z'81',1), int(z'4F',1), int(z'DC',1), int(z'22',1), int(z'2A',1), int(z'90',1), int(z'88',1), &amp;</line>
+        <line t="X" i="93" b="0" n="0">     int(z'46',1), int(z'EE',1), int(z'B8',1), int(z'14',1), int(z'DE',1), int(z'5E',1), int(z'0B',1), int(z'DB',1), &amp;</line>
+        <line t="X" i="94" b="0" n="0">     int(z'E0',1), int(z'32',1), int(z'3A',1), int(z'0A',1), int(z'49',1), int(z'06',1), int(z'24',1), int(z'5C',1), &amp;</line>
+        <line t="X" i="95" b="0" n="0">     int(z'C2',1), int(z'D3',1), int(z'AC',1), int(z'62',1), int(z'91',1), int(z'95',1), int(z'E4',1), int(z'79',1), &amp;</line>
+        <line t="X" i="96" b="0" n="0">     int(z'E7',1), int(z'C8',1), int(z'37',1), int(z'6D',1), int(z'8D',1), int(z'D5',1), int(z'4E',1), int(z'A9',1), &amp;</line>
+        <line t="X" i="97" b="0" n="0">     int(z'6C',1), int(z'56',1), int(z'F4',1), int(z'EA',1), int(z'65',1), int(z'7A',1), int(z'AE',1), int(z'08',1), &amp;</line>
+        <line t="X" i="98" b="0" n="0">     int(z'BA',1), int(z'78',1), int(z'25',1), int(z'2E',1), int(z'1C',1), int(z'A6',1), int(z'B4',1), int(z'C6',1), &amp;</line>
+        <line t="X" i="99" b="0" n="0">     int(z'E8',1), int(z'DD',1), int(z'74',1), int(z'1F',1), int(z'4B',1), int(z'BD',1), int(z'8B',1), int(z'8A',1), &amp;</line>
+        <line t="X" i="100" b="0" n="0">     int(z'70',1), int(z'3E',1), int(z'B5',1), int(z'66',1), int(z'48',1), int(z'03',1), int(z'F6',1), int(z'0E',1), &amp;</line>
+        <line t="X" i="101" b="0" n="0">     int(z'61',1), int(z'35',1), int(z'57',1), int(z'B9',1), int(z'86',1), int(z'C1',1), int(z'1D',1), int(z'9E',1), &amp;</line>
+        <line t="X" i="102" b="0" n="0">     int(z'E1',1), int(z'F8',1), int(z'98',1), int(z'11',1), int(z'69',1), int(z'D9',1), int(z'8E',1), int(z'94',1), &amp;</line>
+        <line t="X" i="103" b="0" n="0">     int(z'9B',1), int(z'1E',1), int(z'87',1), int(z'E9',1), int(z'CE',1), int(z'55',1), int(z'28',1), int(z'DF',1), &amp;</line>
+        <line t="X" i="104" b="0" n="0">     int(z'8C',1), int(z'A1',1), int(z'89',1), int(z'0D',1), int(z'BF',1), int(z'E6',1), int(z'42',1), int(z'68',1), &amp;</line>
+        <line t="X" i="105" b="0" n="0">     int(z'41',1), int(z'99',1), int(z'2D',1), int(z'0F',1), int(z'B0',1), int(z'54',1), int(z'BB',1), int(z'16',1), &amp;</line>
+        <line t="X" i="106" b="0" n="0">     int(z'63',1), int(z'7C',1), int(z'77',1), int(z'7B',1), int(z'F2',1), int(z'6B',1), int(z'6F',1), int(z'C5',1), &amp;</line>
+        <line t="X" i="107" b="0" n="0">     int(z'30',1), int(z'01',1), int(z'67',1), int(z'2B',1), int(z'FE',1), int(z'D7',1), int(z'AB',1), int(z'76',1), &amp;</line>
+        <line t="X" i="108" b="0" n="0">     int(z'CA',1), int(z'82',1), int(z'C9',1), int(z'7D',1), int(z'FA',1), int(z'59',1), int(z'47',1), int(z'F0',1), &amp;</line>
+        <line t="X" i="109" b="0" n="0">     int(z'AD',1), int(z'D4',1), int(z'A2',1), int(z'AF',1), int(z'9C',1), int(z'A4',1), int(z'72',1), int(z'C0',1), &amp;</line>
+        <line t="X" i="110" b="0" n="0">     int(z'B7',1), int(z'FD',1), int(z'93',1), int(z'26',1), int(z'36',1), int(z'3F',1), int(z'F7',1), int(z'CC',1), &amp;</line>
+        <line t="X" i="111" b="0" n="0">     int(z'34',1), int(z'A5',1), int(z'E5',1), int(z'F1',1), int(z'71',1), int(z'D8',1), int(z'31',1), int(z'15',1), &amp;</line>
+        <line t="X" i="112" b="0" n="0">     int(z'04',1), int(z'C7',1), int(z'23',1), int(z'C3',1), int(z'18',1), int(z'96',1), int(z'05',1), int(z'9A',1), &amp;</line>
+        <line t="X" i="113" b="0" n="0">     int(z'07',1), int(z'12',1), int(z'80',1), int(z'E2',1), int(z'EB',1), int(z'27',1), int(z'B2',1), int(z'75',1), &amp;</line>
+        <line t="X" i="114" b="0" n="0">     int(z'09',1), int(z'83',1), int(z'2C',1), int(z'1A',1), int(z'1B',1), int(z'6E',1), int(z'5A',1), int(z'A0',1), &amp;</line>
+        <line t="X" i="115" b="0" n="0">     int(z'52',1), int(z'3B',1), int(z'D6',1), int(z'B3',1), int(z'29',1), int(z'E3',1), int(z'2F',1), int(z'84',1), &amp;</line>
+        <line t="X" i="116" b="0" n="0">     int(z'53',1), int(z'D1',1), int(z'00',1), int(z'ED',1), int(z'20',1), int(z'FC',1), int(z'B1',1), int(z'5B',1), &amp;</line>
+        <line t="X" i="117" b="0" n="0">     int(z'6A',1), int(z'CB',1), int(z'BE',1), int(z'39',1), int(z'4A',1), int(z'4C',1), int(z'58',1), int(z'CF',1), &amp;</line>
+        <line t="X" i="118" b="0" n="0">     int(z'D0',1), int(z'EF',1), int(z'AA',1), int(z'FB',1), int(z'43',1), int(z'4D',1), int(z'33',1), int(z'85',1), &amp;</line>
+        <line t="X" i="119" b="0" n="0">     int(z'45',1), int(z'F9',1), int(z'02',1), int(z'7F',1), int(z'50',1), int(z'3C',1), int(z'9F',1), int(z'A8',1), &amp;</line>
+        <line t="X" i="120" b="0" n="0">     int(z'51',1), int(z'A3',1), int(z'40',1), int(z'8F',1), int(z'92',1), int(z'9D',1), int(z'38',1), int(z'F5',1), &amp;</line>
+        <line t="X" i="121" b="0" n="0">     int(z'BC',1), int(z'B6',1), int(z'DA',1), int(z'21',1), int(z'10',1), int(z'FF',1), int(z'F3',1), int(z'D2',1) ]</line>
+        <line t="X" i="122" b="0" n="0"></line>
+        <line t="X" i="123" b="0" n="0">  integer(kind=1), dimension(-128:127), parameter :: rj_sbox_inv = &amp;</line>
+        <line t="X" i="124" b="0" n="0">   [ int(z'3A',1), int(z'91',1), int(z'11',1), int(z'41',1), int(z'4F',1), int(z'67',1), int(z'DC',1), int(z'EA',1), &amp;</line>
+        <line t="X" i="125" b="0" n="0">     int(z'97',1), int(z'F2',1), int(z'CF',1), int(z'CE',1), int(z'F0',1), int(z'B4',1), int(z'E6',1), int(z'73',1), &amp;</line>
+        <line t="X" i="126" b="0" n="0">     int(z'96',1), int(z'AC',1), int(z'74',1), int(z'22',1), int(z'E7',1), int(z'AD',1), int(z'35',1), int(z'85',1), &amp;</line>
+        <line t="X" i="127" b="0" n="0">     int(z'E2',1), int(z'F9',1), int(z'37',1), int(z'E8',1), int(z'1C',1), int(z'75',1), int(z'DF',1), int(z'6E',1), &amp;</line>
+        <line t="X" i="128" b="0" n="0">     int(z'47',1), int(z'F1',1), int(z'1A',1), int(z'71',1), int(z'1D',1), int(z'29',1), int(z'C5',1), int(z'89',1), &amp;</line>
+        <line t="X" i="129" b="0" n="0">     int(z'6F',1), int(z'B7',1), int(z'62',1), int(z'0E',1), int(z'AA',1), int(z'18',1), int(z'BE',1), int(z'1B',1), &amp;</line>
+        <line t="X" i="130" b="0" n="0">     int(z'FC',1), int(z'56',1), int(z'3E',1), int(z'4B',1), int(z'C6',1), int(z'D2',1), int(z'79',1), int(z'20',1), &amp;</line>
+        <line t="X" i="131" b="0" n="0">     int(z'9A',1), int(z'DB',1), int(z'C0',1), int(z'FE',1), int(z'78',1), int(z'CD',1), int(z'5A',1), int(z'F4',1), &amp;</line>
+        <line t="X" i="132" b="0" n="0">     int(z'1F',1), int(z'DD',1), int(z'A8',1), int(z'33',1), int(z'88',1), int(z'07',1), int(z'C7',1), int(z'31',1), &amp;</line>
+        <line t="X" i="133" b="0" n="0">     int(z'B1',1), int(z'12',1), int(z'10',1), int(z'59',1), int(z'27',1), int(z'80',1), int(z'EC',1), int(z'5F',1), &amp;</line>
+        <line t="X" i="134" b="0" n="0">     int(z'60',1), int(z'51',1), int(z'7F',1), int(z'A9',1), int(z'19',1), int(z'B5',1), int(z'4A',1), int(z'0D',1), &amp;</line>
+        <line t="X" i="135" b="0" n="0">     int(z'2D',1), int(z'E5',1), int(z'7A',1), int(z'9F',1), int(z'93',1), int(z'C9',1), int(z'9C',1), int(z'EF',1), &amp;</line>
+        <line t="X" i="136" b="0" n="0">     int(z'A0',1), int(z'E0',1), int(z'3B',1), int(z'4D',1), int(z'AE',1), int(z'2A',1), int(z'F5',1), int(z'B0',1), &amp;</line>
+        <line t="X" i="137" b="0" n="0">     int(z'C8',1), int(z'EB',1), int(z'BB',1), int(z'3C',1), int(z'83',1), int(z'53',1), int(z'99',1), int(z'61',1), &amp;</line>
+        <line t="X" i="138" b="0" n="0">     int(z'17',1), int(z'2B',1), int(z'04',1), int(z'7E',1), int(z'BA',1), int(z'77',1), int(z'D6',1), int(z'26',1), &amp;</line>
+        <line t="X" i="139" b="0" n="0">     int(z'E1',1), int(z'69',1), int(z'14',1), int(z'63',1), int(z'55',1), int(z'21',1), int(z'0C',1), int(z'7D',1), &amp;</line>
+        <line t="X" i="140" b="0" n="0">     int(z'52',1), int(z'09',1), int(z'6A',1), int(z'D5',1), int(z'30',1), int(z'36',1), int(z'A5',1), int(z'38',1), &amp;</line>
+        <line t="X" i="141" b="0" n="0">     int(z'BF',1), int(z'40',1), int(z'A3',1), int(z'9E',1), int(z'81',1), int(z'F3',1), int(z'D7',1), int(z'FB',1), &amp;</line>
+        <line t="X" i="142" b="0" n="0">     int(z'7C',1), int(z'E3',1), int(z'39',1), int(z'82',1), int(z'9B',1), int(z'2F',1), int(z'FF',1), int(z'87',1), &amp;</line>
+        <line t="X" i="143" b="0" n="0">     int(z'34',1), int(z'8E',1), int(z'43',1), int(z'44',1), int(z'C4',1), int(z'DE',1), int(z'E9',1), int(z'CB',1), &amp;</line>
+        <line t="X" i="144" b="0" n="0">     int(z'54',1), int(z'7B',1), int(z'94',1), int(z'32',1), int(z'A6',1), int(z'C2',1), int(z'23',1), int(z'3D',1), &amp;</line>
+        <line t="X" i="145" b="0" n="0">     int(z'EE',1), int(z'4C',1), int(z'95',1), int(z'0B',1), int(z'42',1), int(z'FA',1), int(z'C3',1), int(z'4E',1), &amp;</line>
+        <line t="X" i="146" b="0" n="0">     int(z'08',1), int(z'2E',1), int(z'A1',1), int(z'66',1), int(z'28',1), int(z'D9',1), int(z'24',1), int(z'B2',1), &amp;</line>
+        <line t="X" i="147" b="0" n="0">     int(z'76',1), int(z'5B',1), int(z'A2',1), int(z'49',1), int(z'6D',1), int(z'8B',1), int(z'D1',1), int(z'25',1), &amp;</line>
+        <line t="X" i="148" b="0" n="0">     int(z'72',1), int(z'F8',1), int(z'F6',1), int(z'64',1), int(z'86',1), int(z'68',1), int(z'98',1), int(z'16',1), &amp;</line>
+        <line t="X" i="149" b="0" n="0">     int(z'D4',1), int(z'A4',1), int(z'5C',1), int(z'CC',1), int(z'5D',1), int(z'65',1), int(z'B6',1), int(z'92',1), &amp;</line>
+        <line t="X" i="150" b="0" n="0">     int(z'6C',1), int(z'70',1), int(z'48',1), int(z'50',1), int(z'FD',1), int(z'ED',1), int(z'B9',1), int(z'DA',1), &amp;</line>
+        <line t="X" i="151" b="0" n="0">     int(z'5E',1), int(z'15',1), int(z'46',1), int(z'57',1), int(z'A7',1), int(z'8D',1), int(z'9D',1), int(z'84',1), &amp;</line>
+        <line t="X" i="152" b="0" n="0">     int(z'90',1), int(z'D8',1), int(z'AB',1), int(z'00',1), int(z'8C',1), int(z'BC',1), int(z'D3',1), int(z'0A',1), &amp;</line>
+        <line t="X" i="153" b="0" n="0">     int(z'F7',1), int(z'E4',1), int(z'58',1), int(z'05',1), int(z'B8',1), int(z'B3',1), int(z'45',1), int(z'06',1), &amp;</line>
+        <line t="X" i="154" b="0" n="0">     int(z'D0',1), int(z'2C',1), int(z'1E',1), int(z'8F',1), int(z'CA',1), int(z'3F',1), int(z'0F',1), int(z'02',1), &amp;</line>
+        <line t="X" i="155" b="0" n="0">     int(z'C1',1), int(z'AF',1), int(z'BD',1), int(z'03',1), int(z'01',1), int(z'13',1), int(z'8A',1), int(z'6B',1) ]</line>
+        <line t="X" i="156" b="0" n="0">      </line>
+        <line t="C" i="157" b="0" n="0">! Unit test interface for privte parts</line>
+        <line t="X" i="158" b="0" n="0">  interface </line>
+        <line t="X" i="159" b="0" n="0"></line>
+        <line t="M" i="160" b="0" n="0">    module pure subroutine unit_test_private_aes_sub_bytes( buffer )</line>
+        <line t="X" i="161" b="0" n="0">      integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="162" b="0" n="0">    end subroutine unit_test_private_aes_sub_bytes</line>
+        <line t="X" i="163" b="0" n="0">  </line>
+        <line t="M" i="164" b="0" n="0">    module pure subroutine unit_test_private_aes_sub_bytes_inv( buffer )</line>
+        <line t="X" i="165" b="0" n="0">      integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="166" b="0" n="0">    end subroutine unit_test_private_aes_sub_bytes_inv</line>
+        <line t="X" i="167" b="0" n="0"></line>
+        <line t="M" i="168" b="0" n="0">    module pure subroutine unit_test_private_aes_add_round_key( buffer, key )</line>
+        <line t="X" i="169" b="0" n="0">      integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="170" b="0" n="0">      integer(kind=1), dimension(:), intent(in) :: key</line>
+        <line t="X" i="171" b="0" n="0">    end subroutine unit_test_private_aes_add_round_key</line>
+        <line t="X" i="172" b="0" n="0">      </line>
+        <line t="M" i="173" b="0" n="0">    module pure subroutine unit_test_private_aes_add_round_key_cpy( buffer, key, cpk )</line>
+        <line t="X" i="174" b="0" n="0">      integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="175" b="0" n="0">      integer(kind=1), dimension(:), intent(in) :: key</line>
+        <line t="X" i="176" b="0" n="0">      integer(kind=1), dimension(:), intent(inout) :: cpk</line>
+        <line t="X" i="177" b="0" n="0">    end subroutine unit_test_private_aes_add_round_key_cpy</line>
+        <line t="X" i="178" b="0" n="0">      </line>
+        <line t="M" i="179" b="0" n="0">    module pure subroutine unit_test_private_aes_shift_rows(buffer )</line>
+        <line t="X" i="180" b="0" n="0">      integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="181" b="0" n="0">    end subroutine unit_test_private_aes_shift_rows</line>
+        <line t="X" i="182" b="0" n="0">  </line>
+        <line t="M" i="183" b="0" n="0">    module pure subroutine unit_test_private_aes_shift_rows_inv(buffer )</line>
+        <line t="X" i="184" b="0" n="0">      integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="185" b="0" n="0">    end subroutine unit_test_private_aes_shift_rows_inv</line>
+        <line t="X" i="186" b="0" n="0"></line>
+        <line t="M" i="187" b="0" n="0">    module pure subroutine unit_test_private_aes_mix_columns( buffer )</line>
+        <line t="X" i="188" b="0" n="0">      integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="189" b="0" n="0">    end subroutine unit_test_private_aes_mix_columns</line>
+        <line t="X" i="190" b="0" n="0">  </line>
+        <line t="M" i="191" b="0" n="0">    module pure subroutine unit_test_private_aes_mix_columns_inv( buffer )</line>
+        <line t="X" i="192" b="0" n="0">      integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="193" b="0" n="0">    end subroutine unit_test_private_aes_mix_columns_inv</line>
+        <line t="X" i="194" b="0" n="0"></line>
+        <line t="M" i="195" b="0" n="0">    module pure subroutine unit_test_private_aes_expand_encryption_key( key, rc )</line>
+        <line t="X" i="196" b="0" n="0">      integer(kind=1), dimension(:), intent(inout) :: key</line>
+        <line t="X" i="197" b="0" n="0">      integer(kind=1), intent(inout) :: rc</line>
+        <line t="X" i="198" b="0" n="0">    end subroutine unit_test_private_aes_expand_encryption_key</line>
+        <line t="X" i="199" b="0" n="0">  </line>
+        <line t="M" i="200" b="0" n="0">    module pure subroutine unit_test_private_aes_expand_decryption_key( key, rc )</line>
+        <line t="X" i="201" b="0" n="0">      integer(kind=1), dimension(:), intent(inout) :: key</line>
+        <line t="X" i="202" b="0" n="0">      integer(kind=1), intent(inout) :: rc</line>
+        <line t="X" i="203" b="0" n="0">    end subroutine unit_test_private_aes_expand_decryption_key</line>
+        <line t="X" i="204" b="0" n="0">  </line>
+        <line t="X" i="205" b="0" n="0">  end interface</line>
+        <line t="X" i="206" b="0" n="0"></line>
+        <line t="X" i="207" b="0" n="0">  public unit_test_private_aes_sub_bytes, unit_test_private_aes_sub_bytes_inv</line>
+        <line t="X" i="208" b="0" n="0">  public unit_test_private_aes_add_round_key, unit_test_private_aes_add_round_key_cpy</line>
+        <line t="X" i="209" b="0" n="0">  public unit_test_private_aes_shift_rows, unit_test_private_aes_shift_rows_inv</line>
+        <line t="X" i="210" b="0" n="0">  public unit_test_private_aes_mix_columns, unit_test_private_aes_mix_columns_inv</line>
+        <line t="X" i="211" b="0" n="0">  public unit_test_private_aes_expand_encryption_key, unit_test_private_aes_expand_decryption_key</line>
+        <line t="X" i="212" b="0" n="0">    </line>
+        <line t="C" i="213" b="0" n="0">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="214" b="0" n="0"></line>
+        <line t="X" i="215" b="0" n="0">contains</line>
+        <line t="X" i="216" b="0" n="0"></line>
+        <line t="C" i="217" b="0" n="0">! Constructor from key</line>
+        <line k="aes" t="F" i="218" b="1" n="1">pure function aes( key ) result(res)</line>
+        <line t="F" i="219" b="1" n="1"></line>
+        <line t="C" i="220" b="1" n="1">! The initialisation key</line>
+        <line t="X" i="221" b="1" n="1">  integer(kind=1), dimension(1:32), intent(in) :: key</line>
+        <line t="X" i="222" b="1" n="1"></line>
+        <line t="C" i="223" b="1" n="1">! The AES context</line>
+        <line t="X" i="224" b="1" n="1">  type(t_aes) :: res</line>
+        <line t="X" i="225" b="1" n="1"></line>
+        <line t="C" i="226" b="1" n="1">! Local variables</line>
+        <line t="X" i="227" b="1" n="1">  integer :: i</line>
+        <line t="X" i="228" b="1" n="1">  integer(kind=1) :: rcon</line>
+        <line t="X" i="229" b="1" n="1"></line>
+        <line t="C" i="230" b="1" n="1">! Initialise</line>
+        <line t="X" i="231" b="1" n="1">  res%enckey = key</line>
+        <line t="X" i="232" b="1" n="1">  res%deckey = key</line>
+        <line t="X" i="233" b="1" n="1">  rcon = z01</line>
+        <line t="X" i="234" b="2" n="2">  do i = 1, 7</line>
+        <line t="X" i="235" b="2" n="2">    call aes_expand_encryption_key( res%deckey, rcon )</line>
+        <line t="X" i="236" b="2" n="1">  end do</line>
+        <line t="X" i="237" b="2" n="1"></line>
+        <line t="EF" i="238" b="2" n="1">end function aes</line>
+        <line t="EF" i="239" b="1" n="1"></line>
+        <line t="EF" i="240" b="1" n="1"></line>
+        <line t="C" i="241" b="1" n="1">! AES block size</line>
+        <line k="aes_block_size" t="F" i="242" b="1" n="1">pure function aes_block_size() result(res)</line>
+        <line t="F" i="243" b="1" n="1"></line>
+        <line t="C" i="244" b="1" n="1">! AES block size</line>
+        <line t="X" i="245" b="1" n="1">  integer :: res</line>
+        <line t="X" i="246" b="1" n="1">   </line>
+        <line t="C" i="247" b="1" n="1">! Return the AES block size</line>
+        <line t="X" i="248" b="1" n="1">  res = aes_block_size_in_bytes</line>
+        <line t="X" i="249" b="1" n="1">   </line>
+        <line t="EF" i="250" b="1" n="1">end function aes_block_size</line>
+        <line t="EF" i="251" b="1" n="1"></line>
+        <line t="EF" i="252" b="1" n="1"></line>
+        <line t="C" i="253" b="1" n="1">! AES key size</line>
+        <line k="aes_key_size" t="F" i="254" b="1" n="1">pure function aes_key_size() result(res)</line>
+        <line t="F" i="255" b="1" n="1"></line>
+        <line t="C" i="256" b="1" n="1">! AES key size</line>
+        <line t="X" i="257" b="1" n="1">  integer :: res</line>
+        <line t="X" i="258" b="1" n="1">   </line>
+        <line t="C" i="259" b="1" n="1">! Return the AES key size</line>
+        <line t="X" i="260" b="1" n="1">  res = aes_key_size_in_bytes</line>
+        <line t="X" i="261" b="1" n="1">   </line>
+        <line t="EF" i="262" b="1" n="1">end function aes_key_size</line>
+        <line t="EF" i="263" b="1" n="1"></line>
+        <line t="EF" i="264" b="1" n="1"></line>
+        <line t="C" i="265" b="1" n="1">! AES encryption (from 16 bytes buffer)</line>
+        <line k="aes_encrypt" t="S" i="266" b="1" n="1">pure subroutine aes_encrypt( this, text, cipher )</line>
+        <line t="S" i="267" b="1" n="1"></line>
+        <line t="C" i="268" b="1" n="1">! The AES context</line>
+        <line t="X" i="269" b="1" n="1">  class(t_aes), intent(in) :: this</line>
+        <line t="X" i="270" b="1" n="1"></line>
+        <line t="C" i="271" b="1" n="1">! The plain text to encrypt</line>
+        <line t="X" i="272" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: text</line>
+        <line t="X" i="273" b="1" n="1"></line>
+        <line t="C" i="274" b="1" n="1">! The encrypted text</line>
+        <line t="X" i="275" b="1" n="1">  integer(kind=1), dimension(size(text)), intent(out) :: cipher</line>
+        <line t="X" i="276" b="1" n="1"></line>
+        <line t="C" i="277" b="1" n="1">! Local variables</line>
+        <line t="X" i="278" b="1" n="1">  integer :: i</line>
+        <line t="X" i="279" b="1" n="1">  integer(kind=1) :: rcon</line>
+        <line t="X" i="280" b="1" n="1">  integer(kind=1), dimension(16) :: buffer</line>
+        <line t="X" i="281" b="1" n="1">  integer(kind=1), dimension(32) :: cpkey</line>
+        <line t="X" i="282" b="1" n="1"></line>
+        <line t="C" i="283" b="1" n="1">! Initialise local buffers</line>
+        <line t="X" i="284" b="1" n="1">  buffer = text</line>
+        <line t="X" i="285" b="1" n="1">  cpkey = z00</line>
+        <line t="X" i="286" b="1" n="1"></line>
+        <line t="C" i="287" b="1" n="1">! Initialise encryption</line>
+        <line t="X" i="288" b="1" n="1">  call aes_add_round_key_cpy( buffer, this%enckey, cpkey )</line>
+        <line t="X" i="289" b="1" n="1"></line>
+        <line t="C" i="290" b="1" n="1">! Make the rounds</line>
+        <line t="X" i="291" b="1" n="1">  rcon = z01</line>
+        <line t="X" i="292" b="2" n="2">  do i = 1, 13</line>
+        <line t="X" i="293" b="2" n="2">    call aes_sub_bytes( buffer )</line>
+        <line t="X" i="294" b="2" n="2">    call aes_shift_rows( buffer )</line>
+        <line t="X" i="295" b="2" n="2">    call aes_mix_columns( buffer )</line>
+        <line t="X" i="296" b="3" n="3">    if( iand( int(i,1), z01 ) /= 0 ) then</line>
+        <line t="X" i="297" b="3" n="3">      call aes_add_round_key( buffer, cpkey(17:) )</line>
+        <line t="X" i="298" b="4" n="3">    else</line>
+        <line t="X" i="299" b="4" n="3">      call aes_expand_encryption_key( cpkey, rcon )</line>
+        <line t="X" i="300" b="4" n="3">      call aes_add_round_key( buffer, cpkey )</line>
+        <line t="X" i="301" b="4" n="2">    end if</line>
+        <line t="X" i="302" b="4" n="1">  end do</line>
+        <line t="X" i="303" b="4" n="1"></line>
+        <line t="C" i="304" b="4" n="1">! Final round (no MixColumns)</line>
+        <line t="X" i="305" b="4" n="1">  call aes_sub_bytes( buffer )</line>
+        <line t="X" i="306" b="4" n="1">  call aes_shift_rows( buffer )</line>
+        <line t="X" i="307" b="4" n="1">  call aes_expand_encryption_key( cpkey, rcon )</line>
+        <line t="X" i="308" b="4" n="1">  call aes_add_round_key( buffer, cpkey )</line>
+        <line t="X" i="309" b="4" n="1"></line>
+        <line t="C" i="310" b="4" n="1">! Return the encrypted buffer</line>
+        <line t="X" i="311" b="4" n="1">  cipher = buffer</line>
+        <line t="X" i="312" b="4" n="1"></line>
+        <line t="ES" i="313" b="4" n="1">end subroutine aes_encrypt</line>
+        <line t="ES" i="314" b="1" n="1"></line>
+        <line t="ES" i="315" b="1" n="1"></line>
+        <line t="C" i="316" b="1" n="1">! AES decryption (from 16 bytes buffer)</line>
+        <line k="aes_decrypt" t="S" i="317" b="1" n="1">pure subroutine aes_decrypt( this, cipher, text )</line>
+        <line t="S" i="318" b="1" n="1"></line>
+        <line t="C" i="319" b="1" n="1">! The AES context</line>
+        <line t="X" i="320" b="1" n="1">  class(t_aes), intent(in) :: this</line>
+        <line t="X" i="321" b="1" n="1"></line>
+        <line t="C" i="322" b="1" n="1">! The encrypted text</line>
+        <line t="X" i="323" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: cipher</line>
+        <line t="X" i="324" b="1" n="1"></line>
+        <line t="C" i="325" b="1" n="1">! The plain decrypted text</line>
+        <line t="X" i="326" b="1" n="1">  integer(kind=1), dimension(size(cipher)), intent(out) :: text</line>
+        <line t="X" i="327" b="1" n="1"></line>
+        <line t="C" i="328" b="1" n="1">! Local variables</line>
+        <line t="X" i="329" b="1" n="1">  integer :: i</line>
+        <line t="X" i="330" b="1" n="1">  integer(kind=1) :: rcon</line>
+        <line t="X" i="331" b="1" n="1">  integer(kind=1), dimension(16) :: buffer</line>
+        <line t="X" i="332" b="1" n="1">  integer(kind=1), dimension(32) :: cpkey</line>
+        <line t="X" i="333" b="1" n="1"></line>
+        <line t="C" i="334" b="1" n="1">! Initialise local buffers</line>
+        <line t="X" i="335" b="1" n="1">  buffer = cipher</line>
+        <line t="X" i="336" b="1" n="1">  cpkey = z00</line>
+        <line t="X" i="337" b="1" n="1"></line>
+        <line t="C" i="338" b="1" n="1">! Initial round</line>
+        <line t="X" i="339" b="1" n="1">  call aes_add_round_key_cpy( buffer, this%deckey, cpkey )</line>
+        <line t="X" i="340" b="1" n="1">  call aes_shift_rows_inv( buffer )</line>
+        <line t="X" i="341" b="1" n="1">  call aes_sub_bytes_inv( buffer )</line>
+        <line t="X" i="342" b="1" n="1"></line>
+        <line t="C" i="343" b="1" n="1">! Make the rounds</line>
+        <line t="X" i="344" b="1" n="1">  rcon = z80</line>
+        <line t="X" i="345" b="2" n="2">  do i = 1, 13</line>
+        <line t="X" i="346" b="3" n="3">    if( iand( int(i,1), z01 ) /= 0 ) then</line>
+        <line t="X" i="347" b="3" n="3">      call aes_expand_decryption_key( cpkey, rcon )</line>
+        <line t="X" i="348" b="3" n="3">      call aes_add_round_key( buffer, cpkey(17:) )</line>
+        <line t="X" i="349" b="4" n="3">    else</line>
+        <line t="X" i="350" b="4" n="3">      call aes_add_round_key( buffer, cpkey )</line>
+        <line t="X" i="351" b="4" n="2">    end if</line>
+        <line t="X" i="352" b="4" n="2">    call aes_mix_columns_inv( buffer )</line>
+        <line t="X" i="353" b="4" n="2">    call aes_shift_rows_inv( buffer )</line>
+        <line t="X" i="354" b="4" n="2">    call aes_sub_bytes_inv( buffer)</line>
+        <line t="X" i="355" b="4" n="1">  end do</line>
+        <line t="X" i="356" b="4" n="1"></line>
+        <line t="C" i="357" b="4" n="1">! Finalise decryption</line>
+        <line t="X" i="358" b="4" n="1">  call aes_add_round_key( buffer, cpkey )</line>
+        <line t="X" i="359" b="4" n="1"></line>
+        <line t="C" i="360" b="4" n="1">! Return the decryprted buffer</line>
+        <line t="X" i="361" b="4" n="1">  text = buffer</line>
+        <line t="X" i="362" b="4" n="1"></line>
+        <line t="ES" i="363" b="4" n="1">end subroutine aes_decrypt</line>
+        <line t="ES" i="364" b="1" n="1"></line>
+        <line t="ES" i="365" b="1" n="1"></line>
+        <line t="C" i="366" b="1" n="1">! AES SubBytes step</line>
+        <line k="aes_sub_bytes" t="S" i="367" b="1" n="1">pure subroutine aes_sub_bytes( buffer )</line>
+        <line t="S" i="368" b="1" n="1"></line>
+        <line t="C" i="369" b="1" n="1">! Processing buffer</line>
+        <line t="X" i="370" b="1" n="1">  integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="371" b="1" n="1"></line>
+        <line t="C" i="372" b="1" n="1">! Processing</line>
+        <line t="X" i="373" b="1" n="1">  buffer = rj_sbox( buffer )</line>
+        <line t="X" i="374" b="1" n="1"></line>
+        <line t="ES" i="375" b="1" n="1">end subroutine aes_sub_bytes</line>
+        <line t="ES" i="376" b="1" n="1"></line>
+        <line t="ES" i="377" b="1" n="1"></line>
+        <line t="C" i="378" b="1" n="1">! AES Subbytes inverse step</line>
+        <line k="aes_sub_bytes_inv" t="S" i="379" b="1" n="1">pure subroutine aes_sub_bytes_inv( buffer )</line>
+        <line t="S" i="380" b="1" n="1"></line>
+        <line t="C" i="381" b="1" n="1">! Processing buffer</line>
+        <line t="X" i="382" b="1" n="1">  integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="383" b="1" n="1"></line>
+        <line t="C" i="384" b="1" n="1">! Processing</line>
+        <line t="X" i="385" b="1" n="1">  buffer = rj_sbox_inv( buffer )</line>
+        <line t="X" i="386" b="1" n="1"></line>
+        <line t="ES" i="387" b="1" n="1">end subroutine aes_sub_bytes_inv</line>
+        <line t="ES" i="388" b="1" n="1"></line>
+        <line t="ES" i="389" b="1" n="1"></line>
+        <line t="C" i="390" b="1" n="1">! AES AddRoundKey step</line>
+        <line k="aes_add_round_key" t="S" i="391" b="1" n="1">pure subroutine aes_add_round_key( buffer, key )</line>
+        <line t="S" i="392" b="1" n="1"></line>
+        <line t="C" i="393" b="1" n="1">! Processing buffer</line>
+        <line t="X" i="394" b="1" n="1">  integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="395" b="1" n="1"></line>
+        <line t="C" i="396" b="1" n="1">! The encryption/decryption key</line>
+        <line t="X" i="397" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: key</line>
+        <line t="X" i="398" b="1" n="1"></line>
+        <line t="C" i="399" b="1" n="1">! Processing</line>
+        <line t="X" i="400" b="1" n="1">  buffer = ieor( buffer, key(:size(buffer)) )</line>
+        <line t="X" i="401" b="1" n="1"></line>
+        <line t="ES" i="402" b="1" n="1">end subroutine aes_add_round_key</line>
+        <line t="ES" i="403" b="1" n="1"></line>
+        <line t="ES" i="404" b="1" n="1"></line>
+        <line t="C" i="405" b="1" n="1">! AES AddRoundKey step with key copy</line>
+        <line k="aes_add_round_key_cpy" t="S" i="406" b="1" n="1">pure subroutine aes_add_round_key_cpy( buffer, key, cpk )</line>
+        <line t="S" i="407" b="1" n="1"></line>
+        <line t="C" i="408" b="1" n="1">! Processing buffer</line>
+        <line t="X" i="409" b="1" n="1">  integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="410" b="1" n="1"></line>
+        <line t="C" i="411" b="1" n="1">! The encryption/decryption key</line>
+        <line t="X" i="412" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: key</line>
+        <line t="X" i="413" b="1" n="1"></line>
+        <line t="C" i="414" b="1" n="1">! The input key copy</line>
+        <line t="X" i="415" b="1" n="1">  integer(kind=1), dimension(:), intent(inout) :: cpk</line>
+        <line t="X" i="416" b="1" n="1"></line>
+        <line t="C" i="417" b="1" n="1">! Processing</line>
+        <line t="X" i="418" b="1" n="1">  cpk = key</line>
+        <line t="X" i="419" b="1" n="1">  buffer = ieor( buffer, key(:size(buffer)) )</line>
+        <line t="X" i="420" b="1" n="1"></line>
+        <line t="ES" i="421" b="1" n="1">end subroutine aes_add_round_key_cpy</line>
+        <line t="ES" i="422" b="1" n="1"></line>
+        <line t="ES" i="423" b="1" n="1"></line>
+        <line t="C" i="424" b="1" n="1">! AES ShiftRows step</line>
+        <line k="aes_shift_rows" t="S" i="425" b="1" n="1">pure subroutine aes_shift_rows( buffer )</line>
+        <line t="S" i="426" b="1" n="1"></line>
+        <line t="C" i="427" b="1" n="1">! Processing buffer</line>
+        <line t="X" i="428" b="1" n="1">  integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="429" b="1" n="1"></line>
+        <line t="C" i="430" b="1" n="1">! Processing</line>
+        <line t="X" i="431" b="1" n="1">  buffer( [ 2, 6, 10, 14 ] ) = buffer( [ 6, 10, 14, 2 ] )</line>
+        <line t="X" i="432" b="1" n="1">  buffer( [ 11, 3 ] ) = buffer( [ 3, 11 ] )</line>
+        <line t="X" i="433" b="1" n="1">  buffer( [ 4, 16, 12, 8 ] ) = buffer( [ 16, 12, 8, 4 ] )</line>
+        <line t="X" i="434" b="1" n="1">  buffer( [ 15, 7 ] ) = buffer( [ 7, 15 ] )</line>
+        <line t="X" i="435" b="1" n="1"></line>
+        <line t="ES" i="436" b="1" n="1">end subroutine aes_shift_rows</line>
+        <line t="ES" i="437" b="1" n="1"></line>
+        <line t="ES" i="438" b="1" n="1"></line>
+        <line t="C" i="439" b="1" n="1">! AES ShiftRows inverse step</line>
+        <line k="aes_shift_rows_inv" t="S" i="440" b="1" n="1">pure subroutine aes_shift_rows_inv( buffer )</line>
+        <line t="S" i="441" b="1" n="1"></line>
+        <line t="C" i="442" b="1" n="1">! Processing buffer</line>
+        <line t="X" i="443" b="1" n="1">  integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="444" b="1" n="1"></line>
+        <line t="C" i="445" b="1" n="1">! Processing</line>
+        <line t="X" i="446" b="1" n="1">  buffer( [ 2, 14, 10, 6 ] ) = buffer( [ 14, 10, 6, 2 ] )</line>
+        <line t="X" i="447" b="1" n="1">  buffer( [ 3, 11 ] ) = buffer( [ 11, 3 ] )</line>
+        <line t="X" i="448" b="1" n="1">  buffer( [ 4, 8, 12, 16 ] ) = buffer( [ 8, 12, 16, 4 ] )</line>
+        <line t="X" i="449" b="1" n="1">  buffer( [ 7, 15 ] ) = buffer( [ 15, 7 ] )</line>
+        <line t="X" i="450" b="1" n="1"></line>
+        <line t="ES" i="451" b="1" n="1">end subroutine aes_shift_rows_inv</line>
+        <line t="ES" i="452" b="1" n="1"></line>
+        <line t="ES" i="453" b="1" n="1"></line>
+        <line t="C" i="454" b="1" n="1">! AES MixColumns step</line>
+        <line k="aes_mix_columns" t="S" i="455" b="1" n="1">pure subroutine aes_mix_columns( buffer )</line>
+        <line t="S" i="456" b="1" n="1"></line>
+        <line t="C" i="457" b="1" n="1">! Processing buffer</line>
+        <line t="X" i="458" b="1" n="1">  integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="459" b="1" n="1"></line>
+        <line t="C" i="460" b="1" n="1">! Local variables</line>
+        <line t="X" i="461" b="1" n="1">  integer :: i</line>
+        <line t="X" i="462" b="1" n="1">  integer(kind=1) :: a, b, c, d, e;</line>
+        <line t="X" i="463" b="1" n="1"></line>
+        <line t="X" i="464" b="1" n="1"></line>
+        <line t="C" i="465" b="1" n="1">! Processing</line>
+        <line t="C" i="466" b="1" n="1"></line>
+        <line t="X" i="467" b="2" n="2">  do i = 1, 15, 4</line>
+        <line t="X" i="468" b="2" n="2"></line>
+        <line t="X" i="469" b="2" n="2">    a = buffer(i)</line>
+        <line t="X" i="470" b="2" n="2">    b = buffer(i + 1)</line>
+        <line t="X" i="471" b="2" n="2">    c = buffer(i + 2)</line>
+        <line t="X" i="472" b="2" n="2">    d = buffer(i + 3)</line>
+        <line t="X" i="473" b="2" n="2"></line>
+        <line t="X" i="474" b="2" n="2">    e = ieor( c, d )</line>
+        <line t="X" i="475" b="2" n="2">    e = ieor( b, e )</line>
+        <line t="X" i="476" b="2" n="2">    e = ieor( a, e )</line>
+        <line t="X" i="477" b="2" n="2"></line>
+        <line t="X" i="478" b="2" n="2">    buffer(i)   = ieor( buffer(i),   ieor( e, rj_xtime( ieor( a, b ) ) ) )</line>
+        <line t="X" i="479" b="2" n="2">    buffer(i+1) = ieor( buffer(i+1), ieor( e, rj_xtime( ieor( b, c ) ) ) )</line>
+        <line t="X" i="480" b="2" n="2">    buffer(i+2) = ieor( buffer(i+2), ieor( e, rj_xtime( ieor( c, d ) ) ) )</line>
+        <line t="X" i="481" b="2" n="2">    buffer(i+3) = ieor( buffer(i+3), ieor( e, rj_xtime( ieor( d, a ) ) ) )</line>
+        <line t="X" i="482" b="2" n="2"></line>
+        <line t="X" i="483" b="2" n="1">  end do</line>
+        <line t="X" i="484" b="2" n="1"></line>
+        <line t="ES" i="485" b="2" n="1">end subroutine aes_mix_columns</line>
+        <line t="ES" i="486" b="1" n="1"></line>
+        <line t="ES" i="487" b="1" n="1"></line>
+        <line t="C" i="488" b="1" n="1">! AES MixColumns inverse step</line>
+        <line k="aes_mix_columns_inv" t="S" i="489" b="1" n="1">pure subroutine aes_mix_columns_inv( buffer )</line>
+        <line t="S" i="490" b="1" n="1"></line>
+        <line t="C" i="491" b="1" n="1">! Processing buffer</line>
+        <line t="X" i="492" b="1" n="1">  integer(kind=1), dimension(:), intent(inout) :: buffer</line>
+        <line t="X" i="493" b="1" n="1"></line>
+        <line t="C" i="494" b="1" n="1">! Local variables</line>
+        <line t="X" i="495" b="1" n="1">  integer :: i</line>
+        <line t="X" i="496" b="1" n="1">  integer(kind=1) :: a, b, c, d, e, x, y, z</line>
+        <line t="X" i="497" b="1" n="1"></line>
+        <line t="X" i="498" b="1" n="1"></line>
+        <line t="C" i="499" b="1" n="1">! Processing</line>
+        <line t="C" i="500" b="1" n="1"></line>
+        <line t="X" i="501" b="2" n="2">  do i = 1, 15, 4</line>
+        <line t="X" i="502" b="2" n="2"></line>
+        <line t="X" i="503" b="2" n="2">    a = buffer(i)</line>
+        <line t="X" i="504" b="2" n="2">    b = buffer(i + 1)</line>
+        <line t="X" i="505" b="2" n="2">    c = buffer(i + 2)</line>
+        <line t="X" i="506" b="2" n="2">    d = buffer(i + 3)</line>
+        <line t="X" i="507" b="2" n="2"></line>
+        <line t="X" i="508" b="2" n="2">    e = ieor( c, d )</line>
+        <line t="X" i="509" b="2" n="2">    e = ieor( b, e )</line>
+        <line t="X" i="510" b="2" n="2">    e = ieor( a, e )</line>
+        <line t="X" i="511" b="2" n="2"></line>
+        <line t="X" i="512" b="2" n="2">    z = rj_xtime(e)</line>
+        <line t="X" i="513" b="2" n="2">    x = ieor( e, rj_xtime( rj_xtime( ieor( z, ieor( a, c ) ) ) ) )</line>
+        <line t="X" i="514" b="2" n="2">    y = ieor( e, rj_xtime( rj_xtime( ieor( z, ieor( b, d ) ) ) ) )</line>
+        <line t="X" i="515" b="2" n="2"></line>
+        <line t="X" i="516" b="2" n="2">    buffer(i)   = ieor( buffer(i),   ieor( x, rj_xtime( ieor( a, b ) ) ) )</line>
+        <line t="X" i="517" b="2" n="2">    buffer(i+1) = ieor( buffer(i+1), ieor( y, rj_xtime( ieor( b, c ) ) ) )</line>
+        <line t="X" i="518" b="2" n="2">    buffer(i+2) = ieor( buffer(i+2), ieor( x, rj_xtime( ieor( c, d ) ) ) )</line>
+        <line t="X" i="519" b="2" n="2">    buffer(i+3) = ieor( buffer(i+3), ieor( y, rj_xtime( ieor( d, a ) ) ) )</line>
+        <line t="X" i="520" b="2" n="2"></line>
+        <line t="X" i="521" b="2" n="1">  end do</line>
+        <line t="X" i="522" b="2" n="1"></line>
+        <line t="ES" i="523" b="2" n="1">end subroutine aes_mix_columns_inv</line>
+        <line t="ES" i="524" b="1" n="1"></line>
+        <line t="ES" i="525" b="1" n="1"></line>
+        <line t="C" i="526" b="1" n="1">! AES expand encryption key</line>
+        <line k="aes_expand_encryption_key" t="S" i="527" b="1" n="1">pure subroutine aes_expand_encryption_key( key, rc )</line>
+        <line t="S" i="528" b="1" n="1"></line>
+        <line t="C" i="529" b="1" n="1">! The decryption key</line>
+        <line t="X" i="530" b="1" n="1">  integer(kind=1), dimension(:), intent(inout) :: key</line>
+        <line t="X" i="531" b="1" n="1"></line>
+        <line t="C" i="532" b="1" n="1">! ?????????????</line>
+        <line t="X" i="533" b="1" n="1">  integer(kind=1), intent(inout) :: rc</line>
+        <line t="X" i="534" b="1" n="1"></line>
+        <line t="C" i="535" b="1" n="1">! Local variables</line>
+        <line t="X" i="536" b="1" n="1">  integer :: i</line>
+        <line t="X" i="537" b="1" n="1"></line>
+        <line t="X" i="538" b="1" n="1"></line>
+        <line t="C" i="539" b="1" n="1">! Processing</line>
+        <line t="C" i="540" b="1" n="1"></line>
+        <line t="X" i="541" b="1" n="1">  key(1) = ieor( key(1), ieor( rj_sbox(key(30)), rc ) )</line>
+        <line t="X" i="542" b="1" n="1">  key(2:4) = ieor( key(2:4) , rj_sbox( key( [ 31, 32, 29 ] ) ) )</line>
+        <line t="X" i="543" b="1" n="1"></line>
+        <line t="X" i="544" b="1" n="1">  rc = F(rc)</line>
+        <line t="X" i="545" b="1" n="1"></line>
+        <line t="X" i="546" b="2" n="2">  do i = 5, 14, 4</line>
+        <line t="X" i="547" b="2" n="2">   key(i)   = ieor( key(i),   key(i-4) )</line>
+        <line t="X" i="548" b="2" n="2">   key(i+1) = ieor( key(i+1), key(i-3) )</line>
+        <line t="X" i="549" b="2" n="2">   key(i+2) = ieor( key(i+2), key(i-2) )</line>
+        <line t="X" i="550" b="2" n="2">   key(i+3) = ieor( key(i+3), key(i-1) )</line>
+        <line t="X" i="551" b="2" n="1">  end do</line>
+        <line t="X" i="552" b="2" n="1"></line>
+        <line t="X" i="553" b="2" n="1">  key(17:20) = ieor( key(17:20), rj_sbox( key(13:16) ) )</line>
+        <line t="X" i="554" b="2" n="1"></line>
+        <line t="X" i="555" b="3" n="2">  do i = 21, 32, 4</line>
+        <line t="X" i="556" b="3" n="2">   key(i)   = ieor( key(i),   key(i-4) )</line>
+        <line t="X" i="557" b="3" n="2">   key(i+1) = ieor( key(i+1), key(i-3) )</line>
+        <line t="X" i="558" b="3" n="2">   key(i+2) = ieor( key(i+2), key(i-2) )</line>
+        <line t="X" i="559" b="3" n="2">   key(i+3) = ieor( key(i+3), key(i-1) )</line>
+        <line t="X" i="560" b="3" n="1">  end do</line>
+        <line t="X" i="561" b="3" n="1"></line>
+        <line t="ES" i="562" b="3" n="1">end subroutine aes_expand_encryption_key</line>
+        <line t="ES" i="563" b="1" n="1"></line>
+        <line t="ES" i="564" b="1" n="1"></line>
+        <line t="C" i="565" b="1" n="1">! AES expand decryption key</line>
+        <line k="aes_expand_decryption_key" t="S" i="566" b="1" n="1">pure subroutine aes_expand_decryption_key( key, rc )</line>
+        <line t="S" i="567" b="1" n="1"></line>
+        <line t="C" i="568" b="1" n="1">! The decryption key</line>
+        <line t="X" i="569" b="1" n="1">  integer(kind=1), dimension(:), intent(inout) :: key</line>
+        <line t="X" i="570" b="1" n="1"></line>
+        <line t="C" i="571" b="1" n="1">! ?????????????</line>
+        <line t="X" i="572" b="1" n="1">  integer(kind=1), intent(inout) :: rc</line>
+        <line t="X" i="573" b="1" n="1"></line>
+        <line t="C" i="574" b="1" n="1">! Local variables</line>
+        <line t="X" i="575" b="1" n="1">  integer :: i</line>
+        <line t="X" i="576" b="1" n="1"></line>
+        <line t="C" i="577" b="1" n="1">! Processing</line>
+        <line t="C" i="578" b="1" n="1"></line>
+        <line t="X" i="579" b="2" n="2">  do i = 29, 18, -4</line>
+        <line t="X" i="580" b="2" n="2">   key(i)   = ieor( key(i),   key(i-4) )</line>
+        <line t="X" i="581" b="2" n="2">   key(i+1) = ieor( key(i+1), key(i-3) )</line>
+        <line t="X" i="582" b="2" n="2">   key(i+2) = ieor( key(i+2), key(i-2) )</line>
+        <line t="X" i="583" b="2" n="2">   key(i+3) = ieor( key(i+3), key(i-1) )</line>
+        <line t="X" i="584" b="2" n="1">  end do</line>
+        <line t="X" i="585" b="2" n="1"></line>
+        <line t="X" i="586" b="2" n="1">  key(17:20) = ieor( key(17:20), rj_sbox( key(13:16) ) )</line>
+        <line t="X" i="587" b="2" n="1"></line>
+        <line t="X" i="588" b="3" n="2">  do i = 13, 2, -4</line>
+        <line t="X" i="589" b="3" n="2">   key(i)   = ieor( key(i),   key(i-4) )</line>
+        <line t="X" i="590" b="3" n="2">   key(i+1) = ieor( key(i+1), key(i-3) )</line>
+        <line t="X" i="591" b="3" n="2">   key(i+2) = ieor( key(i+2), key(i-2) )</line>
+        <line t="X" i="592" b="3" n="2">   key(i+3) = ieor( key(i+3), key(i-1) )</line>
+        <line t="X" i="593" b="3" n="1">  end do</line>
+        <line t="X" i="594" b="3" n="1"></line>
+        <line t="X" i="595" b="3" n="1">  rc = FD(rc)</line>
+        <line t="X" i="596" b="3" n="1"></line>
+        <line t="X" i="597" b="3" n="1">  key(1) = ieor( key(1), ieor( rj_sbox( key(30) ), rc ) )</line>
+        <line t="X" i="598" b="3" n="1">  key(2:4) = ieor( key(2:4) , rj_sbox( key( [ 31, 32, 29 ] ) ) )</line>
+        <line t="X" i="599" b="3" n="1"></line>
+        <line t="ES" i="600" b="3" n="1">end subroutine aes_expand_decryption_key</line>
+        <line t="ES" i="601" b="1" n="1"></line>
+        <line t="ES" i="602" b="1" n="1"></line>
+        <line t="C" i="603" b="1" n="1">! Encryption key expansion support function</line>
+        <line k="F" t="F" i="604" b="1" n="1">elemental function F( x ) result(res)</line>
+        <line t="F" i="605" b="1" n="1"></line>
+        <line t="C" i="606" b="1" n="1">! The byte to process</line>
+        <line t="X" i="607" b="1" n="1">  integer(kind=1), intent(in) :: x</line>
+        <line t="X" i="608" b="1" n="1"></line>
+        <line t="C" i="609" b="1" n="1">! The processed byte</line>
+        <line t="X" i="610" b="1" n="1">  integer(kind=1) :: res</line>
+        <line t="X" i="611" b="1" n="1"></line>
+        <line t="C" i="612" b="1" n="1">! Processing</line>
+        <line t="X" i="613" b="1" n="1">  res = ieor( ishft(x,1), iand( ishft(x,-7), z01 ) * z1b )</line>
+        <line t="X" i="614" b="1" n="1"></line>
+        <line t="EF" i="615" b="1" n="1">end function F</line>
+        <line t="EF" i="616" b="1" n="1"></line>
+        <line t="EF" i="617" b="1" n="1"></line>
+        <line t="C" i="618" b="1" n="1">! Decryption key expansion support function</line>
+        <line k="FD" t="F" i="619" b="1" n="1">elemental function FD( x ) result(res)</line>
+        <line t="F" i="620" b="1" n="1"></line>
+        <line t="C" i="621" b="1" n="1">! The byte to process</line>
+        <line t="X" i="622" b="1" n="1">  integer(kind=1), intent(in) :: x</line>
+        <line t="X" i="623" b="1" n="1"></line>
+        <line t="C" i="624" b="1" n="1">! The processed byte</line>
+        <line t="X" i="625" b="1" n="1">  integer(kind=1) :: res</line>
+        <line t="X" i="626" b="1" n="1"></line>
+        <line t="C" i="627" b="1" n="1">! Processing</line>
+        <line t="X" i="628" b="2" n="2">  if( iand(x,z01) /= 0 ) then</line>
+        <line t="X" i="629" b="2" n="2">    res = ieor( ishft(x,-1), z8d )</line>
+        <line t="X" i="630" b="3" n="2">  else</line>
+        <line t="X" i="631" b="3" n="2">    res = ieor( ishft(x,-1), z00 )</line>
+        <line t="X" i="632" b="3" n="1">  end if</line>
+        <line t="X" i="633" b="3" n="1"></line>
+        <line t="EF" i="634" b="3" n="1">end function FD</line>
+        <line t="EF" i="635" b="1" n="1"></line>
+        <line t="EF" i="636" b="1" n="1"></line>
+        <line t="C" i="637" b="1" n="1">!  AES MixColumns step support function</line>
+        <line k="rj_xtime" t="F" i="638" b="1" n="1">elemental function rj_xtime( x ) result(res)</line>
+        <line t="F" i="639" b="1" n="1"></line>
+        <line t="C" i="640" b="1" n="1">! The byte to process</line>
+        <line t="X" i="641" b="1" n="1">  integer(kind=1), intent(in) :: x</line>
+        <line t="X" i="642" b="1" n="1"></line>
+        <line t="C" i="643" b="1" n="1">! The processed byte</line>
+        <line t="X" i="644" b="1" n="1">  integer(kind=1) :: res</line>
+        <line t="X" i="645" b="1" n="1"></line>
+        <line t="C" i="646" b="1" n="1">! Processing</line>
+        <line t="X" i="647" b="1" n="1">  res = ishft( x, 1 )</line>
+        <line t="C" i="648" b="1" n="1">!  if( iand(x,z80) /= 0 ) then</line>
+        <line t="X" i="649" b="2" n="2">  if( btest(x,7) ) then</line>
+        <line t="X" i="650" b="2" n="2">    res = ieor( res, z1b )</line>
+        <line t="X" i="651" b="2" n="1">  end if</line>
+        <line t="X" i="652" b="2" n="1"></line>
+        <line t="EF" i="653" b="2" n="1">end function rj_xtime</line>
+        <line t="EF" i="654" b="1" n="1"></line>
+        <line t="M" i="655" b="1" n="1">end module m_aes</line>
+        <line t="M" i="656" b="1" n="1"></line>
+        <line t="M" i="657" b="1" n="1"></line>
+        <line t="C" i="658" b="1" n="1">! Unit test of private methods</line>
+        <line t="SM" i="659" b="1" n="1">submodule (m_aes) unit_test_private_aes</line>
+        <line t="SM" i="660" b="1" n="1"></line>
+        <line t="X" i="661" b="1" n="1">contains</line>
+        <line t="X" i="662" b="1" n="1"></line>
+        <line t="C" i="663" b="1" n="1"> ! AES SubBytes step</line>
+        <line t="X" i="664" b="1" n="1">module procedure unit_test_private_aes_sub_bytes</line>
+        <line t="X" i="665" b="1" n="1">  call aes_sub_bytes( buffer )</line>
+        <line t="X" i="666" b="1" n="1">end procedure unit_test_private_aes_sub_bytes</line>
+        <line t="X" i="667" b="1" n="1"></line>
+        <line t="C" i="668" b="1" n="1">! AES Subbytes inverse step</line>
+        <line t="X" i="669" b="1" n="1">module procedure unit_test_private_aes_sub_bytes_inv</line>
+        <line t="X" i="670" b="1" n="1">  call aes_sub_bytes_inv( buffer )</line>
+        <line t="X" i="671" b="1" n="1">end procedure unit_test_private_aes_sub_bytes_inv</line>
+        <line t="X" i="672" b="1" n="1"></line>
+        <line t="C" i="673" b="1" n="1">! AES AddRoundKey step</line>
+        <line t="X" i="674" b="1" n="1">module procedure unit_test_private_aes_add_round_key</line>
+        <line t="X" i="675" b="1" n="1">  call aes_add_round_key( buffer, key )</line>
+        <line t="X" i="676" b="1" n="1">end procedure unit_test_private_aes_add_round_key</line>
+        <line t="X" i="677" b="1" n="1"></line>
+        <line t="C" i="678" b="1" n="1">! AES AddRoundKey step with key copy</line>
+        <line t="X" i="679" b="1" n="1">module procedure unit_test_private_aes_add_round_key_cpy</line>
+        <line t="X" i="680" b="1" n="1">  call aes_add_round_key_cpy( buffer, key, cpk )</line>
+        <line t="X" i="681" b="1" n="1">end procedure unit_test_private_aes_add_round_key_cpy</line>
+        <line t="X" i="682" b="1" n="1"></line>
+        <line t="C" i="683" b="1" n="1"> ! AES ShiftRows step</line>
+        <line t="X" i="684" b="1" n="1">module procedure unit_test_private_aes_shift_rows</line>
+        <line t="X" i="685" b="1" n="1">  call aes_shift_rows( buffer )</line>
+        <line t="X" i="686" b="1" n="1">end procedure unit_test_private_aes_shift_rows</line>
+        <line t="X" i="687" b="1" n="1"></line>
+        <line t="C" i="688" b="1" n="1">! AES ShiftRows inverse step</line>
+        <line t="X" i="689" b="1" n="1">module procedure unit_test_private_aes_shift_rows_inv</line>
+        <line t="X" i="690" b="1" n="1">  call aes_shift_rows_inv( buffer )</line>
+        <line t="X" i="691" b="1" n="1">end procedure unit_test_private_aes_shift_rows_inv</line>
+        <line t="X" i="692" b="1" n="1"></line>
+        <line t="C" i="693" b="1" n="1"> ! AES MixColumns step</line>
+        <line t="X" i="694" b="1" n="1">module procedure unit_test_private_aes_mix_columns</line>
+        <line t="X" i="695" b="1" n="1">  call aes_mix_columns( buffer )</line>
+        <line t="X" i="696" b="1" n="1">end procedure unit_test_private_aes_mix_columns</line>
+        <line t="X" i="697" b="1" n="1"></line>
+        <line t="C" i="698" b="1" n="1">! AES MixColumns inverse step</line>
+        <line t="X" i="699" b="1" n="1">module procedure unit_test_private_aes_mix_columns_inv</line>
+        <line t="X" i="700" b="1" n="1">  call aes_mix_columns_inv( buffer )</line>
+        <line t="X" i="701" b="1" n="1">end procedure unit_test_private_aes_mix_columns_inv</line>
+        <line t="X" i="702" b="1" n="1"></line>
+        <line t="C" i="703" b="1" n="1">! AES expand encryption key</line>
+        <line t="X" i="704" b="1" n="1">module procedure unit_test_private_aes_expand_encryption_key</line>
+        <line t="X" i="705" b="1" n="1">  call aes_expand_encryption_key( key, rc )</line>
+        <line t="X" i="706" b="1" n="1">end procedure unit_test_private_aes_expand_encryption_key</line>
+        <line t="X" i="707" b="1" n="1">  </line>
+        <line t="C" i="708" b="1" n="1">! AES expand decryption key</line>
+        <line t="X" i="709" b="1" n="1">module procedure unit_test_private_aes_expand_decryption_key</line>
+        <line t="X" i="710" b="1" n="1">  call aes_expand_decryption_key( key, rc )</line>
+        <line t="X" i="711" b="1" n="1">end procedure unit_test_private_aes_expand_decryption_key</line>
+        <line t="X" i="712" b="1" n="1"></line>
+        <line t="SM" i="713" b="1" n="1">end submodule unit_test_private_aes</line>
+        <line t="SM" i="714" b="1" n="1"></line>
+    </code>
+</fmx>

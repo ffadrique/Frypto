@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_crypto.f90">
+    <context>
+        <time>2025-03-09T18:24:38</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Frypto</project>
+        <name>m_crypto.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_crypto" type="module">
+            <main>
+                <lines>
+                    <source percent="36.89">45</source>
+                    <comments percent="36.89">45</comments>
+                    <empty percent="26.23">32</empty>
+                    <total>122</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="crypto" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="34.48">10</source>
+                            <comments percent="31.03">9</comments>
+                            <empty percent="34.48">10</empty>
+                            <total>29</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="crypto_decrypt_file" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="54.02">47</source>
+                            <comments percent="19.54">17</comments>
+                            <empty percent="26.44">23</empty>
+                            <total>87</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>10</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>6</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="crypto_encrypt_file" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="52.38">44</source>
+                            <comments percent="20.24">17</comments>
+                            <empty percent="27.38">23</empty>
+                            <total>84</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>9</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>6</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="crypto_get_data_from_buffer" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="42.19">27</source>
+                            <comments percent="25.00">16</comments>
+                            <empty percent="32.81">21</empty>
+                            <total>64</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>6</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="crypto_read_data_into_buffer" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="46.67">21</source>
+                            <comments percent="22.22">10</comments>
+                            <empty percent="31.11">14</empty>
+                            <total>45</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>5</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="45.01">194</source>
+                    <comments percent="26.45">114</comments>
+                    <empty percent="28.54">123</empty>
+                    <total>431</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>10</maximum>
+                    <average>6.20</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>6</maximum>
+                    <average>3.80</average>
+                </nesting>
+                <methods>5</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="45.01">194</source>
+            <comments percent="26.45">114</comments>
+            <empty percent="28.54">123</empty>
+            <total>431</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>10</maximum>
+            <average>6.20</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>6</maximum>
+            <average>3.80</average>
+        </nesting>
+        <methods>5</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_crypto</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2022, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Synopsis  : Encryption/decryption front-end</line>
+        <line t="C" i="9" b="0" n="0">!             Implements the encryption modes ECB/CBC/PCBC/CFB/OFB</line>
+        <line t="C" i="10" b="0" n="0">!             http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation</line>
+        <line t="C" i="11" b="0" n="0">!</line>
+        <line t="C" i="12" b="0" n="0">! License   : This file is part of Frypto.</line>
+        <line t="C" i="13" b="0" n="0">!</line>
+        <line t="C" i="14" b="0" n="0">!             Frypto is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="15" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="16" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="17" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="18" b="0" n="0">!</line>
+        <line t="C" i="19" b="0" n="0">!             Frypto is distributed in the hope that it will be useful,</line>
+        <line t="C" i="20" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="21" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="22" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="23" b="0" n="0">!</line>
+        <line t="C" i="24" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="25" b="0" n="0">!             License along with Frypto.  </line>
+        <line t="C" i="26" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="27" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="28" b="0" n="0"></line>
+        <line t="C" i="29" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="30" b="0" n="0"></line>
+        <line t="X" i="31" b="0" n="0">  use, intrinsic :: iso_fortran_env</line>
+        <line t="X" i="32" b="0" n="0">  </line>
+        <line t="X" i="33" b="0" n="0">  use m_object</line>
+        <line t="X" i="34" b="0" n="0">  use m_file_handler</line>
+        <line t="X" i="35" b="0" n="0">  use m_messages</line>
+        <line t="X" i="36" b="0" n="0">  use m_util_convert</line>
+        <line t="X" i="37" b="0" n="0"></line>
+        <line t="X" i="38" b="0" n="0">  use m_crypto_base</line>
+        <line t="X" i="39" b="0" n="0">  use m_crypto_padding</line>
+        <line t="X" i="40" b="0" n="0">  </line>
+        <line t="C" i="41" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="42" b="0" n="0"></line>
+        <line t="X" i="43" b="0" n="0">  implicit none</line>
+        <line t="X" i="44" b="0" n="0"></line>
+        <line t="C" i="45" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="46" b="0" n="0"></line>
+        <line t="X" i="47" b="0" n="0">  private</line>
+        <line t="X" i="48" b="0" n="0">  public t_crypto</line>
+        <line t="X" i="49" b="0" n="0">  public crypto</line>
+        <line t="X" i="50" b="0" n="0"></line>
+        <line t="X" i="51" b="0" n="0">  public crypto_aes256</line>
+        <line t="X" i="52" b="0" n="0">  public crypto_triple_des</line>
+        <line t="X" i="53" b="0" n="0">  public crypto_blowfish</line>
+        <line t="X" i="54" b="0" n="0">  </line>
+        <line t="X" i="55" b="0" n="0">  public crypto_mode_ecb</line>
+        <line t="X" i="56" b="0" n="0">  public crypto_mode_cbc</line>
+        <line t="X" i="57" b="0" n="0">  public crypto_mode_pcbc</line>
+        <line t="X" i="58" b="0" n="0">  public crypto_mode_cfb</line>
+        <line t="X" i="59" b="0" n="0">  public crypto_mode_ofb</line>
+        <line t="X" i="60" b="0" n="0"></line>
+        <line t="C" i="61" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="62" b="0" n="0"></line>
+        <line t="C" i="63" b="0" n="0">!- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="64" b="0" n="0"></line>
+        <line t="C" i="65" b="0" n="0">! Encryption algorithm enumeration</line>
+        <line t="X" i="66" b="0" n="0">  integer, parameter :: crypto_aes256     = crypto_base_aes256    </line>
+        <line t="X" i="67" b="0" n="0">  integer, parameter :: crypto_triple_des = crypto_base_triple_des</line>
+        <line t="X" i="68" b="0" n="0">  integer, parameter :: crypto_blowfish   = crypto_base_blowfish  </line>
+        <line t="X" i="69" b="0" n="0"></line>
+        <line t="C" i="70" b="0" n="0">! Encryption mode eunmeration</line>
+        <line t="X" i="71" b="0" n="0">  integer, parameter :: crypto_mode_ecb  = crypto_base_mode_ecb </line>
+        <line t="X" i="72" b="0" n="0">  integer, parameter :: crypto_mode_cbc  = crypto_base_mode_cbc </line>
+        <line t="X" i="73" b="0" n="0">  integer, parameter :: crypto_mode_pcbc = crypto_base_mode_pcbc</line>
+        <line t="X" i="74" b="0" n="0">  integer, parameter :: crypto_mode_cfb  = crypto_base_mode_cfb </line>
+        <line t="X" i="75" b="0" n="0">  integer, parameter :: crypto_mode_ofb  = crypto_base_mode_ofb </line>
+        <line t="X" i="76" b="0" n="0">  </line>
+        <line t="C" i="77" b="0" n="0">! Number of block to read into buffer at once</line>
+        <line t="X" i="78" b="0" n="0">  integer, parameter :: crypto_blocks_from_buffer = 10</line>
+        <line t="X" i="79" b="0" n="0">  </line>
+        <line t="C" i="80" b="0" n="0">! Size of the reading buffer</line>
+        <line t="X" i="81" b="0" n="0">  integer, parameter :: crypto_buffer_size = 1024</line>
+        <line t="X" i="82" b="0" n="0">  </line>
+        <line t="C" i="83" b="0" n="0">! The encryption type</line>
+        <line t="T" i="84" b="0" n="0">  type, extends(t_crypto_base) :: t_crypto</line>
+        <line t="X" i="85" b="0" n="0">    private</line>
+        <line t="X" i="86" b="0" n="0"></line>
+        <line t="C" i="87" b="0" n="0">!     Read buffer</line>
+        <line t="X" i="88" b="0" n="0">      integer(kind=1), dimension(crypto_buffer_size) :: buffer = 0_1</line>
+        <line t="X" i="89" b="0" n="0"></line>
+        <line t="C" i="90" b="0" n="0">!     Counter of bytes in buffer</line>
+        <line t="X" i="91" b="0" n="0">      integer :: buffer_count = 0</line>
+        <line t="X" i="92" b="0" n="0"></line>
+        <line t="C" i="93" b="0" n="0">!     Fortran input unit</line>
+        <line t="X" i="94" b="0" n="0">      integer :: lunin = -1</line>
+        <line t="X" i="95" b="0" n="0"></line>
+        <line t="C" i="96" b="0" n="0">!     Fortran output unit</line>
+        <line t="X" i="97" b="0" n="0">      integer :: lunout = -1</line>
+        <line t="X" i="98" b="0" n="0"></line>
+        <line t="C" i="99" b="0" n="0">!     Flag to detect input EOF</line>
+        <line t="X" i="100" b="0" n="0">      logical :: lunin_eof = .false.</line>
+        <line t="X" i="101" b="0" n="0"></line>
+        <line t="X" i="102" b="0" n="0">    contains</line>
+        <line t="X" i="103" b="0" n="0"></line>
+        <line t="C" i="104" b="0" n="0">!     Encryption interface</line>
+        <line t="X" i="105" b="0" n="0">      procedure :: encrypt_file =&gt; crypto_encrypt_file</line>
+        <line t="X" i="106" b="0" n="0"></line>
+        <line t="C" i="107" b="0" n="0">!     Decryption interface</line>
+        <line t="X" i="108" b="0" n="0">      procedure :: decrypt_file =&gt; crypto_decrypt_file</line>
+        <line t="X" i="109" b="0" n="0"></line>
+        <line t="C" i="110" b="0" n="0">!     Get text from buffer</line>
+        <line t="X" i="111" b="0" n="0">      procedure, private :: get_data_from_buffer =&gt; crypto_get_data_from_buffer</line>
+        <line t="X" i="112" b="0" n="0"></line>
+        <line t="C" i="113" b="0" n="0">!     Read data into the buffer</line>
+        <line t="X" i="114" b="0" n="0">      procedure, private :: read_data_into_buffer =&gt; crypto_read_data_into_buffer</line>
+        <line t="X" i="115" b="0" n="0"></line>
+        <line t="T" i="116" b="0" n="0">  end type t_crypto</line>
+        <line t="T" i="117" b="0" n="0"></line>
+        <line t="C" i="118" b="0" n="0">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="119" b="0" n="0"></line>
+        <line t="X" i="120" b="0" n="0">contains</line>
+        <line t="X" i="121" b="0" n="0"></line>
+        <line t="C" i="122" b="0" n="0">! Constuctor</line>
+        <line k="crypto" t="F" i="123" b="1" n="1">pure function crypto( algorithm, key, mode, padding, inivec ) result(res)</line>
+        <line t="F" i="124" b="1" n="1"></line>
+        <line t="C" i="125" b="1" n="1">! The algorithm</line>
+        <line t="X" i="126" b="1" n="1">  integer, intent(in) :: algorithm</line>
+        <line t="X" i="127" b="1" n="1"></line>
+        <line t="C" i="128" b="1" n="1">! The initialisation key</line>
+        <line t="X" i="129" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: key</line>
+        <line t="X" i="130" b="1" n="1"></line>
+        <line t="C" i="131" b="1" n="1">! The encryption mode</line>
+        <line t="X" i="132" b="1" n="1">  integer, optional, intent(in) :: mode</line>
+        <line t="X" i="133" b="1" n="1"></line>
+        <line t="C" i="134" b="1" n="1">! The encryption padding scheme</line>
+        <line t="X" i="135" b="1" n="1">  integer, optional, intent(in) :: padding</line>
+        <line t="X" i="136" b="1" n="1"></line>
+        <line t="C" i="137" b="1" n="1">! The initial vector (when applicable for mode)</line>
+        <line t="X" i="138" b="1" n="1">  integer(kind=1), optional, dimension(:), intent(in) :: inivec</line>
+        <line t="X" i="139" b="1" n="1"></line>
+        <line t="C" i="140" b="1" n="1">! Constructed object</line>
+        <line t="X" i="141" b="1" n="1">  type(t_crypto) :: res</line>
+        <line t="X" i="142" b="1" n="1">  </line>
+        <line t="C" i="143" b="1" n="1">! Initialise</line>
+        <line t="X" i="144" b="1" n="1">  res%t_crypto_base = crypto_base( algorithm, key, mode, padding, inivec )</line>
+        <line t="X" i="145" b="1" n="1">  </line>
+        <line t="C" i="146" b="1" n="1">! Initialise buffer</line>
+        <line t="X" i="147" b="1" n="1">  res%buffer = 0_1</line>
+        <line t="X" i="148" b="1" n="1">  </line>
+        <line t="EF" i="149" b="1" n="1">end function crypto</line>
+        <line t="EF" i="150" b="1" n="1"></line>
+        <line t="EF" i="151" b="1" n="1"></line>
+        <line t="C" i="152" b="1" n="1">! Encryption</line>
+        <line k="crypto_encrypt_file" t="S" i="153" b="1" n="1">subroutine crypto_encrypt_file( this, text_file_name, cipher_file_name, msg )</line>
+        <line t="S" i="154" b="1" n="1"></line>
+        <line t="C" i="155" b="1" n="1">! The crypto context</line>
+        <line t="X" i="156" b="1" n="1">  class(t_crypto), intent(inout) :: this</line>
+        <line t="X" i="157" b="1" n="1"></line>
+        <line t="C" i="158" b="1" n="1">! The file name with the plain text to encrypt</line>
+        <line t="X" i="159" b="1" n="1">  character(len=*), intent(in) :: text_file_name</line>
+        <line t="X" i="160" b="1" n="1"></line>
+        <line t="C" i="161" b="1" n="1">! The file name with the encrypted text</line>
+        <line t="X" i="162" b="1" n="1">  character(len=*), intent(in) :: cipher_file_name</line>
+        <line t="X" i="163" b="1" n="1"></line>
+        <line t="C" i="164" b="1" n="1">! Error handling structure</line>
+        <line t="X" i="165" b="1" n="1">  type(t_messages), intent(inout) :: msg</line>
+        <line t="X" i="166" b="1" n="1"></line>
+        <line t="C" i="167" b="1" n="1">! Local variables</line>
+        <line t="X" i="168" b="1" n="1">  type(t_file_handler) :: text_handler, cipher_handler</line>
+        <line t="X" i="169" b="1" n="1">  integer :: text_size</line>
+        <line t="X" i="170" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: text, cipher</line>
+        <line t="X" i="171" b="1" n="1">  character(len=:), allocatable :: errmsg</line>
+        <line t="X" i="172" b="1" n="1"></line>
+        <line t="C" i="173" b="1" n="1">! Open the input file</line>
+        <line t="X" i="174" b="1" n="1">  text_handler = file_handler( text_file_name )</line>
+        <line t="X" i="175" b="1" n="1">  call text_handler%open( write=.false., stream=.true. )</line>
+        <line t="X" i="176" b="2" n="2">  if( text_handler%is_open() ) then</line>
+        <line t="X" i="177" b="2" n="2"></line>
+        <line t="C" i="178" b="2" n="2">!   Open the output file</line>
+        <line t="X" i="179" b="2" n="2">    cipher_handler = file_handler( cipher_file_name )</line>
+        <line t="X" i="180" b="2" n="2">    call cipher_handler%open( write=.true., stream=.true. )</line>
+        <line t="X" i="181" b="3" n="3">    if( cipher_handler%is_open() ) then</line>
+        <line t="X" i="182" b="3" n="3">  </line>
+        <line t="C" i="183" b="3" n="3">!     Initialise the buffer retrieval parameters</line>
+        <line t="X" i="184" b="3" n="3">      text_size = crypto_blocks_from_buffer * this%block_size()</line>
+        <line t="X" i="185" b="3" n="3">      this%buffer_count = 0</line>
+        <line t="X" i="186" b="3" n="3"></line>
+        <line t="C" i="187" b="3" n="3">!     Assign read/write units</line>
+        <line t="X" i="188" b="3" n="3">      this%lunin = text_handler%get_unit()</line>
+        <line t="X" i="189" b="3" n="3">      this%lunout = cipher_handler%get_unit()</line>
+        <line t="X" i="190" b="3" n="3">      </line>
+        <line t="C" i="191" b="3" n="3">!     Loop reading the file</line>
+        <line t="X" i="192" b="4" n="4">      do while( .not. msg%on_error() )</line>
+        <line t="X" i="193" b="4" n="4"></line>
+        <line t="C" i="194" b="4" n="4">!       Update buffers</line>
+        <line t="X" i="195" b="4" n="4">        call this%get_data_from_buffer( text_size, text, msg )</line>
+        <line t="X" i="196" b="5" n="5">        if( .not. msg%on_error() ) then</line>
+        <line t="X" i="197" b="5" n="5"></line>
+        <line t="C" i="198" b="5" n="5">!         Encrypt this fragment of text</line>
+        <line t="X" i="199" b="5" n="5">          call this%encrypt( text, cipher )</line>
+        <line t="X" i="200" b="5" n="5"></line>
+        <line t="C" i="201" b="5" n="5">!         Write output</line>
+        <line t="X" i="202" b="5" n="5">          write( this%lunout ) cipher</line>
+        <line t="X" i="203" b="5" n="5"></line>
+        <line t="C" i="204" b="5" n="5">!         Release encrypted text</line>
+        <line t="X" i="205" b="5" n="5">          deallocate( cipher )</line>
+        <line t="X" i="206" b="5" n="5"></line>
+        <line t="C" i="207" b="5" n="5">!         Check status</line>
+        <line t="X" i="208" b="6" n="6">          if( this%buffer_count == 0 .and. this%lunin_eof ) then</line>
+        <line t="X" i="209" b="6" n="6">            exit</line>
+        <line t="X" i="210" b="6" n="5">          end if</line>
+        <line t="X" i="211" b="6" n="5"></line>
+        <line t="X" i="212" b="7" n="5">        else</line>
+        <line t="X" i="213" b="7" n="5">          errmsg = "Getting data from buffer; iostat=" // character(text_handler%get_iostat())</line>
+        <line t="X" i="214" b="7" n="5">          call msg%error( 'm_crypto', 'crypto_encrypt_file', 3, errmsg )</line>
+        <line t="X" i="215" b="7" n="4">        end if</line>
+        <line t="X" i="216" b="7" n="4"></line>
+        <line t="X" i="217" b="7" n="3">      end do</line>
+        <line t="X" i="218" b="7" n="3">    </line>
+        <line t="C" i="219" b="7" n="3">  !   Close files</line>
+        <line t="X" i="220" b="7" n="3">      call text_handler%close()</line>
+        <line t="X" i="221" b="7" n="3">      call cipher_handler%close()</line>
+        <line t="X" i="222" b="7" n="3">      </line>
+        <line t="X" i="223" b="8" n="3">    else</line>
+        <line t="X" i="224" b="8" n="3">      errmsg = "Cannot open ouput file '" // trim(cipher_file_name) // "'; iostat=" // character(cipher_handler%get_iostat())</line>
+        <line t="X" i="225" b="8" n="3">      call msg%error( 'm_crypto', 'crypto_encrypt_file', 2, errmsg )</line>
+        <line t="X" i="226" b="8" n="2">    end if</line>
+        <line t="X" i="227" b="8" n="2">    </line>
+        <line t="X" i="228" b="9" n="2">  else</line>
+        <line t="X" i="229" b="9" n="2">    errmsg = "Cannot open input file '" // trim(text_file_name) // "'; iostat=" // character(text_handler%get_iostat())</line>
+        <line t="X" i="230" b="9" n="2">    call msg%error( 'm_crypto', 'crypto_encrypt_file', 1, errmsg )</line>
+        <line t="X" i="231" b="9" n="1">  end if</line>
+        <line t="X" i="232" b="9" n="1">  </line>
+        <line t="ES" i="233" b="9" n="1">end subroutine crypto_encrypt_file</line>
+        <line t="ES" i="234" b="1" n="1"></line>
+        <line t="ES" i="235" b="1" n="1"></line>
+        <line t="C" i="236" b="1" n="1">! Decryption</line>
+        <line k="crypto_decrypt_file" t="S" i="237" b="1" n="1">subroutine crypto_decrypt_file( this, cipher_file_name, text_file_name, msg )</line>
+        <line t="S" i="238" b="1" n="1"></line>
+        <line t="C" i="239" b="1" n="1">! The crypto context</line>
+        <line t="X" i="240" b="1" n="1">  class(t_crypto), intent(inout) :: this</line>
+        <line t="X" i="241" b="1" n="1"></line>
+        <line t="C" i="242" b="1" n="1">! The file name with the encrypted text to decrypt</line>
+        <line t="X" i="243" b="1" n="1">  character(len=*), intent(in) :: cipher_file_name</line>
+        <line t="X" i="244" b="1" n="1"></line>
+        <line t="C" i="245" b="1" n="1">! The file name with the plain text</line>
+        <line t="X" i="246" b="1" n="1">  character(len=*), intent(in) :: text_file_name</line>
+        <line t="X" i="247" b="1" n="1"></line>
+        <line t="C" i="248" b="1" n="1">! Error handling structure</line>
+        <line t="X" i="249" b="1" n="1">  type(t_messages), intent(inout) :: msg</line>
+        <line t="X" i="250" b="1" n="1"></line>
+        <line t="C" i="251" b="1" n="1">! Local variables</line>
+        <line t="X" i="252" b="1" n="1">  type(t_file_handler) :: text_handler, cipher_handler</line>
+        <line t="X" i="253" b="1" n="1">  integer :: cipher_size</line>
+        <line t="X" i="254" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: text, cipher, trail</line>
+        <line t="X" i="255" b="1" n="1">  type(t_crypto_padding) :: padding</line>
+        <line t="X" i="256" b="1" n="1">  character(len=:), allocatable :: errmsg</line>
+        <line t="X" i="257" b="1" n="1"></line>
+        <line t="C" i="258" b="1" n="1">! Open the input file</line>
+        <line t="X" i="259" b="1" n="1">  cipher_handler = file_handler( cipher_file_name )</line>
+        <line t="X" i="260" b="1" n="1">  call cipher_handler%open( write=.false., stream=.true. )</line>
+        <line t="X" i="261" b="2" n="2">  if( cipher_handler%is_open() ) then</line>
+        <line t="X" i="262" b="2" n="2"></line>
+        <line t="C" i="263" b="2" n="2">!   Open the output file</line>
+        <line t="X" i="264" b="2" n="2">    text_handler = file_handler( text_file_name )</line>
+        <line t="X" i="265" b="2" n="2">    call text_handler%open( write=.true., stream=.true. )</line>
+        <line t="X" i="266" b="3" n="3">    if( text_handler%is_open() ) then</line>
+        <line t="X" i="267" b="3" n="3"></line>
+        <line t="C" i="268" b="3" n="3">!     Initialise the buffer retrieval parameters</line>
+        <line t="X" i="269" b="3" n="3">      cipher_size = crypto_blocks_from_buffer * this%block_size()</line>
+        <line t="X" i="270" b="3" n="3">      this%buffer_count = 0</line>
+        <line t="X" i="271" b="3" n="3"></line>
+        <line t="C" i="272" b="3" n="3">!     Assign read/write units</line>
+        <line t="X" i="273" b="3" n="3">      this%lunin = cipher_handler%get_unit()</line>
+        <line t="X" i="274" b="3" n="3">      this%lunout = text_handler%get_unit()</line>
+        <line t="X" i="275" b="3" n="3"></line>
+        <line t="C" i="276" b="3" n="3">!     Loop reading the file</line>
+        <line t="X" i="277" b="4" n="4">      do while( .not. msg%on_error() )</line>
+        <line t="X" i="278" b="4" n="4"></line>
+        <line t="C" i="279" b="4" n="4">!       Update buffers</line>
+        <line t="X" i="280" b="4" n="4">        call this%get_data_from_buffer( cipher_size, cipher, msg )</line>
+        <line t="X" i="281" b="5" n="5">        if( .not. msg%on_error() ) then</line>
+        <line t="X" i="282" b="5" n="5"></line>
+        <line t="C" i="283" b="5" n="5">!         Decrypt this fragment of text</line>
+        <line t="X" i="284" b="5" n="5">          call this%decrypt( cipher, text )</line>
+        <line t="X" i="285" b="5" n="5"></line>
+        <line t="C" i="286" b="5" n="5">!         If this is the last block try to remove padding</line>
+        <line t="X" i="287" b="6" n="6">          if( this%buffer_count == 0 ) then</line>
+        <line t="X" i="288" b="6" n="6">            call padding%remove( text, trail )</line>
+        <line t="X" i="289" b="6" n="6">            text = trail</line>
+        <line t="X" i="290" b="6" n="5">          end if</line>
+        <line t="X" i="291" b="6" n="5"></line>
+        <line t="C" i="292" b="6" n="5">!         Write output</line>
+        <line t="X" i="293" b="6" n="5">          write( this%lunout ) text</line>
+        <line t="X" i="294" b="6" n="5"></line>
+        <line t="C" i="295" b="6" n="5">!         Release decrypted text</line>
+        <line t="X" i="296" b="6" n="5">          deallocate( text )</line>
+        <line t="X" i="297" b="6" n="5"></line>
+        <line t="C" i="298" b="6" n="5">!         Check status</line>
+        <line t="X" i="299" b="7" n="6">          if( this%buffer_count == 0 ) then</line>
+        <line t="X" i="300" b="7" n="6">            exit</line>
+        <line t="X" i="301" b="7" n="5">          end if</line>
+        <line t="X" i="302" b="7" n="5"></line>
+        <line t="X" i="303" b="8" n="5">        else</line>
+        <line t="X" i="304" b="8" n="5">          errmsg = "Getting data from buffer; iostat=" // character(cipher_handler%get_iostat())</line>
+        <line t="X" i="305" b="8" n="5">          call msg%error( 'm_crypto', 'crypto_decrypt_file', 3, errmsg )</line>
+        <line t="X" i="306" b="8" n="4">        end if</line>
+        <line t="X" i="307" b="8" n="4"></line>
+        <line t="X" i="308" b="8" n="3">      end do</line>
+        <line t="X" i="309" b="8" n="3">  </line>
+        <line t="X" i="310" b="9" n="3">    else</line>
+        <line t="X" i="311" b="9" n="3">      errmsg = "Cannot open ouput file '" // trim(text_file_name) // "'; iostat=" // character(text_handler%get_iostat())</line>
+        <line t="X" i="312" b="9" n="3">      call msg%error( 'm_crypto', 'crypto_edecrypt_file', 2, errmsg )</line>
+        <line t="X" i="313" b="9" n="2">    end if</line>
+        <line t="X" i="314" b="9" n="2">    </line>
+        <line t="X" i="315" b="10" n="2">  else</line>
+        <line t="X" i="316" b="10" n="2">    errmsg = "Cannot open input file '" // trim(cipher_file_name) // "'; iostat=" // character(cipher_handler%get_iostat())</line>
+        <line t="X" i="317" b="10" n="2">    call msg%error( 'm_crypto', 'crypto_decrypt_file', 1, errmsg )</line>
+        <line t="X" i="318" b="10" n="1">  end if</line>
+        <line t="X" i="319" b="10" n="1"></line>
+        <line t="ES" i="320" b="10" n="1">end subroutine crypto_decrypt_file</line>
+        <line t="ES" i="321" b="1" n="1"></line>
+        <line t="ES" i="322" b="1" n="1"></line>
+        <line t="C" i="323" b="1" n="1">! Get text from buffer</line>
+        <line k="crypto_get_data_from_buffer" t="S" i="324" b="1" n="1">subroutine crypto_get_data_from_buffer( this, text_size, text, msg )</line>
+        <line t="S" i="325" b="1" n="1"></line>
+        <line t="C" i="326" b="1" n="1">! The crypto context</line>
+        <line t="X" i="327" b="1" n="1">  class(t_crypto), intent(inout) :: this</line>
+        <line t="X" i="328" b="1" n="1"></line>
+        <line t="C" i="329" b="1" n="1">! The requested number of bytes to be retrieved from the buffer</line>
+        <line t="C" i="330" b="1" n="1">! Actual size is adjusted to block size</line>
+        <line t="X" i="331" b="1" n="1">  integer, intent(in) :: text_size</line>
+        <line t="X" i="332" b="1" n="1"></line>
+        <line t="C" i="333" b="1" n="1">! The text retrieved from buffer</line>
+        <line t="X" i="334" b="1" n="1">  integer(kind=1), dimension(:), allocatable, intent(out) :: text</line>
+        <line t="X" i="335" b="1" n="1"></line>
+        <line t="C" i="336" b="1" n="1">! Error handling structure</line>
+        <line t="X" i="337" b="1" n="1">  type(t_messages), intent(inout) :: msg</line>
+        <line t="X" i="338" b="1" n="1"></line>
+        <line t="C" i="339" b="1" n="1">! Local variables</line>
+        <line t="X" i="340" b="1" n="1">  integer :: the_size</line>
+        <line t="X" i="341" b="1" n="1">  integer :: block_size</line>
+        <line t="X" i="342" b="1" n="1"></line>
+        <line t="C" i="343" b="1" n="1">! Initialise retrieval size</line>
+        <line t="X" i="344" b="1" n="1">  block_size = this%block_size()</line>
+        <line t="X" i="345" b="1" n="1">  the_size = ( text_size / block_size ) * block_size</line>
+        <line t="X" i="346" b="2" n="2">  if( the_size &gt; size(this%buffer) ) then</line>
+        <line t="X" i="347" b="2" n="2">    the_size = size(this%buffer)</line>
+        <line t="X" i="348" b="2" n="1">  end if</line>
+        <line t="X" i="349" b="2" n="1"></line>
+        <line t="C" i="350" b="2" n="1">! Check the amount of text loaded in the buffer</line>
+        <line t="X" i="351" b="3" n="2">  if( this%buffer_count &lt; the_size ) then</line>
+        <line t="X" i="352" b="3" n="2"></line>
+        <line t="C" i="353" b="3" n="2">!   Read more data into buffer</line>
+        <line t="X" i="354" b="3" n="2">    call this%read_data_into_buffer( msg )</line>
+        <line t="X" i="355" b="3" n="2"></line>
+        <line t="X" i="356" b="3" n="1">  end if</line>
+        <line t="X" i="357" b="3" n="1"></line>
+        <line t="C" i="358" b="3" n="1">! Verify process to this point</line>
+        <line t="X" i="359" b="4" n="2">  if( .not. msg%on_error() ) then</line>
+        <line t="X" i="360" b="4" n="2"></line>
+        <line t="C" i="361" b="4" n="2">!   Process the data loaded in the buffer</line>
+        <line t="X" i="362" b="5" n="3">    if( this%buffer_count &lt; the_size ) then</line>
+        <line t="X" i="363" b="5" n="3"></line>
+        <line t="C" i="364" b="5" n="3">!     Set the size to the available data</line>
+        <line t="X" i="365" b="5" n="3">      the_size = this%buffer_count</line>
+        <line t="X" i="366" b="5" n="3"></line>
+        <line t="X" i="367" b="5" n="2">    end if</line>
+        <line t="X" i="368" b="5" n="2"></line>
+        <line t="C" i="369" b="5" n="2">!   Get the data from the buffer</line>
+        <line t="X" i="370" b="5" n="2">    allocate( text(the_size) )</line>
+        <line t="X" i="371" b="5" n="2">    text = this%buffer(:the_size)</line>
+        <line t="X" i="372" b="5" n="2"></line>
+        <line t="C" i="373" b="5" n="2">!   Remove data from buffer</line>
+        <line t="X" i="374" b="5" n="2">    this%buffer = eoshift( this%buffer, the_size, 0_1 )</line>
+        <line t="C" i="375" b="5" n="2">!    this%buffer = this%buffer(the_size+1:)</line>
+        <line t="X" i="376" b="5" n="2">    this%buffer_count = this%buffer_count - the_size</line>
+        <line t="X" i="377" b="5" n="2"></line>
+        <line t="X" i="378" b="6" n="2">  else</line>
+        <line t="X" i="379" b="6" n="2"></line>
+        <line t="X" i="380" b="6" n="2">      call msg%error( 'm_crypto', 'get_data_from_buffer', 1, 'Reading text into buffer' )</line>
+        <line t="X" i="381" b="6" n="2"></line>
+        <line t="X" i="382" b="6" n="1">  end if</line>
+        <line t="X" i="383" b="6" n="1"></line>
+        <line t="ES" i="384" b="6" n="1">end subroutine crypto_get_data_from_buffer</line>
+        <line t="ES" i="385" b="1" n="1"></line>
+        <line t="ES" i="386" b="1" n="1"></line>
+        <line t="C" i="387" b="1" n="1">! Read data into the buffer</line>
+        <line k="crypto_read_data_into_buffer" t="S" i="388" b="1" n="1">subroutine crypto_read_data_into_buffer( this, msg )</line>
+        <line t="S" i="389" b="1" n="1"></line>
+        <line t="C" i="390" b="1" n="1">! The crypto file context</line>
+        <line t="X" i="391" b="1" n="1">  class(t_crypto), intent(inout) :: this</line>
+        <line t="X" i="392" b="1" n="1"></line>
+        <line t="C" i="393" b="1" n="1">! Error handling structure</line>
+        <line t="X" i="394" b="1" n="1">  type(t_messages), intent(inout) :: msg</line>
+        <line t="X" i="395" b="1" n="1"></line>
+        <line t="C" i="396" b="1" n="1">! Local variables</line>
+        <line t="X" i="397" b="1" n="1">  integer :: ios</line>
+        <line t="X" i="398" b="1" n="1">  integer :: k</line>
+        <line t="X" i="399" b="1" n="1"></line>
+        <line t="C" i="400" b="1" n="1">! Check the data in the buffer</line>
+        <line t="X" i="401" b="2" n="2">  if( .not. this%lunin_eof ) then</line>
+        <line t="X" i="402" b="2" n="2"></line>
+        <line t="C" i="403" b="2" n="2">!   Read data into buffer</line>
+        <line t="X" i="404" b="2" n="2">    this%buffer(this%buffer_count+1:) = 0_1</line>
+        <line t="X" i="405" b="2" n="2">    read( this%lunin, iostat=ios ) (this%buffer(k),k=this%buffer_count+1,size(this%buffer))</line>
+        <line t="X" i="406" b="2" n="2"></line>
+        <line t="C" i="407" b="2" n="2">!   Process return status</line>
+        <line t="X" i="408" b="2" n="3">    select case( ios )</line>
+        <line t="X" i="409" b="2" n="3"></line>
+        <line t="C" i="410" b="2" n="3">!     End of file</line>
+        <line t="X" i="411" b="3" n="3">      case(iostat_end)</line>
+        <line t="X" i="412" b="3" n="3">        this%lunin_eof = .true.</line>
+        <line t="X" i="413" b="3" n="3">        this%buffer_count = k - 1</line>
+        <line t="X" i="414" b="3" n="3"></line>
+        <line t="C" i="415" b="3" n="3">!     Succesful read</line>
+        <line t="X" i="416" b="4" n="3">      case(0)</line>
+        <line t="X" i="417" b="4" n="3">        this%buffer_count = size(this%buffer)</line>
+        <line t="X" i="418" b="4" n="3"></line>
+        <line t="C" i="419" b="4" n="3">!     Error</line>
+        <line t="X" i="420" b="5" n="3">      case(1:)</line>
+        <line t="X" i="421" b="5" n="3">        this%buffer_count = 0</line>
+        <line t="X" i="422" b="5" n="3">        call msg%error( 'm_crypto', 'crypto_read', &amp;</line>
+        <line t="X" i="423" b="5" n="3">                    1, 'Reading data from file' )</line>
+        <line t="X" i="424" b="5" n="3"></line>
+        <line t="X" i="425" b="5" n="2">    end select</line>
+        <line t="X" i="426" b="5" n="2"></line>
+        <line t="X" i="427" b="5" n="1">  end if</line>
+        <line t="X" i="428" b="5" n="1"></line>
+        <line t="ES" i="429" b="5" n="1">end subroutine crypto_read_data_into_buffer</line>
+        <line t="ES" i="430" b="1" n="1"></line>
+        <line t="M" i="431" b="1" n="1">end module m_crypto</line>
+        <line t="M" i="432" b="1" n="1"></line>
+    </code>
+</fmx>

@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_hash32.f90">
+    <context>
+        <time>2025-03-09T18:24:38</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Frypto</project>
+        <name>m_hash32.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_hash32" type="module">
+            <main>
+                <lines>
+                    <source percent="26.00">26</source>
+                    <comments percent="46.00">46</comments>
+                    <empty percent="28.00">28</empty>
+                    <total>100</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="hash32_choose" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">7</source>
+                            <comments percent="28.57">6</comments>
+                            <empty percent="38.10">8</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash32_choose2" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">7</source>
+                            <comments percent="28.57">6</comments>
+                            <empty percent="38.10">8</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash32_finalise" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="40.63">13</source>
+                            <comments percent="34.38">11</comments>
+                            <empty percent="25.00">8</empty>
+                            <total>32</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash32_get_hash_trailing_size" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash32_get_size_of_M" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash32_high_s0" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash32_high_s1" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash32_low_s0" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash32_low_s1" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash32_majority" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">7</source>
+                            <comments percent="28.57">6</comments>
+                            <empty percent="38.10">8</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash32_parity" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">7</source>
+                            <comments percent="28.57">6</comments>
+                            <empty percent="38.10">8</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash32_selectivity" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">7</source>
+                            <comments percent="28.57">6</comments>
+                            <empty percent="38.10">8</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="31.78">102</source>
+                    <comments percent="33.96">109</comments>
+                    <empty percent="34.27">110</empty>
+                    <total>321</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.08</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.08</average>
+                </nesting>
+                <methods>12</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="31.78">102</source>
+            <comments percent="33.96">109</comments>
+            <empty percent="34.27">110</empty>
+            <total>321</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>2</maximum>
+            <average>1.08</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>2</maximum>
+            <average>1.08</average>
+        </nesting>
+        <methods>12</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_hash32</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2022, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Reference : FIPS 180-2, Secure Hash Standard</line>
+        <line t="C" i="9" b="0" n="0">!             http://csrc.nist.gov/publications/fips/fips180-2/fips180-2.pdf</line>
+        <line t="C" i="10" b="0" n="0">! Synopsis  : Cryptographic hashing base abstract class for 32-bit algorithms</line>
+        <line t="C" i="11" b="0" n="0">!</line>
+        <line t="C" i="12" b="0" n="0">! License   : This file is part of Frypto.</line>
+        <line t="C" i="13" b="0" n="0">!</line>
+        <line t="C" i="14" b="0" n="0">!             Frypto is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="15" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="16" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="17" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="18" b="0" n="0">!</line>
+        <line t="C" i="19" b="0" n="0">!             Frypto is distributed in the hope that it will be useful,</line>
+        <line t="C" i="20" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="21" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="22" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="23" b="0" n="0">!</line>
+        <line t="C" i="24" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="25" b="0" n="0">!             License along with Frypto.  </line>
+        <line t="C" i="26" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="27" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="28" b="0" n="0"></line>
+        <line t="C" i="29" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="30" b="0" n="0"></line>
+        <line t="X" i="31" b="0" n="0">  use m_util_convert</line>
+        <line t="X" i="32" b="0" n="0">  use m_hash</line>
+        <line t="X" i="33" b="0" n="0"></line>
+        <line t="C" i="34" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="35" b="0" n="0"></line>
+        <line t="X" i="36" b="0" n="0">  implicit none</line>
+        <line t="X" i="37" b="0" n="0"></line>
+        <line t="C" i="38" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="39" b="0" n="0"></line>
+        <line t="X" i="40" b="0" n="0">  private</line>
+        <line t="X" i="41" b="0" n="0">  public t_hash32</line>
+        <line t="X" i="42" b="0" n="0"></line>
+        <line t="C" i="43" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="44" b="0" n="0"></line>
+        <line t="C" i="45" b="0" n="0">!- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="46" b="0" n="0"></line>
+        <line t="C" i="47" b="0" n="0">! Size of the hash trailing (in bytes)</line>
+        <line t="X" i="48" b="0" n="0">  integer, parameter :: size_of_H_trailing = 8</line>
+        <line t="X" i="49" b="0" n="0"></line>
+        <line t="C" i="50" b="0" n="0">! Size of the message block (512 bits = 64 bytes)</line>
+        <line t="X" i="51" b="0" n="0">  integer, parameter :: size_of_M = 64</line>
+        <line t="X" i="52" b="0" n="0"></line>
+        <line t="C" i="53" b="0" n="0">! Hashing base type for 32 bit algorithms</line>
+        <line t="T" i="54" b="0" n="0">  type, abstract, extends(t_hash) :: t_hash32</line>
+        <line t="X" i="55" b="0" n="0">    private</line>
+        <line t="X" i="56" b="0" n="0"></line>
+        <line t="X" i="57" b="0" n="0">    contains</line>
+        <line t="X" i="58" b="0" n="0"></line>
+        <line t="C" i="59" b="0" n="0">!     Hashing finalisation</line>
+        <line t="C" i="60" b="0" n="0">!     Finalises the hashing process and stores the resulting hash</line>
+        <line t="X" i="61" b="0" n="0">      procedure :: finalise =&gt; hash32_finalise</line>
+        <line t="X" i="62" b="0" n="0"></line>
+        <line t="C" i="63" b="0" n="0">!     Basic algorithm for crypto (Choose)</line>
+        <line t="X" i="64" b="0" n="0">      procedure, nopass :: choose =&gt; hash32_choose</line>
+        <line t="X" i="65" b="0" n="0">      procedure, nopass :: choose2 =&gt; hash32_choose2</line>
+        <line t="X" i="66" b="0" n="0"></line>
+        <line t="C" i="67" b="0" n="0">!     Basic algorithm for crypto (Majority)</line>
+        <line t="X" i="68" b="0" n="0">      procedure, nopass :: majority =&gt; hash32_majority</line>
+        <line t="X" i="69" b="0" n="0"></line>
+        <line t="C" i="70" b="0" n="0">!     Basic algorithm for crypto (parity)</line>
+        <line t="X" i="71" b="0" n="0">      procedure, nopass :: parity =&gt; hash32_parity</line>
+        <line t="X" i="72" b="0" n="0"></line>
+        <line t="C" i="73" b="0" n="0">!     Basic algorithm for crypto (selectivity; name invented by Fran)</line>
+        <line t="X" i="74" b="0" n="0">      procedure, nopass :: selectivity =&gt; hash32_selectivity</line>
+        <line t="X" i="75" b="0" n="0"></line>
+        <line t="C" i="76" b="0" n="0">!     Basic algorithm for crypto (low_s0)</line>
+        <line t="X" i="77" b="0" n="0">      procedure, nopass :: low_s0 =&gt; hash32_low_s0</line>
+        <line t="X" i="78" b="0" n="0"></line>
+        <line t="C" i="79" b="0" n="0">!     Basic algorithm for crypto (low_s1)</line>
+        <line t="X" i="80" b="0" n="0">      procedure, nopass :: low_s1 =&gt; hash32_low_s1</line>
+        <line t="X" i="81" b="0" n="0"></line>
+        <line t="C" i="82" b="0" n="0">!     Basic algorithm for crypto (high_s0)</line>
+        <line t="X" i="83" b="0" n="0">      procedure, nopass :: high_s0 =&gt; hash32_high_s0</line>
+        <line t="X" i="84" b="0" n="0"></line>
+        <line t="C" i="85" b="0" n="0">!     Basic algorithm for crypto (high_s1)</line>
+        <line t="X" i="86" b="0" n="0">      procedure, nopass :: high_s1 =&gt; hash32_high_s1</line>
+        <line t="X" i="87" b="0" n="0"></line>
+        <line t="C" i="88" b="0" n="0">!     Get hash trailing size</line>
+        <line t="X" i="89" b="0" n="0">      procedure, nopass :: get_hash_trailing_size =&gt; hash32_get_hash_trailing_size</line>
+        <line t="X" i="90" b="0" n="0"></line>
+        <line t="C" i="91" b="0" n="0">!     Get size of the message schedule</line>
+        <line t="X" i="92" b="0" n="0">      procedure, nopass :: get_size_of_M =&gt; hash32_get_size_of_M</line>
+        <line t="X" i="93" b="0" n="0"></line>
+        <line t="T" i="94" b="0" n="0">  end type t_hash32</line>
+        <line t="T" i="95" b="0" n="0"></line>
+        <line t="C" i="96" b="0" n="0">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="97" b="0" n="0"></line>
+        <line t="X" i="98" b="0" n="0">  contains</line>
+        <line t="X" i="99" b="0" n="0"></line>
+        <line t="C" i="100" b="0" n="0">! Finalise the message disgest</line>
+        <line k="hash32_finalise" t="F" i="101" b="1" n="1">pure function hash32_finalise( this, H ) result(res)</line>
+        <line t="F" i="102" b="1" n="1"></line>
+        <line t="C" i="103" b="1" n="1">! The hash structure</line>
+        <line t="X" i="104" b="1" n="1">  class(t_hash32), intent(in) :: this</line>
+        <line t="X" i="105" b="1" n="1"></line>
+        <line t="C" i="106" b="1" n="1">! Hash buffer</line>
+        <line t="X" i="107" b="1" n="1">  class(*), dimension(:), intent(in) :: H</line>
+        <line t="X" i="108" b="1" n="1"></line>
+        <line t="C" i="109" b="1" n="1">! Resulting hash</line>
+        <line t="X" i="110" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: res</line>
+        <line t="X" i="111" b="1" n="1"></line>
+        <line t="C" i="112" b="1" n="1">! Local varaibles</line>
+        <line t="X" i="113" b="1" n="1">  integer, dimension(size(H)) :: local</line>
+        <line t="X" i="114" b="1" n="1"></line>
+        <line t="C" i="115" b="1" n="1">! Allocate resulting hash</line>
+        <line t="X" i="116" b="1" n="1">  allocate( res(this%get_hash_size()) )</line>
+        <line t="X" i="117" b="1" n="1"></line>
+        <line t="C" i="118" b="1" n="1">! Reoroder the bytes</line>
+        <line t="C" i="119" b="1" n="1">! The solution is in 4 32-bit integers left to write with</line>
+        <line t="C" i="120" b="1" n="1">! their bytes order right to left.</line>
+        <line t="C" i="121" b="1" n="1">! First step: arrange al dwords right to left by dword</line>
+        <line t="C" i="122" b="1" n="1">! Second step: revert all bytes left to right</line>
+        <line t="X" i="123" b="1" n="2">  select type( H )</line>
+        <line t="X" i="124" b="2" n="2">    type is(integer)</line>
+        <line t="X" i="125" b="2" n="2">    local = H(size(H):1:-1)</line>
+        <line t="X" i="126" b="2" n="1">  end select</line>
+        <line t="X" i="127" b="2" n="1">  res = transfer( local, res )</line>
+        <line t="X" i="128" b="2" n="1">  res = res(size(res):1:-1)</line>
+        <line t="X" i="129" b="2" n="1"></line>
+        <line t="EF" i="130" b="2" n="1">end function hash32_finalise</line>
+        <line t="EF" i="131" b="1" n="1"></line>
+        <line t="EF" i="132" b="1" n="1"></line>
+        <line t="C" i="133" b="1" n="1">! Basic function for crypto (Choose)</line>
+        <line k="hash32_choose" t="F" i="134" b="1" n="1">pure function hash32_choose( x, y, z ) result(res)</line>
+        <line t="F" i="135" b="1" n="1"></line>
+        <line t="C" i="136" b="1" n="1">! First word</line>
+        <line t="X" i="137" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="138" b="1" n="1"></line>
+        <line t="C" i="139" b="1" n="1">! Second word</line>
+        <line t="X" i="140" b="1" n="1">  integer(kind=4), intent(in) :: y</line>
+        <line t="X" i="141" b="1" n="1"></line>
+        <line t="C" i="142" b="1" n="1">! Third word</line>
+        <line t="X" i="143" b="1" n="1">  integer(kind=4), intent(in) :: z</line>
+        <line t="X" i="144" b="1" n="1"></line>
+        <line t="C" i="145" b="1" n="1">! Return word</line>
+        <line t="X" i="146" b="1" n="1">  integer(kind=4) :: res</line>
+        <line t="X" i="147" b="1" n="1"></line>
+        <line t="C" i="148" b="1" n="1">! Compute the result</line>
+        <line t="X" i="149" b="1" n="1">  res = ieor( iand( x, y ), iand( not(x), z ) )</line>
+        <line t="X" i="150" b="1" n="1"></line>
+        <line t="EF" i="151" b="1" n="1">end function hash32_choose</line>
+        <line t="EF" i="152" b="1" n="1"></line>
+        <line t="EF" i="153" b="1" n="1"></line>
+        <line t="C" i="154" b="1" n="1">! Basic function for crypto (Choose second function)</line>
+        <line k="hash32_choose2" t="F" i="155" b="1" n="1">pure function hash32_choose2( x, y, z ) result(res)</line>
+        <line t="F" i="156" b="1" n="1"></line>
+        <line t="C" i="157" b="1" n="1">! First word</line>
+        <line t="X" i="158" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="159" b="1" n="1"></line>
+        <line t="C" i="160" b="1" n="1">! Second word</line>
+        <line t="X" i="161" b="1" n="1">  integer(kind=4), intent(in) :: y</line>
+        <line t="X" i="162" b="1" n="1"></line>
+        <line t="C" i="163" b="1" n="1">! Third word</line>
+        <line t="X" i="164" b="1" n="1">  integer(kind=4), intent(in) :: z</line>
+        <line t="X" i="165" b="1" n="1"></line>
+        <line t="C" i="166" b="1" n="1">! Return word</line>
+        <line t="X" i="167" b="1" n="1">  integer(kind=4) :: res</line>
+        <line t="X" i="168" b="1" n="1"></line>
+        <line t="C" i="169" b="1" n="1">! Compute the result</line>
+        <line t="X" i="170" b="1" n="1">  res = ieor( iand( x, z ), iand( y, not(z) ) )</line>
+        <line t="X" i="171" b="1" n="1"></line>
+        <line t="EF" i="172" b="1" n="1">end function hash32_choose2</line>
+        <line t="EF" i="173" b="1" n="1"></line>
+        <line t="EF" i="174" b="1" n="1"></line>
+        <line t="C" i="175" b="1" n="1">! Basic function for crypto (Majority)</line>
+        <line k="hash32_majority" t="F" i="176" b="1" n="1">pure function hash32_majority( x, y, z ) result(res)</line>
+        <line t="F" i="177" b="1" n="1"></line>
+        <line t="C" i="178" b="1" n="1">! First word</line>
+        <line t="X" i="179" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="180" b="1" n="1"></line>
+        <line t="C" i="181" b="1" n="1">! Second word</line>
+        <line t="X" i="182" b="1" n="1">  integer(kind=4), intent(in) :: y</line>
+        <line t="X" i="183" b="1" n="1"></line>
+        <line t="C" i="184" b="1" n="1">! Third word</line>
+        <line t="X" i="185" b="1" n="1">  integer(kind=4), intent(in) :: z</line>
+        <line t="X" i="186" b="1" n="1"></line>
+        <line t="C" i="187" b="1" n="1">! Return word</line>
+        <line t="X" i="188" b="1" n="1">  integer(kind=4) :: res</line>
+        <line t="X" i="189" b="1" n="1"></line>
+        <line t="C" i="190" b="1" n="1">! Compute the result</line>
+        <line t="X" i="191" b="1" n="1">  res = ieor( ieor( iand( x, y ), iand( x, z ) ), iand( y, z ) )</line>
+        <line t="X" i="192" b="1" n="1"></line>
+        <line t="EF" i="193" b="1" n="1">end function hash32_majority</line>
+        <line t="EF" i="194" b="1" n="1"></line>
+        <line t="EF" i="195" b="1" n="1"></line>
+        <line t="C" i="196" b="1" n="1">! Basic function for crypto (Parity)</line>
+        <line k="hash32_parity" t="F" i="197" b="1" n="1">pure function hash32_parity( x, y, z ) result(res)</line>
+        <line t="F" i="198" b="1" n="1"></line>
+        <line t="C" i="199" b="1" n="1">! First word</line>
+        <line t="X" i="200" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="201" b="1" n="1"></line>
+        <line t="C" i="202" b="1" n="1">! Second word</line>
+        <line t="X" i="203" b="1" n="1">  integer(kind=4), intent(in) :: y</line>
+        <line t="X" i="204" b="1" n="1"></line>
+        <line t="C" i="205" b="1" n="1">! Third word</line>
+        <line t="X" i="206" b="1" n="1">  integer(kind=4), intent(in) :: z</line>
+        <line t="X" i="207" b="1" n="1"></line>
+        <line t="C" i="208" b="1" n="1">! Return word</line>
+        <line t="X" i="209" b="1" n="1">  integer(kind=4) :: res</line>
+        <line t="X" i="210" b="1" n="1"></line>
+        <line t="C" i="211" b="1" n="1">! Compute the result</line>
+        <line t="X" i="212" b="1" n="1">  res = ieor( ieor( x, y ), z )</line>
+        <line t="X" i="213" b="1" n="1"></line>
+        <line t="EF" i="214" b="1" n="1">end function hash32_parity</line>
+        <line t="EF" i="215" b="1" n="1"></line>
+        <line t="EF" i="216" b="1" n="1"></line>
+        <line t="C" i="217" b="1" n="1">! Basic function for crypto (Selectivity; invented name by Fran)</line>
+        <line k="hash32_selectivity" t="F" i="218" b="1" n="1">pure function hash32_selectivity( x, y, z ) result(res)</line>
+        <line t="F" i="219" b="1" n="1"></line>
+        <line t="C" i="220" b="1" n="1">! First word</line>
+        <line t="X" i="221" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="222" b="1" n="1"></line>
+        <line t="C" i="223" b="1" n="1">! Second word</line>
+        <line t="X" i="224" b="1" n="1">  integer(kind=4), intent(in) :: y</line>
+        <line t="X" i="225" b="1" n="1"></line>
+        <line t="C" i="226" b="1" n="1">! Third word</line>
+        <line t="X" i="227" b="1" n="1">  integer(kind=4), intent(in) :: z</line>
+        <line t="X" i="228" b="1" n="1"></line>
+        <line t="C" i="229" b="1" n="1">! Return word</line>
+        <line t="X" i="230" b="1" n="1">  integer(kind=4) :: res</line>
+        <line t="X" i="231" b="1" n="1"></line>
+        <line t="C" i="232" b="1" n="1">! Compute the result</line>
+        <line t="X" i="233" b="1" n="1">  res = ieor( y, ior( x, not(z) ) )</line>
+        <line t="X" i="234" b="1" n="1"></line>
+        <line t="EF" i="235" b="1" n="1">end function hash32_selectivity</line>
+        <line t="EF" i="236" b="1" n="1"></line>
+        <line t="EF" i="237" b="1" n="1"></line>
+        <line t="C" i="238" b="1" n="1">! Basic function for SHA-256 (high_s0)</line>
+        <line k="hash32_high_s0" t="F" i="239" b="1" n="1">pure function hash32_high_s0( x ) result(res)</line>
+        <line t="F" i="240" b="1" n="1"></line>
+        <line t="C" i="241" b="1" n="1">! Input word</line>
+        <line t="X" i="242" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="243" b="1" n="1"></line>
+        <line t="C" i="244" b="1" n="1">! Return word</line>
+        <line t="X" i="245" b="1" n="1">  integer(kind=4) :: res</line>
+        <line t="X" i="246" b="1" n="1"></line>
+        <line t="C" i="247" b="1" n="1">! Compute the result</line>
+        <line t="X" i="248" b="1" n="1">  res = ieor( ishftc(x,-2), ieor( ishftc(x,-13), ishftc(x,-22) ) )</line>
+        <line t="X" i="249" b="1" n="1"></line>
+        <line t="EF" i="250" b="1" n="1">end function hash32_high_s0</line>
+        <line t="EF" i="251" b="1" n="1"></line>
+        <line t="EF" i="252" b="1" n="1"></line>
+        <line t="C" i="253" b="1" n="1">! Basic function for SHA-256 (high_s1)</line>
+        <line k="hash32_high_s1" t="F" i="254" b="1" n="1">pure function hash32_high_s1( x ) result(res)</line>
+        <line t="F" i="255" b="1" n="1"></line>
+        <line t="C" i="256" b="1" n="1">! Input word</line>
+        <line t="X" i="257" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="258" b="1" n="1"></line>
+        <line t="C" i="259" b="1" n="1">! Return word</line>
+        <line t="X" i="260" b="1" n="1">  integer(kind=4) :: res</line>
+        <line t="X" i="261" b="1" n="1"></line>
+        <line t="C" i="262" b="1" n="1">! Compute the result</line>
+        <line t="X" i="263" b="1" n="1">  res = ieor( ishftc(x,-6), ieor( ishftc(x,-11), ishftc(x,-25) ) )</line>
+        <line t="X" i="264" b="1" n="1"></line>
+        <line t="EF" i="265" b="1" n="1">end function hash32_high_s1</line>
+        <line t="EF" i="266" b="1" n="1"></line>
+        <line t="EF" i="267" b="1" n="1"></line>
+        <line t="C" i="268" b="1" n="1">! Basic function for SHA-256 (low_s0)</line>
+        <line k="hash32_low_s0" t="F" i="269" b="1" n="1">pure function hash32_low_s0( x ) result(res)</line>
+        <line t="F" i="270" b="1" n="1"></line>
+        <line t="C" i="271" b="1" n="1">! Input word</line>
+        <line t="X" i="272" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="273" b="1" n="1"></line>
+        <line t="C" i="274" b="1" n="1">! Return word</line>
+        <line t="X" i="275" b="1" n="1">  integer(kind=4) :: res</line>
+        <line t="X" i="276" b="1" n="1"></line>
+        <line t="C" i="277" b="1" n="1">! Compute the result</line>
+        <line t="X" i="278" b="1" n="1">  res = ieor( ishftc(x,-7), ieor( ishftc(x,-18), ishft(x,-3) ) )</line>
+        <line t="X" i="279" b="1" n="1"></line>
+        <line t="EF" i="280" b="1" n="1">end function hash32_low_s0</line>
+        <line t="EF" i="281" b="1" n="1"></line>
+        <line t="EF" i="282" b="1" n="1"></line>
+        <line t="C" i="283" b="1" n="1">! Basic function for SHA-256 (low_s1)</line>
+        <line k="hash32_low_s1" t="F" i="284" b="1" n="1">pure function hash32_low_s1( x ) result(res)</line>
+        <line t="F" i="285" b="1" n="1"></line>
+        <line t="C" i="286" b="1" n="1">! Input word</line>
+        <line t="X" i="287" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="288" b="1" n="1"></line>
+        <line t="C" i="289" b="1" n="1">! Return word</line>
+        <line t="X" i="290" b="1" n="1">  integer(kind=4) :: res</line>
+        <line t="X" i="291" b="1" n="1"></line>
+        <line t="C" i="292" b="1" n="1">! Compute the result</line>
+        <line t="X" i="293" b="1" n="1">  res = ieor( ishftc(x,-17), ieor( ishftc(x,-19), ishft(x,-10) ) )</line>
+        <line t="X" i="294" b="1" n="1"></line>
+        <line t="EF" i="295" b="1" n="1">end function hash32_low_s1</line>
+        <line t="EF" i="296" b="1" n="1"></line>
+        <line t="EF" i="297" b="1" n="1"></line>
+        <line t="C" i="298" b="1" n="1">! Get the hash traling size (bytes) for this hash</line>
+        <line k="hash32_get_hash_trailing_size" t="F" i="299" b="1" n="1">pure function hash32_get_hash_trailing_size() result(res)</line>
+        <line t="F" i="300" b="1" n="1"></line>
+        <line t="C" i="301" b="1" n="1">! Hash size</line>
+        <line t="X" i="302" b="1" n="1">  integer :: res</line>
+        <line t="X" i="303" b="1" n="1"></line>
+        <line t="C" i="304" b="1" n="1">! Return the size of the hash trailing (in bytes)</line>
+        <line t="X" i="305" b="1" n="1">  res = size_of_H_trailing</line>
+        <line t="X" i="306" b="1" n="1"></line>
+        <line t="EF" i="307" b="1" n="1">end function hash32_get_hash_trailing_size</line>
+        <line t="EF" i="308" b="1" n="1"></line>
+        <line t="EF" i="309" b="1" n="1"></line>
+        <line t="C" i="310" b="1" n="1">! Get the size of the message schedule</line>
+        <line k="hash32_get_size_of_M" t="F" i="311" b="1" n="1">pure function hash32_get_size_of_M() result(res)</line>
+        <line t="F" i="312" b="1" n="1"></line>
+        <line t="C" i="313" b="1" n="1">! Hash size</line>
+        <line t="X" i="314" b="1" n="1">  integer :: res</line>
+        <line t="X" i="315" b="1" n="1"></line>
+        <line t="C" i="316" b="1" n="1">! Return the size of the message schedule (in bytes)</line>
+        <line t="X" i="317" b="1" n="1">  res = size_of_M</line>
+        <line t="X" i="318" b="1" n="1"></line>
+        <line t="EF" i="319" b="1" n="1">end function hash32_get_size_of_M</line>
+        <line t="EF" i="320" b="1" n="1"></line>
+        <line t="M" i="321" b="1" n="1">end module m_hash32</line>
+        <line t="M" i="322" b="1" n="1"></line>
+    </code>
+</fmx>

@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_triple_des.f90">
+    <context>
+        <time>2025-03-09T18:24:38</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Frypto</project>
+        <name>m_triple_des.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_triple_des" type="module">
+            <main>
+                <lines>
+                    <source percent="24.42">21</source>
+                    <comments percent="47.67">41</comments>
+                    <empty percent="27.91">24</empty>
+                    <total>86</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="triple_des" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="45.45">15</source>
+                            <comments percent="27.27">9</comments>
+                            <empty percent="27.27">9</empty>
+                            <total>33</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="triple_des_block_size" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="triple_des_decrypt" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="48.15">13</source>
+                            <comments percent="22.22">6</comments>
+                            <empty percent="29.63">8</empty>
+                            <total>27</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="triple_des_encrypt" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="48.15">13</source>
+                            <comments percent="22.22">6</comments>
+                            <empty percent="29.63">8</empty>
+                            <total>27</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="triple_des_key_size" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="35.53">70</source>
+                    <comments percent="34.52">68</comments>
+                    <empty percent="29.95">59</empty>
+                    <total>197</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>2.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.60</average>
+                </nesting>
+                <methods>5</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="35.53">70</source>
+            <comments percent="34.52">68</comments>
+            <empty percent="29.95">59</empty>
+            <total>197</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>3</maximum>
+            <average>2.00</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>2</maximum>
+            <average>1.60</average>
+        </nesting>
+        <methods>5</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_triple_des</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2022, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Synopsis  : (Triple) Data Encryption Standard (3DES) implementation</line>
+        <line t="C" i="9" b="0" n="0">! Reference : National Insitute of Standards and Technology (NIST)</line>
+        <line t="C" i="10" b="0" n="0">!             Federal Information Processing Standards Publication (FIPS) 46</line>
+        <line t="C" i="11" b="0" n="0">!             https://csrc.nist.gov/publications/detail/fips/46/3/archive/1999-10-25</line>
+        <line t="C" i="12" b="0" n="0">!</line>
+        <line t="C" i="13" b="0" n="0">! License   : This file is part of Frypto.</line>
+        <line t="C" i="14" b="0" n="0">!</line>
+        <line t="C" i="15" b="0" n="0">!             Frypto is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="16" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="17" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="18" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="19" b="0" n="0">!</line>
+        <line t="C" i="20" b="0" n="0">!             Frypto is distributed in the hope that it will be useful,</line>
+        <line t="C" i="21" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="22" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="23" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="24" b="0" n="0">!</line>
+        <line t="C" i="25" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="26" b="0" n="0">!             License along with Frypto.  </line>
+        <line t="C" i="27" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="28" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="29" b="0" n="0"></line>
+        <line t="C" i="30" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="31" b="0" n="0"></line>
+        <line t="X" i="32" b="0" n="0">  use m_block_cipher</line>
+        <line t="X" i="33" b="0" n="0">  use m_des</line>
+        <line t="X" i="34" b="0" n="0"></line>
+        <line t="C" i="35" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="36" b="0" n="0"></line>
+        <line t="X" i="37" b="0" n="0">  implicit none</line>
+        <line t="X" i="38" b="0" n="0"></line>
+        <line t="C" i="39" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="40" b="0" n="0"></line>
+        <line t="X" i="41" b="0" n="0">  private</line>
+        <line t="X" i="42" b="0" n="0">  public t_triple_des</line>
+        <line t="X" i="43" b="0" n="0">  public triple_des</line>
+        <line t="X" i="44" b="0" n="0"></line>
+        <line t="C" i="45" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="46" b="0" n="0"></line>
+        <line t="C" i="47" b="0" n="0">!- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="48" b="0" n="0"></line>
+        <line t="C" i="49" b="0" n="0">! 3DES type</line>
+        <line t="T" i="50" b="0" n="0">  type, extends(t_block_cipher) :: t_triple_des</line>
+        <line t="X" i="51" b="0" n="0">    private</line>
+        <line t="X" i="52" b="0" n="0"></line>
+        <line t="C" i="53" b="0" n="0">!     Encryption key</line>
+        <line t="X" i="54" b="0" n="0">      integer(kind=1), dimension(:), allocatable :: key</line>
+        <line t="X" i="55" b="0" n="0"></line>
+        <line t="C" i="56" b="0" n="0">!     DES algorithm context</line>
+        <line t="X" i="57" b="0" n="0">      type(t_des), dimension(:), allocatable :: des</line>
+        <line t="X" i="58" b="0" n="0"></line>
+        <line t="X" i="59" b="0" n="0">    contains</line>
+        <line t="X" i="60" b="0" n="0"></line>
+        <line t="C" i="61" b="0" n="0">!     Block size</line>
+        <line t="X" i="62" b="0" n="0">      procedure, nopass :: block_size =&gt; triple_des_block_size</line>
+        <line t="X" i="63" b="0" n="0">      </line>
+        <line t="C" i="64" b="0" n="0">!     Key size</line>
+        <line t="X" i="65" b="0" n="0">      procedure, nopass :: key_size =&gt; triple_des_key_size</line>
+        <line t="X" i="66" b="0" n="0"></line>
+        <line t="C" i="67" b="0" n="0">!     Encryption interface</line>
+        <line t="X" i="68" b="0" n="0">      procedure :: encrypt =&gt; triple_des_encrypt</line>
+        <line t="X" i="69" b="0" n="0"></line>
+        <line t="C" i="70" b="0" n="0">!     Decryption interface</line>
+        <line t="X" i="71" b="0" n="0">      procedure :: decrypt =&gt; triple_des_decrypt</line>
+        <line t="X" i="72" b="0" n="0"></line>
+        <line t="T" i="73" b="0" n="0">  end type t_triple_des</line>
+        <line t="T" i="74" b="0" n="0"></line>
+        <line t="T" i="75" b="0" n="0"></line>
+        <line t="C" i="76" b="0" n="0">! The DES block size in bytes</line>
+        <line t="X" i="77" b="0" n="0">  integer, parameter :: triple_des_block_size_in_bytes = 8</line>
+        <line t="X" i="78" b="0" n="0"></line>
+        <line t="C" i="79" b="0" n="0">! The DES key size in bytes</line>
+        <line t="X" i="80" b="0" n="0">  integer, parameter :: triple_des_key_size_in_bytes = 24</line>
+        <line t="X" i="81" b="0" n="0"></line>
+        <line t="C" i="82" b="0" n="0">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="83" b="0" n="0"></line>
+        <line t="X" i="84" b="0" n="0">contains</line>
+        <line t="X" i="85" b="0" n="0"></line>
+        <line t="C" i="86" b="0" n="0">! Constuctor from key</line>
+        <line t="C" i="87" b="0" n="0">! Assumes that the key is either 16 or 24 bytes</line>
+        <line k="triple_des" t="F" i="88" b="1" n="1">pure function triple_des( key ) result(res)</line>
+        <line t="F" i="89" b="1" n="1"></line>
+        <line t="C" i="90" b="1" n="1">! The initialisation key</line>
+        <line t="X" i="91" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: key</line>
+        <line t="X" i="92" b="1" n="1"></line>
+        <line t="C" i="93" b="1" n="1">! The DES context</line>
+        <line t="X" i="94" b="1" n="1">  type(t_triple_des) :: res</line>
+        <line t="X" i="95" b="1" n="1"></line>
+        <line t="C" i="96" b="1" n="1">! Local variables</line>
+        <line t="X" i="97" b="1" n="1">  integer :: nkeys, ikey, jkey</line>
+        <line t="X" i="98" b="1" n="1">  type(t_des) :: des0</line>
+        <line t="X" i="99" b="1" n="1">  integer :: des_key_size</line>
+        <line t="X" i="100" b="1" n="1"></line>
+        <line t="C" i="101" b="1" n="1">! Initialise key</line>
+        <line t="X" i="102" b="1" n="1">  allocate( res%key, source=key )</line>
+        <line t="X" i="103" b="1" n="1">  des_key_size = des0%key_size()</line>
+        <line t="X" i="104" b="1" n="1">  </line>
+        <line t="C" i="105" b="1" n="1">! Get the number of keys</line>
+        <line t="X" i="106" b="1" n="1">  nkeys = size(key) / des_key_size</line>
+        <line t="X" i="107" b="1" n="1"></line>
+        <line t="C" i="108" b="1" n="1">! Allocate the DES structures</line>
+        <line t="X" i="109" b="1" n="1">  allocate( res%des(nkeys) )</line>
+        <line t="X" i="110" b="1" n="1"></line>
+        <line t="C" i="111" b="1" n="1">! Initialise the DES structures</line>
+        <line t="X" i="112" b="2" n="2">  do ikey = 1, nkeys</line>
+        <line t="X" i="113" b="2" n="2">    jkey = des_key_size * ( ikey - 1 ) + 1</line>
+        <line t="X" i="114" b="2" n="2">    res%des(ikey) = des( key(jkey:jkey+des_key_size-1) )</line>
+        <line t="X" i="115" b="2" n="1">  end do</line>
+        <line t="X" i="116" b="2" n="1"></line>
+        <line t="EF" i="117" b="2" n="1">end function triple_des</line>
+        <line t="EF" i="118" b="1" n="1"></line>
+        <line t="EF" i="119" b="1" n="1"></line>
+        <line t="C" i="120" b="1" n="1">! 3DES block size</line>
+        <line k="triple_des_block_size" t="F" i="121" b="1" n="1">pure function triple_des_block_size() result(res)</line>
+        <line t="F" i="122" b="1" n="1"></line>
+        <line t="C" i="123" b="1" n="1">! 3DES block size</line>
+        <line t="X" i="124" b="1" n="1">  integer :: res</line>
+        <line t="X" i="125" b="1" n="1">   </line>
+        <line t="C" i="126" b="1" n="1">! Return the 3DES block size</line>
+        <line t="X" i="127" b="1" n="1">  res = triple_des_block_size_in_bytes</line>
+        <line t="X" i="128" b="1" n="1">   </line>
+        <line t="EF" i="129" b="1" n="1">end function triple_des_block_size</line>
+        <line t="EF" i="130" b="1" n="1"></line>
+        <line t="EF" i="131" b="1" n="1"></line>
+        <line t="C" i="132" b="1" n="1">! 3DES key size</line>
+        <line k="triple_des_key_size" t="F" i="133" b="1" n="1">pure function triple_des_key_size() result(res)</line>
+        <line t="F" i="134" b="1" n="1"></line>
+        <line t="C" i="135" b="1" n="1">! 3DES key size</line>
+        <line t="X" i="136" b="1" n="1">  integer :: res</line>
+        <line t="X" i="137" b="1" n="1">   </line>
+        <line t="C" i="138" b="1" n="1">! Return the 3DES key size</line>
+        <line t="X" i="139" b="1" n="1">  res = triple_des_key_size_in_bytes</line>
+        <line t="X" i="140" b="1" n="1">   </line>
+        <line t="EF" i="141" b="1" n="1">end function triple_des_key_size</line>
+        <line t="EF" i="142" b="1" n="1"></line>
+        <line t="EF" i="143" b="1" n="1"></line>
+        <line t="C" i="144" b="1" n="1">! 3DES encryption (from 8 bytes buffer)</line>
+        <line k="triple_des_encrypt" t="S" i="145" b="1" n="1">pure subroutine triple_des_encrypt( this, text, cipher )</line>
+        <line t="S" i="146" b="1" n="1"></line>
+        <line t="C" i="147" b="1" n="1">! The DES context</line>
+        <line t="X" i="148" b="1" n="1">  class(t_triple_des), intent(in) :: this</line>
+        <line t="X" i="149" b="1" n="1"></line>
+        <line t="C" i="150" b="1" n="1">! The plain text to encrypt</line>
+        <line t="X" i="151" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: text</line>
+        <line t="X" i="152" b="1" n="1"></line>
+        <line t="C" i="153" b="1" n="1">! The encrypted text</line>
+        <line t="X" i="154" b="1" n="1">  integer(kind=1), dimension(size(text)), intent(out) :: cipher</line>
+        <line t="X" i="155" b="1" n="1"></line>
+        <line t="C" i="156" b="1" n="1">! Local variables</line>
+        <line t="X" i="157" b="1" n="1">  integer(kind=1), dimension(size(text)) :: buffer</line>
+        <line t="X" i="158" b="1" n="1"></line>
+        <line t="C" i="159" b="1" n="1">! Encrypt</line>
+        <line t="X" i="160" b="1" n="1">  call this%des(1)%encrypt( text,   buffer )</line>
+        <line t="X" i="161" b="1" n="1">  call this%des(2)%decrypt( buffer, buffer )</line>
+        <line t="X" i="162" b="2" n="2">  if( size(this%des) == 2 ) then</line>
+        <line t="X" i="163" b="2" n="2">    call this%des(1)%encrypt( buffer, cipher )</line>
+        <line t="X" i="164" b="3" n="2">  else</line>
+        <line t="X" i="165" b="3" n="2">    call this%des(3)%encrypt( buffer, cipher )</line>
+        <line t="X" i="166" b="3" n="1">  end if</line>
+        <line t="X" i="167" b="3" n="1"></line>
+        <line t="ES" i="168" b="3" n="1">end subroutine triple_des_encrypt</line>
+        <line t="ES" i="169" b="1" n="1"></line>
+        <line t="ES" i="170" b="1" n="1"></line>
+        <line t="C" i="171" b="1" n="1">! 3DES decryption (from 8 bytes buffer)</line>
+        <line k="triple_des_decrypt" t="S" i="172" b="1" n="1">pure subroutine triple_des_decrypt( this, cipher, text )</line>
+        <line t="S" i="173" b="1" n="1"></line>
+        <line t="C" i="174" b="1" n="1">! The DES context</line>
+        <line t="X" i="175" b="1" n="1">  class(t_triple_des), intent(in) :: this</line>
+        <line t="X" i="176" b="1" n="1"></line>
+        <line t="C" i="177" b="1" n="1">! The encrypted text</line>
+        <line t="X" i="178" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: cipher</line>
+        <line t="X" i="179" b="1" n="1"></line>
+        <line t="C" i="180" b="1" n="1">! The plain decrypted text</line>
+        <line t="X" i="181" b="1" n="1">  integer(kind=1), dimension(size(cipher)), intent(out) :: text</line>
+        <line t="X" i="182" b="1" n="1"></line>
+        <line t="C" i="183" b="1" n="1">! Local variables</line>
+        <line t="X" i="184" b="1" n="1">  integer(kind=1), dimension(size(text)) :: buffer1, buffer2</line>
+        <line t="X" i="185" b="1" n="1"></line>
+        <line t="C" i="186" b="1" n="1">! Decrypt</line>
+        <line t="X" i="187" b="2" n="2">  if( size(this%des) == 2 ) then</line>
+        <line t="X" i="188" b="2" n="2">    call this%des(1)%decrypt( cipher, buffer1 )</line>
+        <line t="X" i="189" b="3" n="2">  else</line>
+        <line t="X" i="190" b="3" n="2">    call this%des(3)%decrypt( cipher, buffer1 )</line>
+        <line t="X" i="191" b="3" n="1">  end if</line>
+        <line t="X" i="192" b="3" n="1">  call this%des(2)%encrypt( buffer1, buffer2 )</line>
+        <line t="X" i="193" b="3" n="1">  call this%des(1)%decrypt( buffer2, text )</line>
+        <line t="X" i="194" b="3" n="1"></line>
+        <line t="ES" i="195" b="3" n="1">end subroutine triple_des_decrypt</line>
+        <line t="ES" i="196" b="1" n="1"></line>
+        <line t="M" i="197" b="1" n="1">end module m_triple_des</line>
+        <line t="M" i="198" b="1" n="1"></line>
+    </code>
+</fmx>

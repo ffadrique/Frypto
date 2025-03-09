@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_hash.f90">
+    <context>
+        <time>2025-03-09T18:24:38</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Frypto</project>
+        <name>m_hash.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_hash" type="module">
+            <main>
+                <lines>
+                    <source percent="6.06">6</source>
+                    <comments percent="57.58">57</comments>
+                    <empty percent="36.36">36</empty>
+                    <total>99</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="hash_encode_buffer" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="40.32">25</source>
+                            <comments percent="30.65">19</comments>
+                            <empty percent="29.03">18</empty>
+                            <total>62</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash_encode_string" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">6</source>
+                            <comments percent="27.78">5</comments>
+                            <empty percent="38.89">7</empty>
+                            <total>18</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash_encode_unit" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="41.49">39</source>
+                            <comments percent="26.60">25</comments>
+                            <empty percent="31.91">30</empty>
+                            <total>94</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>6</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>4</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash_padding" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">6</source>
+                            <comments percent="27.78">5</comments>
+                            <empty percent="38.89">7</empty>
+                            <total>18</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash_process_block" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">6</source>
+                            <comments percent="27.78">5</comments>
+                            <empty percent="38.89">7</empty>
+                            <total>18</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash_process_last_block" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="38.98">23</source>
+                            <comments percent="27.12">16</comments>
+                            <empty percent="33.90">20</empty>
+                            <total>59</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="hash_trailing" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="41.18">14</source>
+                            <comments percent="26.47">9</comments>
+                            <empty percent="32.35">11</empty>
+                            <total>34</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="31.09">125</source>
+                    <comments percent="35.07">141</comments>
+                    <empty percent="33.83">136</empty>
+                    <total>402</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>6</maximum>
+                    <average>2.14</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>4</maximum>
+                    <average>1.71</average>
+                </nesting>
+                <methods>7</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="31.09">125</source>
+            <comments percent="35.07">141</comments>
+            <empty percent="33.83">136</empty>
+            <total>402</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>6</maximum>
+            <average>2.14</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>4</maximum>
+            <average>1.71</average>
+        </nesting>
+        <methods>7</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_hash</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2022, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Reference : FIPS 180-2, Secure Hash Standard</line>
+        <line t="C" i="9" b="0" n="0">!             http://csrc.nist.gov/publications/fips/fips180-2/fips180-2.pdf</line>
+        <line t="C" i="10" b="0" n="0">! Synopsis  : Cryptographic hashing base abstract class</line>
+        <line t="C" i="11" b="0" n="0">!</line>
+        <line t="C" i="12" b="0" n="0">! License   : This file is part of Frypto.</line>
+        <line t="C" i="13" b="0" n="0">!</line>
+        <line t="C" i="14" b="0" n="0">!             Frypto is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="15" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="16" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="17" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="18" b="0" n="0">!</line>
+        <line t="C" i="19" b="0" n="0">!             Frypto is distributed in the hope that it will be useful,</line>
+        <line t="C" i="20" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="21" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="22" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="23" b="0" n="0">!</line>
+        <line t="C" i="24" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="25" b="0" n="0">!             License along with Frypto.  </line>
+        <line t="C" i="26" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="27" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="28" b="0" n="0"></line>
+        <line t="C" i="29" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="30" b="0" n="0"></line>
+        <line t="X" i="31" b="0" n="0">  use, intrinsic :: iso_fortran_env</line>
+        <line t="X" i="32" b="0" n="0"></line>
+        <line t="X" i="33" b="0" n="0">  use m_object</line>
+        <line t="X" i="34" b="0" n="0">  use m_util_convert</line>
+        <line t="X" i="35" b="0" n="0"></line>
+        <line t="C" i="36" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="37" b="0" n="0"></line>
+        <line t="X" i="38" b="0" n="0">  implicit none</line>
+        <line t="X" i="39" b="0" n="0"></line>
+        <line t="C" i="40" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="41" b="0" n="0"></line>
+        <line t="X" i="42" b="0" n="0">  private</line>
+        <line t="X" i="43" b="0" n="0">  public t_hash</line>
+        <line t="X" i="44" b="0" n="0"></line>
+        <line t="X" i="45" b="0" n="0">  public hash_z00, hash_z80, hash_zff</line>
+        <line t="X" i="46" b="0" n="0"></line>
+        <line t="C" i="47" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="48" b="0" n="0"></line>
+        <line t="C" i="49" b="0" n="0">!- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="50" b="0" n="0"></line>
+        <line t="C" i="51" b="0" n="0">! Used constants</line>
+        <line t="X" i="52" b="0" n="0"> integer(kind=1), parameter :: hash_z00 = int(z'00',1)</line>
+        <line t="X" i="53" b="0" n="0"> integer(kind=1), parameter :: hash_z80 = int(z'80',1)</line>
+        <line t="X" i="54" b="0" n="0"> integer(kind=1), parameter :: hash_zff = int(z'ff',1)</line>
+        <line t="X" i="55" b="0" n="0"></line>
+        <line t="C" i="56" b="0" n="0">! Hashing base type</line>
+        <line t="T" i="57" b="0" n="0">  type, abstract, extends(t_object) :: t_hash</line>
+        <line t="X" i="58" b="0" n="0">    private</line>
+        <line t="X" i="59" b="0" n="0"></line>
+        <line t="X" i="60" b="0" n="0">    contains</line>
+        <line t="X" i="61" b="0" n="0"></line>
+        <line t="C" i="62" b="0" n="0">!     Encode a character string or from open file</line>
+        <line t="X" i="63" b="0" n="0">      generic :: encode =&gt; hash_encode_string, hash_encode_buffer, hash_encode_unit</line>
+        <line t="X" i="64" b="0" n="0">      procedure, private :: hash_encode_string</line>
+        <line t="X" i="65" b="0" n="0">      procedure, private :: hash_encode_buffer</line>
+        <line t="X" i="66" b="0" n="0">      procedure, private :: hash_encode_unit</line>
+        <line t="X" i="67" b="0" n="0"></line>
+        <line t="C" i="68" b="0" n="0">!     Hashing initialisation</line>
+        <line t="C" i="69" b="0" n="0">!     Initialises the hashing base message-digest operation</line>
+        <line t="X" i="70" b="0" n="0">      procedure(hash_initialise), nopass, deferred :: initialise</line>
+        <line t="X" i="71" b="0" n="0"></line>
+        <line t="C" i="72" b="0" n="0">!     Hashing update operation</line>
+        <line t="C" i="73" b="0" n="0">!     Continues the message-digest operation, processing</line>
+        <line t="C" i="74" b="0" n="0">!     another message block, and updating the context</line>
+        <line t="X" i="75" b="0" n="0">      procedure(hash_update), deferred :: update</line>
+        <line t="X" i="76" b="0" n="0"></line>
+        <line t="C" i="77" b="0" n="0">!     Hashing padding</line>
+        <line t="C" i="78" b="0" n="0">!     Pads the message block to the size of the implemented algorithm</line>
+        <line t="X" i="79" b="0" n="0">      procedure, nopass :: padding =&gt; hash_padding</line>
+        <line t="X" i="80" b="0" n="0"></line>
+        <line t="C" i="81" b="0" n="0">!     Hashing base trailing</line>
+        <line t="C" i="82" b="0" n="0">!     Add the message length to the end of the last processed block</line>
+        <line t="X" i="83" b="0" n="0">      procedure, nopass :: trailing =&gt; hash_trailing</line>
+        <line t="X" i="84" b="0" n="0"></line>
+        <line t="C" i="85" b="0" n="0">!     Hashing finalisation</line>
+        <line t="C" i="86" b="0" n="0">!     Finalises the hashing base message-digest operation</line>
+        <line t="X" i="87" b="0" n="0">      procedure(hash_finalise), deferred :: finalise</line>
+        <line t="X" i="88" b="0" n="0"></line>
+        <line t="C" i="89" b="0" n="0">!     Get the size (bytes) of the hash</line>
+        <line t="X" i="90" b="0" n="0">      procedure(hash_get_property_integer), nopass, deferred :: get_hash_size</line>
+        <line t="X" i="91" b="0" n="0"></line>
+        <line t="C" i="92" b="0" n="0">!     Get the size (bytes) of the hash trailing bytes</line>
+        <line t="X" i="93" b="0" n="0">      procedure(hash_get_property_integer), nopass, deferred :: get_hash_trailing_size</line>
+        <line t="X" i="94" b="0" n="0"></line>
+        <line t="C" i="95" b="0" n="0">!     Get the size (bytes) of M</line>
+        <line t="X" i="96" b="0" n="0">      procedure(hash_get_property_integer), nopass, deferred :: get_size_of_M</line>
+        <line t="X" i="97" b="0" n="0"></line>
+        <line t="C" i="98" b="0" n="0">!     Hashing block processing</line>
+        <line t="C" i="99" b="0" n="0">!     Processes a full-bit-sized message block</line>
+        <line t="X" i="100" b="0" n="0">      procedure :: process_block =&gt; hash_process_block</line>
+        <line t="X" i="101" b="0" n="0"></line>
+        <line t="C" i="102" b="0" n="0">!     Hashing last block processing</line>
+        <line t="C" i="103" b="0" n="0">!     Processes the last (non-full-bit-sized) input block</line>
+        <line t="X" i="104" b="0" n="0">      procedure :: process_last_block =&gt; hash_process_last_block</line>
+        <line t="X" i="105" b="0" n="0"></line>
+        <line t="T" i="106" b="0" n="0">  end type t_hash</line>
+        <line t="T" i="107" b="0" n="0"></line>
+        <line t="T" i="108" b="0" n="0"></line>
+        <line t="C" i="109" b="0" n="0">! Abstractct procedure interfaces</line>
+        <line t="X" i="110" b="0" n="0">  abstract interface</line>
+        <line t="X" i="111" b="0" n="0"></line>
+        <line t="C" i="112" b="0" n="0">!   Initialisation</line>
+        <line t="C" i="113" b="1" n="1">    pure subroutine hash_initialise( H )</line>
+        <line t="X" i="114" b="1" n="1">      class(*), allocatable, dimension(:), intent(inout) :: H</line>
+        <line t="X" i="115" b="1" n="1">    end subroutine hash_initialise</line>
+        <line t="X" i="116" b="1" n="1"></line>
+        <line t="C" i="117" b="1" n="1">!   Update</line>
+        <line t="C" i="118" b="1" n="1">    pure subroutine hash_update( this, M, H )</line>
+        <line t="X" i="119" b="1" n="1">      import t_hash</line>
+        <line t="X" i="120" b="1" n="1">      class(t_hash), intent(in) :: this</line>
+        <line t="X" i="121" b="1" n="1">      integer(kind=1), dimension(:), intent(in) :: M</line>
+        <line t="X" i="122" b="1" n="1">      class(*), dimension(:), intent(inout) :: H</line>
+        <line t="X" i="123" b="1" n="1">    end subroutine hash_update</line>
+        <line t="X" i="124" b="1" n="1"></line>
+        <line t="C" i="125" b="1" n="1">!   Finalisation</line>
+        <line t="C" i="126" b="1" n="1">    pure function hash_finalise( this, H ) result(res)</line>
+        <line t="X" i="127" b="1" n="1">      import t_hash</line>
+        <line t="X" i="128" b="1" n="1">      class(t_hash), intent(in) :: this</line>
+        <line t="X" i="129" b="1" n="1">      class(*), dimension(:), intent(in) :: H</line>
+        <line t="X" i="130" b="1" n="1">      integer(kind=1), dimension(:), allocatable :: res</line>
+        <line t="X" i="131" b="1" n="1">    end function hash_finalise</line>
+        <line t="X" i="132" b="1" n="1"></line>
+        <line t="C" i="133" b="1" n="1">!   Access to integer property</line>
+        <line t="C" i="134" b="1" n="1">    pure function hash_get_property_integer() result(res)</line>
+        <line t="X" i="135" b="1" n="1">      integer :: res</line>
+        <line t="X" i="136" b="1" n="1">    end function hash_get_property_integer</line>
+        <line t="X" i="137" b="1" n="1"></line>
+        <line t="X" i="138" b="1" n="1">  end interface</line>
+        <line t="X" i="139" b="1" n="1"></line>
+        <line t="C" i="140" b="1" n="1">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="141" b="1" n="1"></line>
+        <line t="X" i="142" b="1" n="1">contains</line>
+        <line t="X" i="143" b="1" n="1"></line>
+        <line t="C" i="144" b="1" n="1">! Encode from input byte buffer</line>
+        <line k="hash_encode_buffer" t="F" i="145" b="1" n="1">pure function hash_encode_buffer( this, buffer ) result(res)</line>
+        <line t="F" i="146" b="1" n="1"></line>
+        <line t="C" i="147" b="1" n="1">! The hash structure</line>
+        <line t="X" i="148" b="1" n="1">  class(t_hash), intent(in) :: this</line>
+        <line t="X" i="149" b="1" n="1"></line>
+        <line t="C" i="150" b="1" n="1">! The string to digest</line>
+        <line t="X" i="151" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: buffer</line>
+        <line t="X" i="152" b="1" n="1"></line>
+        <line t="C" i="153" b="1" n="1">! Resulting hash</line>
+        <line t="X" i="154" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: res</line>
+        <line t="X" i="155" b="1" n="1"></line>
+        <line t="C" i="156" b="1" n="1">! Array for the message hash buffer</line>
+        <line t="X" i="157" b="1" n="1">  class(*), allocatable, dimension(:) :: H</line>
+        <line t="X" i="158" b="1" n="1"></line>
+        <line t="C" i="159" b="1" n="1">! Local variables</line>
+        <line t="X" i="160" b="1" n="1">  integer :: iblock</line>
+        <line t="X" i="161" b="1" n="1">  integer :: nblocks</line>
+        <line t="X" i="162" b="1" n="1">  integer :: ipos</line>
+        <line t="X" i="163" b="1" n="1">  integer :: mlength</line>
+        <line t="X" i="164" b="1" n="1">  integer :: input_length</line>
+        <line t="X" i="165" b="1" n="1">  integer :: hashsize</line>
+        <line t="X" i="166" b="1" n="1"></line>
+        <line t="C" i="167" b="1" n="1">! Initialise</line>
+        <line t="X" i="168" b="1" n="1">  mlength = this%get_size_of_M()</line>
+        <line t="X" i="169" b="1" n="1"></line>
+        <line t="C" i="170" b="1" n="1">! Store the message length</line>
+        <line t="X" i="171" b="1" n="1">  input_length = size(buffer)</line>
+        <line t="X" i="172" b="1" n="1"></line>
+        <line t="C" i="173" b="1" n="1">! Compute the number of blocks to process</line>
+        <line t="C" i="174" b="1" n="1">! This is the actual number of full 512-bit blocks</line>
+        <line t="X" i="175" b="1" n="1">  nblocks = input_length / mlength</line>
+        <line t="X" i="176" b="1" n="1"></line>
+        <line t="C" i="177" b="1" n="1">! Initialise the input string position</line>
+        <line t="X" i="178" b="1" n="1">  ipos = 1</line>
+        <line t="X" i="179" b="1" n="1"></line>
+        <line t="C" i="180" b="1" n="1">! Initialise hash</line>
+        <line t="X" i="181" b="1" n="1">  call this%initialise( H )</line>
+        <line t="X" i="182" b="1" n="1"></line>
+        <line t="C" i="183" b="1" n="1">! Loop on the expected blocks</line>
+        <line t="X" i="184" b="2" n="2">  do iblock = 1, nblocks</line>
+        <line t="X" i="185" b="2" n="2"></line>
+        <line t="C" i="186" b="2" n="2">!   Process the block (in local copy)</line>
+        <line t="X" i="187" b="2" n="2">    call this%process_block( buffer(ipos:ipos+mlength-1), H )</line>
+        <line t="X" i="188" b="2" n="2"></line>
+        <line t="C" i="189" b="2" n="2">!   Update the position in input string</line>
+        <line t="X" i="190" b="2" n="2">    ipos = ipos + mlength</line>
+        <line t="X" i="191" b="2" n="2"></line>
+        <line t="X" i="192" b="2" n="1">  end do</line>
+        <line t="X" i="193" b="2" n="1"></line>
+        <line t="C" i="194" b="2" n="1">! Process the last block</line>
+        <line t="C" i="195" b="2" n="1">! if len(6) = n * 64 exactly this next block is empty but still needs</line>
+        <line t="C" i="196" b="2" n="1">! to be processed as the last block with the trailing count of bytes</line>
+        <line t="X" i="197" b="2" n="1">  call this%process_last_block( buffer(ipos:), H, input_length )</line>
+        <line t="X" i="198" b="2" n="1"></line>
+        <line t="C" i="199" b="2" n="1">! Finalise</line>
+        <line t="X" i="200" b="2" n="1">  hashsize = this%get_hash_size()</line>
+        <line t="X" i="201" b="2" n="1">  allocate( res(hashsize), source=0_1 )</line>
+        <line t="X" i="202" b="2" n="1">  res = this%finalise( H )</line>
+        <line t="X" i="203" b="2" n="1"></line>
+        <line t="EF" i="204" b="2" n="1">end function hash_encode_buffer</line>
+        <line t="EF" i="205" b="1" n="1"></line>
+        <line t="EF" i="206" b="1" n="1"></line>
+        <line t="C" i="207" b="1" n="1">! Encode from input character string</line>
+        <line k="hash_encode_string" t="F" i="208" b="1" n="1">pure function hash_encode_string( this, s ) result(res)</line>
+        <line t="F" i="209" b="1" n="1"></line>
+        <line t="C" i="210" b="1" n="1">! The hash structure</line>
+        <line t="X" i="211" b="1" n="1">  class(t_hash), intent(in) :: this</line>
+        <line t="X" i="212" b="1" n="1"></line>
+        <line t="C" i="213" b="1" n="1">! The string to digest</line>
+        <line t="X" i="214" b="1" n="1">  character(len=*), intent(in) :: s</line>
+        <line t="X" i="215" b="1" n="1"></line>
+        <line t="C" i="216" b="1" n="1">! Resulting hash</line>
+        <line t="X" i="217" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: res</line>
+        <line t="X" i="218" b="1" n="1"></line>
+        <line t="C" i="219" b="1" n="1">! Convert to buffer and process</line>
+        <line t="X" i="220" b="1" n="1">  res = this%encode( character_to_bytes(s) )</line>
+        <line t="X" i="221" b="1" n="1"></line>
+        <line t="EF" i="222" b="1" n="1">end function hash_encode_string</line>
+        <line t="EF" i="223" b="1" n="1"></line>
+        <line t="EF" i="224" b="1" n="1"></line>
+        <line t="C" i="225" b="1" n="1">! Encode from file contents</line>
+        <line k="hash_encode_unit" t="F" i="226" b="1" n="1">function hash_encode_unit( this, unit, iostat ) result(res)</line>
+        <line t="F" i="227" b="1" n="1"></line>
+        <line t="C" i="228" b="1" n="1">! The hash structure</line>
+        <line t="X" i="229" b="1" n="1">  class(t_hash), intent(in) :: this</line>
+        <line t="X" i="230" b="1" n="1"></line>
+        <line t="C" i="231" b="1" n="1">! The Fortran unit for the file to digest</line>
+        <line t="C" i="232" b="1" n="1">! File must have been opened with access=stream</line>
+        <line t="X" i="233" b="1" n="1">  integer, intent(in) :: unit</line>
+        <line t="X" i="234" b="1" n="1"></line>
+        <line t="C" i="235" b="1" n="1">! The read status</line>
+        <line t="X" i="236" b="1" n="1">  integer, intent(out) :: iostat</line>
+        <line t="X" i="237" b="1" n="1"></line>
+        <line t="C" i="238" b="1" n="1">! Resulting hash</line>
+        <line t="X" i="239" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: res</line>
+        <line t="X" i="240" b="1" n="1"></line>
+        <line t="C" i="241" b="1" n="1">! Array for the message hash buffer</line>
+        <line t="X" i="242" b="1" n="1">  class(*), allocatable, dimension(:) :: H</line>
+        <line t="X" i="243" b="1" n="1"></line>
+        <line t="C" i="244" b="1" n="1">! File read control</line>
+        <line t="X" i="245" b="1" n="1">  integer :: nbytes</line>
+        <line t="X" i="246" b="1" n="1">  integer :: nreads</line>
+        <line t="X" i="247" b="1" n="1">  integer :: isize</line>
+        <line t="X" i="248" b="1" n="1">  integer :: input_length</line>
+        <line t="X" i="249" b="1" n="1">  integer :: hashsize</line>
+        <line t="X" i="250" b="1" n="1"></line>
+        <line t="C" i="251" b="1" n="1">! Read buffer of the same size as the algorithm message block</line>
+        <line t="X" i="252" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: M</line>
+        <line t="X" i="253" b="1" n="1"></line>
+        <line t="C" i="254" b="1" n="1">! Intialise</line>
+        <line t="X" i="255" b="1" n="1">  iostat = 0</line>
+        <line t="X" i="256" b="1" n="1">  nreads = 0</line>
+        <line t="X" i="257" b="1" n="1">  allocate( M(this%get_size_of_M()), source=0_1 )</line>
+        <line t="X" i="258" b="1" n="1"></line>
+        <line t="C" i="259" b="1" n="1">! Get the file size</line>
+        <line t="X" i="260" b="1" n="1">  inquire( unit=unit, size=nbytes )</line>
+        <line t="X" i="261" b="1" n="1"></line>
+        <line t="C" i="262" b="1" n="1">! Set the file size</line>
+        <line t="X" i="263" b="1" n="1">  input_length = nbytes</line>
+        <line t="X" i="264" b="1" n="1"></line>
+        <line t="C" i="265" b="1" n="1">! Initialise hash</line>
+        <line t="X" i="266" b="1" n="1">  call this%initialise( H )</line>
+        <line t="X" i="267" b="1" n="1"></line>
+        <line t="C" i="268" b="1" n="1">! Loop reading into the message block</line>
+        <line t="X" i="269" b="2" n="2">  do</line>
+        <line t="X" i="270" b="2" n="2"></line>
+        <line t="C" i="271" b="2" n="2">!   Reset block</line>
+        <line t="X" i="272" b="2" n="2">    M = 0_1</line>
+        <line t="X" i="273" b="2" n="2"></line>
+        <line t="C" i="274" b="2" n="2">!   Read into block</line>
+        <line t="X" i="275" b="2" n="2">    read( unit, iostat=iostat ) M</line>
+        <line t="X" i="276" b="3" n="3">    if( iostat &gt; 0 ) then</line>
+        <line t="X" i="277" b="3" n="3"></line>
+        <line t="C" i="278" b="3" n="3">!     This is an error; return</line>
+        <line t="X" i="279" b="3" n="3">      exit</line>
+        <line t="X" i="280" b="3" n="3"></line>
+        <line t="X" i="281" b="4" n="3">    else</line>
+        <line t="X" i="282" b="4" n="3"></line>
+        <line t="C" i="283" b="4" n="3">!     Check if a full buffer has been read</line>
+        <line t="X" i="284" b="5" n="4">      if( iostat == 0 ) then</line>
+        <line t="X" i="285" b="5" n="4"></line>
+        <line t="C" i="286" b="5" n="4">!       A full buffer has been read</line>
+        <line t="X" i="287" b="5" n="4">        nreads = nreads + 1</line>
+        <line t="X" i="288" b="5" n="4"></line>
+        <line t="C" i="289" b="5" n="4">!       Process the buffer</line>
+        <line t="X" i="290" b="5" n="4">        call this%process_block( M, H )</line>
+        <line t="X" i="291" b="5" n="4"></line>
+        <line t="X" i="292" b="6" n="4">      else if( iostat == iostat_end ) then</line>
+        <line t="X" i="293" b="6" n="4"></line>
+        <line t="C" i="294" b="6" n="4">!       End of the file</line>
+        <line t="C" i="295" b="6" n="4">!       Compute and set the total file size</line>
+        <line t="X" i="296" b="6" n="4">        isize = nbytes - nreads * size(M)</line>
+        <line t="X" i="297" b="6" n="4"></line>
+        <line t="C" i="298" b="6" n="4">!       Process the buffer</line>
+        <line t="X" i="299" b="6" n="4">        call this%process_last_block( M(:isize), H, input_length )</line>
+        <line t="X" i="300" b="6" n="4"></line>
+        <line t="C" i="301" b="6" n="4">!       Finalise the read loop</line>
+        <line t="X" i="302" b="6" n="4">        iostat = 0</line>
+        <line t="X" i="303" b="6" n="4">        exit</line>
+        <line t="X" i="304" b="6" n="4"></line>
+        <line t="X" i="305" b="6" n="3">      end if</line>
+        <line t="X" i="306" b="6" n="3"></line>
+        <line t="X" i="307" b="6" n="2">    end if</line>
+        <line t="X" i="308" b="6" n="2"></line>
+        <line t="X" i="309" b="6" n="1">  end do</line>
+        <line t="X" i="310" b="6" n="1"></line>
+        <line t="C" i="311" b="6" n="1">! Finalise</line>
+        <line t="X" i="312" b="6" n="1">  hashsize = this%get_hash_size()</line>
+        <line t="X" i="313" b="6" n="1">  allocate( res(hashsize), source=0_1 )</line>
+        <line t="X" i="314" b="6" n="1">  res = this%finalise( H )</line>
+        <line t="X" i="315" b="6" n="1"></line>
+        <line t="EF" i="316" b="6" n="1">end function hash_encode_unit</line>
+        <line t="EF" i="317" b="1" n="1"></line>
+        <line t="EF" i="318" b="1" n="1"></line>
+        <line t="C" i="319" b="1" n="1">! Process a message block</line>
+        <line k="hash_process_block" t="S" i="320" b="1" n="1">pure subroutine hash_process_block( this, M, H )</line>
+        <line t="S" i="321" b="1" n="1"></line>
+        <line t="C" i="322" b="1" n="1">! The hash structure</line>
+        <line t="X" i="323" b="1" n="1">  class(t_hash), intent(in) :: this</line>
+        <line t="X" i="324" b="1" n="1"></line>
+        <line t="C" i="325" b="1" n="1">! The input block</line>
+        <line t="X" i="326" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: M</line>
+        <line t="X" i="327" b="1" n="1"></line>
+        <line t="C" i="328" b="1" n="1">! Hash buffer</line>
+        <line t="X" i="329" b="1" n="1">  class(*), dimension(:), intent(inout) :: H</line>
+        <line t="X" i="330" b="1" n="1"></line>
+        <line t="C" i="331" b="1" n="1">! Update</line>
+        <line t="X" i="332" b="1" n="1">  call this%update( M, H )</line>
+        <line t="X" i="333" b="1" n="1"></line>
+        <line t="ES" i="334" b="1" n="1">end subroutine hash_process_block</line>
+        <line t="ES" i="335" b="1" n="1"></line>
+        <line t="ES" i="336" b="1" n="1"></line>
+        <line t="C" i="337" b="1" n="1">! Process an incomplete (trailing) message block</line>
+        <line k="hash_process_last_block" t="S" i="338" b="1" n="1">pure recursive subroutine hash_process_last_block( this, S, H, input_length )</line>
+        <line t="S" i="339" b="1" n="1"></line>
+        <line t="C" i="340" b="1" n="1">! The hash structure</line>
+        <line t="X" i="341" b="1" n="1">  class(t_hash), intent(in) :: this</line>
+        <line t="X" i="342" b="1" n="1"></line>
+        <line t="C" i="343" b="1" n="1">! The input block</line>
+        <line t="X" i="344" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: S</line>
+        <line t="X" i="345" b="1" n="1"></line>
+        <line t="C" i="346" b="1" n="1">! Hash buffer</line>
+        <line t="X" i="347" b="1" n="1">  class(*), dimension(:), intent(inout) :: H</line>
+        <line t="X" i="348" b="1" n="1"></line>
+        <line t="C" i="349" b="1" n="1">! The meassage total input length (required for trailing)</line>
+        <line t="X" i="350" b="1" n="1">  integer, intent(in) :: input_length</line>
+        <line t="X" i="351" b="1" n="1"></line>
+        <line t="C" i="352" b="1" n="1">! Local variables</line>
+        <line t="X" i="353" b="1" n="1">  integer :: slen</line>
+        <line t="X" i="354" b="1" n="1">  integer :: mlength</line>
+        <line t="X" i="355" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: M</line>
+        <line t="X" i="356" b="1" n="1"></line>
+        <line t="C" i="357" b="1" n="1">! Initialise local variables</line>
+        <line t="X" i="358" b="1" n="1">  mlength = this%get_size_of_M()</line>
+        <line t="X" i="359" b="1" n="1">  allocate( M(mlength), source=0_1 )</line>
+        <line t="X" i="360" b="1" n="1">  slen = size(s)</line>
+        <line t="X" i="361" b="1" n="1"></line>
+        <line t="C" i="362" b="1" n="1">! Insert the block into the processing message block</line>
+        <line t="X" i="363" b="1" n="1">  M(1:slen) = s</line>
+        <line t="X" i="364" b="1" n="1">  M(slen+1:) = hash_z00</line>
+        <line t="X" i="365" b="1" n="1"></line>
+        <line t="C" i="366" b="1" n="1">! Check if the trailing fits in the the reaminder of the block</line>
+        <line t="C" i="367" b="1" n="1">! At least 9 bytes are required at the end of the string</line>
+        <line t="X" i="368" b="2" n="2">  if( slen &gt; mlength - this%get_hash_trailing_size() - 1 ) then</line>
+        <line t="X" i="369" b="2" n="2"></line>
+        <line t="C" i="370" b="2" n="2">!   Pad the message block</line>
+        <line t="X" i="371" b="2" n="2">    call this%padding( M , slen+1 )</line>
+        <line t="X" i="372" b="2" n="2"></line>
+        <line t="C" i="373" b="2" n="2">!   Update</line>
+        <line t="X" i="374" b="2" n="2">    call this%update( M, H )</line>
+        <line t="X" i="375" b="2" n="2"></line>
+        <line t="C" i="376" b="2" n="2">!   Next block is zeroed except for the trailing</line>
+        <line t="X" i="377" b="2" n="2">    M = 0_1</line>
+        <line t="X" i="378" b="2" n="2"></line>
+        <line t="X" i="379" b="3" n="2">  else</line>
+        <line t="X" i="380" b="3" n="2"></line>
+        <line t="C" i="381" b="3" n="2">!   Pad the message block</line>
+        <line t="X" i="382" b="3" n="2">    call this%padding( M, slen+1 )</line>
+        <line t="X" i="383" b="3" n="2"></line>
+        <line t="X" i="384" b="3" n="1">  end if</line>
+        <line t="X" i="385" b="3" n="1"></line>
+        <line t="C" i="386" b="3" n="1">! Add the length trailer</line>
+        <line t="X" i="387" b="3" n="1">  call this%trailing( M, input_length, this%get_hash_trailing_size() )</line>
+        <line t="X" i="388" b="3" n="1"></line>
+        <line t="C" i="389" b="3" n="1">! Update</line>
+        <line t="X" i="390" b="3" n="1">  call this%update( M, H )</line>
+        <line t="X" i="391" b="3" n="1"></line>
+        <line t="X" i="392" b="3" n="1"></line>
+        <line t="ES" i="393" b="3" n="1">end subroutine hash_process_last_block</line>
+        <line t="ES" i="394" b="1" n="1"></line>
+        <line t="ES" i="395" b="1" n="1"></line>
+        <line t="C" i="396" b="1" n="1">! Hashing base padding</line>
+        <line k="hash_padding" t="S" i="397" b="1" n="1">pure subroutine hash_padding( M, position )</line>
+        <line t="S" i="398" b="1" n="1"></line>
+        <line t="C" i="399" b="1" n="1">! Message block</line>
+        <line t="X" i="400" b="1" n="1">  integer(kind=1), dimension(:), intent(inout) :: M</line>
+        <line t="X" i="401" b="1" n="1"></line>
+        <line t="C" i="402" b="1" n="1">! The postion to start padding</line>
+        <line t="X" i="403" b="1" n="1">  integer, intent(in) :: position</line>
+        <line t="X" i="404" b="1" n="1"></line>
+        <line t="C" i="405" b="1" n="1">! Add the first bit</line>
+        <line t="X" i="406" b="1" n="1">  M(position) = hash_z80</line>
+        <line t="X" i="407" b="1" n="1"></line>
+        <line t="C" i="408" b="1" n="1">! Padd with zeroes to the end of the buffer</line>
+        <line t="X" i="409" b="1" n="1">  M(position+1:) = hash_z00</line>
+        <line t="X" i="410" b="1" n="1"></line>
+        <line t="ES" i="411" b="1" n="1">end subroutine hash_padding</line>
+        <line t="ES" i="412" b="1" n="1"></line>
+        <line t="ES" i="413" b="1" n="1"></line>
+        <line t="C" i="414" b="1" n="1">! Hashing base trailing</line>
+        <line k="hash_trailing" t="S" i="415" b="1" n="1">pure subroutine hash_trailing( M, input_length, trailing_size )</line>
+        <line t="S" i="416" b="1" n="1"></line>
+        <line t="C" i="417" b="1" n="1">! Message block</line>
+        <line t="X" i="418" b="1" n="1">  integer(kind=1), dimension(:), target, intent(inout) :: M</line>
+        <line t="X" i="419" b="1" n="1"></line>
+        <line t="C" i="420" b="1" n="1">! The meassage total input length</line>
+        <line t="X" i="421" b="1" n="1">  integer, intent(in) :: input_length</line>
+        <line t="X" i="422" b="1" n="1"></line>
+        <line t="C" i="423" b="1" n="1">! Trailing size</line>
+        <line t="X" i="424" b="1" n="1">  integer, intent(in) :: trailing_size</line>
+        <line t="X" i="425" b="1" n="1"></line>
+        <line t="C" i="426" b="1" n="1">! Local variables</line>
+        <line t="X" i="427" b="1" n="1">  integer(kind=8), dimension(2) :: input_bit_length</line>
+        <line t="X" i="428" b="1" n="1">  integer :: mlength</line>
+        <line t="X" i="429" b="1" n="1">  integer(kind=1), dimension(:), allocatable :: Mtrail</line>
+        <line t="X" i="430" b="1" n="1">  integer :: n</line>
+        <line t="X" i="431" b="1" n="1"></line>
+        <line t="C" i="432" b="1" n="1">! Initialise</line>
+        <line t="X" i="433" b="1" n="1">  input_bit_length = [ 8_8 * input_length, 0_8 ]</line>
+        <line t="X" i="434" b="1" n="1">  mlength = size(M)</line>
+        <line t="X" i="435" b="1" n="1"></line>
+        <line t="C" i="436" b="1" n="1">! Assign the length</line>
+        <line t="X" i="437" b="1" n="1">  n = trailing_size - 1</line>
+        <line t="X" i="438" b="1" n="1"></line>
+        <line t="C" i="439" b="1" n="1">! Generate the trailing bytes</line>
+        <line t="X" i="440" b="1" n="1">  Mtrail = transfer( input_bit_length, Mtrail )</line>
+        <line t="X" i="441" b="1" n="1"></line>
+        <line t="C" i="442" b="1" n="1">! Set the trailing from the trailing bytes in reverse order estarting from the end</line>
+        <line t="X" i="443" b="1" n="1">  M(mlength-n+1:) = Mtrail(n:1:-1)</line>
+        <line t="X" i="444" b="1" n="1"></line>
+        <line t="ES" i="445" b="1" n="1">end subroutine hash_trailing</line>
+        <line t="ES" i="446" b="1" n="1"></line>
+        <line t="M" i="447" b="1" n="1">end module m_hash</line>
+        <line t="M" i="448" b="1" n="1"></line>
+    </code>
+</fmx>

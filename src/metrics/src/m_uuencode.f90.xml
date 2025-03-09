@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_uuencode.f90">
+    <context>
+        <time>2025-03-09T18:24:38</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Frypto</project>
+        <name>m_uuencode.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_uuencode" type="module">
+            <main>
+                <lines>
+                    <source percent="23.42">26</source>
+                    <comments percent="54.05">60</comments>
+                    <empty percent="22.52">25</empty>
+                    <total>111</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="uuencode_decode_block" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="47.22">17</source>
+                            <comments percent="30.56">11</comments>
+                            <empty percent="22.22">8</empty>
+                            <total>36</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="uuencode_default" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="36.36">4</source>
+                            <comments percent="27.27">3</comments>
+                            <empty percent="36.36">4</empty>
+                            <total>11</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="uuencode_encode_block" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="45.71">16</source>
+                            <comments percent="31.43">11</comments>
+                            <empty percent="22.86">8</empty>
+                            <total>35</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="uuencode_main" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="44.44">8</source>
+                            <comments percent="22.22">4</comments>
+                            <empty percent="33.33">6</empty>
+                            <total>18</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="uuencode_trail_len" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">7</source>
+                            <comments percent="28.57">6</comments>
+                            <empty percent="38.10">8</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="33.62">78</source>
+                    <comments percent="40.95">95</comments>
+                    <empty percent="25.43">59</empty>
+                    <total>232</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>1.80</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.40</average>
+                </nesting>
+                <methods>5</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="33.62">78</source>
+            <comments percent="40.95">95</comments>
+            <empty percent="25.43">59</empty>
+            <total>232</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>3</maximum>
+            <average>1.80</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>2</maximum>
+            <average>1.40</average>
+        </nesting>
+        <methods>5</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_uuencode</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2022, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Synopsis  : uuencode enconding</line>
+        <line t="C" i="9" b="0" n="0">!</line>
+        <line t="C" i="10" b="0" n="0">! Algorithm</line>
+        <line t="C" i="11" b="0" n="0">!  - Divide the input bytes stream into blocks of 3 bytes.</line>
+        <line t="C" i="12" b="0" n="0">!  - Divide the 24 bits of a 3-byte block into 4 groups of 6 bits.</line>
+        <line t="C" i="13" b="0" n="0">!  - If the last 3-byte block has only 1 byte of input data, pad 2 bytes of 1 (\x0101).</line>
+        <line t="C" i="14" b="0" n="0">!  - If the last 3-byte block has only 2 bytes of input data, pad 1 byte of 1 (\x01).</line>
+        <line t="C" i="15" b="0" n="0">!  - Expand each group of 6 bits to 8 bits and add 32, \x20, so the resulting</line>
+        <line t="C" i="16" b="0" n="0">!    bit map is representing an ASCII printable character.</line>
+        <line t="C" i="17" b="0" n="0">!</line>
+        <line t="C" i="18" b="0" n="0">! This implementation is for uuencoding only.</line>
+        <line t="C" i="19" b="0" n="0">! Line braking into 45 byte block and the leading byte with the number of</line>
+        <line t="C" i="20" b="0" n="0">! bytes encoded per line must be implemented in the user class.</line>
+        <line t="C" i="21" b="0" n="0">!</line>
+        <line t="C" i="22" b="0" n="0">! License   : This file is part of Frypto.</line>
+        <line t="C" i="23" b="0" n="0">!</line>
+        <line t="C" i="24" b="0" n="0">!             Frypto is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="25" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="26" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="27" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="28" b="0" n="0">!</line>
+        <line t="C" i="29" b="0" n="0">!             Frypto is distributed in the hope that it will be useful,</line>
+        <line t="C" i="30" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="31" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="32" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="33" b="0" n="0">!</line>
+        <line t="C" i="34" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="35" b="0" n="0">!             License along with Frypto.  </line>
+        <line t="C" i="36" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="37" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="38" b="0" n="0"></line>
+        <line t="C" i="39" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="40" b="0" n="0"></line>
+        <line t="X" i="41" b="0" n="0">  use m_ascii_encoder</line>
+        <line t="X" i="42" b="0" n="0"></line>
+        <line t="C" i="43" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="44" b="0" n="0"></line>
+        <line t="X" i="45" b="0" n="0">  implicit none</line>
+        <line t="X" i="46" b="0" n="0"></line>
+        <line t="C" i="47" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="48" b="0" n="0"></line>
+        <line t="X" i="49" b="0" n="0">  private</line>
+        <line t="X" i="50" b="0" n="0">  public t_uuencode</line>
+        <line t="X" i="51" b="0" n="0">  public uuencode</line>
+        <line t="X" i="52" b="0" n="0"></line>
+        <line t="C" i="53" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="54" b="0" n="0"></line>
+        <line t="C" i="55" b="0" n="0">!- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="56" b="0" n="0"></line>
+        <line t="C" i="57" b="0" n="0">! uuencode type</line>
+        <line t="T" i="58" b="0" n="0">  type, extends(t_ascii_encoder) :: t_uuencode</line>
+        <line t="X" i="59" b="0" n="0">    private</line>
+        <line t="X" i="60" b="0" n="0"></line>
+        <line t="X" i="61" b="0" n="0">    contains</line>
+        <line t="X" i="62" b="0" n="0"></line>
+        <line t="C" i="63" b="0" n="0">!     Block encoding</line>
+        <line t="X" i="64" b="0" n="0">      procedure, nopass :: encode_block =&gt; uuencode_encode_block</line>
+        <line t="X" i="65" b="0" n="0"></line>
+        <line t="C" i="66" b="0" n="0">!     Block decoding</line>
+        <line t="X" i="67" b="0" n="0">      procedure, nopass :: decode_block =&gt; uuencode_decode_block</line>
+        <line t="X" i="68" b="0" n="0"></line>
+        <line t="C" i="69" b="0" n="0">!     Length of the trailing part of the data</line>
+        <line t="X" i="70" b="0" n="0">      procedure, nopass :: trail_len =&gt; uuencode_trail_len</line>
+        <line t="X" i="71" b="0" n="0"></line>
+        <line t="T" i="72" b="0" n="0">  end type t_uuencode</line>
+        <line t="T" i="73" b="0" n="0"></line>
+        <line t="C" i="74" b="0" n="0">! Decoded block size</line>
+        <line t="X" i="75" b="0" n="0">  integer, parameter :: uuencode_blk_size = 3</line>
+        <line t="X" i="76" b="0" n="0"></line>
+        <line t="C" i="77" b="0" n="0">! Encoded block size</line>
+        <line t="X" i="78" b="0" n="0">  integer, parameter :: uuencode_cblk_size = 4</line>
+        <line t="X" i="79" b="0" n="0"></line>
+        <line t="C" i="80" b="0" n="0">! Padding constants</line>
+        <line t="X" i="81" b="0" n="0">  integer(kind=1), parameter :: uuencode_padding = 0_1</line>
+        <line t="X" i="82" b="0" n="0">  integer(kind=1), parameter :: uuencode_cpadding = ichar('`',1)</line>
+        <line t="X" i="83" b="0" n="0"></line>
+        <line t="C" i="84" b="0" n="0">! UUEncode algorithm constant</line>
+        <line t="X" i="85" b="0" n="0"> integer(kind=1), parameter :: uuencode_algo_offset =   32_1 ! z'20'</line>
+        <line t="X" i="86" b="0" n="0"></line>
+        <line t="C" i="87" b="0" n="0">! Padding map from decoded to encoded</line>
+        <line t="C" i="88" b="0" n="0">! Number of coded characters as function of characters in decoded block</line>
+        <line t="C" i="89" b="0" n="0">! A__ --&gt; XX==</line>
+        <line t="C" i="90" b="0" n="0">! AB_ --&gt; XXX=</line>
+        <line t="C" i="91" b="0" n="0">! ABC --&gt; XXXX</line>
+        <line t="X" i="92" b="0" n="0">  integer, dimension(1:3), parameter :: uuencode_encoded_trailing = [ 2, 3, 4 ]</line>
+        <line t="X" i="93" b="0" n="0"></line>
+        <line t="C" i="94" b="0" n="0">! Padding map from encoded to decoded</line>
+        <line t="C" i="95" b="0" n="0">! Number of coded characters as function of characters in coded block</line>
+        <line t="C" i="96" b="0" n="0">! XX== --&gt; A__</line>
+        <line t="C" i="97" b="0" n="0">! XXX= --&gt; AB_</line>
+        <line t="C" i="98" b="0" n="0">! XXXX --&gt; ABC</line>
+        <line t="X" i="99" b="0" n="0">  integer, dimension(1:4), parameter :: uuencode_decoded_trailing = [ 0, 1, 2, 3 ]</line>
+        <line t="X" i="100" b="0" n="0"></line>
+        <line t="C" i="101" b="0" n="0">! Constructor interface</line>
+        <line t="X" i="102" b="0" n="0">  interface uuencode</line>
+        <line t="X" i="103" b="0" n="0">    module procedure uuencode_default</line>
+        <line t="X" i="104" b="0" n="0">    module procedure uuencode_main</line>
+        <line t="X" i="105" b="0" n="0">  end interface uuencode</line>
+        <line t="X" i="106" b="0" n="0"></line>
+        <line t="C" i="107" b="0" n="0">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="108" b="0" n="0"></line>
+        <line t="X" i="109" b="0" n="0">contains</line>
+        <line t="X" i="110" b="0" n="0"></line>
+        <line t="C" i="111" b="0" n="0">! Default onstuctor</line>
+        <line k="uuencode_default" t="F" i="112" b="1" n="1">pure function uuencode_default() result(res)</line>
+        <line t="F" i="113" b="1" n="1"></line>
+        <line t="C" i="114" b="1" n="1">! The uuencode context</line>
+        <line t="X" i="115" b="1" n="1">  type(t_uuencode) :: res</line>
+        <line t="X" i="116" b="1" n="1"></line>
+        <line t="C" i="117" b="1" n="1">! Initialise the processing structures</line>
+        <line t="X" i="118" b="1" n="1">  res = uuencode( .true. )</line>
+        <line t="X" i="119" b="1" n="1"></line>
+        <line t="EF" i="120" b="1" n="1">end function uuencode_default</line>
+        <line t="EF" i="121" b="1" n="1"></line>
+        <line t="EF" i="122" b="1" n="1"></line>
+        <line t="C" i="123" b="1" n="1">! Main constuctor</line>
+        <line k="uuencode_main" t="F" i="124" b="1" n="1">pure function uuencode_main( padding ) result(res)</line>
+        <line t="F" i="125" b="1" n="1"></line>
+        <line t="C" i="126" b="1" n="1">! Flag to generate encoding with padding</line>
+        <line t="X" i="127" b="1" n="1">  logical, intent(in) :: padding</line>
+        <line t="X" i="128" b="1" n="1"></line>
+        <line t="C" i="129" b="1" n="1">! The uuencode context</line>
+        <line t="X" i="130" b="1" n="1">  type(t_uuencode) :: res</line>
+        <line t="X" i="131" b="1" n="1"></line>
+        <line t="C" i="132" b="1" n="1">! Initialise the processing structures</line>
+        <line t="X" i="133" b="1" n="1">  call res%initialise( uuencode_blk_size, uuencode_cblk_size, &amp;</line>
+        <line t="X" i="134" b="1" n="1">                       uuencode_padding, uuencode_cpadding, &amp;</line>
+        <line t="X" i="135" b="1" n="1">                       uuencode_encoded_trailing, uuencode_decoded_trailing, &amp;</line>
+        <line t="X" i="136" b="1" n="1">                       padding )</line>
+        <line t="X" i="137" b="1" n="1"></line>
+        <line t="EF" i="138" b="1" n="1">end function uuencode_main</line>
+        <line t="EF" i="139" b="1" n="1"></line>
+        <line t="EF" i="140" b="1" n="1"></line>
+        <line t="C" i="141" b="1" n="1">! UUencode encode one block</line>
+        <line k="uuencode_encode_block" t="S" i="142" b="1" n="1">pure subroutine uuencode_encode_block( blk, cblk )</line>
+        <line t="S" i="143" b="1" n="1"></line>
+        <line t="C" i="144" b="1" n="1">! The block to encode (3 bytes)</line>
+        <line t="X" i="145" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: blk</line>
+        <line t="X" i="146" b="1" n="1"></line>
+        <line t="C" i="147" b="1" n="1">! The encoded block (4 bytes)</line>
+        <line t="X" i="148" b="1" n="1">  integer(kind=1), dimension(:), intent(out) :: cblk</line>
+        <line t="X" i="149" b="1" n="1"></line>
+        <line t="C" i="150" b="1" n="1">! Patterns</line>
+        <line t="C" i="151" b="1" n="1">!        1         2         2         3         3         4  res</line>
+        <line t="C" i="152" b="1" n="1">!        1         1         2         2         3         3  blk</line>
+        <line t="C" i="153" b="1" n="1">!        1         2         3         4         5         6  pattern</line>
+        <line t="C" i="154" b="1" n="1">! 11111100  00000011  11110000  00001111  11000000  00111111</line>
+        <line t="C" i="155" b="1" n="1">!    z'FC'     z'03'     z'F0'     z'0F'     z'C0'     z'3F'</line>
+        <line t="X" i="156" b="1" n="1">  integer(kind=1), dimension(6) , parameter :: pattern = [ -4_1, 3_1, -16_1, 15_1, -64_1, 63_1 ]</line>
+        <line t="X" i="157" b="1" n="1"></line>
+        <line t="C" i="158" b="1" n="1">! Assign the resulting bytes from the 6-bit blocks</line>
+        <line t="X" i="159" b="1" n="1">  cblk(1) = ishft( iand( blk(1), pattern(1) ), -2 )</line>
+        <line t="X" i="160" b="1" n="1">  cblk(2) = ishft( iand( blk(1), pattern(2) ), 4 ) + &amp;</line>
+        <line t="X" i="161" b="1" n="1">            ishft( iand( blk(2), pattern(3) ), -4 )</line>
+        <line t="X" i="162" b="1" n="1">  cblk(3) = ishft( iand( blk(2), pattern(4) ), 2 ) + &amp;</line>
+        <line t="X" i="163" b="1" n="1">            ishft( iand( blk(3), pattern(5) ), -6 )</line>
+        <line t="X" i="164" b="1" n="1">  cblk(4) = iand( blk(3), pattern(6) )</line>
+        <line t="X" i="165" b="1" n="1"></line>
+        <line t="C" i="166" b="1" n="1">! Encode</line>
+        <line t="X" i="167" b="2" n="2">  where( cblk /= 0 )</line>
+        <line t="X" i="168" b="2" n="2">    cblk = cblk + uuencode_algo_offset</line>
+        <line t="X" i="169" b="3" n="2">  else where</line>
+        <line t="X" i="170" b="3" n="2">    cblk = uuencode_cpadding</line>
+        <line t="X" i="171" b="3" n="1">  end where</line>
+        <line t="X" i="172" b="3" n="1"></line>
+        <line t="ES" i="173" b="3" n="1">end subroutine uuencode_encode_block</line>
+        <line t="ES" i="174" b="1" n="1"></line>
+        <line t="ES" i="175" b="1" n="1"></line>
+        <line t="C" i="176" b="1" n="1">! UUencode decode one block</line>
+        <line k="uuencode_decode_block" t="S" i="177" b="1" n="1">pure subroutine uuencode_decode_block( cblk, blk )</line>
+        <line t="S" i="178" b="1" n="1"></line>
+        <line t="C" i="179" b="1" n="1">! The block to encode (4 bytes)</line>
+        <line t="X" i="180" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: cblk</line>
+        <line t="X" i="181" b="1" n="1"></line>
+        <line t="C" i="182" b="1" n="1">! The decoded block (3 bytes)</line>
+        <line t="X" i="183" b="1" n="1">  integer(kind=1), dimension(:), intent(out) :: blk</line>
+        <line t="X" i="184" b="1" n="1"></line>
+        <line t="C" i="185" b="1" n="1">! Patterns</line>
+        <line t="C" i="186" b="1" n="1">!        1         1         2         2         3         3</line>
+        <line t="C" i="187" b="1" n="1">!        1         2         2         3         3         4  blk</line>
+        <line t="C" i="188" b="1" n="1">!        1         2         3         4         5         6  pattern</line>
+        <line t="C" i="189" b="1" n="1">! 00111111  00110000  00001111  00111100  00000011  00111111</line>
+        <line t="C" i="190" b="1" n="1">!    z'3F'     z'30'     z'0F'     z'3C'     z'03'     z'3F'</line>
+        <line t="X" i="191" b="1" n="1">  integer(kind=1), dimension(6) , parameter :: pattern = [ 63_1, 48_1, 15_1, 60_1, 3_1, 63_1 ]</line>
+        <line t="X" i="192" b="1" n="1">  integer(kind=1), dimension(4) :: i6bit</line>
+        <line t="X" i="193" b="1" n="1"></line>
+        <line t="C" i="194" b="1" n="1">! Decode the 6-bit representation</line>
+        <line t="X" i="195" b="2" n="2">  where( cblk /= uuencode_cpadding )</line>
+        <line t="X" i="196" b="2" n="2">    i6bit = cblk - uuencode_algo_offset</line>
+        <line t="X" i="197" b="3" n="2">  else where</line>
+        <line t="X" i="198" b="3" n="2">    i6bit = 0_1</line>
+        <line t="X" i="199" b="3" n="1">  end where</line>
+        <line t="X" i="200" b="3" n="1"></line>
+        <line t="C" i="201" b="3" n="1">! Assign the resulting bytes from the 6-bit blocks</line>
+        <line t="X" i="202" b="3" n="1">  blk(1) = ishft( iand( i6bit(1), pattern(1) ), 2 ) + &amp;</line>
+        <line t="X" i="203" b="3" n="1">           ishft( iand( i6bit(2), pattern(2) ), -4 )</line>
+        <line t="X" i="204" b="3" n="1">  blk(2) = ishft( iand( i6bit(2), pattern(3) ), 4 ) + &amp;</line>
+        <line t="X" i="205" b="3" n="1">           ishft( iand( i6bit(3), pattern(4) ), -2 )</line>
+        <line t="X" i="206" b="3" n="1">  blk(3) = ishft( iand( i6bit(3), pattern(5) ), 6 ) + &amp;</line>
+        <line t="X" i="207" b="3" n="1">           iand( i6bit(4), pattern(6) )</line>
+        <line t="X" i="208" b="3" n="1"></line>
+        <line t="ES" i="209" b="3" n="1">end subroutine uuencode_decode_block</line>
+        <line t="ES" i="210" b="1" n="1"></line>
+        <line t="ES" i="211" b="1" n="1"></line>
+        <line t="C" i="212" b="1" n="1">! Return length of the trailing part of the data</line>
+        <line k="uuencode_trail_len" t="F" i="213" b="1" n="1">pure function uuencode_trail_len( text ) result(res)</line>
+        <line t="F" i="214" b="1" n="1"></line>
+        <line t="C" i="215" b="1" n="1">! The encoded block (4 bytes)</line>
+        <line t="X" i="216" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: text</line>
+        <line t="X" i="217" b="1" n="1"></line>
+        <line t="C" i="218" b="1" n="1">! The encoded data without padding</line>
+        <line t="X" i="219" b="1" n="1">  integer :: res</line>
+        <line t="X" i="220" b="1" n="1"></line>
+        <line t="C" i="221" b="1" n="1">! Local variables</line>
+        <line t="X" i="222" b="1" n="1">  integer(kind=1), dimension(uuencode_cblk_size) :: cblk</line>
+        <line t="X" i="223" b="1" n="1"></line>
+        <line t="C" i="224" b="1" n="1">! Initialise</line>
+        <line t="X" i="225" b="1" n="1">  cblk = text(size(text)-uuencode_cblk_size+1:)</line>
+        <line t="X" i="226" b="1" n="1"></line>
+        <line t="C" i="227" b="1" n="1">! Return the length</line>
+        <line t="X" i="228" b="1" n="1">  res = max( 2, size( pack( cblk, cblk /= uuencode_cpadding ) ) )</line>
+        <line t="X" i="229" b="1" n="1"></line>
+        <line t="EF" i="230" b="1" n="1">end function uuencode_trail_len</line>
+        <line t="EF" i="231" b="1" n="1"></line>
+        <line t="M" i="232" b="1" n="1">end module m_uuencode</line>
+        <line t="M" i="233" b="1" n="1"></line>
+    </code>
+</fmx>

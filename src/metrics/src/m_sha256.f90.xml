@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_sha256.f90">
+    <context>
+        <time>2025-03-09T18:24:38</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Frypto</project>
+        <name>m_sha256.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_sha256" type="module">
+            <main>
+                <lines>
+                    <source percent="37.61">41</source>
+                    <comments percent="40.37">44</comments>
+                    <empty percent="22.02">24</empty>
+                    <total>109</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="sha256_default" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="36.36">4</source>
+                            <comments percent="27.27">3</comments>
+                            <empty percent="36.36">4</empty>
+                            <total>11</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="sha256_get_hash_size" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="sha256_initialise" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="sha256_update" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="67.09">53</source>
+                            <comments percent="16.46">13</comments>
+                            <empty percent="16.46">13</empty>
+                            <total>79</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>6</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="47.53">106</source>
+                    <comments percent="29.60">66</comments>
+                    <empty percent="22.87">51</empty>
+                    <total>223</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>6</maximum>
+                    <average>2.25</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.25</average>
+                </nesting>
+                <methods>4</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="47.53">106</source>
+            <comments percent="29.60">66</comments>
+            <empty percent="22.87">51</empty>
+            <total>223</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>6</maximum>
+            <average>2.25</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>2</maximum>
+            <average>1.25</average>
+        </nesting>
+        <methods>4</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_sha256</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2022, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Reference : FIPS 180-2, Secure Hash Standard</line>
+        <line t="C" i="9" b="0" n="0">!             http://csrc.nist.gov/publications/fips/fips180-2/fips180-2.pdf</line>
+        <line t="C" i="10" b="0" n="0">! Synopsis  : Cryptographic Secure Hash Algorithm (SHA-256)</line>
+        <line t="C" i="11" b="0" n="0">!</line>
+        <line t="C" i="12" b="0" n="0">! License   : This file is part of Frypto.</line>
+        <line t="C" i="13" b="0" n="0">!</line>
+        <line t="C" i="14" b="0" n="0">!             Frypto is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="15" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="16" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="17" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="18" b="0" n="0">!</line>
+        <line t="C" i="19" b="0" n="0">!             Frypto is distributed in the hope that it will be useful,</line>
+        <line t="C" i="20" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="21" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="22" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="23" b="0" n="0">!</line>
+        <line t="C" i="24" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="25" b="0" n="0">!             License along with Frypto.  </line>
+        <line t="C" i="26" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="27" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="28" b="0" n="0"></line>
+        <line t="C" i="29" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="30" b="0" n="0"></line>
+        <line t="X" i="31" b="0" n="0">  use m_hash32</line>
+        <line t="X" i="32" b="0" n="0"></line>
+        <line t="C" i="33" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="34" b="0" n="0"></line>
+        <line t="X" i="35" b="0" n="0">  implicit none</line>
+        <line t="X" i="36" b="0" n="0"></line>
+        <line t="C" i="37" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="38" b="0" n="0"></line>
+        <line t="X" i="39" b="0" n="0">  private</line>
+        <line t="X" i="40" b="0" n="0">  public t_sha256</line>
+        <line t="X" i="41" b="0" n="0">  public sha256</line>
+        <line t="X" i="42" b="0" n="0"></line>
+        <line t="C" i="43" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="44" b="0" n="0"></line>
+        <line t="C" i="45" b="0" n="0">!- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="46" b="0" n="0"></line>
+        <line t="C" i="47" b="0" n="0">! Initial hash value</line>
+        <line t="X" i="48" b="0" n="0">  integer(kind=4), dimension(8), parameter :: H0 = &amp;</line>
+        <line t="X" i="49" b="0" n="0">    [ int(z'6a09e667'), int(z'bb67ae85'), int(z'3c6ef372'), int(z'a54ff53a'), &amp;</line>
+        <line t="X" i="50" b="0" n="0">      int(z'510e527f'), int(z'9b05688c'), int(z'1f83d9ab'), int(z'5be0cd19') ]</line>
+        <line t="X" i="51" b="0" n="0"></line>
+        <line t="C" i="52" b="0" n="0">! SHA-256 processing constants</line>
+        <line t="X" i="53" b="0" n="0">  integer(kind=4), dimension(64), parameter :: K = &amp;</line>
+        <line t="X" i="54" b="0" n="0">     [ int(z'428a2f98'), int(z'71374491'), int(z'b5c0fbcf'), int(z'e9b5dba5'), &amp;</line>
+        <line t="X" i="55" b="0" n="0">       int(z'3956c25b'), int(z'59f111f1'), int(z'923f82a4'), int(z'ab1c5ed5'), &amp;</line>
+        <line t="X" i="56" b="0" n="0">       int(z'd807aa98'), int(z'12835b01'), int(z'243185be'), int(z'550c7dc3'), &amp;</line>
+        <line t="X" i="57" b="0" n="0">       int(z'72be5d74'), int(z'80deb1fe'), int(z'9bdc06a7'), int(z'c19bf174'), &amp;</line>
+        <line t="X" i="58" b="0" n="0">       int(z'e49b69c1'), int(z'efbe4786'), int(z'0fc19dc6'), int(z'240ca1cc'), &amp;</line>
+        <line t="X" i="59" b="0" n="0">       int(z'2de92c6f'), int(z'4a7484aa'), int(z'5cb0a9dc'), int(z'76f988da'), &amp;</line>
+        <line t="X" i="60" b="0" n="0">       int(z'983e5152'), int(z'a831c66d'), int(z'b00327c8'), int(z'bf597fc7'), &amp;</line>
+        <line t="X" i="61" b="0" n="0">       int(z'c6e00bf3'), int(z'd5a79147'), int(z'06ca6351'), int(z'14292967'), &amp;</line>
+        <line t="X" i="62" b="0" n="0">       int(z'27b70a85'), int(z'2e1b2138'), int(z'4d2c6dfc'), int(z'53380d13'), &amp;</line>
+        <line t="X" i="63" b="0" n="0">       int(z'650a7354'), int(z'766a0abb'), int(z'81c2c92e'), int(z'92722c85'), &amp;</line>
+        <line t="X" i="64" b="0" n="0">       int(z'a2bfe8a1'), int(z'a81a664b'), int(z'c24b8b70'), int(z'c76c51a3'), &amp;</line>
+        <line t="X" i="65" b="0" n="0">       int(z'd192e819'), int(z'd6990624'), int(z'f40e3585'), int(z'106aa070'), &amp;</line>
+        <line t="X" i="66" b="0" n="0">       int(z'19a4c116'), int(z'1e376c08'), int(z'2748774c'), int(z'34b0bcb5'), &amp;</line>
+        <line t="X" i="67" b="0" n="0">       int(z'391c0cb3'), int(z'4ed8aa4a'), int(z'5b9cca4f'), int(z'682e6ff3'), &amp;</line>
+        <line t="X" i="68" b="0" n="0">       int(z'748f82ee'), int(z'78a5636f'), int(z'84c87814'), int(z'8cc70208'), &amp;</line>
+        <line t="X" i="69" b="0" n="0">       int(z'90befffa'), int(z'a4506ceb'), int(z'bef9a3f7'), int(z'c67178f2') ]</line>
+        <line t="X" i="70" b="0" n="0"></line>
+        <line t="C" i="71" b="0" n="0">! Size of the message block (512 bits = 64 bytes)</line>
+        <line t="X" i="72" b="0" n="0">  integer, parameter :: size_of_M = 64</line>
+        <line t="X" i="73" b="0" n="0"></line>
+        <line t="C" i="74" b="0" n="0">! Size of the message schedule</line>
+        <line t="X" i="75" b="0" n="0">  integer, parameter :: size_of_W = 64</line>
+        <line t="X" i="76" b="0" n="0"></line>
+        <line t="C" i="77" b="0" n="0">! Size of the hash (in 32-bit words)</line>
+        <line t="X" i="78" b="0" n="0">  integer, parameter :: size_of_H = 8</line>
+        <line t="X" i="79" b="0" n="0"></line>
+        <line t="C" i="80" b="0" n="0">! Hashing algorithm for SHA-256</line>
+        <line t="T" i="81" b="0" n="0">  type, extends(t_hash32) :: t_sha256</line>
+        <line t="X" i="82" b="0" n="0">    private</line>
+        <line t="X" i="83" b="0" n="0"></line>
+        <line t="X" i="84" b="0" n="0">    contains</line>
+        <line t="X" i="85" b="0" n="0"></line>
+        <line t="C" i="86" b="0" n="0">!     Hashing initialisation</line>
+        <line t="C" i="87" b="0" n="0">!     Initialises the hashing base message-digest operation</line>
+        <line t="X" i="88" b="0" n="0">      procedure, nopass :: initialise =&gt; sha256_initialise</line>
+        <line t="X" i="89" b="0" n="0"></line>
+        <line t="C" i="90" b="0" n="0">!     Hashing update operation</line>
+        <line t="C" i="91" b="0" n="0">!     Continues the message-digest operation, processing</line>
+        <line t="C" i="92" b="0" n="0">!     another message block, and updating the context</line>
+        <line t="X" i="93" b="0" n="0">      procedure :: update =&gt; sha256_update</line>
+        <line t="X" i="94" b="0" n="0"></line>
+        <line t="C" i="95" b="0" n="0">!     Get hash size</line>
+        <line t="X" i="96" b="0" n="0">      procedure, nopass :: get_hash_size =&gt; sha256_get_hash_size</line>
+        <line t="X" i="97" b="0" n="0"></line>
+        <line t="T" i="98" b="0" n="0">  end type t_sha256</line>
+        <line t="T" i="99" b="0" n="0"></line>
+        <line t="C" i="100" b="0" n="0">! Constructor interface</line>
+        <line t="X" i="101" b="0" n="0">  interface sha256</line>
+        <line t="X" i="102" b="0" n="0">    module procedure sha256_default</line>
+        <line t="X" i="103" b="0" n="0">  end interface sha256</line>
+        <line t="X" i="104" b="0" n="0"></line>
+        <line t="C" i="105" b="0" n="0">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="106" b="0" n="0"></line>
+        <line t="X" i="107" b="0" n="0">  contains</line>
+        <line t="X" i="108" b="0" n="0"></line>
+        <line t="C" i="109" b="0" n="0">! Default constructor</line>
+        <line k="sha256_default" t="F" i="110" b="1" n="1">pure function sha256_default() result(res)</line>
+        <line t="F" i="111" b="1" n="1"></line>
+        <line t="C" i="112" b="1" n="1">! Constructed structure</line>
+        <line t="X" i="113" b="1" n="1">  type(t_sha256) :: res</line>
+        <line t="X" i="114" b="1" n="1"></line>
+        <line t="C" i="115" b="1" n="1">! Initialise</line>
+        <line t="X" i="116" b="1" n="1">  res = t_sha256()</line>
+        <line t="X" i="117" b="1" n="1"></line>
+        <line t="EF" i="118" b="1" n="1">end function sha256_default</line>
+        <line t="EF" i="119" b="1" n="1"></line>
+        <line t="EF" i="120" b="1" n="1"></line>
+        <line t="C" i="121" b="1" n="1">! Initialisation</line>
+        <line k="sha256_initialise" t="S" i="122" b="1" n="1">pure subroutine sha256_initialise( H )</line>
+        <line t="S" i="123" b="1" n="1"></line>
+        <line t="C" i="124" b="1" n="1">! Initial value for hash buffer</line>
+        <line t="X" i="125" b="1" n="1">  class(*), allocatable, dimension(:), intent(inout) :: H</line>
+        <line t="X" i="126" b="1" n="1"></line>
+        <line t="C" i="127" b="1" n="1">! Return initial hash</line>
+        <line t="X" i="128" b="1" n="1">  allocate( H, source=H0 )</line>
+        <line t="X" i="129" b="1" n="1"></line>
+        <line t="ES" i="130" b="1" n="1">end subroutine sha256_initialise</line>
+        <line t="ES" i="131" b="1" n="1"></line>
+        <line t="ES" i="132" b="1" n="1"></line>
+        <line t="C" i="133" b="1" n="1">! Message disgst update</line>
+        <line k="sha256_update" t="S" i="134" b="1" n="1">pure subroutine sha256_update( this, M, H )</line>
+        <line t="S" i="135" b="1" n="1"></line>
+        <line t="C" i="136" b="1" n="1">! Calling object</line>
+        <line t="X" i="137" b="1" n="1">  class(t_sha256), intent(in) :: this</line>
+        <line t="X" i="138" b="1" n="1"></line>
+        <line t="C" i="139" b="1" n="1">! The message schedule</line>
+        <line t="X" i="140" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: M</line>
+        <line t="X" i="141" b="1" n="1"></line>
+        <line t="C" i="142" b="1" n="1">! Hash buffer</line>
+        <line t="X" i="143" b="1" n="1">  class(*), dimension(:), intent(inout) :: H</line>
+        <line t="X" i="144" b="1" n="1"></line>
+        <line t="C" i="145" b="1" n="1">! Local variables</line>
+        <line t="X" i="146" b="1" n="1">  integer :: i, j</line>
+        <line t="X" i="147" b="1" n="1">  integer(kind=4), dimension(size_of_W) :: W</line>
+        <line t="X" i="148" b="1" n="1">  integer(kind=4), dimension(size_of_H) :: HH</line>
+        <line t="X" i="149" b="1" n="1">  integer(kind=4) :: t1, t2</line>
+        <line t="X" i="150" b="1" n="1">  integer(kind=4) :: a, b, c, d, e, f, g, n</line>
+        <line t="X" i="151" b="1" n="1"></line>
+        <line t="C" i="152" b="1" n="1">! Initalise local variables</line>
+        <line t="X" i="153" b="1" n="1">  W = 0</line>
+        <line t="X" i="154" b="1" n="1">  HH = 0</line>
+        <line t="X" i="155" b="1" n="1"></line>
+        <line t="C" i="156" b="1" n="1">! Prepare the message schedule (1-16)</line>
+        <line t="C" i="157" b="1" n="1">! The transfer operations set for every double-word W four bytes from the message block</line>
+        <line t="C" i="158" b="1" n="1">! The message block is assigned left to right whereas W is assined right to left</line>
+        <line t="X" i="159" b="2" n="2">  do i = 1, 16</line>
+        <line t="X" i="160" b="2" n="2">    j = 4 * ( i - 1 ) + 1</line>
+        <line t="X" i="161" b="2" n="2">    w(i) = transfer( M(j+3:j:-1), w(i) )</line>
+        <line t="X" i="162" b="2" n="1">  end do</line>
+        <line t="X" i="163" b="2" n="1"></line>
+        <line t="C" i="164" b="2" n="1">! Prepare the message schedule (17-64)</line>
+        <line t="X" i="165" b="3" n="2">  do i = 17, size(w)</line>
+        <line t="X" i="166" b="3" n="2">    w(i) = this%low_s1(w(i-2)) + w(i-7) + this%low_s0(w(i-15)) + w(i-16)</line>
+        <line t="X" i="167" b="3" n="1">  end do</line>
+        <line t="X" i="168" b="3" n="1"></line>
+        <line t="C" i="169" b="3" n="1">! Initialise the intermediate variables</line>
+        <line t="X" i="170" b="3" n="2">  select type( H )</line>
+        <line t="X" i="171" b="4" n="2">    type is(integer)</line>
+        <line t="X" i="172" b="4" n="2">      a = H(1)</line>
+        <line t="X" i="173" b="4" n="2">      b = H(2)</line>
+        <line t="X" i="174" b="4" n="2">      c = H(3)</line>
+        <line t="X" i="175" b="4" n="2">      d = H(4)</line>
+        <line t="X" i="176" b="4" n="2">      e = H(5)</line>
+        <line t="X" i="177" b="4" n="2">      f = H(6)</line>
+        <line t="X" i="178" b="4" n="2">      g = H(7)</line>
+        <line t="X" i="179" b="4" n="2">      n = H(8)</line>
+        <line t="X" i="180" b="4" n="1">  end select</line>
+        <line t="X" i="181" b="4" n="1"></line>
+        <line t="C" i="182" b="4" n="1">! Cycle on the intermediate variables</line>
+        <line t="X" i="183" b="5" n="2">  do i = 1, size(w)</line>
+        <line t="X" i="184" b="5" n="2">    t1 = n + this%high_s1(e) + this%choose(e,f,g) + K(i) + w(i)</line>
+        <line t="X" i="185" b="5" n="2">    t2 = this%high_s0(a) + this%majority(a,b,c)</line>
+        <line t="X" i="186" b="5" n="2">    n = g</line>
+        <line t="X" i="187" b="5" n="2">    g = f</line>
+        <line t="X" i="188" b="5" n="2">    f = e</line>
+        <line t="X" i="189" b="5" n="2">    e = d + t1</line>
+        <line t="X" i="190" b="5" n="2">    d = c</line>
+        <line t="X" i="191" b="5" n="2">    c = b</line>
+        <line t="X" i="192" b="5" n="2">    b = a</line>
+        <line t="X" i="193" b="5" n="2">    a = t1 + t2</line>
+        <line t="X" i="194" b="5" n="1">  end do</line>
+        <line t="X" i="195" b="5" n="1"></line>
+        <line t="C" i="196" b="5" n="1">! Update the intermediate hash</line>
+        <line t="X" i="197" b="5" n="2">  select type( H )</line>
+        <line t="X" i="198" b="6" n="2">    type is(integer)</line>
+        <line t="X" i="199" b="6" n="2">      H(1) = a + H(1)</line>
+        <line t="X" i="200" b="6" n="2">      H(2) = b + H(2)</line>
+        <line t="X" i="201" b="6" n="2">      H(3) = c + H(3)</line>
+        <line t="X" i="202" b="6" n="2">      H(4) = d + H(4)</line>
+        <line t="X" i="203" b="6" n="2">      H(5) = e + H(5)</line>
+        <line t="X" i="204" b="6" n="2">      H(6) = f + H(6)</line>
+        <line t="X" i="205" b="6" n="2">      H(7) = g + H(7)</line>
+        <line t="X" i="206" b="6" n="2">      H(8) = n + H(8)</line>
+        <line t="X" i="207" b="6" n="1">  end select</line>
+        <line t="X" i="208" b="6" n="1"></line>
+        <line t="ES" i="209" b="6" n="1">end subroutine sha256_update</line>
+        <line t="ES" i="210" b="1" n="1"></line>
+        <line t="ES" i="211" b="1" n="1"></line>
+        <line t="C" i="212" b="1" n="1">! Get the hash size (bytes) for this algorithm</line>
+        <line k="sha256_get_hash_size" t="F" i="213" b="1" n="1">pure function sha256_get_hash_size() result(res)</line>
+        <line t="F" i="214" b="1" n="1"></line>
+        <line t="C" i="215" b="1" n="1">! Hash size</line>
+        <line t="X" i="216" b="1" n="1">  integer :: res</line>
+        <line t="X" i="217" b="1" n="1"></line>
+        <line t="C" i="218" b="1" n="1">! Return the size of the hash (in bytes)</line>
+        <line t="X" i="219" b="1" n="1">  res = 4 * size_of_H</line>
+        <line t="X" i="220" b="1" n="1"></line>
+        <line t="EF" i="221" b="1" n="1">end function sha256_get_hash_size</line>
+        <line t="EF" i="222" b="1" n="1"></line>
+        <line t="M" i="223" b="1" n="1">end module m_sha256</line>
+        <line t="M" i="224" b="1" n="1"></line>
+    </code>
+</fmx>

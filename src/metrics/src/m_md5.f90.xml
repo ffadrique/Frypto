@@ -1,0 +1,1286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_md5.f90">
+    <context>
+        <time>2025-03-09T18:24:38</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Frypto</project>
+        <name>m_md5.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_md5" type="module">
+            <main>
+                <lines>
+                    <source percent="59.11">120</source>
+                    <comments percent="25.12">51</comments>
+                    <empty percent="15.76">32</empty>
+                    <total>203</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="F" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">7</source>
+                            <comments percent="28.57">6</comments>
+                            <empty percent="38.10">8</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="FF" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="35.48">11</source>
+                            <comments percent="29.03">9</comments>
+                            <empty percent="35.48">11</empty>
+                            <total>31</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="G" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">7</source>
+                            <comments percent="28.57">6</comments>
+                            <empty percent="38.10">8</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="GG" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="35.48">11</source>
+                            <comments percent="29.03">9</comments>
+                            <empty percent="35.48">11</empty>
+                            <total>31</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="H" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">7</source>
+                            <comments percent="28.57">6</comments>
+                            <empty percent="38.10">8</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="HH" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="35.48">11</source>
+                            <comments percent="29.03">9</comments>
+                            <empty percent="35.48">11</empty>
+                            <total>31</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="I" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">7</source>
+                            <comments percent="28.57">6</comments>
+                            <empty percent="38.10">8</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="II" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="35.48">11</source>
+                            <comments percent="29.03">9</comments>
+                            <empty percent="35.48">11</empty>
+                            <total>31</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="md5_decode" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="43.48">10</source>
+                            <comments percent="26.09">6</comments>
+                            <empty percent="30.43">7</empty>
+                            <total>23</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="md5_default" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="36.36">4</source>
+                            <comments percent="27.27">3</comments>
+                            <empty percent="36.36">4</empty>
+                            <total>11</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="md5_encode" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="43.48">10</source>
+                            <comments percent="26.09">6</comments>
+                            <empty percent="30.43">7</empty>
+                            <total>23</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="md5_encode_buffer" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">7</source>
+                            <comments percent="28.57">6</comments>
+                            <empty percent="38.10">8</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="md5_encode_string" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">7</source>
+                            <comments percent="28.57">6</comments>
+                            <empty percent="38.10">8</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="md5_encode_unit" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="40.79">31</source>
+                            <comments percent="25.00">19</comments>
+                            <empty percent="34.21">26</empty>
+                            <total>76</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>6</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>4</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="md5_finalise" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="44.74">17</source>
+                            <comments percent="26.32">10</comments>
+                            <empty percent="28.95">11</empty>
+                            <total>38</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="md5_get_hash" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="md5_initialise" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="53.33">8</source>
+                            <comments percent="13.33">2</comments>
+                            <empty percent="33.33">5</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="md5_transform" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="74.76">77</source>
+                            <comments percent="11.65">12</comments>
+                            <empty percent="13.59">14</empty>
+                            <total>103</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="md5_update" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="44.93">31</source>
+                            <comments percent="26.09">18</comments>
+                            <empty percent="28.99">20</empty>
+                            <total>69</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>6</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>4</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="48.31">399</source>
+                    <comments percent="24.58">203</comments>
+                    <empty percent="27.12">224</empty>
+                    <total>826</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>6</maximum>
+                    <average>1.74</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>4</maximum>
+                    <average>1.47</average>
+                </nesting>
+                <methods>19</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="48.31">399</source>
+            <comments percent="24.58">203</comments>
+            <empty percent="27.12">224</empty>
+            <total>826</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>6</maximum>
+            <average>1.74</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>4</maximum>
+            <average>1.47</average>
+        </nesting>
+        <methods>19</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_md5</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2022, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Reference : https://www.ietf.org/rfc/rfc1321.txt</line>
+        <line t="C" i="9" b="0" n="0">!             http://tools.ietf.org/html/rfc1321</line>
+        <line t="C" i="10" b="0" n="0">! Synopsis  : Cryptographic Message Digest Algorithm 5 (MD5)</line>
+        <line t="C" i="11" b="0" n="0">!</line>
+        <line t="C" i="12" b="0" n="0">! License   : This file is part of Frypto.</line>
+        <line t="C" i="13" b="0" n="0">!</line>
+        <line t="C" i="14" b="0" n="0">!             Frypto is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="15" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="16" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="17" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="18" b="0" n="0">!</line>
+        <line t="C" i="19" b="0" n="0">!             Frypto is distributed in the hope that it will be useful,</line>
+        <line t="C" i="20" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="21" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="22" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="23" b="0" n="0">!</line>
+        <line t="C" i="24" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="25" b="0" n="0">!             License along with Frypto.  </line>
+        <line t="C" i="26" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="27" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="28" b="0" n="0"></line>
+        <line t="C" i="29" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="30" b="0" n="0"></line>
+        <line t="X" i="31" b="0" n="0">  use, intrinsic :: iso_fortran_env</line>
+        <line t="X" i="32" b="0" n="0"></line>
+        <line t="X" i="33" b="0" n="0">  use m_util_convert</line>
+        <line t="X" i="34" b="0" n="0">  use m_object</line>
+        <line t="X" i="35" b="0" n="0"></line>
+        <line t="C" i="36" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="37" b="0" n="0"></line>
+        <line t="X" i="38" b="0" n="0">  implicit none</line>
+        <line t="X" i="39" b="0" n="0"></line>
+        <line t="C" i="40" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="41" b="0" n="0"></line>
+        <line t="X" i="42" b="0" n="0">  private</line>
+        <line t="X" i="43" b="0" n="0">  public t_md5</line>
+        <line t="X" i="44" b="0" n="0">  public md5</line>
+        <line t="X" i="45" b="0" n="0"></line>
+        <line t="C" i="46" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="47" b="0" n="0"></line>
+        <line t="C" i="48" b="0" n="0">!- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="49" b="0" n="0"></line>
+        <line t="C" i="50" b="0" n="0">! Model constants</line>
+        <line t="X" i="51" b="0" n="0">  integer(kind=4), parameter :: S11 = 7</line>
+        <line t="X" i="52" b="0" n="0">  integer(kind=4), parameter :: S12 = 12</line>
+        <line t="X" i="53" b="0" n="0">  integer(kind=4), parameter :: S13 = 17</line>
+        <line t="X" i="54" b="0" n="0">  integer(kind=4), parameter :: S14 = 22</line>
+        <line t="X" i="55" b="0" n="0">  integer(kind=4), parameter :: S21 = 5</line>
+        <line t="X" i="56" b="0" n="0">  integer(kind=4), parameter :: S22 = 9</line>
+        <line t="X" i="57" b="0" n="0">  integer(kind=4), parameter :: S23 = 14</line>
+        <line t="X" i="58" b="0" n="0">  integer(kind=4), parameter :: S24 = 20</line>
+        <line t="X" i="59" b="0" n="0">  integer(kind=4), parameter :: S31 = 4</line>
+        <line t="X" i="60" b="0" n="0">  integer(kind=4), parameter :: S32 = 11</line>
+        <line t="X" i="61" b="0" n="0">  integer(kind=4), parameter :: S33 = 16</line>
+        <line t="X" i="62" b="0" n="0">  integer(kind=4), parameter :: S34 = 23</line>
+        <line t="X" i="63" b="0" n="0">  integer(kind=4), parameter :: S41 = 6</line>
+        <line t="X" i="64" b="0" n="0">  integer(kind=4), parameter :: S42 = 10</line>
+        <line t="X" i="65" b="0" n="0">  integer(kind=4), parameter :: S43 = 15</line>
+        <line t="X" i="66" b="0" n="0">  integer(kind=4), parameter :: S44 = 21</line>
+        <line t="X" i="67" b="0" n="0"></line>
+        <line t="C" i="68" b="0" n="0">! Round 1 constants</line>
+        <line t="X" i="69" b="0" n="0">  integer(kind=4), parameter :: z101 = int(z'd76aa478')</line>
+        <line t="X" i="70" b="0" n="0">  integer(kind=4), parameter :: z102 = int(z'e8c7b756')</line>
+        <line t="X" i="71" b="0" n="0">  integer(kind=4), parameter :: z103 = int(z'242070db')</line>
+        <line t="X" i="72" b="0" n="0">  integer(kind=4), parameter :: z104 = int(z'c1bdceee')</line>
+        <line t="X" i="73" b="0" n="0">  integer(kind=4), parameter :: z105 = int(z'f57c0faf')</line>
+        <line t="X" i="74" b="0" n="0">  integer(kind=4), parameter :: z106 = int(z'4787c62a')</line>
+        <line t="X" i="75" b="0" n="0">  integer(kind=4), parameter :: z107 = int(z'a8304613')</line>
+        <line t="X" i="76" b="0" n="0">  integer(kind=4), parameter :: z108 = int(z'fd469501')</line>
+        <line t="X" i="77" b="0" n="0">  integer(kind=4), parameter :: z109 = int(z'698098d8')</line>
+        <line t="X" i="78" b="0" n="0">  integer(kind=4), parameter :: z110 = int(z'8b44f7af')</line>
+        <line t="X" i="79" b="0" n="0">  integer(kind=4), parameter :: z111 = int(z'ffff5bb1')</line>
+        <line t="X" i="80" b="0" n="0">  integer(kind=4), parameter :: z112 = int(z'895cd7be')</line>
+        <line t="X" i="81" b="0" n="0">  integer(kind=4), parameter :: z113 = int(z'6b901122')</line>
+        <line t="X" i="82" b="0" n="0">  integer(kind=4), parameter :: z114 = int(z'fd987193')</line>
+        <line t="X" i="83" b="0" n="0">  integer(kind=4), parameter :: z115 = int(z'a679438e')</line>
+        <line t="X" i="84" b="0" n="0">  integer(kind=4), parameter :: z116 = int(z'49b40821')</line>
+        <line t="X" i="85" b="0" n="0"></line>
+        <line t="C" i="86" b="0" n="0">! Round 2 constants</line>
+        <line t="X" i="87" b="0" n="0">  integer(kind=4), parameter :: z201 = int(z'f61e2562')</line>
+        <line t="X" i="88" b="0" n="0">  integer(kind=4), parameter :: z202 = int(z'c040b340')</line>
+        <line t="X" i="89" b="0" n="0">  integer(kind=4), parameter :: z203 = int(z'265e5a51')</line>
+        <line t="X" i="90" b="0" n="0">  integer(kind=4), parameter :: z204 = int(z'e9b6c7aa')</line>
+        <line t="X" i="91" b="0" n="0">  integer(kind=4), parameter :: z205 = int(z'd62f105d')</line>
+        <line t="X" i="92" b="0" n="0">  integer(kind=4), parameter :: z206 = int(z'02441453')</line>
+        <line t="X" i="93" b="0" n="0">  integer(kind=4), parameter :: z207 = int(z'd8a1e681')</line>
+        <line t="X" i="94" b="0" n="0">  integer(kind=4), parameter :: z208 = int(z'e7d3fbc8')</line>
+        <line t="X" i="95" b="0" n="0">  integer(kind=4), parameter :: z209 = int(z'21e1cde6')</line>
+        <line t="X" i="96" b="0" n="0">  integer(kind=4), parameter :: z210 = int(z'c33707d6')</line>
+        <line t="X" i="97" b="0" n="0">  integer(kind=4), parameter :: z211 = int(z'f4d50d87')</line>
+        <line t="X" i="98" b="0" n="0">  integer(kind=4), parameter :: z212 = int(z'455a14ed')</line>
+        <line t="X" i="99" b="0" n="0">  integer(kind=4), parameter :: z213 = int(z'a9e3e905')</line>
+        <line t="X" i="100" b="0" n="0">  integer(kind=4), parameter :: z214 = int(z'fcefa3f8')</line>
+        <line t="X" i="101" b="0" n="0">  integer(kind=4), parameter :: z215 = int(z'676f02d9')</line>
+        <line t="X" i="102" b="0" n="0">  integer(kind=4), parameter :: z216 = int(z'8d2a4c8a')</line>
+        <line t="X" i="103" b="0" n="0"></line>
+        <line t="C" i="104" b="0" n="0">! Round 3 constants</line>
+        <line t="X" i="105" b="0" n="0">  integer(kind=4), parameter :: z301 = int(z'fffa3942')</line>
+        <line t="X" i="106" b="0" n="0">  integer(kind=4), parameter :: z302 = int(z'8771f681')</line>
+        <line t="X" i="107" b="0" n="0">  integer(kind=4), parameter :: z303 = int(z'6d9d6122')</line>
+        <line t="X" i="108" b="0" n="0">  integer(kind=4), parameter :: z304 = int(z'fde5380c')</line>
+        <line t="X" i="109" b="0" n="0">  integer(kind=4), parameter :: z305 = int(z'a4beea44')</line>
+        <line t="X" i="110" b="0" n="0">  integer(kind=4), parameter :: z306 = int(z'4bdecfa9')</line>
+        <line t="X" i="111" b="0" n="0">  integer(kind=4), parameter :: z307 = int(z'f6bb4b60')</line>
+        <line t="X" i="112" b="0" n="0">  integer(kind=4), parameter :: z308 = int(z'bebfbc70')</line>
+        <line t="X" i="113" b="0" n="0">  integer(kind=4), parameter :: z309 = int(z'289b7ec6')</line>
+        <line t="X" i="114" b="0" n="0">  integer(kind=4), parameter :: z310 = int(z'eaa127fa')</line>
+        <line t="X" i="115" b="0" n="0">  integer(kind=4), parameter :: z311 = int(z'd4ef3085')</line>
+        <line t="X" i="116" b="0" n="0">  integer(kind=4), parameter :: z312 = int(z'04881d05')</line>
+        <line t="X" i="117" b="0" n="0">  integer(kind=4), parameter :: z313 = int(z'd9d4d039')</line>
+        <line t="X" i="118" b="0" n="0">  integer(kind=4), parameter :: z314 = int(z'e6db99e5')</line>
+        <line t="X" i="119" b="0" n="0">  integer(kind=4), parameter :: z315 = int(z'1fa27cf8')</line>
+        <line t="X" i="120" b="0" n="0">  integer(kind=4), parameter :: z316 = int(z'c4ac5665')</line>
+        <line t="X" i="121" b="0" n="0"></line>
+        <line t="C" i="122" b="0" n="0">! Round 4 constants</line>
+        <line t="X" i="123" b="0" n="0">  integer(kind=4), parameter :: z401 = int(z'f4292244')</line>
+        <line t="X" i="124" b="0" n="0">  integer(kind=4), parameter :: z402 = int(z'432aff97')</line>
+        <line t="X" i="125" b="0" n="0">  integer(kind=4), parameter :: z403 = int(z'ab9423a7')</line>
+        <line t="X" i="126" b="0" n="0">  integer(kind=4), parameter :: z404 = int(z'fc93a039')</line>
+        <line t="X" i="127" b="0" n="0">  integer(kind=4), parameter :: z405 = int(z'655b59c3')</line>
+        <line t="X" i="128" b="0" n="0">  integer(kind=4), parameter :: z406 = int(z'8f0ccc92')</line>
+        <line t="X" i="129" b="0" n="0">  integer(kind=4), parameter :: z407 = int(z'ffeff47d')</line>
+        <line t="X" i="130" b="0" n="0">  integer(kind=4), parameter :: z408 = int(z'85845dd1')</line>
+        <line t="X" i="131" b="0" n="0">  integer(kind=4), parameter :: z409 = int(z'6fa87e4f')</line>
+        <line t="X" i="132" b="0" n="0">  integer(kind=4), parameter :: z410 = int(z'fe2ce6e0')</line>
+        <line t="X" i="133" b="0" n="0">  integer(kind=4), parameter :: z411 = int(z'a3014314')</line>
+        <line t="X" i="134" b="0" n="0">  integer(kind=4), parameter :: z412 = int(z'4e0811a1')</line>
+        <line t="X" i="135" b="0" n="0">  integer(kind=4), parameter :: z413 = int(z'f7537e82')</line>
+        <line t="X" i="136" b="0" n="0">  integer(kind=4), parameter :: z414 = int(z'bd3af235')</line>
+        <line t="X" i="137" b="0" n="0">  integer(kind=4), parameter :: z415 = int(z'2ad7d2bb')</line>
+        <line t="X" i="138" b="0" n="0">  integer(kind=4), parameter :: z416 = int(z'eb86d391')</line>
+        <line t="X" i="139" b="0" n="0"></line>
+        <line t="C" i="140" b="0" n="0">! Initial state</line>
+        <line t="X" i="141" b="0" n="0">  integer(kind=4), dimension(4), parameter :: state0 = &amp;</line>
+        <line t="X" i="142" b="0" n="0">        [ int( z'67452301' ), int (z'efcdab89' ), int( z'98badcfe' ), int( z'10325476' ) ]</line>
+        <line t="X" i="143" b="0" n="0">  </line>
+        <line t="C" i="144" b="0" n="0">! Bit sequence padding</line>
+        <line t="C" i="145" b="0" n="0">! gfortran does not accept -128_1, therefore it is initialise as kind=2 and then converted to kind=1 </line>
+        <line t="X" i="146" b="0" n="0">  integer(kind=2), parameter, dimension(64) :: padding2 = [ &amp;</line>
+        <line t="X" i="147" b="0" n="0">    -128_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, &amp;</line>
+        <line t="X" i="148" b="0" n="0">       0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, &amp;</line>
+        <line t="X" i="149" b="0" n="0">       0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, &amp;</line>
+        <line t="X" i="150" b="0" n="0">       0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2, 0_2  ]</line>
+        <line t="X" i="151" b="0" n="0">  integer(kind=1), dimension(64) :: padding = int( padding2, 1 )</line>
+        <line t="X" i="152" b="0" n="0"></line>
+        <line t="C" i="153" b="0" n="0">! Reference buffer size constant</line>
+        <line t="X" i="154" b="0" n="0"> integer(kind=4), parameter :: z3f = int(z'3f')</line>
+        <line t="X" i="155" b="0" n="0"></line>
+        <line t="C" i="156" b="0" n="0">! MD5 type</line>
+        <line t="T" i="157" b="0" n="0">  type, extends(t_object) :: t_md5</line>
+        <line t="X" i="158" b="0" n="0">    private</line>
+        <line t="X" i="159" b="0" n="0"></line>
+        <line t="X" i="160" b="0" n="0">      integer(kind=4), dimension(4) :: state = state0</line>
+        <line t="X" i="161" b="0" n="0">      integer(kind=4), dimension(2) :: count = 0</line>
+        <line t="X" i="162" b="0" n="0">      integer(kind=1), dimension(64) :: buffer = 0_1</line>
+        <line t="X" i="163" b="0" n="0">      integer(kind=1), dimension(16) :: digest = 0_1</line>
+        <line t="X" i="164" b="0" n="0">      logical :: finalised = .false.</line>
+        <line t="X" i="165" b="0" n="0"></line>
+        <line t="X" i="166" b="0" n="0">    contains</line>
+        <line t="X" i="167" b="0" n="0"></line>
+        <line t="C" i="168" b="0" n="0">!     Encode a character string or from open file</line>
+        <line t="X" i="169" b="0" n="0">      generic :: encode =&gt; md5_encode_string, md5_encode_buffer, md5_encode_unit</line>
+        <line t="X" i="170" b="0" n="0">      procedure, private :: md5_encode_string</line>
+        <line t="X" i="171" b="0" n="0">      procedure, private :: md5_encode_buffer</line>
+        <line t="X" i="172" b="0" n="0">      procedure, private :: md5_encode_unit</line>
+        <line t="X" i="173" b="0" n="0"></line>
+        <line t="C" i="174" b="0" n="0">!     Get interfaces</line>
+        <line t="X" i="175" b="0" n="0">      procedure :: get_hash =&gt; md5_get_hash</line>
+        <line t="X" i="176" b="0" n="0"></line>
+        <line t="C" i="177" b="0" n="0">!     MD5 hashing initialisation</line>
+        <line t="X" i="178" b="0" n="0">      procedure, private :: md5_initialise</line>
+        <line t="X" i="179" b="0" n="0"></line>
+        <line t="C" i="180" b="0" n="0">!     MD5 block update operation.</line>
+        <line t="C" i="181" b="0" n="0">!     Continues an MD5 message-digest operation, processing</line>
+        <line t="C" i="182" b="0" n="0">!     another message block, and updating the context.</line>
+        <line t="X" i="183" b="0" n="0">      procedure, private :: md5_update</line>
+        <line t="X" i="184" b="0" n="0"></line>
+        <line t="C" i="185" b="0" n="0">!     MD5 basic transformation. Transforms state based on block.</line>
+        <line t="X" i="186" b="0" n="0">      procedure, private :: md5_transform</line>
+        <line t="X" i="187" b="0" n="0"></line>
+        <line t="C" i="188" b="0" n="0">!     MD5 finalization. Ends an MD5 message-digest operation,</line>
+        <line t="C" i="189" b="0" n="0">!     generating the message digest and zeroizing the context.</line>
+        <line t="X" i="190" b="0" n="0">      procedure, private :: md5_finalise</line>
+        <line t="X" i="191" b="0" n="0"></line>
+        <line t="T" i="192" b="0" n="0">  end type t_md5</line>
+        <line t="T" i="193" b="0" n="0"></line>
+        <line t="C" i="194" b="0" n="0">! Constructor interface</line>
+        <line t="X" i="195" b="0" n="0">  interface md5</line>
+        <line t="X" i="196" b="0" n="0">    module procedure md5_default</line>
+        <line t="X" i="197" b="0" n="0">  end interface md5</line>
+        <line t="X" i="198" b="0" n="0"></line>
+        <line t="C" i="199" b="0" n="0">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="200" b="0" n="0"></line>
+        <line t="X" i="201" b="0" n="0">contains</line>
+        <line t="X" i="202" b="0" n="0"></line>
+        <line t="C" i="203" b="0" n="0">! Default constructor</line>
+        <line k="md5_default" t="F" i="204" b="1" n="1">elemental function md5_default() result(res)</line>
+        <line t="F" i="205" b="1" n="1"></line>
+        <line t="C" i="206" b="1" n="1">! The MD5 structure</line>
+        <line t="X" i="207" b="1" n="1">  type(t_md5) :: res</line>
+        <line t="X" i="208" b="1" n="1"></line>
+        <line t="C" i="209" b="1" n="1">! Initialise</line>
+        <line t="X" i="210" b="1" n="1">  res = t_md5()</line>
+        <line t="X" i="211" b="1" n="1"></line>
+        <line t="EF" i="212" b="1" n="1">end function md5_default</line>
+        <line t="EF" i="213" b="1" n="1"></line>
+        <line t="EF" i="214" b="1" n="1"></line>
+        <line t="C" i="215" b="1" n="1">! Encode from character string</line>
+        <line k="md5_encode_string" t="S" i="216" b="1" n="1">elemental subroutine md5_encode_string( this, string )</line>
+        <line t="S" i="217" b="1" n="1"></line>
+        <line t="C" i="218" b="1" n="1">! The MD5 structure</line>
+        <line t="X" i="219" b="1" n="1">  class(t_md5), intent(inout) :: this</line>
+        <line t="X" i="220" b="1" n="1"></line>
+        <line t="C" i="221" b="1" n="1">! The string to digest</line>
+        <line t="X" i="222" b="1" n="1">  character(len=*), intent(in) :: string</line>
+        <line t="X" i="223" b="1" n="1"></line>
+        <line t="C" i="224" b="1" n="1">! Initialise</line>
+        <line t="X" i="225" b="1" n="1">  call this%md5_initialise()</line>
+        <line t="X" i="226" b="1" n="1"></line>
+        <line t="C" i="227" b="1" n="1">  ! Process the input string</line>
+        <line t="X" i="228" b="1" n="1">  call this%md5_update( character_to_bytes(string) )</line>
+        <line t="X" i="229" b="1" n="1"></line>
+        <line t="C" i="230" b="1" n="1">! Finalise the digest</line>
+        <line t="X" i="231" b="1" n="1">  call this%md5_finalise()</line>
+        <line t="X" i="232" b="1" n="1"></line>
+        <line t="ES" i="233" b="1" n="1">end subroutine md5_encode_string</line>
+        <line t="ES" i="234" b="1" n="1"></line>
+        <line t="ES" i="235" b="1" n="1"></line>
+        <line t="C" i="236" b="1" n="1">! Encode from byte buffer</line>
+        <line k="md5_encode_buffer" t="S" i="237" b="1" n="1">pure subroutine md5_encode_buffer( this, buffer )</line>
+        <line t="S" i="238" b="1" n="1"></line>
+        <line t="C" i="239" b="1" n="1">! The MD5 structure</line>
+        <line t="X" i="240" b="1" n="1">  class(t_md5), intent(inout) :: this</line>
+        <line t="X" i="241" b="1" n="1"></line>
+        <line t="C" i="242" b="1" n="1">! The buffer to digest</line>
+        <line t="X" i="243" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: buffer</line>
+        <line t="X" i="244" b="1" n="1"></line>
+        <line t="C" i="245" b="1" n="1">! Initialise</line>
+        <line t="X" i="246" b="1" n="1">  call this%md5_initialise()</line>
+        <line t="X" i="247" b="1" n="1"></line>
+        <line t="C" i="248" b="1" n="1">! Process the input string</line>
+        <line t="X" i="249" b="1" n="1">  call this%md5_update( buffer )</line>
+        <line t="X" i="250" b="1" n="1"></line>
+        <line t="C" i="251" b="1" n="1">! Finalise the digest</line>
+        <line t="X" i="252" b="1" n="1">  call this%md5_finalise()</line>
+        <line t="X" i="253" b="1" n="1"></line>
+        <line t="ES" i="254" b="1" n="1">end subroutine md5_encode_buffer</line>
+        <line t="ES" i="255" b="1" n="1"></line>
+        <line t="ES" i="256" b="1" n="1"></line>
+        <line t="C" i="257" b="1" n="1">! Encode file contents</line>
+        <line k="md5_encode_unit" t="S" i="258" b="1" n="1">subroutine md5_encode_unit( this, unit, iostat )</line>
+        <line t="S" i="259" b="1" n="1"></line>
+        <line t="C" i="260" b="1" n="1">! The MD5 structure</line>
+        <line t="X" i="261" b="1" n="1">  class(t_md5), intent(inout) :: this</line>
+        <line t="X" i="262" b="1" n="1"></line>
+        <line t="C" i="263" b="1" n="1">! The Fortran unit for the file to digest</line>
+        <line t="X" i="264" b="1" n="1">  integer, intent(in) :: unit</line>
+        <line t="X" i="265" b="1" n="1"></line>
+        <line t="C" i="266" b="1" n="1">! The read status</line>
+        <line t="X" i="267" b="1" n="1">  integer, intent(out) :: iostat</line>
+        <line t="X" i="268" b="1" n="1"></line>
+        <line t="C" i="269" b="1" n="1">! File read control</line>
+        <line t="X" i="270" b="1" n="1">  integer :: nbytes</line>
+        <line t="X" i="271" b="1" n="1">  integer :: nreads</line>
+        <line t="X" i="272" b="1" n="1"></line>
+        <line t="C" i="273" b="1" n="1">! Local variables</line>
+        <line t="X" i="274" b="1" n="1">  integer(kind=1), dimension(1024) :: buffer</line>
+        <line t="X" i="275" b="1" n="1">  integer :: isize</line>
+        <line t="X" i="276" b="1" n="1"></line>
+        <line t="C" i="277" b="1" n="1">! Initialise</line>
+        <line t="X" i="278" b="1" n="1">  call this%md5_initialise()</line>
+        <line t="X" i="279" b="1" n="1">  iostat = 0</line>
+        <line t="X" i="280" b="1" n="1">  nreads = 0</line>
+        <line t="X" i="281" b="1" n="1"></line>
+        <line t="C" i="282" b="1" n="1">! Get the file size</line>
+        <line t="X" i="283" b="1" n="1">  inquire( unit=unit, size=nbytes )</line>
+        <line t="X" i="284" b="1" n="1"></line>
+        <line t="C" i="285" b="1" n="1">! Loop reading into the buffer</line>
+        <line t="X" i="286" b="2" n="2">  do</line>
+        <line t="X" i="287" b="2" n="2"></line>
+        <line t="C" i="288" b="2" n="2">!   Reset buffer</line>
+        <line t="X" i="289" b="2" n="2">    buffer = 0_1</line>
+        <line t="X" i="290" b="2" n="2"></line>
+        <line t="C" i="291" b="2" n="2">!   Read into buffer</line>
+        <line t="X" i="292" b="2" n="2">    read( unit, iostat=iostat ) buffer</line>
+        <line t="X" i="293" b="3" n="3">    if( iostat &gt; 0 ) then</line>
+        <line t="X" i="294" b="3" n="3"></line>
+        <line t="C" i="295" b="3" n="3">!     This is an error; return</line>
+        <line t="X" i="296" b="3" n="3">      exit</line>
+        <line t="X" i="297" b="3" n="3"></line>
+        <line t="X" i="298" b="4" n="3">    else</line>
+        <line t="X" i="299" b="4" n="3"></line>
+        <line t="C" i="300" b="4" n="3">!     Check if a full buffer has been read</line>
+        <line t="X" i="301" b="5" n="4">      if( iostat == 0 ) then</line>
+        <line t="X" i="302" b="5" n="4"></line>
+        <line t="C" i="303" b="5" n="4">!       A full buffer has been read</line>
+        <line t="X" i="304" b="5" n="4">        nreads = nreads + 1</line>
+        <line t="X" i="305" b="5" n="4"></line>
+        <line t="C" i="306" b="5" n="4">!       Process the buffer</line>
+        <line t="X" i="307" b="5" n="4">        call this%md5_update( buffer )</line>
+        <line t="X" i="308" b="5" n="4"></line>
+        <line t="X" i="309" b="6" n="4">      else if( iostat == iostat_end ) then</line>
+        <line t="X" i="310" b="6" n="4"></line>
+        <line t="C" i="311" b="6" n="4">!       End of the file; check the number of read elements in last call</line>
+        <line t="X" i="312" b="6" n="4">        isize = nbytes - nreads * size(buffer)</line>
+        <line t="X" i="313" b="6" n="4"></line>
+        <line t="C" i="314" b="6" n="4">!       Process the buffer</line>
+        <line t="X" i="315" b="6" n="4">        call this%md5_update( buffer(:isize) )</line>
+        <line t="X" i="316" b="6" n="4"></line>
+        <line t="C" i="317" b="6" n="4">!       Finalise the read loop</line>
+        <line t="X" i="318" b="6" n="4">        iostat = 0</line>
+        <line t="X" i="319" b="6" n="4">        exit</line>
+        <line t="X" i="320" b="6" n="4"></line>
+        <line t="X" i="321" b="6" n="3">      end if</line>
+        <line t="X" i="322" b="6" n="3"></line>
+        <line t="X" i="323" b="6" n="2">    end if</line>
+        <line t="X" i="324" b="6" n="2"></line>
+        <line t="X" i="325" b="6" n="1">  end do</line>
+        <line t="X" i="326" b="6" n="1"></line>
+        <line t="C" i="327" b="6" n="1">! Finalise the digest</line>
+        <line t="X" i="328" b="6" n="1">  call this%md5_finalise()</line>
+        <line t="X" i="329" b="6" n="1"></line>
+        <line t="ES" i="330" b="6" n="1">end subroutine md5_encode_unit</line>
+        <line t="ES" i="331" b="1" n="1"></line>
+        <line t="ES" i="332" b="1" n="1"></line>
+        <line t="C" i="333" b="1" n="1">! Initialise MD5 hashing</line>
+        <line k="md5_initialise" t="S" i="334" b="1" n="1">pure subroutine md5_initialise( this )</line>
+        <line t="S" i="335" b="1" n="1"></line>
+        <line t="C" i="336" b="1" n="1">! The MD5 structure</line>
+        <line t="X" i="337" b="1" n="1">  class(t_md5), intent(inout) :: this</line>
+        <line t="X" i="338" b="1" n="1"></line>
+        <line t="X" i="339" b="1" n="1">  this%state = state0</line>
+        <line t="X" i="340" b="1" n="1">  this%count = 0</line>
+        <line t="X" i="341" b="1" n="1">  this%buffer = 0_1</line>
+        <line t="X" i="342" b="1" n="1">  this%digest = 0_1</line>
+        <line t="X" i="343" b="1" n="1">  this%finalised = .false.</line>
+        <line t="X" i="344" b="1" n="1"></line>
+        <line t="ES" i="345" b="1" n="1">end subroutine md5_initialise</line>
+        <line t="ES" i="346" b="1" n="1"></line>
+        <line t="ES" i="347" b="1" n="1"></line>
+        <line t="C" i="348" b="1" n="1">! MD5 block update operation.</line>
+        <line t="C" i="349" b="1" n="1">! Continues an MD5 message-digest operation, processing</line>
+        <line t="C" i="350" b="1" n="1">! another message block, and updating the context.</line>
+        <line k="md5_update" t="S" i="351" b="1" n="1">pure subroutine md5_update( this, input )</line>
+        <line t="S" i="352" b="1" n="1"></line>
+        <line t="C" i="353" b="1" n="1">! The MD5 structure</line>
+        <line t="X" i="354" b="1" n="1">  class(t_md5), intent(inout) :: this</line>
+        <line t="X" i="355" b="1" n="1"></line>
+        <line t="C" i="356" b="1" n="1">! The input block</line>
+        <line t="X" i="357" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: input</line>
+        <line t="X" i="358" b="1" n="1"></line>
+        <line t="C" i="359" b="1" n="1">! Local variables</line>
+        <line t="X" i="360" b="1" n="1">  integer :: input_index, buffer_index</line>
+        <line t="X" i="361" b="1" n="1">  integer :: input_length</line>
+        <line t="X" i="362" b="1" n="1">  integer :: buffer_space</line>
+        <line t="X" i="363" b="1" n="1">  integer :: iaux</line>
+        <line t="X" i="364" b="1" n="1"></line>
+        <line t="C" i="365" b="1" n="1">! Check if finalised</line>
+        <line t="X" i="366" b="2" n="2">  if( .not. this%finalised ) then</line>
+        <line t="X" i="367" b="2" n="2"></line>
+        <line t="C" i="368" b="2" n="2">!   Compute the input length</line>
+        <line t="X" i="369" b="2" n="2">    input_length = size(input)</line>
+        <line t="X" i="370" b="2" n="2"></line>
+        <line t="C" i="371" b="2" n="2">!   Compute number of bytes mod 64</line>
+        <line t="X" i="372" b="2" n="2">    buffer_index = iand( ishft( this%count(1), -3), z3f ) + 1</line>
+        <line t="X" i="373" b="2" n="2"></line>
+        <line t="C" i="374" b="2" n="2">!   Update number of bits</line>
+        <line t="X" i="375" b="2" n="2">    iaux = ishft( input_length, 3 )</line>
+        <line t="X" i="376" b="2" n="2">    this%count(1) = this%count(1) + iaux</line>
+        <line t="X" i="377" b="3" n="3">    if( this%count(1) &lt; iaux ) then</line>
+        <line t="X" i="378" b="3" n="3">      this%count(2) = this%count(2) + 1</line>
+        <line t="X" i="379" b="3" n="2">    end if</line>
+        <line t="X" i="380" b="3" n="2">    this%count(2) = ishft( input_length, -29 )</line>
+        <line t="X" i="381" b="3" n="2"></line>
+        <line t="C" i="382" b="3" n="2">!   How much space is left in buffer</line>
+        <line t="X" i="383" b="3" n="2">    buffer_space = 64 - buffer_index + 1</line>
+        <line t="X" i="384" b="3" n="2"></line>
+        <line t="C" i="385" b="3" n="2">!   Transform as many times as possible.</line>
+        <line t="X" i="386" b="4" n="3">   if( input_length &gt;= buffer_space ) then</line>
+        <line t="X" i="387" b="4" n="3"></line>
+        <line t="C" i="388" b="4" n="3">!     We have enough to fill the buffer</line>
+        <line t="C" i="389" b="4" n="3">!     Fill the rest of the buffer and transform</line>
+        <line t="X" i="390" b="4" n="3">      this%buffer(buffer_index:buffer_index+buffer_space-1) = input(:buffer_space)</line>
+        <line t="X" i="391" b="4" n="3">      call this%md5_transform( this%buffer )</line>
+        <line t="X" i="392" b="4" n="3"></line>
+        <line t="C" i="393" b="4" n="3">!     Transform each 64-byte piece of the input, bypassing the buffer</line>
+        <line t="X" i="394" b="5" n="4">      do input_index = buffer_space + 1, input_length - 63, 64</line>
+        <line t="X" i="395" b="5" n="4">        call this%md5_transform( input(input_index:) )</line>
+        <line t="X" i="396" b="5" n="3">      end do</line>
+        <line t="X" i="397" b="5" n="3"></line>
+        <line t="C" i="398" b="5" n="3">!     Reset the buffer index so we can buffer remaining</line>
+        <line t="X" i="399" b="5" n="3">      buffer_index = 1</line>
+        <line t="X" i="400" b="5" n="3"></line>
+        <line t="X" i="401" b="6" n="3">    else</line>
+        <line t="X" i="402" b="6" n="3"></line>
+        <line t="C" i="403" b="6" n="3">!     Reset the buffer index so we can buffer the whole input</line>
+        <line t="X" i="404" b="6" n="3">      input_index = 1</line>
+        <line t="X" i="405" b="6" n="3"></line>
+        <line t="X" i="406" b="6" n="2">    end if</line>
+        <line t="X" i="407" b="6" n="2"></line>
+        <line t="C" i="408" b="6" n="2">!   Do the buffering</line>
+        <line t="X" i="409" b="6" n="2">    this%buffer(buffer_index:buffer_index+input_length-input_index) = &amp;</line>
+        <line t="X" i="410" b="6" n="2">                     input(input_index:input_index+input_length-input_index)</line>
+        <line t="X" i="411" b="6" n="2"></line>
+        <line t="X" i="412" b="6" n="1">  end if</line>
+        <line t="X" i="413" b="6" n="1"></line>
+        <line t="ES" i="414" b="6" n="1">end subroutine md5_update</line>
+        <line t="ES" i="415" b="1" n="1"></line>
+        <line t="ES" i="416" b="1" n="1"></line>
+        <line t="C" i="417" b="1" n="1">! MD5 basic transformation. Transforms state based on block.</line>
+        <line k="md5_transform" t="S" i="418" b="1" n="1">pure subroutine md5_transform( this, block )</line>
+        <line t="S" i="419" b="1" n="1"></line>
+        <line t="C" i="420" b="1" n="1">! The MD5 structure</line>
+        <line t="X" i="421" b="1" n="1">  class(t_md5), intent(inout) :: this</line>
+        <line t="X" i="422" b="1" n="1"></line>
+        <line t="C" i="423" b="1" n="1">! The block to process</line>
+        <line t="X" i="424" b="1" n="1">  integer(kind=1), dimension(1:64), intent(in) :: block</line>
+        <line t="X" i="425" b="1" n="1"></line>
+        <line t="C" i="426" b="1" n="1">! Local variables</line>
+        <line t="X" i="427" b="1" n="1">  integer(kind=4) :: a, b, c, d</line>
+        <line t="X" i="428" b="1" n="1">  integer(kind=4), dimension(16) :: x</line>
+        <line t="X" i="429" b="1" n="1"></line>
+        <line t="C" i="430" b="1" n="1">! Initialise</line>
+        <line t="X" i="431" b="1" n="1">  a = this%state(1)</line>
+        <line t="X" i="432" b="1" n="1">  b = this%state(2)</line>
+        <line t="X" i="433" b="1" n="1">  c = this%state(3)</line>
+        <line t="X" i="434" b="1" n="1">  d = this%state(4)</line>
+        <line t="X" i="435" b="1" n="1"></line>
+        <line t="C" i="436" b="1" n="1">! Decode the block</line>
+        <line t="X" i="437" b="1" n="1">  call md5_decode( block, x )</line>
+        <line t="X" i="438" b="1" n="1"></line>
+        <line t="C" i="439" b="1" n="1">! Round 1</line>
+        <line t="X" i="440" b="1" n="1">  call FF( a, b, c, d, x( 1), S11, z101 )</line>
+        <line t="X" i="441" b="1" n="1">  call FF( d, a, b, c, x( 2), S12, z102 )</line>
+        <line t="X" i="442" b="1" n="1">  call FF( c, d, a, b, x( 3), S13, z103 )</line>
+        <line t="X" i="443" b="1" n="1">  call FF( b, c, d, a, x( 4), S14, z104 )</line>
+        <line t="X" i="444" b="1" n="1">  call FF( a, b, c, d, x( 5), S11, z105 )</line>
+        <line t="X" i="445" b="1" n="1">  call FF( d, a, b, c, x( 6), S12, z106 )</line>
+        <line t="X" i="446" b="1" n="1">  call FF( c, d, a, b, x( 7), S13, z107 )</line>
+        <line t="X" i="447" b="1" n="1">  call FF( b, c, d, a, x( 8), S14, z108 )</line>
+        <line t="X" i="448" b="1" n="1">  call FF( a, b, c, d, x( 9), S11, z109 )</line>
+        <line t="X" i="449" b="1" n="1">  call FF( d, a, b, c, x(10), S12, z110 )</line>
+        <line t="X" i="450" b="1" n="1">  call FF( c, d, a, b, x(11), S13, z111 )</line>
+        <line t="X" i="451" b="1" n="1">  call FF( b, c, d, a, x(12), S14, z112 )</line>
+        <line t="X" i="452" b="1" n="1">  call FF( a, b, c, d, x(13), S11, z113 )</line>
+        <line t="X" i="453" b="1" n="1">  call FF( d, a, b, c, x(14), S12, z114 )</line>
+        <line t="X" i="454" b="1" n="1">  call FF( c, d, a, b, x(15), S13, z115 )</line>
+        <line t="X" i="455" b="1" n="1">  call FF( b, c, d, a, x(16), S14, z116 )</line>
+        <line t="X" i="456" b="1" n="1"></line>
+        <line t="C" i="457" b="1" n="1">! Round 2</line>
+        <line t="X" i="458" b="1" n="1">  call GG( a, b, c, d, x( 2), S21, z201 )</line>
+        <line t="X" i="459" b="1" n="1">  call GG( d, a, b, c, x( 7), S22, z202 )</line>
+        <line t="X" i="460" b="1" n="1">  call GG( c, d, a, b, x(12), S23, z203 )</line>
+        <line t="X" i="461" b="1" n="1">  call GG( b, c, d, a, x( 1), S24, z204 )</line>
+        <line t="X" i="462" b="1" n="1">  call GG( a, b, c, d, x( 6), S21, z205 )</line>
+        <line t="X" i="463" b="1" n="1">  call GG( d, a, b, c, x(11), S22, z206 )</line>
+        <line t="X" i="464" b="1" n="1">  call GG( c, d, a, b, x(16), S23, z207 )</line>
+        <line t="X" i="465" b="1" n="1">  call GG( b, c, d, a, x( 5), S24, z208 )</line>
+        <line t="X" i="466" b="1" n="1">  call GG( a, b, c, d, x(10), S21, z209 )</line>
+        <line t="X" i="467" b="1" n="1">  call GG( d, a, b, c, x(15), S22, z210 )</line>
+        <line t="X" i="468" b="1" n="1">  call GG( c, d, a, b, x( 4), S23, z211 )</line>
+        <line t="X" i="469" b="1" n="1">  call GG( b, c, d, a, x( 9), S24, z212 )</line>
+        <line t="X" i="470" b="1" n="1">  call GG( a, b, c, d, x(14), S21, z213 )</line>
+        <line t="X" i="471" b="1" n="1">  call GG( d, a, b, c, x( 3), S22, z214 )</line>
+        <line t="X" i="472" b="1" n="1">  call GG( c, d, a, b, x( 8), S23, z215 )</line>
+        <line t="X" i="473" b="1" n="1">  call GG( b, c, d, a, x(13), S24, z216 )</line>
+        <line t="X" i="474" b="1" n="1"></line>
+        <line t="C" i="475" b="1" n="1">! Round 3</line>
+        <line t="X" i="476" b="1" n="1">  call HH( a, b, c, d, x( 6), S31, z301 )</line>
+        <line t="X" i="477" b="1" n="1">  call HH( d, a, b, c, x( 9), S32, z302 )</line>
+        <line t="X" i="478" b="1" n="1">  call HH( c, d, a, b, x(12), S33, z303 )</line>
+        <line t="X" i="479" b="1" n="1">  call HH( b, c, d, a, x(15), S34, z304 )</line>
+        <line t="X" i="480" b="1" n="1">  call HH( a, b, c, d, x( 2), S31, z305 )</line>
+        <line t="X" i="481" b="1" n="1">  call HH( d, a, b, c, x( 5), S32, z306 )</line>
+        <line t="X" i="482" b="1" n="1">  call HH( c, d, a, b, x( 8), S33, z307 )</line>
+        <line t="X" i="483" b="1" n="1">  call HH( b, c, d, a, x(11), S34, z308 )</line>
+        <line t="X" i="484" b="1" n="1">  call HH( a, b, c, d, x(14), S31, z309 )</line>
+        <line t="X" i="485" b="1" n="1">  call HH( d, a, b, c, x( 1), S32, z310 )</line>
+        <line t="X" i="486" b="1" n="1">  call HH( c, d, a, b, x( 4), S33, z311 )</line>
+        <line t="X" i="487" b="1" n="1">  call HH( b, c, d, a, x( 7), S34, z312 )</line>
+        <line t="X" i="488" b="1" n="1">  call HH( a, b, c, d, x(10), S31, z313 )</line>
+        <line t="X" i="489" b="1" n="1">  call HH( d, a, b, c, x(13), S32, z314 )</line>
+        <line t="X" i="490" b="1" n="1">  call HH( c, d, a, b, x(16), S33, z315 )</line>
+        <line t="X" i="491" b="1" n="1">  call HH( b, c, d, a, x( 3), S34, z316 )</line>
+        <line t="X" i="492" b="1" n="1"></line>
+        <line t="C" i="493" b="1" n="1">! Round 4</line>
+        <line t="X" i="494" b="1" n="1">  call II( a, b, c, d, x( 1), S41, z401 )</line>
+        <line t="X" i="495" b="1" n="1">  call II( d, a, b, c, x( 8), S42, z402 )</line>
+        <line t="X" i="496" b="1" n="1">  call II( c, d, a, b, x(15), S43, z403 )</line>
+        <line t="X" i="497" b="1" n="1">  call II( b, c, d, a, x( 6), S44, z404 )</line>
+        <line t="X" i="498" b="1" n="1">  call II( a, b, c, d, x(13), S41, z405 )</line>
+        <line t="X" i="499" b="1" n="1">  call II( d, a, b, c, x( 4), S42, z406 )</line>
+        <line t="X" i="500" b="1" n="1">  call II( c, d, a, b, x(11), S43, z407 )</line>
+        <line t="X" i="501" b="1" n="1">  call II( b, c, d, a, x( 2), S44, z408 )</line>
+        <line t="X" i="502" b="1" n="1">  call II( a, b, c, d, x( 9), S41, z409 )</line>
+        <line t="X" i="503" b="1" n="1">  call II( d, a, b, c, x(16), S42, z410 )</line>
+        <line t="X" i="504" b="1" n="1">  call II( c, d, a, b, x( 7), S43, z411 )</line>
+        <line t="X" i="505" b="1" n="1">  call II( b, c, d, a, x(14), S44, z412 )</line>
+        <line t="X" i="506" b="1" n="1">  call II( a, b, c, d, x( 5), S41, z413 )</line>
+        <line t="X" i="507" b="1" n="1">  call II( d, a, b, c, x(12), S42, z414 )</line>
+        <line t="X" i="508" b="1" n="1">  call II( c, d, a, b, x( 3), S43, z415 )</line>
+        <line t="X" i="509" b="1" n="1">  call II( b, c, d, a, x(10), S44, z416 )</line>
+        <line t="X" i="510" b="1" n="1"></line>
+        <line t="C" i="511" b="1" n="1">! Set state</line>
+        <line t="X" i="512" b="1" n="1">  this%state = this%state + [ a, b, c, d ]</line>
+        <line t="X" i="513" b="1" n="1"></line>
+        <line t="C" i="514" b="1" n="1">! Zeroize sensitive information</line>
+        <line t="X" i="515" b="1" n="1">  x = 0</line>
+        <line t="X" i="516" b="1" n="1"></line>
+        <line t="ES" i="517" b="1" n="1">end subroutine md5_transform</line>
+        <line t="ES" i="518" b="1" n="1"></line>
+        <line t="ES" i="519" b="1" n="1"></line>
+        <line t="C" i="520" b="1" n="1">! MD5 finalization. Ends an MD5 message-digest operation,</line>
+        <line t="C" i="521" b="1" n="1">! generating the message digest and zeroizing the context.</line>
+        <line k="md5_finalise" t="S" i="522" b="1" n="1">elemental subroutine md5_finalise( this )</line>
+        <line t="S" i="523" b="1" n="1"></line>
+        <line t="C" i="524" b="1" n="1">! The MD5 structure</line>
+        <line t="X" i="525" b="1" n="1">  class(t_md5), intent(inout) :: this</line>
+        <line t="X" i="526" b="1" n="1"></line>
+        <line t="C" i="527" b="1" n="1">! Local variables</line>
+        <line t="X" i="528" b="1" n="1">  integer(kind=1), dimension(8) :: bits</line>
+        <line t="X" i="529" b="1" n="1">  integer(kind=4) :: idx, pad_len</line>
+        <line t="X" i="530" b="1" n="1"></line>
+        <line t="C" i="531" b="1" n="1">! Save number of bits</line>
+        <line t="X" i="532" b="1" n="1">  call md5_encode( this%count, bits );</line>
+        <line t="X" i="533" b="1" n="1"></line>
+        <line t="C" i="534" b="1" n="1">! Pad out to 56 mod 64</line>
+        <line t="X" i="535" b="1" n="1">  idx = iand( ishft( this%count(1), -3 ), z3f )</line>
+        <line t="X" i="536" b="2" n="2">  if( idx &lt; 56 ) then</line>
+        <line t="X" i="537" b="2" n="2">    pad_len = 56 - idx</line>
+        <line t="X" i="538" b="3" n="2">  else</line>
+        <line t="X" i="539" b="3" n="2">    pad_len = 120 - idx</line>
+        <line t="X" i="540" b="3" n="1">  end if</line>
+        <line t="X" i="541" b="3" n="1">  call md5_update( this, padding(:pad_len) )</line>
+        <line t="X" i="542" b="3" n="1"></line>
+        <line t="C" i="543" b="3" n="1">! Append length (before padding)</line>
+        <line t="X" i="544" b="3" n="1">  call md5_update( this, bits )</line>
+        <line t="X" i="545" b="3" n="1"></line>
+        <line t="C" i="546" b="3" n="1">! Store state in digest</line>
+        <line t="X" i="547" b="3" n="1">  call md5_encode( this%state, this%digest )</line>
+        <line t="X" i="548" b="3" n="1"></line>
+        <line t="C" i="549" b="3" n="1">! Zeroize sensitive information</line>
+        <line t="X" i="550" b="3" n="1">  this%buffer = 0_1</line>
+        <line t="X" i="551" b="3" n="1"></line>
+        <line t="C" i="552" b="3" n="1">! Set finalisation flag</line>
+        <line t="X" i="553" b="3" n="1">  this%finalised = .true.</line>
+        <line t="X" i="554" b="3" n="1"></line>
+        <line t="ES" i="555" b="3" n="1">end subroutine md5_finalise</line>
+        <line t="ES" i="556" b="1" n="1"></line>
+        <line t="ES" i="557" b="1" n="1"></line>
+        <line t="C" i="558" b="1" n="1">! Encode input (integer(kind=4)) into output (integer(kind=1)).</line>
+        <line t="C" i="559" b="1" n="1">! Assumes len is a multiple of 4.</line>
+        <line k="md5_encode" t="S" i="560" b="1" n="1">pure subroutine md5_encode( input, output )</line>
+        <line t="S" i="561" b="1" n="1"></line>
+        <line t="C" i="562" b="1" n="1">! The input array</line>
+        <line t="X" i="563" b="1" n="1">  integer(kind=4), dimension(:), intent(in) :: input</line>
+        <line t="X" i="564" b="1" n="1"></line>
+        <line t="C" i="565" b="1" n="1">! The output array</line>
+        <line t="X" i="566" b="1" n="1">  integer(kind=1), dimension(:), intent(out) :: output</line>
+        <line t="X" i="567" b="1" n="1"></line>
+        <line t="C" i="568" b="1" n="1">! Local variables</line>
+        <line t="X" i="569" b="1" n="1">  integer :: i, j</line>
+        <line t="X" i="570" b="1" n="1"></line>
+        <line t="C" i="571" b="1" n="1">! Set the result</line>
+        <line t="X" i="572" b="1" n="1">  j = 1</line>
+        <line t="X" i="573" b="2" n="2">  do i = 1, size(input)</line>
+        <line t="X" i="574" b="2" n="2">    output(j:j+3) = transfer( input(i), output(j:j+3) )</line>
+        <line t="X" i="575" b="2" n="2">    j = j + 4</line>
+        <line t="X" i="576" b="2" n="1">  end do</line>
+        <line t="X" i="577" b="2" n="1"></line>
+        <line t="ES" i="578" b="2" n="1">end subroutine md5_encode</line>
+        <line t="ES" i="579" b="1" n="1"></line>
+        <line t="ES" i="580" b="1" n="1"></line>
+        <line t="C" i="581" b="1" n="1">! Decode input (character) into output (integer(kind=4)).</line>
+        <line t="C" i="582" b="1" n="1">! Assumes len is a multiple of 4.</line>
+        <line k="md5_decode" t="S" i="583" b="1" n="1">pure subroutine md5_decode( input, output )</line>
+        <line t="S" i="584" b="1" n="1"></line>
+        <line t="C" i="585" b="1" n="1">! The input array</line>
+        <line t="X" i="586" b="1" n="1">  integer(kind=1), dimension(:), intent(in) :: input</line>
+        <line t="X" i="587" b="1" n="1"></line>
+        <line t="C" i="588" b="1" n="1">! The output array</line>
+        <line t="X" i="589" b="1" n="1">  integer(kind=4), dimension(:), intent(out) :: output</line>
+        <line t="X" i="590" b="1" n="1"></line>
+        <line t="C" i="591" b="1" n="1">! Local variables</line>
+        <line t="X" i="592" b="1" n="1">  integer :: i, j</line>
+        <line t="X" i="593" b="1" n="1"></line>
+        <line t="C" i="594" b="1" n="1">! Set the result</line>
+        <line t="X" i="595" b="1" n="1">  j = 1</line>
+        <line t="X" i="596" b="2" n="2">  do i = 1, size(output)</line>
+        <line t="X" i="597" b="2" n="2">    output(i) = transfer( input(j:j+3), output(i) )</line>
+        <line t="X" i="598" b="2" n="2">    j = j + 4</line>
+        <line t="X" i="599" b="2" n="1">  end do</line>
+        <line t="X" i="600" b="2" n="1"></line>
+        <line t="ES" i="601" b="2" n="1">end subroutine md5_decode</line>
+        <line t="ES" i="602" b="1" n="1"></line>
+        <line t="ES" i="603" b="1" n="1"></line>
+        <line t="C" i="604" b="1" n="1">! The F auxiliary MD5 function</line>
+        <line k="F" t="F" i="605" b="1" n="1">elemental function F( x, y, z ) result(res)</line>
+        <line t="F" i="606" b="1" n="1"></line>
+        <line t="C" i="607" b="1" n="1">! First integer</line>
+        <line t="X" i="608" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="609" b="1" n="1"></line>
+        <line t="C" i="610" b="1" n="1">! Second integer</line>
+        <line t="X" i="611" b="1" n="1">  integer(kind=4), intent(in) :: y</line>
+        <line t="X" i="612" b="1" n="1"></line>
+        <line t="C" i="613" b="1" n="1">! Third integer</line>
+        <line t="X" i="614" b="1" n="1">  integer(kind=4), intent(in) :: z</line>
+        <line t="X" i="615" b="1" n="1"></line>
+        <line t="C" i="616" b="1" n="1">! The resulting integer</line>
+        <line t="X" i="617" b="1" n="1">  integer(kind=4) :: res</line>
+        <line t="X" i="618" b="1" n="1"></line>
+        <line t="C" i="619" b="1" n="1">! Compute the result</line>
+        <line t="X" i="620" b="1" n="1">  res = ior( iand( x, y ),  iand( not(x), z ) )</line>
+        <line t="X" i="621" b="1" n="1"></line>
+        <line t="EF" i="622" b="1" n="1">end function F</line>
+        <line t="EF" i="623" b="1" n="1"></line>
+        <line t="EF" i="624" b="1" n="1"></line>
+        <line t="C" i="625" b="1" n="1">! The G auxiliary MD5 function</line>
+        <line k="G" t="F" i="626" b="1" n="1">elemental function G( x, y, z ) result(res)</line>
+        <line t="F" i="627" b="1" n="1"></line>
+        <line t="C" i="628" b="1" n="1">! First integer</line>
+        <line t="X" i="629" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="630" b="1" n="1"></line>
+        <line t="C" i="631" b="1" n="1">! Second integer</line>
+        <line t="X" i="632" b="1" n="1">  integer(kind=4), intent(in) :: y</line>
+        <line t="X" i="633" b="1" n="1"></line>
+        <line t="C" i="634" b="1" n="1">! Third integer</line>
+        <line t="X" i="635" b="1" n="1">  integer(kind=4), intent(in) :: z</line>
+        <line t="X" i="636" b="1" n="1"></line>
+        <line t="C" i="637" b="1" n="1">! The resulting integer</line>
+        <line t="X" i="638" b="1" n="1">  integer(kind=4) :: res</line>
+        <line t="X" i="639" b="1" n="1"></line>
+        <line t="C" i="640" b="1" n="1">! Compute the result</line>
+        <line t="X" i="641" b="1" n="1">  res = ior( iand( x, z ), iand( y, not(z) ) )</line>
+        <line t="X" i="642" b="1" n="1"></line>
+        <line t="EF" i="643" b="1" n="1">end function G</line>
+        <line t="EF" i="644" b="1" n="1"></line>
+        <line t="EF" i="645" b="1" n="1"></line>
+        <line t="C" i="646" b="1" n="1">! The H auxiliary MD5 function</line>
+        <line k="H" t="F" i="647" b="1" n="1">elemental function H( x, y, z ) result(res)</line>
+        <line t="F" i="648" b="1" n="1"></line>
+        <line t="C" i="649" b="1" n="1">! First integer</line>
+        <line t="X" i="650" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="651" b="1" n="1"></line>
+        <line t="C" i="652" b="1" n="1">! Second integer</line>
+        <line t="X" i="653" b="1" n="1">  integer(kind=4), intent(in) :: y</line>
+        <line t="X" i="654" b="1" n="1"></line>
+        <line t="C" i="655" b="1" n="1">! Third integer</line>
+        <line t="X" i="656" b="1" n="1">  integer(kind=4), intent(in) :: z</line>
+        <line t="X" i="657" b="1" n="1"></line>
+        <line t="C" i="658" b="1" n="1">! The resulting integer</line>
+        <line t="X" i="659" b="1" n="1">  integer(kind=4) :: res</line>
+        <line t="X" i="660" b="1" n="1"></line>
+        <line t="C" i="661" b="1" n="1">! Compute the result</line>
+        <line t="X" i="662" b="1" n="1">  res = ieor( ieor( x, y ), z )</line>
+        <line t="X" i="663" b="1" n="1"></line>
+        <line t="EF" i="664" b="1" n="1">end function H</line>
+        <line t="EF" i="665" b="1" n="1"></line>
+        <line t="EF" i="666" b="1" n="1"></line>
+        <line t="C" i="667" b="1" n="1">! The I auxiliary MD5 function</line>
+        <line k="I" t="F" i="668" b="1" n="1">elemental function I( x, y, z ) result(res)</line>
+        <line t="F" i="669" b="1" n="1"></line>
+        <line t="C" i="670" b="1" n="1">! First integer</line>
+        <line t="X" i="671" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="672" b="1" n="1"></line>
+        <line t="C" i="673" b="1" n="1">! Second integer</line>
+        <line t="X" i="674" b="1" n="1">  integer(kind=4), intent(in) :: y</line>
+        <line t="X" i="675" b="1" n="1"></line>
+        <line t="C" i="676" b="1" n="1">! Third integer</line>
+        <line t="X" i="677" b="1" n="1">  integer(kind=4), intent(in) :: z</line>
+        <line t="X" i="678" b="1" n="1"></line>
+        <line t="C" i="679" b="1" n="1">! The resulting integer</line>
+        <line t="X" i="680" b="1" n="1">  integer(kind=4) :: res</line>
+        <line t="X" i="681" b="1" n="1"></line>
+        <line t="C" i="682" b="1" n="1">! Compute the result</line>
+        <line t="X" i="683" b="1" n="1">  res = ieor( y, ior( x, not(z) ) )</line>
+        <line t="X" i="684" b="1" n="1"></line>
+        <line t="EF" i="685" b="1" n="1">end function I</line>
+        <line t="EF" i="686" b="1" n="1"></line>
+        <line t="EF" i="687" b="1" n="1"></line>
+        <line t="C" i="688" b="1" n="1">! The FF auxiliary MD5 function for transformation 1, 2, 3, 4</line>
+        <line k="FF" t="S" i="689" b="1" n="1">elemental subroutine FF( a, b, c, d, x, s, ac )</line>
+        <line t="S" i="690" b="1" n="1"></line>
+        <line t="C" i="691" b="1" n="1">! First integer</line>
+        <line t="X" i="692" b="1" n="1">  integer(kind=4), intent(inout) :: a</line>
+        <line t="X" i="693" b="1" n="1"></line>
+        <line t="C" i="694" b="1" n="1">! Second integer</line>
+        <line t="X" i="695" b="1" n="1">  integer(kind=4), intent(in) :: b</line>
+        <line t="X" i="696" b="1" n="1"></line>
+        <line t="C" i="697" b="1" n="1">! Third integer</line>
+        <line t="X" i="698" b="1" n="1">  integer(kind=4), intent(in) :: c</line>
+        <line t="X" i="699" b="1" n="1"></line>
+        <line t="C" i="700" b="1" n="1">! Fourth integer</line>
+        <line t="X" i="701" b="1" n="1">  integer(kind=4), intent(in) :: d</line>
+        <line t="X" i="702" b="1" n="1"></line>
+        <line t="C" i="703" b="1" n="1">! Fifth integer</line>
+        <line t="X" i="704" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="705" b="1" n="1"></line>
+        <line t="C" i="706" b="1" n="1">! Sixth integer</line>
+        <line t="X" i="707" b="1" n="1">  integer(kind=4), intent(in) :: s</line>
+        <line t="X" i="708" b="1" n="1"></line>
+        <line t="C" i="709" b="1" n="1">! Seventh integer</line>
+        <line t="X" i="710" b="1" n="1">  integer(kind=4), intent(in) :: ac</line>
+        <line t="X" i="711" b="1" n="1"></line>
+        <line t="C" i="712" b="1" n="1">! Compute the result</line>
+        <line t="X" i="713" b="1" n="1"> a = a + F( b, c, d ) + x + ac</line>
+        <line t="X" i="714" b="1" n="1"> a = ishftc( a, s ) + b</line>
+        <line t="X" i="715" b="1" n="1"></line>
+        <line t="ES" i="716" b="1" n="1">end subroutine FF</line>
+        <line t="ES" i="717" b="1" n="1"></line>
+        <line t="ES" i="718" b="1" n="1"></line>
+        <line t="C" i="719" b="1" n="1">! The GG auxiliary MD5 function for transformation 1, 2, 3, 4</line>
+        <line k="GG" t="S" i="720" b="1" n="1">elemental subroutine GG( a, b, c, d, x, s, ac )</line>
+        <line t="S" i="721" b="1" n="1"></line>
+        <line t="C" i="722" b="1" n="1">! First integer</line>
+        <line t="X" i="723" b="1" n="1">  integer(kind=4), intent(inout) :: a</line>
+        <line t="X" i="724" b="1" n="1"></line>
+        <line t="C" i="725" b="1" n="1">! Second integer</line>
+        <line t="X" i="726" b="1" n="1">  integer(kind=4), intent(in) :: b</line>
+        <line t="X" i="727" b="1" n="1"></line>
+        <line t="C" i="728" b="1" n="1">! Third integer</line>
+        <line t="X" i="729" b="1" n="1">  integer(kind=4), intent(in) :: c</line>
+        <line t="X" i="730" b="1" n="1"></line>
+        <line t="C" i="731" b="1" n="1">! Fourth integer</line>
+        <line t="X" i="732" b="1" n="1">  integer(kind=4), intent(in) :: d</line>
+        <line t="X" i="733" b="1" n="1"></line>
+        <line t="C" i="734" b="1" n="1">! Fifth integer</line>
+        <line t="X" i="735" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="736" b="1" n="1"></line>
+        <line t="C" i="737" b="1" n="1">! Sixth integer</line>
+        <line t="X" i="738" b="1" n="1">  integer(kind=4), intent(in) :: s</line>
+        <line t="X" i="739" b="1" n="1"></line>
+        <line t="C" i="740" b="1" n="1">! Seventh integer</line>
+        <line t="X" i="741" b="1" n="1">  integer(kind=4), intent(in) :: ac</line>
+        <line t="X" i="742" b="1" n="1"></line>
+        <line t="C" i="743" b="1" n="1">! Compute the result</line>
+        <line t="X" i="744" b="1" n="1"> a = a + G( b, c, d ) + x + ac;</line>
+        <line t="X" i="745" b="1" n="1"> a = ishftc( a, s ) + b</line>
+        <line t="X" i="746" b="1" n="1"></line>
+        <line t="ES" i="747" b="1" n="1">end subroutine GG</line>
+        <line t="ES" i="748" b="1" n="1"></line>
+        <line t="ES" i="749" b="1" n="1"></line>
+        <line t="C" i="750" b="1" n="1">! The HH auxiliary MD5 function for transformation 1, 2, 3, 4</line>
+        <line k="HH" t="S" i="751" b="1" n="1">elemental subroutine HH( a, b, c, d, x, s, ac )</line>
+        <line t="S" i="752" b="1" n="1"></line>
+        <line t="C" i="753" b="1" n="1">! First integer</line>
+        <line t="X" i="754" b="1" n="1">  integer(kind=4), intent(inout) :: a</line>
+        <line t="X" i="755" b="1" n="1"></line>
+        <line t="C" i="756" b="1" n="1">! Second integer</line>
+        <line t="X" i="757" b="1" n="1">  integer(kind=4), intent(in) :: b</line>
+        <line t="X" i="758" b="1" n="1"></line>
+        <line t="C" i="759" b="1" n="1">! Third integer</line>
+        <line t="X" i="760" b="1" n="1">  integer(kind=4), intent(in) :: c</line>
+        <line t="X" i="761" b="1" n="1"></line>
+        <line t="C" i="762" b="1" n="1">! Fourth integer</line>
+        <line t="X" i="763" b="1" n="1">  integer(kind=4), intent(in) :: d</line>
+        <line t="X" i="764" b="1" n="1"></line>
+        <line t="C" i="765" b="1" n="1">! Fifth integer</line>
+        <line t="X" i="766" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="767" b="1" n="1"></line>
+        <line t="C" i="768" b="1" n="1">! Sixth integer</line>
+        <line t="X" i="769" b="1" n="1">  integer(kind=4), intent(in) :: s</line>
+        <line t="X" i="770" b="1" n="1"></line>
+        <line t="C" i="771" b="1" n="1">! Seventh integer</line>
+        <line t="X" i="772" b="1" n="1">  integer(kind=4), intent(in) :: ac</line>
+        <line t="X" i="773" b="1" n="1"></line>
+        <line t="C" i="774" b="1" n="1">! Compute the result</line>
+        <line t="X" i="775" b="1" n="1"> a = a + H( b, c, d ) + x + ac;</line>
+        <line t="X" i="776" b="1" n="1"> a = ishftc( a, s ) + b</line>
+        <line t="X" i="777" b="1" n="1"></line>
+        <line t="ES" i="778" b="1" n="1">end subroutine HH</line>
+        <line t="ES" i="779" b="1" n="1"></line>
+        <line t="ES" i="780" b="1" n="1"></line>
+        <line t="C" i="781" b="1" n="1">! II auxiliary MD5 function for transformation 1, 2, 3, 4</line>
+        <line k="II" t="S" i="782" b="1" n="1">elemental subroutine II( a, b, c, d, x, s, ac )</line>
+        <line t="S" i="783" b="1" n="1"></line>
+        <line t="C" i="784" b="1" n="1">! First integer</line>
+        <line t="X" i="785" b="1" n="1">  integer(kind=4), intent(inout) :: a</line>
+        <line t="X" i="786" b="1" n="1"></line>
+        <line t="C" i="787" b="1" n="1">! Second integer</line>
+        <line t="X" i="788" b="1" n="1">  integer(kind=4), intent(in) :: b</line>
+        <line t="X" i="789" b="1" n="1"></line>
+        <line t="C" i="790" b="1" n="1">! Third integer</line>
+        <line t="X" i="791" b="1" n="1">  integer(kind=4), intent(in) :: c</line>
+        <line t="X" i="792" b="1" n="1"></line>
+        <line t="C" i="793" b="1" n="1">! Fourth integer</line>
+        <line t="X" i="794" b="1" n="1">  integer(kind=4), intent(in) :: d</line>
+        <line t="X" i="795" b="1" n="1"></line>
+        <line t="C" i="796" b="1" n="1">! Fifth integer</line>
+        <line t="X" i="797" b="1" n="1">  integer(kind=4), intent(in) :: x</line>
+        <line t="X" i="798" b="1" n="1"></line>
+        <line t="C" i="799" b="1" n="1">! Sixth integer</line>
+        <line t="X" i="800" b="1" n="1">  integer(kind=4), intent(in) :: s</line>
+        <line t="X" i="801" b="1" n="1"></line>
+        <line t="C" i="802" b="1" n="1">! Seventh integer</line>
+        <line t="X" i="803" b="1" n="1">  integer(kind=4), intent(in) :: ac</line>
+        <line t="X" i="804" b="1" n="1"></line>
+        <line t="C" i="805" b="1" n="1">! Compute the result</line>
+        <line t="X" i="806" b="1" n="1"> a = a + I( b, c, d ) + x + ac;</line>
+        <line t="X" i="807" b="1" n="1"> a = ishftc( a, s ) + b</line>
+        <line t="X" i="808" b="1" n="1"></line>
+        <line t="ES" i="809" b="1" n="1">end subroutine II</line>
+        <line t="ES" i="810" b="1" n="1"></line>
+        <line t="ES" i="811" b="1" n="1"></line>
+        <line t="C" i="812" b="1" n="1">! Get attribute digest</line>
+        <line k="md5_get_hash" t="F" i="813" b="1" n="1">pure function md5_get_hash( this ) result(res)</line>
+        <line t="F" i="814" b="1" n="1"></line>
+        <line t="C" i="815" b="1" n="1">! The data structure</line>
+        <line t="X" i="816" b="1" n="1">  class(t_md5), intent(in) :: this</line>
+        <line t="X" i="817" b="1" n="1"></line>
+        <line t="C" i="818" b="1" n="1">! The parameter value to be returned</line>
+        <line t="X" i="819" b="1" n="1">  integer(kind=1), dimension(16) :: res</line>
+        <line t="X" i="820" b="1" n="1"></line>
+        <line t="C" i="821" b="1" n="1">! Return the value</line>
+        <line t="X" i="822" b="1" n="1">  res = this%digest</line>
+        <line t="X" i="823" b="1" n="1"></line>
+        <line t="EF" i="824" b="1" n="1">end function md5_get_hash</line>
+        <line t="EF" i="825" b="1" n="1"></line>
+        <line t="EF" i="826" b="1" n="1"></line>
+        <line t="M" i="827" b="1" n="1">end module m_md5</line>
+        <line t="M" i="828" b="1" n="1"></line>
+    </code>
+</fmx>
