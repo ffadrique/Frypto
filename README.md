@@ -7,6 +7,7 @@ Secure hashing, encryption, and UUID generation in Fortran.
 
 Frypto is a collection of cryptographic modules written in modern Fortran. It provides secure, low-level components for hashing, encryption, and unique identifier generation. Designed to integrate with [Fommons](https://github.com/ffadrique/Fommons) and [XFunit](https://github.com/ffadrique/XFunit).
 
+Frypto is validated according to established standards, in particular AES and 3-DES are validated following the National Institue of Standards and Technology (NIST) guidelines in the [Cryptographic Algorithm Validation Program (CAVP)](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program)
 
 ## Modules
 
@@ -72,8 +73,11 @@ Frypto/
 Unit tests are written using XFunit and cover:
 
 - Hash correctness  
-- Encryption/decryption round-trips  
+- Encryption/decryption round-trips
 - UUID format validation  
+
+Frypto is validated according to established standards, in particular AES and 3-DES are validated following the National Institue of Standards and Technology (NIST) guidelines in the [Cryptographic Algorithm Validation Program (CAVP)](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program).
+The units testing programme is exhaustie with respect to all test cases defined in the CAPV. Official test files are provided  in the `src\utes\data` directory.
 
 Tests are located in the `unit_test_driver/` directory.
 
