@@ -51,14 +51,18 @@
 		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
 			<File RelativePath="..\..\LICENSE.md"/>
 			<File RelativePath="makefile"/>
-			<File RelativePath="makefile.deps"/>
-			<File RelativePath="..\..\README.md"/>
+			<File RelativePath="makefile.deps">
+			</File>
+			<File RelativePath="..\README.md">
+			</File>
 		</Filter>
 		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
 			<Filter Name="block cipher">
-				<File RelativePath=".\m_aes.f90"/>
+				<File RelativePath=".\m_aes.f90">
+				</File>
 				<File RelativePath=".\m_ascii_encoder.f90"/>
-				<File RelativePath=".\m_block_cipher.f90"/>
+				<File RelativePath=".\m_block_cipher.f90">
+				</File>
 				<File RelativePath=".\m_blowfish.f90"/>
 				<File RelativePath=".\m_crypto.f90"/>
 				<File RelativePath=".\m_crypto_base.f90"/>
