@@ -1,14 +1,13 @@
-# Frypto — Cryptographic Primitives for Modern Fortran
+# Frypto â€” Cryptographic Primitives for Modern Fortran
 
 Secure hashing, encryption, and UUID generation in Fortran.
-
 
 
 ## Overview
 
 Frypto is a collection of cryptographic modules written in modern Fortran. It provides secure, low-level components for hashing, encryption, and unique identifier generation. Designed to integrate with [Fommons](https://github.com/ffadrique/Fommons) and [XFunit](https://github.com/ffadrique/XFunit).
 
-
+Frypto is validated according to established standards, in particular AES and 3-DES are validated following the National Institue of Standards and Technology (NIST) guidelines in the [Cryptographic Algorithm Validation Program (CAVP)](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program)
 
 ## Modules
 
@@ -18,24 +17,10 @@ Frypto is a collection of cryptographic modules written in modern Fortran. It pr
 - `m_crypto_util`: Utility functions for padding, encoding, and byte manipulation  
 
 
-
 ## Dependencies
 
 - [Fommons](https://github.com/ffadrique/Fommons): String handling and utilities  
 - [XFunit](https://github.com/ffadrique/XFunit): Unit testing framework  
-
-
-
-## Testing
-
-Unit tests are written using XFunit and cover:
-
-- Hash correctness  
-- Encryption/decryption round-trips  
-- UUID format validation  
-
-Tests are located in the `unit_test_driver/` directory.
-
 
 
 ## Build Instructions
@@ -69,17 +54,32 @@ Compiler options are automatically selected for the active compiler; only Debug 
 
 ### Directory Structure
 
+```
 Frypto/
 +-- documentation/
 +-- src/
-¦   +-- aes/
-¦   +-- sha/
-¦   +-- md5/
-¦   +-- des/
-¦   +-- uuid/
+Â¦   +-- aes/
+Â¦   +-- sha/
+Â¦   +-- md5/
+Â¦   +-- des/
+Â¦   +-- uuid/
 +-- unit_test_driver/
 +-- LICENSE
 +-- README.md
+```
+
+## Testing
+
+Unit tests are written using XFunit and cover:
+
+- Hash correctness  
+- Encryption/decryption round-trips
+- UUID format validation  
+
+Frypto is validated according to established standards, in particular AES and 3-DES are validated following the National Institue of Standards and Technology (NIST) guidelines in the [Cryptographic Algorithm Validation Program (CAVP)](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program).
+The units testing programme is exhaustie with respect to all test cases defined in the CAPV. Official test files are provided  in the `src\utes\data` directory.
+
+Tests are located in the `unit_test_driver/` directory.
 
 ## Documentation
 
@@ -130,8 +130,6 @@ print *, "UUID:", trim(uuid)
 ```
 
 ## Licensing
-
-## ?License
 Frypto is open-source software, licensed under the GNU Lesser General Public License (LGPL).
 
 ## Related Projects
