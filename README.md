@@ -1,16 +1,16 @@
-﻿# 🔐 Frypto — Cryptographic Primitives for Modern Fortran
+# ?? Frypto � Cryptographic Primitives for Modern Fortran
 
 Secure hashing, encryption, and UUID generation in Fortran.
 
 ---
 
-## 📚 Overview
+## ?? Overview
 
 Frypto is a collection of cryptographic modules written in modern Fortran. It provides secure, low-level components for hashing, encryption, and unique identifier generation. Designed to integrate with [Fommons](https://github.com/ffadrique/Fommons) and [XFunit](https://github.com/ffadrique/XFunit).
 
 ---
 
-## 🧩 Modules
+## ?? Modules
 
 - `m_md5`, `m_sha1`, `m_sha256`, `m_sha512`: Hashing algorithms  
 - `m_aes`, `m_des`, `m_3des`: Symmetric encryption  
@@ -19,14 +19,14 @@ Frypto is a collection of cryptographic modules written in modern Fortran. It pr
 
 ---
 
-## 🧰 Dependencies
+## ?? Dependencies
 
 - [Fommons](https://github.com/ffadrique/Fommons): String handling and utilities  
 - [XFunit](https://github.com/ffadrique/XFunit): Unit testing framework  
 
 ---
 
-## 🧪 Testing
+## ?? Testing
 
 Unit tests are written using XFunit and cover:
 
@@ -38,7 +38,7 @@ Tests are located in the `unit_test_driver/` directory.
 
 ---
 
-## ⚙️ Build Instructions
+## ?? Build Instructions
 
 ### Windows
 Fommons is provided with a Visual Studio 2019 configured solution that allows building and testing the entire suite. The solution provides a C# project that integrates the unit test in Fortran with the unit test detection feature of Visual Studio. This allows the execution of all unit tests from the Test Explorer menu.
@@ -67,27 +67,27 @@ The ifort or gfortran commands must be in the execution path.
 Alternatively, the makefile can be edited to provide the full path to the compiler.
 Compiler options are automatically selected for the active compiler; only Debug configuration is provided in the make files.
 
-### 📁 Directory Structure
+### ?? Directory Structure
 
 Frypto/
-├── documentation/
-├── src/
-│   ├── aes/
-│   ├── sha/
-│   ├── md5/
-│   ├── des/
-│   └── uuid/
-├── unit_test_driver/
-├── LICENSE
-└── README.md
++-- documentation/
++-- src/
+�   +-- aes/
+�   +-- sha/
+�   +-- md5/
+�   +-- des/
+�   +-- uuid/
++-- unit_test_driver/
++-- LICENSE
++-- README.md
 
-## 📖 Documentation
+## ?? Documentation
 
 This readme page is the main user documentation. In addition, documentation generated with FORD and Doxygen can be found in the `documentation` directory
 
-## 🧾 Sample Usage
+## ?? Sample Usage
 
-### 🔒 SHA-256 Hash
+### ?? SHA-256 Hash
 
 ```fortran
 use m_sha256
@@ -101,7 +101,7 @@ call sha%final(digest)
 print *, "SHA-256:", trim(digest)
 ```
 
-### 🔐 AES Encryption
+### ?? AES Encryption
 
 ```fortran
 use m_aes
@@ -118,7 +118,7 @@ print *, "Encrypted:", trim(ciphertext)
 print *, "Decrypted:", trim(decrypted)
 ```
 
-### 🧬 UUID Generation
+### ?? UUID Generation
 
 ```fortran
 use m_uuid
@@ -131,10 +131,10 @@ print *, "UUID:", trim(uuid)
 
 ## Licensing
 
-## 🛡️ License
+## ??? License
 Frypto is open-source software, licensed under the GNU Lesser General Public License (LGPL).
 
-## 🔗 Related Projects
+## ?? Related Projects
 
 - [Fommons](https://github.com/ffadrique/Fommons): String handling and utilities  
 - [XFunit](https://github.com/ffadrique/XFunit): Unit testing framework  
