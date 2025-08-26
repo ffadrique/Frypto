@@ -130,8 +130,6 @@ print *, "UUID:", trim(uuid)
 ```
 
 ## Licensing
-
-## Licensing
 Frypto is open-source software, licensed under the GNU Lesser General Public License (LGPL).
 
 ## Related Projects
