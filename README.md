@@ -1,13 +1,11 @@
-# Frypto — Cryptographic Primitives for Modern Fortran
+# Frypto â€” Cryptographic Primitives for Modern Fortran
 
 Secure hashing, encryption, and UUID generation in Fortran.
-
 
 
 ## Overview
 
 Frypto is a collection of cryptographic modules written in modern Fortran. It provides secure, low-level components for hashing, encryption, and unique identifier generation. Designed to integrate with [Fommons](https://github.com/ffadrique/Fommons) and [XFunit](https://github.com/ffadrique/XFunit).
-
 
 
 ## Modules
@@ -18,24 +16,10 @@ Frypto is a collection of cryptographic modules written in modern Fortran. It pr
 - `m_crypto_util`: Utility functions for padding, encoding, and byte manipulation  
 
 
-
 ## Dependencies
 
 - [Fommons](https://github.com/ffadrique/Fommons): String handling and utilities  
 - [XFunit](https://github.com/ffadrique/XFunit): Unit testing framework  
-
-
-
-## Testing
-
-Unit tests are written using XFunit and cover:
-
-- Hash correctness  
-- Encryption/decryption round-trips  
-- UUID format validation  
-
-Tests are located in the `unit_test_driver/` directory.
-
 
 
 ## Build Instructions
@@ -69,17 +53,29 @@ Compiler options are automatically selected for the active compiler; only Debug 
 
 ### Directory Structure
 
+```
 Frypto/
 +-- documentation/
 +-- src/
-¦   +-- aes/
-¦   +-- sha/
-¦   +-- md5/
-¦   +-- des/
-¦   +-- uuid/
+Â¦   +-- aes/
+Â¦   +-- sha/
+Â¦   +-- md5/
+Â¦   +-- des/
+Â¦   +-- uuid/
 +-- unit_test_driver/
 +-- LICENSE
 +-- README.md
+```
+
+## Testing
+
+Unit tests are written using XFunit and cover:
+
+- Hash correctness  
+- Encryption/decryption round-trips  
+- UUID format validation  
+
+Tests are located in the `unit_test_driver/` directory.
 
 ## Documentation
 
@@ -131,7 +127,7 @@ print *, "UUID:", trim(uuid)
 
 ## Licensing
 
-## ?License
+## Licensing
 Frypto is open-source software, licensed under the GNU Lesser General Public License (LGPL).
 
 ## Related Projects
